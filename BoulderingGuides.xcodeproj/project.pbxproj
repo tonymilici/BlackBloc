@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BBBDD69A1E92F04E00FBC583 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBDD6991E92F04E00FBC583 /* AppDelegate.swift */; };
+		BBBDD69C1E92F04E00FBC583 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBDD69B1E92F04E00FBC583 /* ViewController.swift */; };
+		BBBDD69F1E92F04E00FBC583 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBBDD69D1E92F04E00FBC583 /* Main.storyboard */; };
+		BBBDD6A11E92F04E00FBC583 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBBDD6A01E92F04E00FBC583 /* Assets.xcassets */; };
+		BBBDD6A41E92F04E00FBC583 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBBDD6A21E92F04E00FBC583 /* LaunchScreen.storyboard */; };
+		BBBDD6AF1E92F04E00FBC583 /* BoulderingGuidesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBDD6AE1E92F04E00FBC583 /* BoulderingGuidesTests.swift */; };
+		BBBDD6BA1E92F04E00FBC583 /* BoulderingGuidesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBDD6B91E92F04E00FBC583 /* BoulderingGuidesUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BBBDD6AB1E92F04E00FBC583 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BBBDD68E1E92F04E00FBC583 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BBBDD6951E92F04E00FBC583;
+			remoteInfo = BoulderingGuides;
+		};
+		BBBDD6B61E92F04E00FBC583 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BBBDD68E1E92F04E00FBC583 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BBBDD6951E92F04E00FBC583;
+			remoteInfo = BoulderingGuides;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BBBDD6961E92F04E00FBC583 /* BoulderingGuides.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BoulderingGuides.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBBDD6991E92F04E00FBC583 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BBBDD69B1E92F04E00FBC583 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BBBDD69E1E92F04E00FBC583 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BBBDD6A01E92F04E00FBC583 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BBBDD6A31E92F04E00FBC583 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BBBDD6A51E92F04E00FBC583 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBBDD6AA1E92F04E00FBC583 /* BoulderingGuidesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BoulderingGuidesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBBDD6AE1E92F04E00FBC583 /* BoulderingGuidesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoulderingGuidesTests.swift; sourceTree = "<group>"; };
+		BBBDD6B01E92F04E00FBC583 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBBDD6B51E92F04E00FBC583 /* BoulderingGuidesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BoulderingGuidesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBBDD6B91E92F04E00FBC583 /* BoulderingGuidesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoulderingGuidesUITests.swift; sourceTree = "<group>"; };
+		BBBDD6BB1E92F04E00FBC583 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BBBDD6931E92F04E00FBC583 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBBDD6A71E92F04E00FBC583 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBBDD6B21E92F04E00FBC583 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BBBDD68D1E92F04E00FBC583 = {
+			isa = PBXGroup;
+			children = (
+				BBBDD6981E92F04E00FBC583 /* BoulderingGuides */,
+				BBBDD6AD1E92F04E00FBC583 /* BoulderingGuidesTests */,
+				BBBDD6B81E92F04E00FBC583 /* BoulderingGuidesUITests */,
+				BBBDD6971E92F04E00FBC583 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BBBDD6971E92F04E00FBC583 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BBBDD6961E92F04E00FBC583 /* BoulderingGuides.app */,
+				BBBDD6AA1E92F04E00FBC583 /* BoulderingGuidesTests.xctest */,
+				BBBDD6B51E92F04E00FBC583 /* BoulderingGuidesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBBDD6981E92F04E00FBC583 /* BoulderingGuides */ = {
+			isa = PBXGroup;
+			children = (
+				BBBDD6991E92F04E00FBC583 /* AppDelegate.swift */,
+				BBBDD69B1E92F04E00FBC583 /* ViewController.swift */,
+				BBBDD69D1E92F04E00FBC583 /* Main.storyboard */,
+				BBBDD6A01E92F04E00FBC583 /* Assets.xcassets */,
+				BBBDD6A21E92F04E00FBC583 /* LaunchScreen.storyboard */,
+				BBBDD6A51E92F04E00FBC583 /* Info.plist */,
+			);
+			path = BoulderingGuides;
+			sourceTree = "<group>";
+		};
+		BBBDD6AD1E92F04E00FBC583 /* BoulderingGuidesTests */ = {
+			isa = PBXGroup;
+			children = (
+				BBBDD6AE1E92F04E00FBC583 /* BoulderingGuidesTests.swift */,
+				BBBDD6B01E92F04E00FBC583 /* Info.plist */,
+			);
+			path = BoulderingGuidesTests;
+			sourceTree = "<group>";
+		};
+		BBBDD6B81E92F04E00FBC583 /* BoulderingGuidesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BBBDD6B91E92F04E00FBC583 /* BoulderingGuidesUITests.swift */,
+				BBBDD6BB1E92F04E00FBC583 /* Info.plist */,
+			);
+			path = BoulderingGuidesUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BBBDD6951E92F04E00FBC583 /* BoulderingGuides */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBBDD6BE1E92F04E00FBC583 /* Build configuration list for PBXNativeTarget "BoulderingGuides" */;
+			buildPhases = (
+				BBBDD6921E92F04E00FBC583 /* Sources */,
+				BBBDD6931E92F04E00FBC583 /* Frameworks */,
+				BBBDD6941E92F04E00FBC583 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BoulderingGuides;
+			productName = BoulderingGuides;
+			productReference = BBBDD6961E92F04E00FBC583 /* BoulderingGuides.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BBBDD6A91E92F04E00FBC583 /* BoulderingGuidesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBBDD6C11E92F04E00FBC583 /* Build configuration list for PBXNativeTarget "BoulderingGuidesTests" */;
+			buildPhases = (
+				BBBDD6A61E92F04E00FBC583 /* Sources */,
+				BBBDD6A71E92F04E00FBC583 /* Frameworks */,
+				BBBDD6A81E92F04E00FBC583 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BBBDD6AC1E92F04E00FBC583 /* PBXTargetDependency */,
+			);
+			name = BoulderingGuidesTests;
+			productName = BoulderingGuidesTests;
+			productReference = BBBDD6AA1E92F04E00FBC583 /* BoulderingGuidesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BBBDD6B41E92F04E00FBC583 /* BoulderingGuidesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBBDD6C41E92F04E00FBC583 /* Build configuration list for PBXNativeTarget "BoulderingGuidesUITests" */;
+			buildPhases = (
+				BBBDD6B11E92F04E00FBC583 /* Sources */,
+				BBBDD6B21E92F04E00FBC583 /* Frameworks */,
+				BBBDD6B31E92F04E00FBC583 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BBBDD6B71E92F04E00FBC583 /* PBXTargetDependency */,
+			);
+			name = BoulderingGuidesUITests;
+			productName = BoulderingGuidesUITests;
+			productReference = BBBDD6B51E92F04E00FBC583 /* BoulderingGuidesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BBBDD68E1E92F04E00FBC583 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Imortal Apps";
+				TargetAttributes = {
+					BBBDD6951E92F04E00FBC583 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+					};
+					BBBDD6A91E92F04E00FBC583 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BBBDD6951E92F04E00FBC583;
+					};
+					BBBDD6B41E92F04E00FBC583 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BBBDD6951E92F04E00FBC583;
+					};
+				};
+			};
+			buildConfigurationList = BBBDD6911E92F04E00FBC583 /* Build configuration list for PBXProject "BoulderingGuides" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BBBDD68D1E92F04E00FBC583;
+			productRefGroup = BBBDD6971E92F04E00FBC583 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BBBDD6951E92F04E00FBC583 /* BoulderingGuides */,
+				BBBDD6A91E92F04E00FBC583 /* BoulderingGuidesTests */,
+				BBBDD6B41E92F04E00FBC583 /* BoulderingGuidesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BBBDD6941E92F04E00FBC583 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBBDD6A41E92F04E00FBC583 /* LaunchScreen.storyboard in Resources */,
+				BBBDD6A11E92F04E00FBC583 /* Assets.xcassets in Resources */,
+				BBBDD69F1E92F04E00FBC583 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBBDD6A81E92F04E00FBC583 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBBDD6B31E92F04E00FBC583 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BBBDD6921E92F04E00FBC583 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBBDD69C1E92F04E00FBC583 /* ViewController.swift in Sources */,
+				BBBDD69A1E92F04E00FBC583 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBBDD6A61E92F04E00FBC583 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBBDD6AF1E92F04E00FBC583 /* BoulderingGuidesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBBDD6B11E92F04E00FBC583 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBBDD6BA1E92F04E00FBC583 /* BoulderingGuidesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BBBDD6AC1E92F04E00FBC583 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BBBDD6951E92F04E00FBC583 /* BoulderingGuides */;
+			targetProxy = BBBDD6AB1E92F04E00FBC583 /* PBXContainerItemProxy */;
+		};
+		BBBDD6B71E92F04E00FBC583 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BBBDD6951E92F04E00FBC583 /* BoulderingGuides */;
+			targetProxy = BBBDD6B61E92F04E00FBC583 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BBBDD69D1E92F04E00FBC583 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BBBDD69E1E92F04E00FBC583 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BBBDD6A21E92F04E00FBC583 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BBBDD6A31E92F04E00FBC583 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BBBDD6BC1E92F04E00FBC583 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BBBDD6BD1E92F04E00FBC583 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BBBDD6BF1E92F04E00FBC583 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BoulderingGuides/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = imortal.BoulderingGuides;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		BBBDD6C01E92F04E00FBC583 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BoulderingGuides/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = imortal.BoulderingGuides;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		BBBDD6C21E92F04E00FBC583 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BoulderingGuidesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = imortal.BoulderingGuidesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BoulderingGuides.app/BoulderingGuides";
+			};
+			name = Debug;
+		};
+		BBBDD6C31E92F04E00FBC583 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BoulderingGuidesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = imortal.BoulderingGuidesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BoulderingGuides.app/BoulderingGuides";
+			};
+			name = Release;
+		};
+		BBBDD6C51E92F04E00FBC583 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = BoulderingGuidesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = imortal.BoulderingGuidesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = BoulderingGuides;
+			};
+			name = Debug;
+		};
+		BBBDD6C61E92F04E00FBC583 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = BoulderingGuidesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = imortal.BoulderingGuidesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = BoulderingGuides;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BBBDD6911E92F04E00FBC583 /* Build configuration list for PBXProject "BoulderingGuides" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBBDD6BC1E92F04E00FBC583 /* Debug */,
+				BBBDD6BD1E92F04E00FBC583 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBBDD6BE1E92F04E00FBC583 /* Build configuration list for PBXNativeTarget "BoulderingGuides" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBBDD6BF1E92F04E00FBC583 /* Debug */,
+				BBBDD6C01E92F04E00FBC583 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BBBDD6C11E92F04E00FBC583 /* Build configuration list for PBXNativeTarget "BoulderingGuidesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBBDD6C21E92F04E00FBC583 /* Debug */,
+				BBBDD6C31E92F04E00FBC583 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BBBDD6C41E92F04E00FBC583 /* Build configuration list for PBXNativeTarget "BoulderingGuidesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBBDD6C51E92F04E00FBC583 /* Debug */,
+				BBBDD6C61E92F04E00FBC583 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BBBDD68E1E92F04E00FBC583 /* Project object */;
+}

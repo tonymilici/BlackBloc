@@ -25,7 +25,10 @@ class AreasTest: XCTestCase {
         let areas = Areas()
         
         XCTAssertEqual(areas.count(), 2)
-        XCTAssertEqual(areas.getArea(index: 0), "Stoney Point")
+        
+        let area = areas.getArea(index: 0)
+        XCTAssertEqual(area.name, "Stoney Point")
+        XCTAssertEqual(area.location?.latitude, 34.271)
     }
     
     func testPerformanceExample() {

@@ -9,7 +9,7 @@
 import Foundation
 
 public class Areas {
-    var _areas: [String]?
+    var _areas: [Area] = []
     
     public init() {
         if let stream = InputStream(fileAtPath: Bundle.main.bundlePath + "/Areas.json") {
@@ -17,8 +17,18 @@ public class Areas {
             print(stream.hasBytesAvailable)
             do {
                 let json = try JSONSerialization.jsonObject(with: stream)
-                if let areas = json as? Dictionary<String, [String]> {
-                    _areas = areas["Areas"];
+                if let areasDict = json as? Dictionary<String, [Any]> {
+                    if let areasColl = areasDict["Areas"] {
+                        for obj in areasColl {
+                            let areaDict = obj as? Dictionary<String, Any>
+                            let area = Area(name: (areaDict?["Name"])! as! String)
+                            let locDict = areaDict?["Location"] as! Dictionary<String, Float>
+                            let latitude = locDict["Latitude"] as Float?
+                            let longitude = locDict["Longitude"] as Float?
+                            area.location = Location(latitude: latitude!, longitude: longitude!)
+                            _areas.append(area)
+                        }
+                    }
                 }
                 
             }
@@ -30,10 +40,10 @@ public class Areas {
     }
     
     public func count() -> Int {
-        return (_areas?.count)!
+        return _areas.count
     }
     
-    public func getArea(index: Int) -> String {
-        return (_areas?[index])!
+    public func getArea(index: Int) -> Area {
+        return _areas[index]
     }
 }

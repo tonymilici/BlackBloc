@@ -1,3 +1,21 @@
 {
-    "Areas": ["Stoney Point", "Horse Flats"]
+    "Areas":
+    [
+        {
+            "Name":"Stoney Point",
+            "Location":
+            {
+                "Latitude": 34.271,
+                "Longitude": -118.604
+            }
+        },
+        {
+            "Name":"Horse Flats",
+            "Location":
+            {
+                "Latitude": 34.3435,
+                "Longitude": -118.0051
+            }
+        }
+    ]
 }

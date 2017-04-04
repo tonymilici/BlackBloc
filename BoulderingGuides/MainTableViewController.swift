@@ -36,11 +36,12 @@ class MainTableViewController: UITableViewController {
     
    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         if let cell = tableView.dequeueReusableCell(withIdentifier: cellId) {
-            cell.textLabel?.text = _areas.getArea(index: indexPath.row)
+            cell.textLabel?.text = _areas.getArea(index: indexPath.row).name
             return cell
         }
         let cell = UITableViewCell()
-        cell.textLabel?.text = _areas.getArea(index: indexPath.row)
+        cell.textLabel?.text = _areas.getArea(index: indexPath.row).name
+        cell.accessoryType = UITableViewCellAccessoryType.disclosureIndicator
         return cell
     }
 }

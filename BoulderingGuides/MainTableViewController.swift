@@ -44,4 +44,9 @@ class MainTableViewController: UITableViewController {
         cell.accessoryType = UITableViewCellAccessoryType.disclosureIndicator
         return cell
     }
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let mapController = MapViewController(nibName: "MapView", bundle: nil)
+        navigationController?.pushViewController(mapController, animated: true)
+    }
 }

@@ -7,7 +7,7 @@
 //
 
 import XCTest
-import BoulderingGuides
+@testable import BoulderingGuides
 
 class AreasTest: XCTestCase {
     
@@ -29,13 +29,6 @@ class AreasTest: XCTestCase {
         let area = areas.getArea(index: 0)
         XCTAssertEqual(area.name, "Stoney Point")
         XCTAssertEqual(area.location?.latitude, 34.271)
-    }
-    
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
     }
     
 }

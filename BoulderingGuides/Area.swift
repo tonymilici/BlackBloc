@@ -9,8 +9,8 @@
 import Foundation
 
 public struct Location {
-    public var latitude: Float
-    public var longitude: Float
+    public var latitude: Double
+    public var longitude: Double
 }
 
 public class Area {

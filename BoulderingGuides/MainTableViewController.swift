@@ -46,7 +46,7 @@ class MainTableViewController: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let mapController = MapViewController(nibName: "MapView", bundle: nil)
+        let mapController = MapViewController(area: _areas.getArea(index: indexPath.row))
         navigationController?.pushViewController(mapController, animated: true)
     }
 }

@@ -22,9 +22,9 @@ public class Areas {
                         for obj in areasColl {
                             let areaDict = obj as? Dictionary<String, Any>
                             let area = Area(name: (areaDict?["Name"])! as! String)
-                            let locDict = areaDict?["Location"] as! Dictionary<String, Float>
-                            let latitude = locDict["Latitude"] as Float?
-                            let longitude = locDict["Longitude"] as Float?
+                            let locDict = areaDict?["Location"] as! Dictionary<String, Double>
+                            let latitude = locDict["Latitude"] as Double?
+                            let longitude = locDict["Longitude"] as Double?
                             area.location = Location(latitude: latitude!, longitude: longitude!)
                             _areas.append(area)
                         }

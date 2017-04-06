@@ -1,15 +1,15 @@
 //
-//  AreasTest.swift
+//  ClusterTest.swift
 //  BoulderingGuides
 //
-//  Created by Tony Milici on 4/3/17.
+//  Created by Tony Milici on 4/6/17.
 //  Copyright © 2017 Imortal Apps. All rights reserved.
 //
 
 import XCTest
 @testable import BoulderingGuides
 
-class AreasTest: XCTestCase {
+class ClusterTest: XCTestCase {
     
     override func setUp() {
         super.setUp()
@@ -21,15 +21,12 @@ class AreasTest: XCTestCase {
         super.tearDown()
     }
     
-    func testLoad() {
-        let areas = Areas()
+    func test_init() {
+        let cluster = Cluster(centerX: 34.2, centerY: -118.6, radius: 100)
         
-        XCTAssertEqual(areas.count(), 2)
-        
-        let area = areas.getArea(index: 0)
-        XCTAssertEqual(area.name, "Stoney Point")
-        XCTAssertEqual(area.location?.latitude, 34.271)
-        XCTAssertEqual(area.clusters.count, 1)
+        XCTAssertEqual(cluster.center?.latitude, 34.2)
+        XCTAssertEqual(cluster.center?.longitude, -118.6)
+        XCTAssertEqual(cluster.radius, 100)
     }
     
 }

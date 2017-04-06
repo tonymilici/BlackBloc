@@ -26,6 +26,18 @@ public class Areas {
                             let latitude = locDict["Latitude"] as Double?
                             let longitude = locDict["Longitude"] as Double?
                             area.location = Location(latitude: latitude!, longitude: longitude!)
+                            
+                            if let clusters = areaDict?["Clusters"] {
+                                for clus in clusters as! [Any] {
+                                    let cluster = clus as! Dictionary<String, Double>
+                                    let centerX = cluster["CenterX"]
+                                    let centerY = cluster["CenterY"]
+                                    let radius = cluster["Radius"]
+                                    
+                                    area.clusters.append(Cluster(centerX: centerX!, centerY: centerY!, radius: radius!))
+                                }
+                            }
+
                             _areas.append(area)
                         }
                     }

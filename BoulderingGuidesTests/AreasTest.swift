@@ -30,6 +30,9 @@ class AreasTest: XCTestCase {
         XCTAssertEqual(area.name, "Stoney Point")
         XCTAssertEqual(area.location?.latitude, 34.271)
         XCTAssertEqual(area.clusters.count, 1)
+        
+        let cluster = area.clusters[0];
+        XCTAssertEqual(cluster.name, "Boulder 1 Area")
     }
     
 }

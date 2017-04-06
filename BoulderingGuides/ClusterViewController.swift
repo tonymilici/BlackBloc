@@ -10,8 +10,9 @@ import Foundation
 import UIKit
 
 public class ClusterViewController: UITableViewController {
-    public init() {
+    public init(cluster: Cluster) {
         super.init(nibName: "ClusterView", bundle: nil)
+        title = cluster.name
     }
     
     required public init?(coder aDecoder: NSCoder) {

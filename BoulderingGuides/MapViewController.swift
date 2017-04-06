@@ -53,7 +53,7 @@ class MapViewController: UIViewController {
             let cent = mapView.convert(cluster.center!, toPointTo: mapView)
             let dist = pow(tapPoint.x - cent.x, 2.0) + pow(tapPoint.y - cent.y, 2.0)
             if dist < CGFloat(pow (cluster.radius!, 2.0)) {
-                navigationController?.pushViewController(ClusterViewController(), animated: true)
+                navigationController?.pushViewController(ClusterViewController(cluster: cluster), animated: true)
             }
         }
         

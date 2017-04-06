@@ -47,12 +47,13 @@ public class Areas {
         
         if let clusters = areaDict["Clusters"] {
             for clus in clusters as! [Any] {
-                let cluster = clus as! Dictionary<String, Double>
-                let centerX = cluster["CenterX"]
-                let centerY = cluster["CenterY"]
-                let radius = cluster["Radius"]
+                let cluster = clus as! Dictionary<String, Any>
+                let centerX = cluster["CenterX"] as! Double
+                let centerY = cluster["CenterY"] as! Double
+                let radius = cluster["Radius"] as! Double
+                let name = cluster["Name"] as! String
                 
-                area.clusters.append(Cluster(centerX: centerX!, centerY: centerY!, radius: radius!))
+                area.clusters.append(Cluster(name: name, centerX: centerX, centerY: centerY, radius: radius))
             }
         }
         

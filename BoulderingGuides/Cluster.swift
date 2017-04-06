@@ -12,9 +12,11 @@ import MapKit
 public struct Cluster {
     public var center: CLLocationCoordinate2D?
     public var radius: Double?
+    public var name: String?
     
-    public init(centerX: Double, centerY: Double, radius: Double)  {
+    public init(name: String, centerX: Double, centerY: Double, radius: Double)  {
         center = CLLocationCoordinate2D(latitude: centerX, longitude: centerY)
         self.radius = radius
+        self.name = name
     }
 }

@@ -23,8 +23,13 @@ class MapViewController: UIViewController {
         fatalError("init(coder:) has not been implemented")
     }
     
+    private var mapView: MKMapView {
+        get {
+            return view as! MKMapView
+        }
+    }
+    
     public override func viewDidLoad() {
-        let mapView = view as! MKMapView
         mapView.delegate = self
         mapView.mapType = .satellite
         
@@ -48,7 +53,15 @@ class MapViewController: UIViewController {
     }
     
     func handleTap(gestureRecognizer: UIGestureRecognizer) {
-        navigationController?.pushViewController(ClusterViewController(), animated: true)
+        let tapPoint = gestureRecognizer.location(in: mapView)
+        for cluster in (_area?.clusters)! {
+            let cent = mapView.convert(cluster.center!, toPointTo: mapView)
+            let dist = pow(tapPoint.x - cent.x, 2.0) + pow(tapPoint.y - cent.y, 2.0)
+            if dist < CGFloat(pow (cluster.radius!, 2.0)) {
+                navigationController?.pushViewController(ClusterViewController(), animated: true)
+            }
+        }
+        
     }
     
 }

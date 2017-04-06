@@ -42,9 +42,13 @@ class MapViewController: UIViewController {
             print("circ. radius: \(String(describing: circ.radius))")
             mapView.add(circ)
         }
-        
-      //  let circle1 = MKCircle(center: center, radius: 100)
-      //  mapView.add(circle1)
+
+        let tapRecognizer = UITapGestureRecognizer(target: self, action: #selector(self.handleTap(gestureRecognizer:)))
+        mapView.addGestureRecognizer(tapRecognizer)
+    }
+    
+    func handleTap(gestureRecognizer: UIGestureRecognizer) {
+        navigationController?.pushViewController(ClusterViewController(), animated: true)
     }
     
 }

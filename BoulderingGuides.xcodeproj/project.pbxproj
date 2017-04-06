@@ -20,6 +20,8 @@
 		BBBDD6D61E95401300FBC583 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBDD6D51E95401300FBC583 /* MapViewController.swift */; };
 		BBBDD6D81E95573C00FBC583 /* Cluster.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBDD6D71E95573C00FBC583 /* Cluster.swift */; };
 		BBBDD6DA1E969CB100FBC583 /* ClusterTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBDD6D91E969CB100FBC583 /* ClusterTest.swift */; };
+		BBBDD6DC1E96C86500FBC583 /* ClusterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBBDD6DB1E96C86500FBC583 /* ClusterView.xib */; };
+		BBBDD6DE1E96C89100FBC583 /* ClusterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBDD6DD1E96C89100FBC583 /* ClusterViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +61,8 @@
 		BBBDD6D51E95401300FBC583 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		BBBDD6D71E95573C00FBC583 /* Cluster.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cluster.swift; sourceTree = "<group>"; };
 		BBBDD6D91E969CB100FBC583 /* ClusterTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClusterTest.swift; sourceTree = "<group>"; };
+		BBBDD6DB1E96C86500FBC583 /* ClusterView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ClusterView.xib; sourceTree = "<group>"; };
+		BBBDD6DD1E96C89100FBC583 /* ClusterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClusterViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +124,8 @@
 				BBBDD6D31E953FC100FBC583 /* MapView.xib */,
 				BBBDD6D51E95401300FBC583 /* MapViewController.swift */,
 				BBBDD6D71E95573C00FBC583 /* Cluster.swift */,
+				BBBDD6DB1E96C86500FBC583 /* ClusterView.xib */,
+				BBBDD6DD1E96C89100FBC583 /* ClusterViewController.swift */,
 			);
 			path = BoulderingGuides;
 			sourceTree = "<group>";
@@ -250,6 +256,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBBDD6DC1E96C86500FBC583 /* ClusterView.xib in Resources */,
 				BBBDD6A41E92F04E00FBC583 /* LaunchScreen.storyboard in Resources */,
 				BBBDD6D41E953FC100FBC583 /* MapView.xib in Resources */,
 				BBBDD6CC1E92F85300FBC583 /* Areas.json in Resources */,
@@ -283,6 +290,7 @@
 				BBBDD6D21E94053400FBC583 /* Area.swift in Sources */,
 				BBBDD6D61E95401300FBC583 /* MapViewController.swift in Sources */,
 				BBBDD69A1E92F04E00FBC583 /* AppDelegate.swift in Sources */,
+				BBBDD6DE1E96C89100FBC583 /* ClusterViewController.swift in Sources */,
 				BBBDD6D81E95573C00FBC583 /* Cluster.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

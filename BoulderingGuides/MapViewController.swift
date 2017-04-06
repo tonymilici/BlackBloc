@@ -36,8 +36,15 @@ class MapViewController: UIViewController {
         
         mapView.region = region
         
-        let circle = MKCircle(center: center, radius: 100)
-        mapView.add(circle)
+        for cluster in (_area?.clusters)! {
+            let circ = MKCircle(center: cluster.center!, radius: cluster.radius!)
+            print("circ center: \(circ.coordinate)")
+            print("circ. radius: \(String(describing: circ.radius))")
+            mapView.add(circ)
+        }
+        
+      //  let circle1 = MKCircle(center: center, radius: 100)
+      //  mapView.add(circle1)
     }
     
 }
@@ -50,7 +57,7 @@ extension MapViewController: MKMapViewDelegate {
         let circle = MKCircleRenderer(overlay: overlay)
         circle.fillColor = UIColor.blue
         circle.strokeColor = UIColor.blue
-        circle.alpha = 0.5
+        circle.alpha = 0.3
         return circle
      
     }

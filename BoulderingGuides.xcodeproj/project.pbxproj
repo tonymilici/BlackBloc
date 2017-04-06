@@ -18,6 +18,7 @@
 		BBBDD6D21E94053400FBC583 /* Area.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBDD6D11E94053400FBC583 /* Area.swift */; };
 		BBBDD6D41E953FC100FBC583 /* MapView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBBDD6D31E953FC100FBC583 /* MapView.xib */; };
 		BBBDD6D61E95401300FBC583 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBDD6D51E95401300FBC583 /* MapViewController.swift */; };
+		BBBDD6D81E95573C00FBC583 /* ClusterOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBDD6D71E95573C00FBC583 /* ClusterOverlay.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		BBBDD6D11E94053400FBC583 /* Area.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Area.swift; sourceTree = "<group>"; };
 		BBBDD6D31E953FC100FBC583 /* MapView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MapView.xib; sourceTree = "<group>"; };
 		BBBDD6D51E95401300FBC583 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		BBBDD6D71E95573C00FBC583 /* ClusterOverlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClusterOverlay.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 				BBBDD6D11E94053400FBC583 /* Area.swift */,
 				BBBDD6D31E953FC100FBC583 /* MapView.xib */,
 				BBBDD6D51E95401300FBC583 /* MapViewController.swift */,
+				BBBDD6D71E95573C00FBC583 /* ClusterOverlay.swift */,
 			);
 			path = BoulderingGuides;
 			sourceTree = "<group>";
@@ -277,6 +280,7 @@
 				BBBDD6D21E94053400FBC583 /* Area.swift in Sources */,
 				BBBDD6D61E95401300FBC583 /* MapViewController.swift in Sources */,
 				BBBDD69A1E92F04E00FBC583 /* AppDelegate.swift in Sources */,
+				BBBDD6D81E95573C00FBC583 /* ClusterOverlay.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

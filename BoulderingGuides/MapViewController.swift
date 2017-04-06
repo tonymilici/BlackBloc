@@ -25,16 +25,33 @@ class MapViewController: UIViewController {
     
     public override func viewDidLoad() {
         let mapView = view as! MKMapView
+        mapView.delegate = self
         mapView.mapType = .satellite
         
         let center = CLLocationCoordinate2D(latitude: (_area?.location?.latitude)!, longitude: (_area?.location?.longitude)!)
         let region = mapView.regionThatFits(MKCoordinateRegionMakeWithDistance(center, 0.2*_metersPerMile, 0.2*_metersPerMile))
         
+        print("map center: \(center)")
+        print("map region: \(region)")
+        
         mapView.region = region
         
-        
-        mapView.centerCoordinate = center
-        
+        let circle = MKCircle(center: center, radius: 100)
+        mapView.add(circle)
     }
     
+}
+
+extension MapViewController: MKMapViewDelegate {
+    func mapView(_ mapView: MKMapView, rendererFor overlay: MKOverlay) -> MKOverlayRenderer {
+        let ov = overlay as? MKCircle
+        print("circle. center: \(overlay.coordinate)")
+        print("circle. radius: \(String(describing: ov?.radius))")
+        let circle = MKCircleRenderer(overlay: overlay)
+        circle.fillColor = UIColor.blue
+        circle.strokeColor = UIColor.blue
+        circle.alpha = 0.5
+        return circle
+     
+    }
 }

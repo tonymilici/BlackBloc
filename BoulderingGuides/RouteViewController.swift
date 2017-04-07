@@ -10,6 +10,7 @@ import Foundation
 import UIKit
 
 public class RouteViewController: UIViewController {
+    @IBOutlet weak var descriptionTextView: UITextView!
     private var _route: Route?
     
     public init(route: Route) {
@@ -20,5 +21,9 @@ public class RouteViewController: UIViewController {
     
     required public init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
+    }
+    
+    public override func viewDidLoad() {
+        descriptionTextView.text = _route?.description
     }
 }

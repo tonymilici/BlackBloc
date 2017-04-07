@@ -23,6 +23,8 @@
 		BBBDD6DC1E96C86500FBC583 /* ClusterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBBDD6DB1E96C86500FBC583 /* ClusterView.xib */; };
 		BBBDD6DE1E96C89100FBC583 /* ClusterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBDD6DD1E96C89100FBC583 /* ClusterViewController.swift */; };
 		BBBDD6E01E975A8A00FBC583 /* Boulder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBDD6DF1E975A8A00FBC583 /* Boulder.swift */; };
+		BBBDD6E21E97EFB800FBC583 /* BoulderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBBDD6E11E97EFB800FBC583 /* BoulderView.xib */; };
+		BBBDD6E41E97EFD700FBC583 /* BoulderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBDD6E31E97EFD700FBC583 /* BoulderViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +67,8 @@
 		BBBDD6DB1E96C86500FBC583 /* ClusterView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ClusterView.xib; sourceTree = "<group>"; };
 		BBBDD6DD1E96C89100FBC583 /* ClusterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClusterViewController.swift; sourceTree = "<group>"; };
 		BBBDD6DF1E975A8A00FBC583 /* Boulder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Boulder.swift; sourceTree = "<group>"; };
+		BBBDD6E11E97EFB800FBC583 /* BoulderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BoulderView.xib; sourceTree = "<group>"; };
+		BBBDD6E31E97EFD700FBC583 /* BoulderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoulderViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +133,8 @@
 				BBBDD6DB1E96C86500FBC583 /* ClusterView.xib */,
 				BBBDD6DD1E96C89100FBC583 /* ClusterViewController.swift */,
 				BBBDD6DF1E975A8A00FBC583 /* Boulder.swift */,
+				BBBDD6E11E97EFB800FBC583 /* BoulderView.xib */,
+				BBBDD6E31E97EFD700FBC583 /* BoulderViewController.swift */,
 			);
 			path = BoulderingGuides;
 			sourceTree = "<group>";
@@ -263,6 +269,7 @@
 				BBBDD6A41E92F04E00FBC583 /* LaunchScreen.storyboard in Resources */,
 				BBBDD6D41E953FC100FBC583 /* MapView.xib in Resources */,
 				BBBDD6CC1E92F85300FBC583 /* Areas.json in Resources */,
+				BBBDD6E21E97EFB800FBC583 /* BoulderView.xib in Resources */,
 				BBBDD6A11E92F04E00FBC583 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -296,6 +303,7 @@
 				BBBDD6E01E975A8A00FBC583 /* Boulder.swift in Sources */,
 				BBBDD6DE1E96C89100FBC583 /* ClusterViewController.swift in Sources */,
 				BBBDD6D81E95573C00FBC583 /* Cluster.swift in Sources */,
+				BBBDD6E41E97EFD700FBC583 /* BoulderViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -41,4 +41,10 @@ public class ClusterViewController: UITableViewController {
         cell.accessoryType = UITableViewCellAccessoryType.disclosureIndicator
         return cell
     }
+    
+    override public func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let boulder = _boulders?[indexPath.row]
+        let boulderViewController = BoulderViewController(boulder: boulder!)
+        navigationController?.pushViewController(boulderViewController, animated: true)
+    }
 }

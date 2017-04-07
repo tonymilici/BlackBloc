@@ -61,14 +61,20 @@ public class Areas {
             let name = clusterDict["Name"] as! String
             var cluster = Cluster(name: name, centerX: centerX, centerY: centerY, radius: radius)
             if let boulderObjs = clusterDict["Boulders"] as! [Any]? {
-                for boulderObj in boulderObjs {
-                    let boulderDict = boulderObj as! Dictionary<String, String>
-                    let boulderName = boulderDict["Name"]!
-                    cluster.boulders.append(Boulder(name: boulderName))
-                }
+                parseBoulders(boulderObjs: boulderObjs, cluster: &cluster)
             }
             
             area.clusters.append(cluster)
+        }
+    }
+    
+    private func parseBoulders(boulderObjs: [Any], cluster: inout Cluster) {
+        for boulderObj in boulderObjs {
+            let boulderDict = boulderObj as! Dictionary<String, String>
+            let boulderName = boulderDict["Name"]!
+            let boulder = Boulder(name: boulderName)
+            boulder.description = boulderDict["Description"]
+            cluster.boulders.append(boulder)
         }
     }
     

@@ -18,16 +18,20 @@
                 "Boulders":
                 [
                     {
-                        "Name": "Boulder 1"
+                        "Name": "Boulder 1",
+                        "Description": "This is the obvious large boulder."
                     },
                     {
-                        "Name": "Slant Rock"
+                        "Name": "Slant Rock",
+                        "Description": "This boulder is a few yards to the southeast of Boulder 1 and has a low angle west face."
                     },
                     {
-                        "Name": "Pump Rock"
+                        "Name": "Pump Rock",
+                        "Description": "This boulder lies just north of Boulder 1 and has a traverse around its lip"
                     },
                     {
-                        "Name": "Crank Queenie Boulder"
+                        "Name": "Crank Queenie Boulder",
+                        "Description": "This boulder is adjacent to the north of Pump Boulder and has a very overhanging north face through the cave."
                     }
                 ]
              }

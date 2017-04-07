@@ -22,6 +22,7 @@
 		BBBDD6DA1E969CB100FBC583 /* ClusterTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBDD6D91E969CB100FBC583 /* ClusterTest.swift */; };
 		BBBDD6DC1E96C86500FBC583 /* ClusterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBBDD6DB1E96C86500FBC583 /* ClusterView.xib */; };
 		BBBDD6DE1E96C89100FBC583 /* ClusterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBDD6DD1E96C89100FBC583 /* ClusterViewController.swift */; };
+		BBBDD6E01E975A8A00FBC583 /* Boulder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBDD6DF1E975A8A00FBC583 /* Boulder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		BBBDD6D91E969CB100FBC583 /* ClusterTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClusterTest.swift; sourceTree = "<group>"; };
 		BBBDD6DB1E96C86500FBC583 /* ClusterView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ClusterView.xib; sourceTree = "<group>"; };
 		BBBDD6DD1E96C89100FBC583 /* ClusterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClusterViewController.swift; sourceTree = "<group>"; };
+		BBBDD6DF1E975A8A00FBC583 /* Boulder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Boulder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +128,7 @@
 				BBBDD6D71E95573C00FBC583 /* Cluster.swift */,
 				BBBDD6DB1E96C86500FBC583 /* ClusterView.xib */,
 				BBBDD6DD1E96C89100FBC583 /* ClusterViewController.swift */,
+				BBBDD6DF1E975A8A00FBC583 /* Boulder.swift */,
 			);
 			path = BoulderingGuides;
 			sourceTree = "<group>";
@@ -290,6 +293,7 @@
 				BBBDD6D21E94053400FBC583 /* Area.swift in Sources */,
 				BBBDD6D61E95401300FBC583 /* MapViewController.swift in Sources */,
 				BBBDD69A1E92F04E00FBC583 /* AppDelegate.swift in Sources */,
+				BBBDD6E01E975A8A00FBC583 /* Boulder.swift in Sources */,
 				BBBDD6DE1E96C89100FBC583 /* ClusterViewController.swift in Sources */,
 				BBBDD6D81E95573C00FBC583 /* Cluster.swift in Sources */,
 			);

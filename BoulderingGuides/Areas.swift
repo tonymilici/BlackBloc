@@ -45,19 +45,31 @@ public class Areas {
         let longitude = locDict["Longitude"] as Double?
         area.location = Location(latitude: latitude!, longitude: longitude!)
         
-        if let clusters = areaDict["Clusters"] {
-            for clus in clusters as! [Any] {
-                let cluster = clus as! Dictionary<String, Any>
-                let centerX = cluster["CenterX"] as! Double
-                let centerY = cluster["CenterY"] as! Double
-                let radius = cluster["Radius"] as! Double
-                let name = cluster["Name"] as! String
-                
-                area.clusters.append(Cluster(name: name, centerX: centerX, centerY: centerY, radius: radius))
-            }
+        if let clusters = areaDict["Clusters"] as! [Any]? {
+            parseClusters(clusters: clusters, area: area)
         }
         
         _areas.append(area)
+    }
+    
+    private func parseClusters(clusters: [Any], area: Area) {
+        for clusterObj in clusters {
+            let clusterDict = clusterObj as! Dictionary<String, Any>
+            let centerX = clusterDict["CenterX"] as! Double
+            let centerY = clusterDict["CenterY"] as! Double
+            let radius = clusterDict["Radius"] as! Double
+            let name = clusterDict["Name"] as! String
+            var cluster = Cluster(name: name, centerX: centerX, centerY: centerY, radius: radius)
+            if let boulderObjs = clusterDict["Boulders"] as! [Any]? {
+                for boulderObj in boulderObjs {
+                    let boulderDict = boulderObj as! Dictionary<String, String>
+                    let boulderName = boulderDict["Name"]!
+                    cluster.boulders.append(Boulder(name: boulderName))
+                }
+            }
+            
+            area.clusters.append(cluster)
+        }
     }
     
     public func count() -> Int {

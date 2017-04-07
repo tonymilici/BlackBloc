@@ -14,7 +14,13 @@
                 "Name": "Boulder 1 Area",
                 "CenterX": 34.2698,
                 "CenterY": -118.6056,
-                "Radius": 28
+                "Radius": 28,
+                "Boulders":
+                [
+                    {
+                        "Name": "Boulder 1"
+                    }
+                ]
              }
              ]
         },

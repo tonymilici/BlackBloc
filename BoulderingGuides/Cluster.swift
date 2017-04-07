@@ -13,6 +13,7 @@ public struct Cluster {
     public var center: CLLocationCoordinate2D?
     public var radius: Double?
     public var name: String?
+    public var boulders: [Boulder] = []
     
     public init(name: String, centerX: Double, centerY: Double, radius: Double)  {
         center = CLLocationCoordinate2D(latitude: centerX, longitude: centerY)

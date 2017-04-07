@@ -33,6 +33,7 @@ class AreasTest: XCTestCase {
         
         let cluster = area.clusters[0];
         XCTAssertEqual(cluster.name, "Boulder 1 Area")
+        XCTAssertTrue(cluster.boulders.count > 0)
     }
     
 }

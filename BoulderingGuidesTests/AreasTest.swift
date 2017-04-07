@@ -34,9 +34,14 @@ class AreasTest: XCTestCase {
         let cluster = area.clusters[0];
         XCTAssertEqual(cluster.name, "Boulder 1 Area")
         XCTAssertTrue(cluster.boulders.count > 0)
+        
         let boulder = cluster.boulders[0]
         XCTAssertEqual(boulder.name, "Boulder 1")
         XCTAssertNotNil(boulder.description)
+        XCTAssertTrue(boulder.routes.count > 0)
+        
+        let route = boulder.routes[0]
+        XCTAssertNotNil(route.name)
     }
     
 }

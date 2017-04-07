@@ -70,11 +70,22 @@ public class Areas {
     
     private func parseBoulders(boulderObjs: [Any], cluster: inout Cluster) {
         for boulderObj in boulderObjs {
-            let boulderDict = boulderObj as! Dictionary<String, String>
-            let boulderName = boulderDict["Name"]!
+            let boulderDict = boulderObj as! Dictionary<String, Any>
+            let boulderName = boulderDict["Name"] as! String
             let boulder = Boulder(name: boulderName)
-            boulder.description = boulderDict["Description"]
+            boulder.description = boulderDict["Description"] as? String
             cluster.boulders.append(boulder)
+            if let routeObjs = boulderDict["Routes"] as! [Any]? {
+                parseRoutes(routeObjs: routeObjs, boulder: boulder)
+            }
+        }
+    }
+    
+    private func parseRoutes(routeObjs: [Any], boulder: Boulder) {
+        for routeObj in routeObjs {
+            let routeDict = routeObj as! Dictionary<String, String>
+            let route = Route(name: routeDict["Name"]!)
+            boulder.routes.append(route)
         }
     }
     

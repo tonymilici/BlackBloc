@@ -19,7 +19,13 @@
                 [
                     {
                         "Name": "Boulder 1",
-                        "Description": "This is the obvious large boulder."
+                        "Description": "This is the obvious large boulder.",
+                        "Routes":
+                        [
+                            {
+                                "Name": "Endo Boy"
+                            }
+                        ]
                     },
                     {
                         "Name": "Slant Rock",

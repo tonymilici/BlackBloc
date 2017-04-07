@@ -10,6 +10,7 @@ import Foundation
 import UIKit
 
 public class BoulderViewController: UIViewController {
+    @IBOutlet weak var _descriptionView: UITextView!
     private var _boulder: Boulder?
     
     public init(boulder: Boulder) {
@@ -20,5 +21,9 @@ public class BoulderViewController: UIViewController {
     
     required public init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
+    }
+    
+    public override func viewDidLoad() {
+        _descriptionView.text = _boulder?.description
     }
 }

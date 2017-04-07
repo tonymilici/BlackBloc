@@ -11,7 +11,8 @@ import UIKit
 
 public class BoulderViewController: UIViewController {
     @IBOutlet weak var _descriptionView: UITextView!
-    private var _boulder: Boulder?
+    fileprivate var _boulder: Boulder?
+    let cellId = "RouteCell"
     
     public init(boulder: Boulder) {
         super.init(nibName: "BoulderView", bundle: nil)
@@ -26,4 +27,28 @@ public class BoulderViewController: UIViewController {
     public override func viewDidLoad() {
         _descriptionView.text = _boulder?.description
     }
+}
+
+extension BoulderViewController: UITableViewDataSource {
+    
+    public func numberOfSections(in tableView: UITableView) -> Int {
+        return 1;
+    }
+    
+    public func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return (_boulder?.routes.count)!
+    }
+    
+    public func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        if let cell = tableView.dequeueReusableCell(withIdentifier: cellId) {
+            cell.textLabel?.text = _boulder?.routes[indexPath.row].name
+            return cell
+        }
+        let cell = UITableViewCell()
+        cell.textLabel?.text = _boulder?.routes[indexPath.row].name
+        cell.accessoryType = UITableViewCellAccessoryType.disclosureIndicator
+        return cell
+    }
+
+    
 }

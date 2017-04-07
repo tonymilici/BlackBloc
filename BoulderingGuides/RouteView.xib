@@ -13,6 +13,10 @@
             <connections>
                 <outlet property="descriptionTextView" destination="Nol-Uo-XsL" id="lG7-lW-gtQ"/>
                 <outlet property="ratingLabel" destination="BZM-hH-5jW" id="nNX-rQ-UqS"/>
+                <outlet property="star1" destination="G3j-0I-7cx" id="Upl-Sm-M1L"/>
+                <outlet property="star2" destination="vcd-Ax-zga" id="FI2-89-FD0"/>
+                <outlet property="star3" destination="rHy-Us-lQe" id="gwB-es-BGV"/>
+                <outlet property="star4" destination="6Ma-9A-TbZ" id="Mh9-In-pPm"/>
                 <outlet property="view" destination="iN0-l3-epB" id="Dcg-UJ-wDM"/>
             </connections>
         </placeholder>
@@ -46,9 +50,28 @@
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="star.png" translatesAutoresizingMaskIntoConstraints="NO" id="G3j-0I-7cx">
+                    <rect key="frame" x="133" y="183" width="20" height="20"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="star.png" translatesAutoresizingMaskIntoConstraints="NO" id="vcd-Ax-zga">
+                    <rect key="frame" x="152" y="183" width="20" height="20"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="star.png" translatesAutoresizingMaskIntoConstraints="NO" id="rHy-Us-lQe">
+                    <rect key="frame" x="172" y="183" width="20" height="20"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="star.png" translatesAutoresizingMaskIntoConstraints="NO" id="6Ma-9A-TbZ">
+                    <rect key="frame" x="192" y="183" width="20" height="20"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <point key="canvasLocation" x="33.5" y="54.5"/>
         </view>
     </objects>
+    <resources>
+        <image name="star.png" width="121" height="121"/>
+    </resources>
 </document>

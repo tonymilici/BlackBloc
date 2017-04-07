@@ -10,6 +10,7 @@ import Foundation
 import UIKit
 
 public class RouteViewController: UIViewController {
+    @IBOutlet weak var ratingLabel: UILabel!
     @IBOutlet weak var descriptionTextView: UITextView!
     private var _route: Route?
     
@@ -25,5 +26,6 @@ public class RouteViewController: UIViewController {
     
     public override func viewDidLoad() {
         descriptionTextView.text = _route?.description
+        ratingLabel.text = _route?.rating
     }
 }

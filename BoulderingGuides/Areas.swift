@@ -85,6 +85,7 @@ public class Areas {
         for routeObj in routeObjs {
             let routeDict = routeObj as! Dictionary<String, String>
             let route = Route(name: routeDict["Name"]!)
+            route.description = routeDict["Description"]!
             boulder.routes.append(route)
         }
     }

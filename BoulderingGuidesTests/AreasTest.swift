@@ -42,6 +42,7 @@ class AreasTest: XCTestCase {
         
         let route = boulder.routes[0]
         XCTAssertNotNil(route.name)
+        XCTAssertNotNil(route.description)
     }
     
 }

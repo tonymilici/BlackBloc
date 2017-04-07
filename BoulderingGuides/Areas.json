@@ -23,7 +23,8 @@
                         "Routes":
                         [
                             {
-                                "Name": "Endo Boy"
+                                "Name": "Endo Boy",
+                                "Description": "This line climbs to the right of Boot Flake via sidepulls and cripms."
                             }
                         ]
                     },

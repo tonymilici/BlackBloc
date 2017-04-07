@@ -10,6 +10,7 @@ import Foundation
 
 public class Route {
     public var name: String?
+    public var description: String?
     
     public init(name: String) {
         self.name = name

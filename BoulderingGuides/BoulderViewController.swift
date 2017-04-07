@@ -29,7 +29,7 @@ public class BoulderViewController: UIViewController {
     }
 }
 
-extension BoulderViewController: UITableViewDataSource {
+extension BoulderViewController: UITableViewDataSource, UITableViewDelegate {
     
     public func numberOfSections(in tableView: UITableView) -> Int {
         return 1;
@@ -50,5 +50,13 @@ extension BoulderViewController: UITableViewDataSource {
         return cell
     }
 
+    public func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+        return "Routes"
+    }
     
+    public func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let route = _boulder?.routes[indexPath.row]
+        let routeViewController = RouteViewController(route: route!)
+        navigationController?.pushViewController(routeViewController, animated: true)
+    }
 }

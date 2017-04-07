@@ -26,6 +26,8 @@
 		BBBDD6E21E97EFB800FBC583 /* BoulderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBBDD6E11E97EFB800FBC583 /* BoulderView.xib */; };
 		BBBDD6E41E97EFD700FBC583 /* BoulderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBDD6E31E97EFD700FBC583 /* BoulderViewController.swift */; };
 		BBBDD6E61E97F6FC00FBC583 /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBDD6E51E97F6FC00FBC583 /* Route.swift */; };
+		BBEC0BE81E980DF400FB1EE6 /* RouteView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBEC0BE71E980DF400FB1EE6 /* RouteView.xib */; };
+		BBEC0BEA1E980E1400FB1EE6 /* RouteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEC0BE91E980E1400FB1EE6 /* RouteViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +73,8 @@
 		BBBDD6E11E97EFB800FBC583 /* BoulderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BoulderView.xib; sourceTree = "<group>"; };
 		BBBDD6E31E97EFD700FBC583 /* BoulderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoulderViewController.swift; sourceTree = "<group>"; };
 		BBBDD6E51E97F6FC00FBC583 /* Route.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Route.swift; sourceTree = "<group>"; };
+		BBEC0BE71E980DF400FB1EE6 /* RouteView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RouteView.xib; sourceTree = "<group>"; };
+		BBEC0BE91E980E1400FB1EE6 /* RouteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RouteViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +142,8 @@
 				BBBDD6E11E97EFB800FBC583 /* BoulderView.xib */,
 				BBBDD6E31E97EFD700FBC583 /* BoulderViewController.swift */,
 				BBBDD6E51E97F6FC00FBC583 /* Route.swift */,
+				BBEC0BE71E980DF400FB1EE6 /* RouteView.xib */,
+				BBEC0BE91E980E1400FB1EE6 /* RouteViewController.swift */,
 			);
 			path = BoulderingGuides;
 			sourceTree = "<group>";
@@ -268,6 +274,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBEC0BE81E980DF400FB1EE6 /* RouteView.xib in Resources */,
 				BBBDD6DC1E96C86500FBC583 /* ClusterView.xib in Resources */,
 				BBBDD6A41E92F04E00FBC583 /* LaunchScreen.storyboard in Resources */,
 				BBBDD6D41E953FC100FBC583 /* MapView.xib in Resources */,
@@ -300,6 +307,7 @@
 			files = (
 				BBBDD6CE1E93060500FBC583 /* Areas.swift in Sources */,
 				BBBDD6CA1E92F7AA00FBC583 /* MainTableViewController.swift in Sources */,
+				BBEC0BEA1E980E1400FB1EE6 /* RouteViewController.swift in Sources */,
 				BBBDD6D21E94053400FBC583 /* Area.swift in Sources */,
 				BBBDD6E61E97F6FC00FBC583 /* Route.swift in Sources */,
 				BBBDD6D61E95401300FBC583 /* MapViewController.swift in Sources */,
@@ -545,6 +553,7 @@
 				BBBDD6C01E92F04E00FBC583 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BBBDD6C11E92F04E00FBC583 /* Build configuration list for PBXNativeTarget "BoulderingGuidesTests" */ = {
 			isa = XCConfigurationList;
@@ -553,6 +562,7 @@
 				BBBDD6C31E92F04E00FBC583 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BBBDD6C41E92F04E00FBC583 /* Build configuration list for PBXNativeTarget "BoulderingGuidesUITests" */ = {
 			isa = XCConfigurationList;
@@ -561,6 +571,7 @@
 				BBBDD6C61E92F04E00FBC583 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

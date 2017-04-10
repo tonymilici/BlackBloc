@@ -44,8 +44,11 @@ extension BoulderViewController: UITableViewDataSource, UITableViewDelegate {
             cell.textLabel?.text = _boulder?.routes[indexPath.row].name
             return cell
         }
-        let cell = UITableViewCell()
-        cell.textLabel?.text = _boulder?.routes[indexPath.row].name
+        let cell = UITableViewCell(style: .subtitle, reuseIdentifier: cellId)
+        if let route = _boulder?.routes[indexPath.row] {
+            cell.textLabel?.text = route.name
+            cell.detailTextLabel?.text = route.rating
+        }
         cell.accessoryType = UITableViewCellAccessoryType.disclosureIndicator
         return cell
     }

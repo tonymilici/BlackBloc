@@ -10,6 +10,10 @@ import Foundation
 import UIKit
 
 public class RouteViewController: UIViewController {
+    @IBOutlet weak var star4: UIImageView!
+    @IBOutlet weak var star1: UIImageView!
+    @IBOutlet weak var star3: UIImageView!
+    @IBOutlet weak var star2: UIImageView!
     @IBOutlet weak var ratingLabel: UILabel!
     @IBOutlet weak var descriptionTextView: UITextView!
     private var _route: Route?
@@ -27,5 +31,18 @@ public class RouteViewController: UIViewController {
     public override func viewDidLoad() {
         descriptionTextView.text = _route?.description
         ratingLabel.text = _route?.rating
+        
+        if (_route?.stars)! < 4 {
+            star4.isHidden = true
+        }
+        if (_route?.stars)! < 3 {
+            star3.isHidden = true
+        }
+        if (_route?.stars)! < 2 {
+            star2.isHidden = true
+        }
+        if (_route?.stars)! < 1 {
+            star2.isHidden = true
+        }
     }
 }

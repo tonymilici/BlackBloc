@@ -83,10 +83,11 @@ public class Areas {
     
     private func parseRoutes(routeObjs: [Any], boulder: Boulder) {
         for routeObj in routeObjs {
-            let routeDict = routeObj as! Dictionary<String, String>
-            let route = Route(name: routeDict["Name"]!)
-            route.description = routeDict["Description"]!
-            route.rating = routeDict["Rating"]!
+            let routeDict = routeObj as! Dictionary<String, Any>
+            let route = Route(name: (routeDict["Name"] as? String)!)
+            route.description = (routeDict["Description"] as! String)
+            route.rating = (routeDict["Rating"] as! String)
+            route.stars = (routeDict["Stars"] as! Int)
             boulder.routes.append(route)
         }
     }

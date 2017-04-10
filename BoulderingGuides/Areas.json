@@ -63,6 +63,18 @@
                                 "Description": "Stand start at the south-east corner and traverse the        lip of the bouler to the north-west corner and top out. The sit start at the south-east corner is V1 and the sit start at he south-west corner is V2.",
                                 "Rating": "V0",
                                 "Stars": 3
+                            },
+                            {
+                                "Name": "Unnamed",
+                                "Description": "Climb the north-east arete via a sit start.",
+                                "Rating": "V2",
+                                "Stars": 1
+                            },
+                            {
+                                "Name": "Unknown",
+                                "Description": "Ascend the face opposite the north face of Pump Rock via sloping crips.",
+                                "Rating": "V2?",
+                                "Stars": 1
                             }
                          ]
                     },
@@ -73,10 +85,50 @@
                 ]
              },
              {
-             "Name": "Pile Ups",
-             "CenterX": 34.2692,
-             "CenterY": -118.6046,
-             "Radius": 10,
+                "Name": "Pile Ups",
+                "CenterX": 34.26923,
+                "CenterY": -118.60464,
+                "Radius": 8,
+                "Boulders":
+                [
+                    {
+                        "Name": "Pile Ups Boulder",
+                        "Description": "The obvious short boulder next to the trail.",
+                        "Routes":
+                        [
+                            {
+                                "Name": "Pile Ups Traverse",
+                                "Description": "Traverse the lip of the boulder left-to-right.",
+                                "Rating": "V1",
+                                "Stars": 1
+                            },
+                            {
+                                "Name": "Pile Driver",
+                                "Description": "Start at the flake-jug thingy, make a big move up to a sloping crimp and top out via a dyno for the lip or static moves out left.",
+                                    "Rating": "V3",
+                                "Stars": 2
+                            },
+                            {
+                                "Name": "Pile Driver Lieback",
+                                "Description": "Start matched on a good crimp, reach left for the lieback hold, pop for the sloping shelf and make a big move to top out at the apex of the boulder.",
+                                "Rating": "V2",
+                                "Stars": 2
+                            },
+                            {
+                                "Name": "Gomer Pile",
+                                "Description": "Ascend the face to the right of Pile Driver Lieback.",
+                                "Rating": "V4",
+                                "Stars": 1
+                            },
+                            {
+                                "Name": "Anderson Traverse",
+                                "Description": "Traverse the face on bad holds left to right starting at the starting hold of Pile Driver.",
+                                "Rating": "V10",
+                                "Stars": 1
+                            }
+                        ]
+                    }
+                ]
              }
              ]
         },

@@ -34,7 +34,7 @@ class MapViewController: UIViewController {
         mapView.mapType = .satellite
         
         let center = CLLocationCoordinate2D(latitude: (_area?.location?.latitude)!, longitude: (_area?.location?.longitude)!)
-        let region = mapView.regionThatFits(MKCoordinateRegionMakeWithDistance(center, 0.2*_metersPerMile, 0.2*_metersPerMile))
+        let region = mapView.regionThatFits(MKCoordinateRegionMakeWithDistance(center, (_area?.size)!*_metersPerMile, (_area?.size)!*_metersPerMile))
         
         mapView.region = region
         

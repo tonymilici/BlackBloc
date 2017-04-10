@@ -44,6 +44,7 @@ public class Areas {
         let latitude = locDict["Latitude"] as Double?
         let longitude = locDict["Longitude"] as Double?
         area.location = Location(latitude: latitude!, longitude: longitude!)
+        area.size = areaDict["Size"] as! Double?
         
         if let clusters = areaDict["Clusters"] as! [Any]? {
             parseClusters(clusters: clusters, area: area)

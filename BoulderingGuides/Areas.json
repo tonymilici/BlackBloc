@@ -8,6 +8,7 @@
                 "Latitude": 34.271,
                 "Longitude": -118.604
             },
+            "Size": 0.2,
             "Clusters":
             [
              {
@@ -85,7 +86,8 @@
             {
                 "Latitude": 34.3435,
                 "Longitude": -118.0051
-            }
+            },
+            "Size": 1.0
         }
     ]
 }

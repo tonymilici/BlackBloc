@@ -16,6 +16,7 @@ public struct Location {
 public class Area {
     public var name = ""
     public var location: Location?
+    public var size: Double?
     public var clusters: [Cluster] = []
     
     init(name: String) {

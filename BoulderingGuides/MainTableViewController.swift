@@ -49,8 +49,11 @@ class MainTableViewController: UITableViewController {
         let mapController = MapViewController(area: _areas.getArea(index: indexPath.row))
         mapController.tabBarItem = UITabBarItem(title: "Navigate", image: nil, tag: 1)
         
+        let routesController = RoutesViewController()
+        routesController.tabBarItem = UITabBarItem(title: "Routes", image: nil, tag: 2)
+        
         let tabController = TabBarController()
-        tabController.viewControllers = [mapController]
+        tabController.viewControllers = [mapController, routesController]
         
         navigationController?.pushViewController(tabController, animated: true)
     }

@@ -34,6 +34,8 @@
 		BBEC0BF21E9D6DF900FB1EE6 /* navigate.png in Resources */ = {isa = PBXBuildFile; fileRef = BBEC0BF11E9D6DF900FB1EE6 /* navigate.png */; };
 		BBEC0BF71E9D856600FB1EE6 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEC0BF61E9D856600FB1EE6 /* TabBarController.swift */; };
 		BBEC0BF91E9D85C600FB1EE6 /* TabBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBEC0BF81E9D85C600FB1EE6 /* TabBar.xib */; };
+		BBEC0BFB1E9D8DB000FB1EE6 /* RoutesView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBEC0BFA1E9D8DB000FB1EE6 /* RoutesView.xib */; };
+		BBEC0BFD1E9D8DF400FB1EE6 /* RoutesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEC0BFC1E9D8DF400FB1EE6 /* RoutesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,6 +89,8 @@
 		BBEC0BF11E9D6DF900FB1EE6 /* navigate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navigate.png; sourceTree = "<group>"; };
 		BBEC0BF61E9D856600FB1EE6 /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		BBEC0BF81E9D85C600FB1EE6 /* TabBar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TabBar.xib; sourceTree = "<group>"; };
+		BBEC0BFA1E9D8DB000FB1EE6 /* RoutesView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RoutesView.xib; sourceTree = "<group>"; };
+		BBEC0BFC1E9D8DF400FB1EE6 /* RoutesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoutesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,6 +164,8 @@
 				BBEC0BE91E980E1400FB1EE6 /* RouteViewController.swift */,
 				BBEC0BF61E9D856600FB1EE6 /* TabBarController.swift */,
 				BBEC0BF81E9D85C600FB1EE6 /* TabBar.xib */,
+				BBEC0BFA1E9D8DB000FB1EE6 /* RoutesView.xib */,
+				BBEC0BFC1E9D8DF400FB1EE6 /* RoutesViewController.swift */,
 			);
 			path = BoulderingGuides;
 			sourceTree = "<group>";
@@ -294,6 +300,7 @@
 			files = (
 				BBEC0BE81E980DF400FB1EE6 /* RouteView.xib in Resources */,
 				BBBDD6DC1E96C86500FBC583 /* ClusterView.xib in Resources */,
+				BBEC0BFB1E9D8DB000FB1EE6 /* RoutesView.xib in Resources */,
 				BBBDD6A41E92F04E00FBC583 /* LaunchScreen.storyboard in Resources */,
 				BBEC0BF91E9D85C600FB1EE6 /* TabBar.xib in Resources */,
 				BBBDD6D41E953FC100FBC583 /* MapView.xib in Resources */,
@@ -334,6 +341,7 @@
 				BBBDD6D61E95401300FBC583 /* MapViewController.swift in Sources */,
 				BBBDD69A1E92F04E00FBC583 /* AppDelegate.swift in Sources */,
 				BBBDD6E01E975A8A00FBC583 /* Boulder.swift in Sources */,
+				BBEC0BFD1E9D8DF400FB1EE6 /* RoutesViewController.swift in Sources */,
 				BBBDD6DE1E96C89100FBC583 /* ClusterViewController.swift in Sources */,
 				BBEC0BF71E9D856600FB1EE6 /* TabBarController.swift in Sources */,
 				BBBDD6D81E95573C00FBC583 /* Cluster.swift in Sources */,

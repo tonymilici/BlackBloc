@@ -47,6 +47,11 @@ class MainTableViewController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let mapController = MapViewController(area: _areas.getArea(index: indexPath.row))
-        navigationController?.pushViewController(mapController, animated: true)
+        mapController.tabBarItem = UITabBarItem(title: "Navigate", image: nil, tag: 1)
+        
+        let tabController = TabBarController()
+        tabController.viewControllers = [mapController]
+        
+        navigationController?.pushViewController(tabController, animated: true)
     }
 }

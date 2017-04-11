@@ -122,6 +122,46 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BBA3C8601E9DA0F90037ED09 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BBBDD6E11E97EFB800FBC583 /* BoulderView.xib */,
+				BBBDD6E31E97EFD700FBC583 /* BoulderViewController.swift */,
+				BBBDD6DB1E96C86500FBC583 /* ClusterView.xib */,
+				BBBDD6DD1E96C89100FBC583 /* ClusterViewController.swift */,
+				BBBDD6C91E92F7AA00FBC583 /* MainTableViewController.swift */,
+				BBBDD6D31E953FC100FBC583 /* MapView.xib */,
+				BBBDD6D51E95401300FBC583 /* MapViewController.swift */,
+				BBEC0BFA1E9D8DB000FB1EE6 /* RoutesView.xib */,
+				BBEC0BFC1E9D8DF400FB1EE6 /* RoutesViewController.swift */,
+				BBEC0BE71E980DF400FB1EE6 /* RouteView.xib */,
+				BBEC0BE91E980E1400FB1EE6 /* RouteViewController.swift */,
+				BBEC0BF81E9D85C600FB1EE6 /* TabBar.xib */,
+				BBEC0BF61E9D856600FB1EE6 /* TabBarController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		BBA3C8611E9DA1570037ED09 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BBBDD6D11E94053400FBC583 /* Area.swift */,
+				BBBDD6CD1E93060500FBC583 /* Areas.swift */,
+				BBBDD6DF1E975A8A00FBC583 /* Boulder.swift */,
+				BBBDD6D71E95573C00FBC583 /* Cluster.swift */,
+				BBBDD6E51E97F6FC00FBC583 /* Route.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		BBA3C8621E9DA1890037ED09 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BBA3C85E1E9D9B760037ED09 /* RouteTableViewCell.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
 		BBBDD68D1E92F04E00FBC583 = {
 			isa = PBXGroup;
 			children = (
@@ -145,32 +185,16 @@
 		BBBDD6981E92F04E00FBC583 /* BoulderingGuides */ = {
 			isa = PBXGroup;
 			children = (
+				BBA3C8601E9DA0F90037ED09 /* Controllers */,
+				BBA3C8611E9DA1570037ED09 /* Models */,
+				BBA3C8621E9DA1890037ED09 /* Views */,
 				BBEC0BF11E9D6DF900FB1EE6 /* navigate.png */,
 				BBEC0BEB1E98178100FB1EE6 /* star.png */,
 				BBBDD6991E92F04E00FBC583 /* AppDelegate.swift */,
 				BBBDD6A01E92F04E00FBC583 /* Assets.xcassets */,
 				BBBDD6A21E92F04E00FBC583 /* LaunchScreen.storyboard */,
 				BBBDD6A51E92F04E00FBC583 /* Info.plist */,
-				BBBDD6C91E92F7AA00FBC583 /* MainTableViewController.swift */,
 				BBBDD6CB1E92F85300FBC583 /* Areas.json */,
-				BBBDD6CD1E93060500FBC583 /* Areas.swift */,
-				BBBDD6D11E94053400FBC583 /* Area.swift */,
-				BBBDD6D31E953FC100FBC583 /* MapView.xib */,
-				BBBDD6D51E95401300FBC583 /* MapViewController.swift */,
-				BBBDD6D71E95573C00FBC583 /* Cluster.swift */,
-				BBBDD6DB1E96C86500FBC583 /* ClusterView.xib */,
-				BBBDD6DD1E96C89100FBC583 /* ClusterViewController.swift */,
-				BBBDD6DF1E975A8A00FBC583 /* Boulder.swift */,
-				BBBDD6E11E97EFB800FBC583 /* BoulderView.xib */,
-				BBBDD6E31E97EFD700FBC583 /* BoulderViewController.swift */,
-				BBBDD6E51E97F6FC00FBC583 /* Route.swift */,
-				BBEC0BE71E980DF400FB1EE6 /* RouteView.xib */,
-				BBEC0BE91E980E1400FB1EE6 /* RouteViewController.swift */,
-				BBEC0BF61E9D856600FB1EE6 /* TabBarController.swift */,
-				BBEC0BF81E9D85C600FB1EE6 /* TabBar.xib */,
-				BBEC0BFA1E9D8DB000FB1EE6 /* RoutesView.xib */,
-				BBEC0BFC1E9D8DF400FB1EE6 /* RoutesViewController.swift */,
-				BBA3C85E1E9D9B760037ED09 /* RouteTableViewCell.swift */,
 			);
 			path = BoulderingGuides;
 			sourceTree = "<group>";

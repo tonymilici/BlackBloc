@@ -24,6 +24,15 @@ public class Area {
     }
     
     public func getRoutes() -> [Route] {
-        return []
+        var routes: [Route] = []
+        
+        for cluster in clusters {
+            for boulder in cluster.boulders {
+                for route in boulder.routes {
+                    routes.append(route)
+                }
+            }
+        }
+        return routes
     }
 }

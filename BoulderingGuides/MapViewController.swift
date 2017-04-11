@@ -11,6 +11,7 @@ import UIKit
 import MapKit
 
 class MapViewController: UIViewController {
+    @IBOutlet weak var _mapView: MKMapView!
     private var _area: Area?
     private let _metersPerMile = 1609.344
     
@@ -25,11 +26,14 @@ class MapViewController: UIViewController {
     
     private var mapView: MKMapView {
         get {
-            return view as! MKMapView
+            return _mapView
         }
     }
     
     public override func viewDidLoad() {
+        super.viewDidLoad()
+        edgesForExtendedLayout = []
+
         mapView.delegate = self
         mapView.mapType = .satellite
         

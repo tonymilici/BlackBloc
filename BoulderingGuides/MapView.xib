@@ -11,14 +11,28 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MapViewController" customModule="BoulderingGuides" customModuleProvider="target">
             <connections>
+                <outlet property="_mapView" destination="spE-kv-RE7" id="dIh-fQ-byI"/>
                 <outlet property="view" destination="iN0-l3-epB" id="3TA-Ge-4uK"/>
             </connections>
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="MKMapView">
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="spE-kv-RE7">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="621"/>
+                </mapView>
+            </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="spE-kv-RE7" secondAttribute="trailing" id="Dqs-b5-s0h"/>
+                <constraint firstItem="spE-kv-RE7" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="FoX-iD-eM2"/>
+                <constraint firstItem="spE-kv-RE7" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="XH2-kE-zjl"/>
+                <constraint firstItem="spE-kv-RE7" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="un7-OE-482"/>
+                <constraint firstAttribute="bottom" secondItem="spE-kv-RE7" secondAttribute="bottom" constant="46" id="whC-RF-e7G"/>
+            </constraints>
+            <point key="canvasLocation" x="33.5" y="54.5"/>
         </view>
     </objects>
 </document>

@@ -11,10 +11,8 @@ import UIKit
 import MapKit
 
 class MapViewController: UIViewController {
-    @IBOutlet weak var _mapView: MKMapView!
-    @IBOutlet weak var _tabBar: UITabBar!
-    
     private var _area: Area?
+    @IBOutlet var _mapView: MKMapView!
     private let _metersPerMile = 1609.344
     
     public init(area: Area) {
@@ -51,8 +49,6 @@ class MapViewController: UIViewController {
 
         let tapRecognizer = UITapGestureRecognizer(target: self, action: #selector(self.handleTap(gestureRecognizer:)))
         mapView.addGestureRecognizer(tapRecognizer)
-        
-        _tabBar.selectedItem = _tabBar.items?[0]
     }
     
     func handleTap(gestureRecognizer: UIGestureRecognizer) {
@@ -64,9 +60,7 @@ class MapViewController: UIViewController {
                 navigationController?.pushViewController(ClusterViewController(cluster: cluster), animated: true)
             }
         }
-        
     }
-    
 }
 
 extension MapViewController: MKMapViewDelegate {
@@ -81,5 +75,10 @@ extension MapViewController: MKMapViewDelegate {
         circle.lineWidth = 1
         return circle
      
+    }
+}
+
+extension MapViewController: UITabBarDelegate {
+    func tabBar(_ tabBar: UITabBar, didSelect item: UITabBarItem) {
     }
 }

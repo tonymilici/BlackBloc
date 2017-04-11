@@ -12,6 +12,8 @@ import MapKit
 
 class MapViewController: UIViewController {
     @IBOutlet weak var _mapView: MKMapView!
+    @IBOutlet weak var _tabBar: UITabBar!
+    
     private var _area: Area?
     private let _metersPerMile = 1609.344
     
@@ -49,6 +51,8 @@ class MapViewController: UIViewController {
 
         let tapRecognizer = UITapGestureRecognizer(target: self, action: #selector(self.handleTap(gestureRecognizer:)))
         mapView.addGestureRecognizer(tapRecognizer)
+        
+        _tabBar.selectedItem = _tabBar.items?[0]
     }
     
     func handleTap(gestureRecognizer: UIGestureRecognizer) {

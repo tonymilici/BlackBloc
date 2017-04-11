@@ -12,6 +12,7 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MapViewController" customModule="BoulderingGuides" customModuleProvider="target">
             <connections>
                 <outlet property="_mapView" destination="spE-kv-RE7" id="dIh-fQ-byI"/>
+                <outlet property="_tabBar" destination="LMT-Z2-9oH" id="rlb-ho-uh7"/>
                 <outlet property="view" destination="iN0-l3-epB" id="3TA-Ge-4uK"/>
             </connections>
         </placeholder>

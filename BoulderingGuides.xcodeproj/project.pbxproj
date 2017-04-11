@@ -36,6 +36,7 @@
 		BBEC0BF91E9D85C600FB1EE6 /* TabBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBEC0BF81E9D85C600FB1EE6 /* TabBar.xib */; };
 		BBEC0BFB1E9D8DB000FB1EE6 /* RoutesView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBEC0BFA1E9D8DB000FB1EE6 /* RoutesView.xib */; };
 		BBEC0BFD1E9D8DF400FB1EE6 /* RoutesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEC0BFC1E9D8DF400FB1EE6 /* RoutesViewController.swift */; };
+		BBEC0BFF1E9D90A100FB1EE6 /* AreaTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEC0BFE1E9D90A100FB1EE6 /* AreaTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,6 +92,7 @@
 		BBEC0BF81E9D85C600FB1EE6 /* TabBar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TabBar.xib; sourceTree = "<group>"; };
 		BBEC0BFA1E9D8DB000FB1EE6 /* RoutesView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RoutesView.xib; sourceTree = "<group>"; };
 		BBEC0BFC1E9D8DF400FB1EE6 /* RoutesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoutesViewController.swift; sourceTree = "<group>"; };
+		BBEC0BFE1E9D90A100FB1EE6 /* AreaTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AreaTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -175,9 +177,10 @@
 			children = (
 				BBBDD6B01E92F04E00FBC583 /* Info.plist */,
 				BBBDD6CF1E93062500FBC583 /* AreasTest.swift */,
+				BBEC0BFE1E9D90A100FB1EE6 /* AreaTest.swift */,
+				BBEC0BEF1E9D5C7600FB1EE6 /* BoulderViewControllerTest.swift */,
 				BBBDD6D91E969CB100FBC583 /* ClusterTest.swift */,
 				BBEC0BED1E9D567900FB1EE6 /* RouteTest.swift */,
-				BBEC0BEF1E9D5C7600FB1EE6 /* BoulderViewControllerTest.swift */,
 			);
 			path = BoulderingGuidesTests;
 			sourceTree = "<group>";
@@ -353,6 +356,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBEC0BFF1E9D90A100FB1EE6 /* AreaTest.swift in Sources */,
 				BBBDD6DA1E969CB100FBC583 /* ClusterTest.swift in Sources */,
 				BBEC0BEE1E9D567900FB1EE6 /* RouteTest.swift in Sources */,
 				BBEC0BF01E9D5C7600FB1EE6 /* BoulderViewControllerTest.swift in Sources */,

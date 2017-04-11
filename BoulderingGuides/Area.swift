@@ -22,4 +22,8 @@ public class Area {
     init(name: String) {
         self.name = name
     }
+    
+    public func getRoutes() -> [Route] {
+        return []
+    }
 }

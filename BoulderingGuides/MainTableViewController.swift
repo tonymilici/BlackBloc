@@ -46,10 +46,11 @@ class MainTableViewController: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let mapController = MapViewController(area: _areas.getArea(index: indexPath.row))
+        let area = _areas.getArea(index: indexPath.row)
+        let mapController = MapViewController(area: area)
         mapController.tabBarItem = UITabBarItem(title: "Navigate", image: nil, tag: 1)
         
-        let routesController = RoutesViewController()
+        let routesController = RoutesViewController(routes:area.getRoutes())
         routesController.tabBarItem = UITabBarItem(title: "Routes", image: nil, tag: 2)
         
         let tabController = TabBarController()

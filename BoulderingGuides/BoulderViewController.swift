@@ -30,7 +30,6 @@ public class BoulderViewController: UIViewController {
 }
 
 extension BoulderViewController: UITableViewDataSource, UITableViewDelegate {
-    
     public func numberOfSections(in tableView: UITableView) -> Int {
         return 1;
     }
@@ -40,17 +39,15 @@ extension BoulderViewController: UITableViewDataSource, UITableViewDelegate {
     }
     
     public func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        if let cell = tableView.dequeueReusableCell(withIdentifier: cellId) {
-            cell.textLabel?.text = _boulder?.routes[indexPath.row].name
+        let route = _boulder?.routes[indexPath.row]
+        if let cell = tableView.dequeueReusableCell(withIdentifier: cellId) as! RouteTableViewCell? {
+            if let r = route {
+                cell.setRoute(route: r)
+            }
             return cell
         }
-        let cell = UITableViewCell(style: .subtitle, reuseIdentifier: cellId)
-        if let route = _boulder?.routes[indexPath.row] {
-            cell.textLabel?.text = route.name
-            cell.detailTextLabel?.text = "\(route.rating!)  \(route.getStars())"
-        }
         
-        cell.accessoryType = UITableViewCellAccessoryType.disclosureIndicator
+        let cell = RouteTableViewCell(route: route, cellId: cellId)
         return cell
     }
 

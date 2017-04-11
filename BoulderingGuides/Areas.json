@@ -11,7 +11,7 @@
             "Size": 0.2,
             "Clusters":
             [
-             {
+                {
                 "Name": "Boulder 1 Area",
                 "CenterX": 34.2698,
                 "CenterY": -118.6056,
@@ -129,7 +129,14 @@
                         ]
                     }
                 ]
+             },
+             {
+                "Name": "Boulder 2/B1 Boulder area",
+                "CenterX": 34.2693,
+                "CenterY": -118.6037,
+                "Radius": 14
              }
+             
              ]
         },
         {

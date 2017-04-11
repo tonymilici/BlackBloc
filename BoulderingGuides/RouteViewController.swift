@@ -29,20 +29,9 @@ public class RouteViewController: UIViewController {
     }
     
     public override func viewDidLoad() {
-        descriptionTextView.text = _route?.description
-        ratingLabel.text = _route?.rating
-        
-        if (_route?.stars)! < 4 {
-            star4.isHidden = true
-        }
-        if (_route?.stars)! < 3 {
-            star3.isHidden = true
-        }
-        if (_route?.stars)! < 2 {
-            star2.isHidden = true
-        }
-        if (_route?.stars)! < 1 {
-            star2.isHidden = true
+        if let route = _route {
+            let text = "\(route.rating!)  \(route.getStars())\n\n\(route.description!)"
+            descriptionTextView.text = text
         }
     }
 }

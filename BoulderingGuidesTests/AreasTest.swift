@@ -29,7 +29,7 @@ class AreasTest: XCTestCase {
         let area = areas.getArea(index: 0)
         XCTAssertEqual(area.name, "Stoney Point")
         XCTAssertEqual(area.location?.latitude, 34.271)
-        XCTAssertEqual(area.clusters.count, 1)
+        XCTAssertTrue(area.clusters.count > 0)
         
         let cluster = area.clusters[0];
         XCTAssertEqual(cluster.name, "Boulder 1 Area")

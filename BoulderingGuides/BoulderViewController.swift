@@ -47,18 +47,7 @@ extension BoulderViewController: UITableViewDataSource, UITableViewDelegate {
         let cell = UITableViewCell(style: .subtitle, reuseIdentifier: cellId)
         if let route = _boulder?.routes[indexPath.row] {
             cell.textLabel?.text = route.name
-            let starChar = "\u{2605}"
-            var star = starChar
-            if route.stars > 1 {
-                star += starChar
-            }
-            if route.stars > 2 {
-                star += starChar
-            }
-            if route.stars > 3 {
-                star += starChar
-            }
-            cell.detailTextLabel?.text = "\(route.rating!)   \(star)"
+            cell.detailTextLabel?.text = "\(route.rating!)  \(route.getStars())"
         }
         
         cell.accessoryType = UITableViewCellAccessoryType.disclosureIndicator

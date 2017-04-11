@@ -21,16 +21,28 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="spE-kv-RE7">
-                    <rect key="frame" x="0.0" y="0.0" width="375" height="621"/>
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="623"/>
                 </mapView>
+                <tabBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LMT-Z2-9oH">
+                    <rect key="frame" x="0.0" y="623" width="375" height="44"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <items>
+                        <tabBarItem title="Navigate" id="RJ5-KZ-GdZ"/>
+                        <tabBarItem title="Routes" id="xiC-A4-ey1"/>
+                    </items>
+                </tabBar>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
+                <constraint firstItem="LMT-Z2-9oH" firstAttribute="top" secondItem="spE-kv-RE7" secondAttribute="bottom" id="1Xo-Ue-cb4"/>
+                <constraint firstAttribute="bottom" secondItem="LMT-Z2-9oH" secondAttribute="bottom" id="6S4-FV-fMd"/>
+                <constraint firstItem="LMT-Z2-9oH" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="8VT-af-2An"/>
                 <constraint firstAttribute="trailing" secondItem="spE-kv-RE7" secondAttribute="trailing" id="Dqs-b5-s0h"/>
                 <constraint firstItem="spE-kv-RE7" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="FoX-iD-eM2"/>
                 <constraint firstItem="spE-kv-RE7" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="XH2-kE-zjl"/>
+                <constraint firstAttribute="trailing" secondItem="LMT-Z2-9oH" secondAttribute="trailing" id="XTA-NI-EFY"/>
                 <constraint firstItem="spE-kv-RE7" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="un7-OE-482"/>
-                <constraint firstAttribute="bottom" secondItem="spE-kv-RE7" secondAttribute="bottom" constant="46" id="whC-RF-e7G"/>
+                <constraint firstAttribute="bottom" secondItem="spE-kv-RE7" secondAttribute="bottom" constant="44" id="whC-RF-e7G"/>
             </constraints>
             <point key="canvasLocation" x="33.5" y="54.5"/>
         </view>

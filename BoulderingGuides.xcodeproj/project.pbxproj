@@ -31,6 +31,7 @@
 		BBEC0BEC1E98178100FB1EE6 /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = BBEC0BEB1E98178100FB1EE6 /* star.png */; };
 		BBEC0BEE1E9D567900FB1EE6 /* RouteTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEC0BED1E9D567900FB1EE6 /* RouteTest.swift */; };
 		BBEC0BF01E9D5C7600FB1EE6 /* BoulderViewControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEC0BEF1E9D5C7600FB1EE6 /* BoulderViewControllerTest.swift */; };
+		BBEC0BF21E9D6DF900FB1EE6 /* navigate.png in Resources */ = {isa = PBXBuildFile; fileRef = BBEC0BF11E9D6DF900FB1EE6 /* navigate.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +82,7 @@
 		BBEC0BEB1E98178100FB1EE6 /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
 		BBEC0BED1E9D567900FB1EE6 /* RouteTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RouteTest.swift; sourceTree = "<group>"; };
 		BBEC0BEF1E9D5C7600FB1EE6 /* BoulderViewControllerTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoulderViewControllerTest.swift; sourceTree = "<group>"; };
+		BBEC0BF11E9D6DF900FB1EE6 /* navigate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navigate.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +133,7 @@
 		BBBDD6981E92F04E00FBC583 /* BoulderingGuides */ = {
 			isa = PBXGroup;
 			children = (
+				BBEC0BF11E9D6DF900FB1EE6 /* navigate.png */,
 				BBEC0BEB1E98178100FB1EE6 /* star.png */,
 				BBBDD6991E92F04E00FBC583 /* AppDelegate.swift */,
 				BBBDD6A01E92F04E00FBC583 /* Assets.xcassets */,
@@ -291,6 +294,7 @@
 				BBEC0BEC1E98178100FB1EE6 /* star.png in Resources */,
 				BBBDD6E21E97EFB800FBC583 /* BoulderView.xib in Resources */,
 				BBBDD6A11E92F04E00FBC583 /* Assets.xcassets in Resources */,
+				BBEC0BF21E9D6DF900FB1EE6 /* navigate.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

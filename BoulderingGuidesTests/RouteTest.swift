@@ -10,19 +10,8 @@ import XCTest
 @testable import BoulderingGuides
 
 class RouteTest: XCTestCase {
-    
-    override func setUp() {
-        super.setUp()
-        // Put setup code here. This method is called before the invocation of each test method in the class.
-    }
-    
-    override func tearDown() {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
-        super.tearDown()
-    }
-    
     func test_getStars() {
-        var route = Route(name: "name")
+        let route = Route(name: "name")
         XCTAssertEqual(route.getStars(), "")
         
         let stars1 = "\u{2605}"

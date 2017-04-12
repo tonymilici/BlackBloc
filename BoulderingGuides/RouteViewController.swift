@@ -10,12 +10,9 @@ import Foundation
 import UIKit
 
 public class RouteViewController: UIViewController {
-    @IBOutlet weak var star4: UIImageView!
-    @IBOutlet weak var star1: UIImageView!
-    @IBOutlet weak var star3: UIImageView!
-    @IBOutlet weak var star2: UIImageView!
-    @IBOutlet weak var ratingLabel: UILabel!
     @IBOutlet weak var descriptionTextView: UITextView!
+    @IBOutlet weak var _routeImageView: UIImageView!
+    
     private var _route: Route?
     
     public init(route: Route) {
@@ -32,6 +29,9 @@ public class RouteViewController: UIViewController {
         if let route = _route {
             let text = "\(route.rating!)  \(route.getStars())\n\n\(route.description!)"
             descriptionTextView.text = text
+            if let image = route.image {
+                _routeImageView.image = UIImage(named: image)
+            }
         }
     }
 }

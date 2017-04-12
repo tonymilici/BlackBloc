@@ -153,7 +153,24 @@
                     "Name": "Main Area",
                     "CenterX": 34.341,
                     "CenterY": -118.0165,
-                    "Radius": 30
+                    "Radius": 30,
+                    "Boulders":
+                    [
+                        {
+                            "Name": "Swiss Cheese Boulder",
+                            "Description": "The boulder right next to the trail with the overhanging huecoed downhill face.",
+                            "Routes":
+                            [
+                                {
+                                    "Name": "Swiss Cheese",
+                                    "Description": "Climb the overhanging huecoed face on the downhill side of the boulder. The original finish stays left, but it is slightly easier to finish right, although the landing is worse.",
+                                    "Rating": "V2",
+                                    "Stars": 3,
+                                    "Image": "Swiss Cheese.jpg"
+                                }
+                            ]
+                        }
+                    ]
                 }
             ]
         }

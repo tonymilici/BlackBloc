@@ -13,26 +13,23 @@ public class Route {
     public var description: String?
     public var rating: String?
     public var stars = -1
+    public var image: String?
     
     public init(name: String) {
         self.name = name
     }
     
     public func getStars() -> String {
-        let starChar = "\u{2605}"
         var star = ""
-        if stars > 0 {
+        if stars < 1 {
+            return star
+        }
+        
+        let starChar = "\u{2605}"
+        for _ in 1...stars {
             star += starChar
         }
-        if stars > 1 {
-            star += starChar
-        }
-        if stars > 2 {
-            star += starChar
-        }
-        if stars > 3 {
-            star += starChar
-        }
+
         return star
     }
 }

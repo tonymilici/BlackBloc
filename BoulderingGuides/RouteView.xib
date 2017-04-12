@@ -11,13 +11,14 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RouteViewController" customModule="BoulderingGuides" customModuleProvider="target">
             <connections>
+                <outlet property="_routeImageView" destination="Qw1-Kd-FBo" id="g1C-xn-VeI"/>
                 <outlet property="descriptionTextView" destination="Nol-Uo-XsL" id="lG7-lW-gtQ"/>
                 <outlet property="view" destination="iN0-l3-epB" id="Dcg-UJ-wDM"/>
             </connections>
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <view contentMode="scaleToFill" id="iN0-l3-epB">
-            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Nol-Uo-XsL">

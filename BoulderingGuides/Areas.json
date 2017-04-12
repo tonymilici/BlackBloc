@@ -143,10 +143,19 @@
             "Name":"Horse Flats",
             "Location":
             {
-                "Latitude": 34.3435,
-                "Longitude": -118.0051
+                "Latitude": 34.3416,
+                "Longitude": -118.016
             },
-            "Size": 1.0
+            "Size": 0.2,
+            "Clusters":
+            [
+                {
+                    "Name": "Main Area",
+                    "CenterX": 34.341,
+                    "CenterY": -118.0165,
+                    "Radius": 30
+                }
+            ]
         }
     ]
 }

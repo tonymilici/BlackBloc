@@ -17,27 +17,37 @@
             </connections>
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <view contentMode="scaleToFill" id="iN0-l3-epB">
+        <view contentMode="scaleToFill" misplaced="YES" id="iN0-l3-epB">
             <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Nol-Uo-XsL">
-                    <rect key="frame" x="0.0" y="0.0" width="375" height="174"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Nol-Uo-XsL">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="174"/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     <accessibility key="accessibilityConfiguration">
                         <accessibilityTraits key="traits" staticText="YES"/>
                     </accessibility>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="174" id="sxz-vn-WAU"/>
+                    </constraints>
                     <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                 </textView>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Qw1-Kd-FBo">
-                    <rect key="frame" x="0.0" y="182" width="375" height="485"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Qw1-Kd-FBo">
+                    <rect key="frame" x="0.0" y="182" width="600" height="418"/>
                 </imageView>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Nol-Uo-XsL" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="8Sq-ZK-rP8"/>
+                <constraint firstAttribute="trailing" secondItem="Nol-Uo-XsL" secondAttribute="trailing" id="8as-CQ-m5c"/>
+                <constraint firstItem="Nol-Uo-XsL" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="N6e-oo-hIK"/>
+                <constraint firstAttribute="trailing" secondItem="Qw1-Kd-FBo" secondAttribute="trailing" id="W4S-da-OrB"/>
+                <constraint firstItem="Qw1-Kd-FBo" firstAttribute="top" secondItem="Nol-Uo-XsL" secondAttribute="bottom" constant="8" id="b8P-3z-GnN"/>
+                <constraint firstItem="Qw1-Kd-FBo" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="e1J-kb-Xz5"/>
+                <constraint firstAttribute="bottom" secondItem="Qw1-Kd-FBo" secondAttribute="bottom" id="etD-Mo-P6E"/>
+            </constraints>
             <point key="canvasLocation" x="33.5" y="54.5"/>
         </view>
     </objects>

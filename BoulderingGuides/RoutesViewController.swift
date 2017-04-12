@@ -16,6 +16,7 @@ public class RoutesViewController: UITableViewController {
     public init(routes: [Route]) {
         super.init(nibName: "RoutesView", bundle: nil)
         _routes = routes
+
     }
     
     required public init?(coder aDecoder: NSCoder) {

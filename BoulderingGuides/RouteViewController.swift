@@ -19,6 +19,7 @@ public class RouteViewController: UIViewController {
         super.init(nibName: "RouteView", bundle: nil)
         _route = route
         title = route.name
+        navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Navigate", style: .plain, target: self, action: nil)
     }
     
     required public init?(coder aDecoder: NSCoder) {

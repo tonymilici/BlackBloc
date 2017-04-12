@@ -42,4 +42,10 @@ public class RoutesViewController: UITableViewController {
         let cell = RouteTableViewCell(route: route, cellId: cellId)
         return cell
     }
+    
+    override public func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let route = _routes?[indexPath.row]
+        let routeViewController = RouteViewController(route: route!)
+        navigationController?.pushViewController(routeViewController, animated: true)
+    }
 }

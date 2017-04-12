@@ -16,6 +16,8 @@ public class RouteTableViewCell: UITableViewCell {
         if let r = route {
             setRoute(route: r)
         }
+        
+        accessoryType = UITableViewCellAccessoryType.disclosureIndicator
     }
     
     required public init?(coder aDecoder: NSCoder) {

@@ -36,8 +36,18 @@ public class ClusterViewController: UITableViewController {
             cell.textLabel?.text = _boulders?[indexPath.row].name
             return cell
         }
-        let cell = UITableViewCell()
+        let cell = UITableViewCell(style: .subtitle, reuseIdentifier: "cellId")
         cell.textLabel?.text = _boulders?[indexPath.row].name
+        
+        var detailText = "0 routes"
+        if let rts = _boulders?[indexPath.row].routes {
+            detailText = "\(rts.count) route"
+            if rts.count > 1 {
+                detailText += "s"
+            }
+        }
+        cell.detailTextLabel?.text = detailText
+        
         cell.accessoryType = UITableViewCellAccessoryType.disclosureIndicator
         return cell
     }

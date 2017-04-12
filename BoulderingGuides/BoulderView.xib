@@ -12,6 +12,7 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BoulderViewController" customModule="BoulderingGuides" customModuleProvider="target">
             <connections>
                 <outlet property="_descriptionView" destination="qlO-8J-ZMl" id="rq3-lM-hxd"/>
+                <outlet property="imageView" destination="PUA-Tw-Ggp" id="M3g-ng-f38"/>
                 <outlet property="view" destination="iN0-l3-epB" id="R81-R2-Iaa"/>
             </connections>
         </placeholder>

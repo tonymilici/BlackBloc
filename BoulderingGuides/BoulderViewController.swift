@@ -10,6 +10,7 @@ import Foundation
 import UIKit
 
 public class BoulderViewController: UIViewController {
+    @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var _descriptionView: UITextView!
     fileprivate var _boulder: Boulder?
     let cellId = "RouteCell"
@@ -26,6 +27,9 @@ public class BoulderViewController: UIViewController {
     
     public override func viewDidLoad() {
         _descriptionView.text = _boulder?.description
+        if let image = _boulder?.image {
+            imageView.image = UIImage(named: image)
+        }
     }
 }
 

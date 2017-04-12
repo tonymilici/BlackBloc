@@ -74,11 +74,12 @@ public class Areas {
             let boulderDict = boulderObj as! Dictionary<String, Any>
             let boulderName = boulderDict["Name"] as! String
             let boulder = Boulder(name: boulderName)
-            boulder.description = boulderDict["Description"] as? String
+            boulder.description = boulderDict["Description"] as! String?
             cluster.boulders.append(boulder)
             if let routeObjs = boulderDict["Routes"] as! [Any]? {
                 parseRoutes(routeObjs: routeObjs, boulder: boulder)
             }
+            boulder.image = boulderDict["Image"] as! String?
         }
     }
     

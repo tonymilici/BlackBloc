@@ -18,6 +18,7 @@ class MapViewController: UIViewController {
     public init(area: Area) {
         super.init(nibName: "MapView", bundle: nil)
         _area = area
+        title = _area?.name
     }
     
     required init?(coder aDecoder: NSCoder) {
@@ -32,6 +33,7 @@ class MapViewController: UIViewController {
     
     public override func viewDidLoad() {
         super.viewDidLoad()
+        
         edgesForExtendedLayout = []
 
         mapView.delegate = self

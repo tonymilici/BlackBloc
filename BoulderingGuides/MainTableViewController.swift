@@ -9,12 +9,13 @@
 import Foundation
 import UIKit
 
-class MainTableViewController: UITableViewController {
+class MainTableViewController: UIViewController {
+    @IBOutlet var tableView: UITableView!
     let _areas = Areas()
     let cellId = "AreaCell"
     
     init() {
-        super.init(style: UITableViewStyle.plain)
+        super.init(nibName: "MainTableView", bundle: nil)
     }
     
     required init?(coder aDecoder: NSCoder) {
@@ -23,18 +24,22 @@ class MainTableViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        tableView.dataSource = self
+        tableView.delegate = self
         tableView.reloadData()
     }
-    
-    override func numberOfSections(in tableView: UITableView) -> Int {
+}
+
+extension MainTableViewController: UITableViewDataSource {
+    func numberOfSections(in tableView: UITableView) -> Int {
         return 1;
     }
     
-    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return _areas.count()
     }
     
-   override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+   func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         if let cell = tableView.dequeueReusableCell(withIdentifier: cellId) {
             cell.textLabel?.text = _areas.getArea(index: indexPath.row).name
             return cell
@@ -44,8 +49,10 @@ class MainTableViewController: UITableViewController {
         cell.accessoryType = UITableViewCellAccessoryType.disclosureIndicator
         return cell
     }
-    
-    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+}
+
+extension MainTableViewController: UITableViewDelegate {
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let area = _areas.getArea(index: indexPath.row)
         let mapController = MapViewController(area: area)
         mapController.tabBarItem = UITabBarItem(title: "Navigate", image: nil, tag: 1)

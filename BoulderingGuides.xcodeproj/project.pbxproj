@@ -12,6 +12,7 @@
 		BBA3C8671E9E9EF70037ED09 /* Unknown1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BBA3C8661E9E9EF70037ED09 /* Unknown1.jpg */; };
 		BBA3C8691E9EA2A40037ED09 /* Unknown2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BBA3C8681E9EA2A40037ED09 /* Unknown2.jpg */; };
 		BBA3C86B1E9EDC4F0037ED09 /* The Falcon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BBA3C86A1E9EDC4F0037ED09 /* The Falcon.jpg */; };
+		BBA3C86D1E9EE37C0037ED09 /* MainTableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBA3C86C1E9EE37C0037ED09 /* MainTableView.xib */; };
 		BBBDD69A1E92F04E00FBC583 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBDD6991E92F04E00FBC583 /* AppDelegate.swift */; };
 		BBBDD6A11E92F04E00FBC583 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBBDD6A01E92F04E00FBC583 /* Assets.xcassets */; };
 		BBBDD6A41E92F04E00FBC583 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBBDD6A21E92F04E00FBC583 /* LaunchScreen.storyboard */; };
@@ -67,6 +68,7 @@
 		BBA3C8661E9E9EF70037ED09 /* Unknown1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Unknown1.jpg; path = Photos/Unknown1.jpg; sourceTree = "<group>"; };
 		BBA3C8681E9EA2A40037ED09 /* Unknown2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Unknown2.jpg; path = Photos/Unknown2.jpg; sourceTree = "<group>"; };
 		BBA3C86A1E9EDC4F0037ED09 /* The Falcon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "The Falcon.jpg"; path = "Photos/The Falcon.jpg"; sourceTree = "<group>"; };
+		BBA3C86C1E9EE37C0037ED09 /* MainTableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainTableView.xib; sourceTree = "<group>"; };
 		BBBDD6961E92F04E00FBC583 /* BoulderingGuides.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BoulderingGuides.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBBDD6991E92F04E00FBC583 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BBBDD6A01E92F04E00FBC583 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -137,6 +139,7 @@
 				BBBDD6E31E97EFD700FBC583 /* BoulderViewController.swift */,
 				BBBDD6DB1E96C86500FBC583 /* ClusterView.xib */,
 				BBBDD6DD1E96C89100FBC583 /* ClusterViewController.swift */,
+				BBA3C86C1E9EE37C0037ED09 /* MainTableView.xib */,
 				BBBDD6C91E92F7AA00FBC583 /* MainTableViewController.swift */,
 				BBBDD6D31E953FC100FBC583 /* MapView.xib */,
 				BBBDD6D51E95401300FBC583 /* MapViewController.swift */,
@@ -358,6 +361,7 @@
 				BBEC0BF91E9D85C600FB1EE6 /* TabBar.xib in Resources */,
 				BBA3C8671E9E9EF70037ED09 /* Unknown1.jpg in Resources */,
 				BBBDD6D41E953FC100FBC583 /* MapView.xib in Resources */,
+				BBA3C86D1E9EE37C0037ED09 /* MainTableView.xib in Resources */,
 				BBBDD6CC1E92F85300FBC583 /* Areas.json in Resources */,
 				BBEC0BEC1E98178100FB1EE6 /* star.png in Resources */,
 				BBBDD6E21E97EFB800FBC583 /* BoulderView.xib in Resources */,

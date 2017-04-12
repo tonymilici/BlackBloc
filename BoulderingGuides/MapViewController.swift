@@ -18,7 +18,6 @@ class MapViewController: UIViewController {
     public init(area: Area) {
         super.init(nibName: "MapView", bundle: nil)
         _area = area
-        title = _area?.name
     }
     
     required init?(coder aDecoder: NSCoder) {

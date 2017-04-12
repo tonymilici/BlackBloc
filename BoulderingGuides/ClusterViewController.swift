@@ -41,9 +41,14 @@ public class ClusterViewController: UITableViewController {
         
         var detailText = "0 routes"
         if let rts = _boulders?[indexPath.row].routes {
-            detailText = "\(rts.count) route"
-            if rts.count > 1 {
-                detailText += "s"
+            if rts.count == 0 {
+                detailText = "0 routes"
+            }
+            else if rts.count == 1 {
+                detailText = "1 route"
+            }
+            else {
+                detailText = "\(rts.count) routes"
             }
         }
         cell.detailTextLabel?.text = detailText

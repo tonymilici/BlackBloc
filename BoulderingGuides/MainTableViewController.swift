@@ -62,6 +62,7 @@ extension MainTableViewController: UITableViewDelegate {
         
         let tabController = TabBarController()
         tabController.viewControllers = [mapController, routesController]
+        tabController.title = area.name
         
         navigationController?.pushViewController(tabController, animated: true)
     }

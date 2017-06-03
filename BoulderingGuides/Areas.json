@@ -137,7 +137,7 @@
                 "Radius": 14
              }
              
-             ]
+        ]
         },
         {
             "Name":"Horse Flats",
@@ -149,6 +149,28 @@
             "Size": 0.2,
             "Clusters":
             [
+                {
+                    "Name": "Romeo Void Area",
+                    "CenterX": 34.33906,
+                    "CenterY": -118.01288,
+                    "Radius": 20,
+                    "Boulders":
+                    [
+                     {
+                        "Name": "Romeo Void",
+                        "Description": "A large clump of boulders about 30 yards south of the trail. You see an obvoius crack/chute when approaching it.",
+                        "Routes":
+                        [
+                            {
+                                "Name": "Mr. Ed",
+                                "Description": "Climb the lieback crack on the north face. Often toproped.",
+                                "Rating": "5.8",
+                                "Stars": 2
+                            }
+                        ]
+                     }
+                    ]
+                },
                 {
                     "Name": "Main Area",
                     "CenterX": 34.341,
@@ -272,7 +294,7 @@
                             [
                                 {
                                     "Name": "Barndoor Arete",
-                                    "Description": "The obvious arete",
+                                    "Description": "Ascend the obvious technical arete to better holds",
                                     "Rating": "V2",
                                     "Stars": 3,
                                     "Image": "Barndoor Arete.jpg"
@@ -287,7 +309,7 @@
                             [
                                 {
                                     "Name": "Sword of Damocles",
-                                    "Description": "The improbable-looking tall arete on the right side of the downhill face",
+                                    "Description": "Climb the improbable-looking tall arete on the right side of the downhill face. One of the best problems in Southern California.",
                                     "Rating": "V7",
                                     "Stars": 4,
                                     "Image": "Sword of Damocles.jpg"
@@ -314,6 +336,42 @@
                                     "Image": "Zacks Roof.jpg"
                                 }
                             ]
+                        },
+                        {
+                            "Name": "Victor Boulder",
+                            "Description": "A boulder between the B1 Boulder and The Great Curve with a steep clab facing the trail.",
+                            "Routes":
+                            [
+                                {
+                                    "Name": "Arete",
+                                    "Description": "Climb the chunky arete on the downhill side of the boulder. Bad landing.",
+                                    "Rating": "V0",
+                                    "Stars": 1
+                                },
+                                {
+                                    "Name": "Slab",
+                                    "Description": "Climb the slab without using the arete, slightly harder to the left.",
+                                    "Rating": "V1",
+                                    "Stars": 2,
+                                    "Image": "Victor Boulder.jpg"
+                                }
+                            ],
+                            "Image": "Victor Boulder.jpg"
+                        },
+                        {
+                            "Name": "Great Curve Boulder",
+                            "Description": "The big boulder with a blunt arete on the left, about 30 yards left of the B1 boulder.",
+                            "Routes":
+                            [
+                                {
+                                    "Name": "The Great Curve",
+                                    "Description": "Jump start to a pinch on the blunt left arete, and climb the arete to a sketchy top out.",
+                                    "Rating": "V6",
+                                    "Stars": 3,
+                                    "Image": "The Great Curve.jpg"
+                                }
+                            ],
+                            "Image": "The Great Curve.jpg"
                         }
                     ]
                 }

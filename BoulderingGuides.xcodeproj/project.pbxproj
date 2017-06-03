@@ -344,6 +344,7 @@
 					};
 					BBBDD6A91E92F04E00FBC583 = {
 						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = CHA2LYGQ69;
 						ProvisioningStyle = Automatic;
 						TestTargetID = BBBDD6951E92F04E00FBC583;
 					};
@@ -618,6 +619,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = CHA2LYGQ69;
 				INFOPLIST_FILE = BoulderingGuidesTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = imortal.BoulderingGuidesTests;
@@ -632,6 +634,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = CHA2LYGQ69;
 				INFOPLIST_FILE = BoulderingGuidesTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = imortal.BoulderingGuidesTests;

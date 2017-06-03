@@ -19,7 +19,7 @@ public class RouteViewController: UIViewController {
         super.init(nibName: "RouteView", bundle: nil)
         _route = route
         title = route.name
-        navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Navigate", style: .plain, target: self, action: nil)
+        navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Navigate", style: .plain, target: self, action: #selector(self.navigate(sender:)))
     }
     
     required public init?(coder aDecoder: NSCoder) {
@@ -34,5 +34,11 @@ public class RouteViewController: UIViewController {
                 _routeImageView.image = UIImage(named: image)
             }
         }
+    }
+    
+    @objc
+    private func navigate(sender: NSObject) {
+        let map = RouteMapViewController(location: (_route?.location)!)
+        self.present(map, animated: true, completion: nil)
     }
 }

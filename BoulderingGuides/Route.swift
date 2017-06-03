@@ -14,6 +14,7 @@ public class Route {
     public var rating: String?
     public var stars = -1
     public var image: String?
+    public var location: Location?
     
     public init(name: String) {
         self.name = name

@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BB1B79011EE300B7009AF545 /* RouteMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1B79001EE300B7009AF545 /* RouteMapViewController.swift */; };
 		BBA3C85F1E9D9B760037ED09 /* RouteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA3C85E1E9D9B760037ED09 /* RouteTableViewCell.swift */; };
 		BBA3C8641E9E7BAA0037ED09 /* Swiss Cheese.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BBA3C8631E9E7BAA0037ED09 /* Swiss Cheese.jpg */; };
 		BBA3C8671E9E9EF70037ED09 /* Unknown1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BBA3C8661E9E9EF70037ED09 /* Unknown1.jpg */; };
 		BBA3C8691E9EA2A40037ED09 /* Unknown2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BBA3C8681E9EA2A40037ED09 /* Unknown2.jpg */; };
 		BBA3C86B1E9EDC4F0037ED09 /* The Falcon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BBA3C86A1E9EDC4F0037ED09 /* The Falcon.jpg */; };
 		BBA3C86D1E9EE37C0037ED09 /* MainTableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBA3C86C1E9EE37C0037ED09 /* MainTableView.xib */; };
+		BBA3C86F1E9EE8B50037ED09 /* Eriksson Problem.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BBA3C86E1E9EE8B50037ED09 /* Eriksson Problem.jpg */; };
 		BBBDD69A1E92F04E00FBC583 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBDD6991E92F04E00FBC583 /* AppDelegate.swift */; };
 		BBBDD6A11E92F04E00FBC583 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBBDD6A01E92F04E00FBC583 /* Assets.xcassets */; };
 		BBBDD6A41E92F04E00FBC583 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBBDD6A21E92F04E00FBC583 /* LaunchScreen.storyboard */; };
@@ -63,12 +65,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BB1B79001EE300B7009AF545 /* RouteMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RouteMapViewController.swift; sourceTree = "<group>"; };
 		BBA3C85E1E9D9B760037ED09 /* RouteTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RouteTableViewCell.swift; sourceTree = "<group>"; };
 		BBA3C8631E9E7BAA0037ED09 /* Swiss Cheese.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Swiss Cheese.jpg"; path = "Photos/Swiss Cheese.jpg"; sourceTree = "<group>"; };
 		BBA3C8661E9E9EF70037ED09 /* Unknown1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Unknown1.jpg; path = Photos/Unknown1.jpg; sourceTree = "<group>"; };
 		BBA3C8681E9EA2A40037ED09 /* Unknown2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Unknown2.jpg; path = Photos/Unknown2.jpg; sourceTree = "<group>"; };
 		BBA3C86A1E9EDC4F0037ED09 /* The Falcon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "The Falcon.jpg"; path = "Photos/The Falcon.jpg"; sourceTree = "<group>"; };
 		BBA3C86C1E9EE37C0037ED09 /* MainTableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainTableView.xib; sourceTree = "<group>"; };
+		BBA3C86E1E9EE8B50037ED09 /* Eriksson Problem.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Eriksson Problem.jpg"; path = "Photos/Eriksson Problem.jpg"; sourceTree = "<group>"; };
 		BBBDD6961E92F04E00FBC583 /* BoulderingGuides.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BoulderingGuides.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBBDD6991E92F04E00FBC583 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BBBDD6A01E92F04E00FBC583 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -149,6 +153,7 @@
 				BBEC0BE91E980E1400FB1EE6 /* RouteViewController.swift */,
 				BBEC0BF81E9D85C600FB1EE6 /* TabBar.xib */,
 				BBEC0BF61E9D856600FB1EE6 /* TabBarController.swift */,
+				BB1B79001EE300B7009AF545 /* RouteMapViewController.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -176,6 +181,7 @@
 		BBA3C8651E9E7BBF0037ED09 /* Photos */ = {
 			isa = PBXGroup;
 			children = (
+				BBA3C86E1E9EE8B50037ED09 /* Eriksson Problem.jpg */,
 				BBA3C86A1E9EDC4F0037ED09 /* The Falcon.jpg */,
 				BBA3C8681E9EA2A40037ED09 /* Unknown2.jpg */,
 				BBA3C8661E9E9EF70037ED09 /* Unknown1.jpg */,
@@ -312,6 +318,7 @@
 				TargetAttributes = {
 					BBBDD6951E92F04E00FBC583 = {
 						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = CHA2LYGQ69;
 						ProvisioningStyle = Automatic;
 					};
 					BBBDD6A91E92F04E00FBC583 = {
@@ -354,6 +361,7 @@
 				BBEC0BE81E980DF400FB1EE6 /* RouteView.xib in Resources */,
 				BBA3C86B1E9EDC4F0037ED09 /* The Falcon.jpg in Resources */,
 				BBA3C8641E9E7BAA0037ED09 /* Swiss Cheese.jpg in Resources */,
+				BBA3C86F1E9EE8B50037ED09 /* Eriksson Problem.jpg in Resources */,
 				BBBDD6DC1E96C86500FBC583 /* ClusterView.xib in Resources */,
 				BBA3C8691E9EA2A40037ED09 /* Unknown2.jpg in Resources */,
 				BBEC0BFB1E9D8DB000FB1EE6 /* RoutesView.xib in Resources */,
@@ -395,6 +403,7 @@
 				BBBDD6CA1E92F7AA00FBC583 /* MainTableViewController.swift in Sources */,
 				BBEC0BEA1E980E1400FB1EE6 /* RouteViewController.swift in Sources */,
 				BBBDD6D21E94053400FBC583 /* Area.swift in Sources */,
+				BB1B79011EE300B7009AF545 /* RouteMapViewController.swift in Sources */,
 				BBBDD6E61E97F6FC00FBC583 /* Route.swift in Sources */,
 				BBBDD6D61E95401300FBC583 /* MapViewController.swift in Sources */,
 				BBBDD69A1E92F04E00FBC583 /* AppDelegate.swift in Sources */,
@@ -552,7 +561,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CHA2LYGQ69;
 				INFOPLIST_FILE = BoulderingGuides/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = imortal.BoulderingGuides;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -564,7 +575,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CHA2LYGQ69;
 				INFOPLIST_FILE = BoulderingGuides/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = imortal.BoulderingGuides;
 				PRODUCT_NAME = "$(TARGET_NAME)";

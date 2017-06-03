@@ -91,6 +91,11 @@ public class Areas {
             route.rating = routeDict["Rating"] as! String?
             route.stars = routeDict["Stars"] as! Int
             route.image = routeDict["Image"] as! String?
+            if let locDict = routeDict["Location"] as! Dictionary<String, Double>? {
+                let latitude = locDict["Latitude"] as Double?
+                let longitude = locDict["Longitude"] as Double?
+                route.location = Location(latitude: latitude!, longitude: longitude!)
+            }
             boulder.routes.append(route)
         }
     }

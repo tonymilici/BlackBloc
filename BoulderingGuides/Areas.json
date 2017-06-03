@@ -171,6 +171,21 @@
                             ]
                         },
                         {
+                            "Name": "Eriksson Boulder",
+                            "Description": "Across form the Sword of Damocles Boulder",
+                            "Routes":
+                            [
+                                {
+                                    "Name": "Eriksson Problem",
+                                    "Description": "Climb crystals and tiny crimps up the tallish face facing Sword of Damocles.",
+                                    "Rating": "V6",
+                                    "Stars": 3,
+                                    "Image": "Eriksson Problem.jpg"
+                                }
+                            ],
+                            "Image": "Eriksson Problem.jpg"
+                        },
+                        {
                             "Name": "Swiss Cheese Boulder",
                             "Description": "The boulder right next to the trail with the overhanging huecoed downhill face.",
                             "Routes":
@@ -220,7 +235,12 @@
                                     "Description": "Start on low rail, heel-hook and go for a hold out right, reach up for the sidepull and try to top out. Short but burly",
                                     "Rating": "V5",
                                     "Stars": 3,
-                                    "Image": "The Falcon.jpg"
+                                    "Image": "The Falcon.jpg",
+                                    "Location":
+                                    {
+                                        "Latitude": 34.3416,
+                                        "Longitude": -118.016
+                                    }
                                 }
                             ],
                             "Image": "The Falcon.jpg"

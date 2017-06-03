@@ -24,8 +24,6 @@ class AreaMapViewController: MapViewController {
 
     public override func viewDidLoad() {
         super.viewDidLoad()
-        
-        edgesForExtendedLayout = []
 
         mapView.delegate = self
         

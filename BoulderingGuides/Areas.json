@@ -144,11 +144,33 @@
             "Location":
             {
                 "Latitude": 34.3416,
-                "Longitude": -118.016
+                "Longitude": -118.015
             },
-            "Size": 0.2,
+            "Size": 0.4,
             "Clusters":
             [
+                {
+                    "Name": "Teflon President Area",
+                    "CenterX": 34.34241,
+                    "CenterY": -118.0131,
+                    "Radius": 40,
+                    "Boulders":
+                    [
+                        {
+                            "Name": "Teflon President Boulder",
+                            "Description": "The big boulder with ther arete on the southwest side.",
+                            "Routes":
+                            [
+                                {
+                                    "Name": "Teflon President",
+                                    "Description": "Climb the right arete.",
+                                    "Rating": "V5",
+                                    "Stars": 3
+                                }
+                            ]
+                        }
+                    ]
+                },
                 {
                     "Name": "Romeo Void Area",
                     "CenterX": 34.33906,

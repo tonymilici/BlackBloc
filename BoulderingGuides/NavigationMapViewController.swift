@@ -37,25 +37,8 @@ class NavigationMapViewController: MapViewController {
     public override func viewDidLoad() {
         super.viewDidLoad()
         
-        mapView.delegate = self
-        
         let ann = Annotation(location: _location!, title: name!)
         self.mapView.addAnnotation(ann as MKAnnotation)
     }
-}
-
-extension NavigationMapViewController: MKMapViewDelegate {
-  /*  func mapView(_ mapView: MKMapView, rendererFor overlay: MKOverlay) -> MKOverlayRenderer {
-        let ov = overlay as? MKCircle
-        print("circle. center: \(overlay.coordinate)")
-        print("circle. radius: \(String(describing: ov?.radius))")
-        let circle = MKCircleRenderer(overlay: overlay)
-        circle.fillColor = UIColor.blue
-        circle.strokeColor = UIColor.blue
-        circle.alpha = 0.3
-        circle.lineWidth = 1
-        return circle
-        
-    }*/
 }
 

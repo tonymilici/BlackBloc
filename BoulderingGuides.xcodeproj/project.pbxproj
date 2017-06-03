@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BB1B79011EE300B7009AF545 /* NavigationMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1B79001EE300B7009AF545 /* NavigationMapViewController.swift */; };
-		BB1B79031EE3129B009AF545 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1B79021EE3129B009AF545 /* MapViewController.swift */; };
 		BB1B79051EE32F07009AF545 /* Thin Crack.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB1B79041EE32F07009AF545 /* Thin Crack.jpg */; };
 		BB1B79071EE330A3009AF545 /* Barndoor Arete.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB1B79061EE330A3009AF545 /* Barndoor Arete.jpg */; };
 		BB1B79091EE3341C009AF545 /* Sword of Damocles.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB1B79081EE3341C009AF545 /* Sword of Damocles.jpg */; };
@@ -19,30 +17,16 @@
 		BBA3C8671E9E9EF70037ED09 /* Unknown1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BBA3C8661E9E9EF70037ED09 /* Unknown1.jpg */; };
 		BBA3C8691E9EA2A40037ED09 /* Unknown2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BBA3C8681E9EA2A40037ED09 /* Unknown2.jpg */; };
 		BBA3C86B1E9EDC4F0037ED09 /* The Falcon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BBA3C86A1E9EDC4F0037ED09 /* The Falcon.jpg */; };
-		BBA3C86D1E9EE37C0037ED09 /* MainTableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBA3C86C1E9EE37C0037ED09 /* MainTableView.xib */; };
 		BBA3C86F1E9EE8B50037ED09 /* Eriksson Problem.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BBA3C86E1E9EE8B50037ED09 /* Eriksson Problem.jpg */; };
 		BBBDD69A1E92F04E00FBC583 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBDD6991E92F04E00FBC583 /* AppDelegate.swift */; };
 		BBBDD6A11E92F04E00FBC583 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBBDD6A01E92F04E00FBC583 /* Assets.xcassets */; };
 		BBBDD6A41E92F04E00FBC583 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBBDD6A21E92F04E00FBC583 /* LaunchScreen.storyboard */; };
 		BBBDD6BA1E92F04E00FBC583 /* BoulderingGuidesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBDD6B91E92F04E00FBC583 /* BoulderingGuidesUITests.swift */; };
-		BBBDD6CA1E92F7AA00FBC583 /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBDD6C91E92F7AA00FBC583 /* MainTableViewController.swift */; };
 		BBBDD6CC1E92F85300FBC583 /* Areas.json in Resources */ = {isa = PBXBuildFile; fileRef = BBBDD6CB1E92F85300FBC583 /* Areas.json */; };
 		BBBDD6D01E93062500FBC583 /* AreasTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBDD6CF1E93062500FBC583 /* AreasTest.swift */; };
-		BBBDD6D41E953FC100FBC583 /* MapView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBBDD6D31E953FC100FBC583 /* MapView.xib */; };
-		BBBDD6D61E95401300FBC583 /* AreaMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBDD6D51E95401300FBC583 /* AreaMapViewController.swift */; };
 		BBBDD6DA1E969CB100FBC583 /* ClusterTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBDD6D91E969CB100FBC583 /* ClusterTest.swift */; };
-		BBBDD6DC1E96C86500FBC583 /* ClusterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBBDD6DB1E96C86500FBC583 /* ClusterView.xib */; };
-		BBBDD6DE1E96C89100FBC583 /* ClusterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBDD6DD1E96C89100FBC583 /* ClusterViewController.swift */; };
-		BBBDD6E21E97EFB800FBC583 /* BoulderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBBDD6E11E97EFB800FBC583 /* BoulderView.xib */; };
-		BBBDD6E41E97EFD700FBC583 /* BoulderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBDD6E31E97EFD700FBC583 /* BoulderViewController.swift */; };
-		BBEC0BE81E980DF400FB1EE6 /* RouteView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBEC0BE71E980DF400FB1EE6 /* RouteView.xib */; };
-		BBEC0BEA1E980E1400FB1EE6 /* RouteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEC0BE91E980E1400FB1EE6 /* RouteViewController.swift */; };
 		BBEC0BEE1E9D567900FB1EE6 /* RouteTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEC0BED1E9D567900FB1EE6 /* RouteTest.swift */; };
 		BBEC0BF01E9D5C7600FB1EE6 /* BoulderViewControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEC0BEF1E9D5C7600FB1EE6 /* BoulderViewControllerTest.swift */; };
-		BBEC0BF71E9D856600FB1EE6 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEC0BF61E9D856600FB1EE6 /* TabBarController.swift */; };
-		BBEC0BF91E9D85C600FB1EE6 /* TabBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBEC0BF81E9D85C600FB1EE6 /* TabBar.xib */; };
-		BBEC0BFB1E9D8DB000FB1EE6 /* RoutesView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBEC0BFA1E9D8DB000FB1EE6 /* RoutesView.xib */; };
-		BBEC0BFD1E9D8DF400FB1EE6 /* RoutesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEC0BFC1E9D8DF400FB1EE6 /* RoutesViewController.swift */; };
 		BBEC0BFF1E9D90A100FB1EE6 /* AreaTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEC0BFE1E9D90A100FB1EE6 /* AreaTest.swift */; };
 		BBEF92BB1EE36F0F00E1781A /* Areas.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEF92BA1EE36F0F00E1781A /* Areas.swift */; };
 		BBEF92BD1EE36F5800E1781A /* Area.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEF92BC1EE36F5800E1781A /* Area.swift */; };
@@ -50,6 +34,22 @@
 		BBEF92C11EE36FA000E1781A /* Cluster.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEF92C01EE36FA000E1781A /* Cluster.swift */; };
 		BBEF92C31EE36FC100E1781A /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEF92C21EE36FC100E1781A /* Route.swift */; };
 		BBEF92C51EE36FFD00E1781A /* RouteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEF92C41EE36FFD00E1781A /* RouteTableViewCell.swift */; };
+		BBEF92C71EE370A300E1781A /* AreaMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEF92C61EE370A300E1781A /* AreaMapViewController.swift */; };
+		BBEF92C91EE370D200E1781A /* BoulderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBEF92C81EE370D200E1781A /* BoulderView.xib */; };
+		BBEF92CB1EE3710F00E1781A /* BoulderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEF92CA1EE3710F00E1781A /* BoulderViewController.swift */; };
+		BBEF92CD1EE3715A00E1781A /* ClusterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBEF92CC1EE3715A00E1781A /* ClusterView.xib */; };
+		BBEF92CF1EE3719200E1781A /* ClusterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEF92CE1EE3719200E1781A /* ClusterViewController.swift */; };
+		BBEF92D11EE371CC00E1781A /* MainTableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBEF92D01EE371CC00E1781A /* MainTableView.xib */; };
+		BBEF92D31EE371FE00E1781A /* MapView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBEF92D21EE371FE00E1781A /* MapView.xib */; };
+		BBEF92D51EE3720D00E1781A /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEF92D41EE3720D00E1781A /* MainTableViewController.swift */; };
+		BBEF92D71EE3724B00E1781A /* NavigationMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEF92D61EE3724B00E1781A /* NavigationMapViewController.swift */; };
+		BBEF92D91EE3726F00E1781A /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEF92D81EE3726F00E1781A /* MapViewController.swift */; };
+		BBEF92DD1EE372D400E1781A /* RoutesView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBEF92DC1EE372D400E1781A /* RoutesView.xib */; };
+		BBEF92DF1EE3730500E1781A /* RouteView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBEF92DE1EE3730500E1781A /* RouteView.xib */; };
+		BBEF92E11EE3737100E1781A /* RoutesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEF92E01EE3737100E1781A /* RoutesViewController.swift */; };
+		BBEF92E31EE373D300E1781A /* RouteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEF92E21EE373D300E1781A /* RouteViewController.swift */; };
+		BBEF92E51EE3740200E1781A /* TabBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBEF92E41EE3740200E1781A /* TabBar.xib */; };
+		BBEF92E71EE3743F00E1781A /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEF92E61EE3743F00E1781A /* TabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,8 +70,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		BB1B79001EE300B7009AF545 /* NavigationMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationMapViewController.swift; sourceTree = "<group>"; };
-		BB1B79021EE3129B009AF545 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		BB1B79041EE32F07009AF545 /* Thin Crack.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Thin Crack.jpg"; path = "Photos/Thin Crack.jpg"; sourceTree = "<group>"; };
 		BB1B79061EE330A3009AF545 /* Barndoor Arete.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Barndoor Arete.jpg"; path = "Photos/Barndoor Arete.jpg"; sourceTree = "<group>"; };
 		BB1B79081EE3341C009AF545 /* Sword of Damocles.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Sword of Damocles.jpg"; path = "Photos/Sword of Damocles.jpg"; sourceTree = "<group>"; };
@@ -82,7 +80,6 @@
 		BBA3C8661E9E9EF70037ED09 /* Unknown1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Unknown1.jpg; path = Photos/Unknown1.jpg; sourceTree = "<group>"; };
 		BBA3C8681E9EA2A40037ED09 /* Unknown2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Unknown2.jpg; path = Photos/Unknown2.jpg; sourceTree = "<group>"; };
 		BBA3C86A1E9EDC4F0037ED09 /* The Falcon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "The Falcon.jpg"; path = "Photos/The Falcon.jpg"; sourceTree = "<group>"; };
-		BBA3C86C1E9EE37C0037ED09 /* MainTableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainTableView.xib; sourceTree = "<group>"; };
 		BBA3C86E1E9EE8B50037ED09 /* Eriksson Problem.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Eriksson Problem.jpg"; path = "Photos/Eriksson Problem.jpg"; sourceTree = "<group>"; };
 		BBBDD6961E92F04E00FBC583 /* BoulderingGuides.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BoulderingGuides.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBBDD6991E92F04E00FBC583 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -94,24 +91,11 @@
 		BBBDD6B51E92F04E00FBC583 /* BoulderingGuidesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BoulderingGuidesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBBDD6B91E92F04E00FBC583 /* BoulderingGuidesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoulderingGuidesUITests.swift; sourceTree = "<group>"; };
 		BBBDD6BB1E92F04E00FBC583 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BBBDD6C91E92F7AA00FBC583 /* MainTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
 		BBBDD6CB1E92F85300FBC583 /* Areas.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Areas.json; sourceTree = "<group>"; };
 		BBBDD6CF1E93062500FBC583 /* AreasTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AreasTest.swift; sourceTree = "<group>"; };
-		BBBDD6D31E953FC100FBC583 /* MapView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MapView.xib; sourceTree = "<group>"; };
-		BBBDD6D51E95401300FBC583 /* AreaMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AreaMapViewController.swift; sourceTree = "<group>"; };
 		BBBDD6D91E969CB100FBC583 /* ClusterTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClusterTest.swift; sourceTree = "<group>"; };
-		BBBDD6DB1E96C86500FBC583 /* ClusterView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ClusterView.xib; sourceTree = "<group>"; };
-		BBBDD6DD1E96C89100FBC583 /* ClusterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClusterViewController.swift; sourceTree = "<group>"; };
-		BBBDD6E11E97EFB800FBC583 /* BoulderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BoulderView.xib; sourceTree = "<group>"; };
-		BBBDD6E31E97EFD700FBC583 /* BoulderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoulderViewController.swift; sourceTree = "<group>"; };
-		BBEC0BE71E980DF400FB1EE6 /* RouteView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RouteView.xib; sourceTree = "<group>"; };
-		BBEC0BE91E980E1400FB1EE6 /* RouteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RouteViewController.swift; sourceTree = "<group>"; };
 		BBEC0BED1E9D567900FB1EE6 /* RouteTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RouteTest.swift; sourceTree = "<group>"; };
 		BBEC0BEF1E9D5C7600FB1EE6 /* BoulderViewControllerTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoulderViewControllerTest.swift; sourceTree = "<group>"; };
-		BBEC0BF61E9D856600FB1EE6 /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
-		BBEC0BF81E9D85C600FB1EE6 /* TabBar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TabBar.xib; sourceTree = "<group>"; };
-		BBEC0BFA1E9D8DB000FB1EE6 /* RoutesView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RoutesView.xib; sourceTree = "<group>"; };
-		BBEC0BFC1E9D8DF400FB1EE6 /* RoutesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoutesViewController.swift; sourceTree = "<group>"; };
 		BBEC0BFE1E9D90A100FB1EE6 /* AreaTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AreaTest.swift; sourceTree = "<group>"; };
 		BBEF92BA1EE36F0F00E1781A /* Areas.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Areas.swift; path = Models/Areas.swift; sourceTree = "<group>"; };
 		BBEF92BC1EE36F5800E1781A /* Area.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Area.swift; path = Models/Area.swift; sourceTree = "<group>"; };
@@ -119,6 +103,22 @@
 		BBEF92C01EE36FA000E1781A /* Cluster.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Cluster.swift; path = Models/Cluster.swift; sourceTree = "<group>"; };
 		BBEF92C21EE36FC100E1781A /* Route.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Route.swift; path = Models/Route.swift; sourceTree = "<group>"; };
 		BBEF92C41EE36FFD00E1781A /* RouteTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RouteTableViewCell.swift; path = Views/RouteTableViewCell.swift; sourceTree = "<group>"; };
+		BBEF92C61EE370A300E1781A /* AreaMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AreaMapViewController.swift; path = Controllers/AreaMapViewController.swift; sourceTree = "<group>"; };
+		BBEF92C81EE370D200E1781A /* BoulderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = BoulderView.xib; path = Controllers/BoulderView.xib; sourceTree = "<group>"; };
+		BBEF92CA1EE3710F00E1781A /* BoulderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BoulderViewController.swift; path = Controllers/BoulderViewController.swift; sourceTree = "<group>"; };
+		BBEF92CC1EE3715A00E1781A /* ClusterView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ClusterView.xib; path = Controllers/ClusterView.xib; sourceTree = "<group>"; };
+		BBEF92CE1EE3719200E1781A /* ClusterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ClusterViewController.swift; path = Controllers/ClusterViewController.swift; sourceTree = "<group>"; };
+		BBEF92D01EE371CC00E1781A /* MainTableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MainTableView.xib; path = Controllers/MainTableView.xib; sourceTree = "<group>"; };
+		BBEF92D21EE371FE00E1781A /* MapView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MapView.xib; path = Controllers/MapView.xib; sourceTree = "<group>"; };
+		BBEF92D41EE3720D00E1781A /* MainTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainTableViewController.swift; path = Controllers/MainTableViewController.swift; sourceTree = "<group>"; };
+		BBEF92D61EE3724B00E1781A /* NavigationMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NavigationMapViewController.swift; path = Controllers/NavigationMapViewController.swift; sourceTree = "<group>"; };
+		BBEF92D81EE3726F00E1781A /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MapViewController.swift; path = Controllers/MapViewController.swift; sourceTree = "<group>"; };
+		BBEF92DC1EE372D400E1781A /* RoutesView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = RoutesView.xib; path = Controllers/RoutesView.xib; sourceTree = "<group>"; };
+		BBEF92DE1EE3730500E1781A /* RouteView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = RouteView.xib; path = Controllers/RouteView.xib; sourceTree = "<group>"; };
+		BBEF92E01EE3737100E1781A /* RoutesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RoutesViewController.swift; path = Controllers/RoutesViewController.swift; sourceTree = "<group>"; };
+		BBEF92E21EE373D300E1781A /* RouteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RouteViewController.swift; path = Controllers/RouteViewController.swift; sourceTree = "<group>"; };
+		BBEF92E41EE3740200E1781A /* TabBar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TabBar.xib; path = Controllers/TabBar.xib; sourceTree = "<group>"; };
+		BBEF92E61EE3743F00E1781A /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TabBarController.swift; path = Controllers/TabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,22 +149,22 @@
 		BBA3C8601E9DA0F90037ED09 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				BBBDD6D51E95401300FBC583 /* AreaMapViewController.swift */,
-				BBBDD6E11E97EFB800FBC583 /* BoulderView.xib */,
-				BBBDD6E31E97EFD700FBC583 /* BoulderViewController.swift */,
-				BBBDD6DB1E96C86500FBC583 /* ClusterView.xib */,
-				BBBDD6DD1E96C89100FBC583 /* ClusterViewController.swift */,
-				BBA3C86C1E9EE37C0037ED09 /* MainTableView.xib */,
-				BBBDD6C91E92F7AA00FBC583 /* MainTableViewController.swift */,
-				BBBDD6D31E953FC100FBC583 /* MapView.xib */,
-				BB1B79021EE3129B009AF545 /* MapViewController.swift */,
-				BB1B79001EE300B7009AF545 /* NavigationMapViewController.swift */,
-				BBEC0BFA1E9D8DB000FB1EE6 /* RoutesView.xib */,
-				BBEC0BFC1E9D8DF400FB1EE6 /* RoutesViewController.swift */,
-				BBEC0BE71E980DF400FB1EE6 /* RouteView.xib */,
-				BBEC0BE91E980E1400FB1EE6 /* RouteViewController.swift */,
-				BBEC0BF81E9D85C600FB1EE6 /* TabBar.xib */,
-				BBEC0BF61E9D856600FB1EE6 /* TabBarController.swift */,
+				BBEF92D21EE371FE00E1781A /* MapView.xib */,
+				BBEF92C61EE370A300E1781A /* AreaMapViewController.swift */,
+				BBEF92C81EE370D200E1781A /* BoulderView.xib */,
+				BBEF92CA1EE3710F00E1781A /* BoulderViewController.swift */,
+				BBEF92CC1EE3715A00E1781A /* ClusterView.xib */,
+				BBEF92CE1EE3719200E1781A /* ClusterViewController.swift */,
+				BBEF92D01EE371CC00E1781A /* MainTableView.xib */,
+				BBEF92D41EE3720D00E1781A /* MainTableViewController.swift */,
+				BBEF92D81EE3726F00E1781A /* MapViewController.swift */,
+				BBEF92D61EE3724B00E1781A /* NavigationMapViewController.swift */,
+				BBEF92DC1EE372D400E1781A /* RoutesView.xib */,
+				BBEF92E01EE3737100E1781A /* RoutesViewController.swift */,
+				BBEF92DE1EE3730500E1781A /* RouteView.xib */,
+				BBEF92E21EE373D300E1781A /* RouteViewController.swift */,
+				BBEF92E41EE3740200E1781A /* TabBar.xib */,
+				BBEF92E61EE3743F00E1781A /* TabBarController.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -374,25 +374,25 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BBEC0BE81E980DF400FB1EE6 /* RouteView.xib in Resources */,
+				BBEF92DF1EE3730500E1781A /* RouteView.xib in Resources */,
 				BBA3C86B1E9EDC4F0037ED09 /* The Falcon.jpg in Resources */,
 				BBA3C8641E9E7BAA0037ED09 /* Swiss Cheese.jpg in Resources */,
 				BB1B790B1EE33D66009AF545 /* Zacks Roof.jpg in Resources */,
+				BBEF92C91EE370D200E1781A /* BoulderView.xib in Resources */,
+				BBEF92DD1EE372D400E1781A /* RoutesView.xib in Resources */,
+				BBEF92CD1EE3715A00E1781A /* ClusterView.xib in Resources */,
+				BBEF92D31EE371FE00E1781A /* MapView.xib in Resources */,
 				BBA3C86F1E9EE8B50037ED09 /* Eriksson Problem.jpg in Resources */,
 				BB1B79091EE3341C009AF545 /* Sword of Damocles.jpg in Resources */,
-				BBBDD6DC1E96C86500FBC583 /* ClusterView.xib in Resources */,
 				BBA3C8691E9EA2A40037ED09 /* Unknown2.jpg in Resources */,
 				BB1B79051EE32F07009AF545 /* Thin Crack.jpg in Resources */,
-				BBEC0BFB1E9D8DB000FB1EE6 /* RoutesView.xib in Resources */,
 				BB1B790F1EE34319009AF545 /* The Great Curve.jpg in Resources */,
+				BBEF92D11EE371CC00E1781A /* MainTableView.xib in Resources */,
 				BBBDD6A41E92F04E00FBC583 /* LaunchScreen.storyboard in Resources */,
-				BBEC0BF91E9D85C600FB1EE6 /* TabBar.xib in Resources */,
 				BBA3C8671E9E9EF70037ED09 /* Unknown1.jpg in Resources */,
-				BBBDD6D41E953FC100FBC583 /* MapView.xib in Resources */,
-				BBA3C86D1E9EE37C0037ED09 /* MainTableView.xib in Resources */,
 				BBBDD6CC1E92F85300FBC583 /* Areas.json in Resources */,
+				BBEF92E51EE3740200E1781A /* TabBar.xib in Resources */,
 				BB1B79071EE330A3009AF545 /* Barndoor Arete.jpg in Resources */,
-				BBBDD6E21E97EFB800FBC583 /* BoulderView.xib in Resources */,
 				BBBDD6A11E92F04E00FBC583 /* Assets.xcassets in Resources */,
 				BB1B790D1EE33FB4009AF545 /* Victor Boulder.jpg in Resources */,
 			);
@@ -419,22 +419,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BBBDD6CA1E92F7AA00FBC583 /* MainTableViewController.swift in Sources */,
-				BBEC0BEA1E980E1400FB1EE6 /* RouteViewController.swift in Sources */,
-				BB1B79011EE300B7009AF545 /* NavigationMapViewController.swift in Sources */,
-				BBBDD6D61E95401300FBC583 /* AreaMapViewController.swift in Sources */,
+				BBEF92CB1EE3710F00E1781A /* BoulderViewController.swift in Sources */,
+				BBEF92E71EE3743F00E1781A /* TabBarController.swift in Sources */,
 				BBEF92BF1EE36F7B00E1781A /* Boulder.swift in Sources */,
+				BBEF92E31EE373D300E1781A /* RouteViewController.swift in Sources */,
+				BBEF92D51EE3720D00E1781A /* MainTableViewController.swift in Sources */,
 				BBEF92C51EE36FFD00E1781A /* RouteTableViewCell.swift in Sources */,
 				BBEF92C31EE36FC100E1781A /* Route.swift in Sources */,
+				BBEF92E11EE3737100E1781A /* RoutesViewController.swift in Sources */,
+				BBEF92CF1EE3719200E1781A /* ClusterViewController.swift in Sources */,
 				BBBDD69A1E92F04E00FBC583 /* AppDelegate.swift in Sources */,
 				BBEF92BB1EE36F0F00E1781A /* Areas.swift in Sources */,
-				BBEC0BFD1E9D8DF400FB1EE6 /* RoutesViewController.swift in Sources */,
-				BBBDD6DE1E96C89100FBC583 /* ClusterViewController.swift in Sources */,
 				BBEF92C11EE36FA000E1781A /* Cluster.swift in Sources */,
-				BBEC0BF71E9D856600FB1EE6 /* TabBarController.swift in Sources */,
-				BBBDD6E41E97EFD700FBC583 /* BoulderViewController.swift in Sources */,
+				BBEF92D71EE3724B00E1781A /* NavigationMapViewController.swift in Sources */,
+				BBEF92C71EE370A300E1781A /* AreaMapViewController.swift in Sources */,
 				BBEF92BD1EE36F5800E1781A /* Area.swift in Sources */,
-				BB1B79031EE3129B009AF545 /* MapViewController.swift in Sources */,
+				BBEF92D91EE3726F00E1781A /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -80,6 +80,11 @@ public class Areas {
                 parseRoutes(routeObjs: routeObjs, boulder: boulder)
             }
             boulder.image = boulderDict["Image"] as! String?
+            if let locDict = boulderDict["Location"] as! Dictionary<String, Double>? {
+                let latitude = locDict["Latitude"] as Double?
+                let longitude = locDict["Longitude"] as Double?
+                boulder.location = Location(latitude: latitude!, longitude: longitude!)
+            }
         }
     }
     

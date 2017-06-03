@@ -10,24 +10,24 @@ import Foundation
 import UIKit
 import MapKit
 
-class RouteAnnotation: NSObject, MKAnnotation {
+class Annotation: NSObject, MKAnnotation {
     public var coordinate: CLLocationCoordinate2D
     public var title: String?
     public var subtitle: String?
     
-    public init(route: Route) {
-        let location = (route.location)!
+    public init(location: Location, title: String) {
+        let location = location
         coordinate = CLLocationCoordinate2D(latitude: location.latitude, longitude: location.longitude)
-        title = route.name
+        self.title = title
     }
 }
 
-class RouteMapViewController: MapViewController {
-    private var _route: Route?
+class NavigationMapViewController: MapViewController {
+    private var name: String?
     
-    public init(route: Route) {
-        super.init(location: route.location!, size: 0.01)
-        self._route = route
+    public init(location: Location?, size: Double, name: String?) {
+        super.init(location: location!, size: size)
+        self.name = name
     }
     
     required init?(coder aDecoder: NSCoder) {
@@ -39,12 +39,12 @@ class RouteMapViewController: MapViewController {
         
         mapView.delegate = self
         
-        let ann = RouteAnnotation(route: _route!)
+        let ann = Annotation(location: _location!, title: name!)
         self.mapView.addAnnotation(ann as MKAnnotation)
     }
 }
 
-extension RouteMapViewController: MKMapViewDelegate {
+extension NavigationMapViewController: MKMapViewDelegate {
   /*  func mapView(_ mapView: MKMapView, rendererFor overlay: MKOverlay) -> MKOverlayRenderer {
         let ov = overlay as? MKCircle
         print("circle. center: \(overlay.coordinate)")

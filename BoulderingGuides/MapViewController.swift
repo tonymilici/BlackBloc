@@ -13,12 +13,13 @@ import MapKit
 class MapViewController: UIViewController {
     @IBOutlet var _mapView: MKMapView!
     private let _metersPerMile = 1609.344
-    private var _location: Location?
-    private var _size = 0.0
+    public var _location: Location?
+    public var _size = 0.0
     
     public init(location: Location, size: Double) {
         super.init(nibName: "MapView", bundle: nil)
         self._location = location
+        self._size = size
     }
     
     required init?(coder aDecoder: NSCoder) {

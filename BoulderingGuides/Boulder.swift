@@ -13,6 +13,7 @@ public class Boulder {
     var description: String?
     var routes: [Route] = []
     var image: String?
+    var location: Location?
     
     public init(name: String) {
         self.name = name

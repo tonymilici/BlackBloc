@@ -38,7 +38,9 @@ public class RouteViewController: UIViewController {
     
     @objc
     private func navigate(sender: NSObject) {
-        let map = RouteMapViewController(route: _route!)
-        navigationController?.pushViewController(map, animated: true)
+        if let location = _route?.location {
+            let map = NavigationMapViewController(location: location, size: 0.01, name: _route?.name)
+            navigationController?.pushViewController(map, animated: true)
+        }
     }
 }

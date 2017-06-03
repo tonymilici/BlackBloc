@@ -243,7 +243,12 @@
                                     }
                                 }
                             ],
-                            "Image": "The Falcon.jpg"
+                            "Image": "The Falcon.jpg",
+                            "Location":
+                            {
+                                "Latitude": 34.3416,
+                                "Longitude": -118.016
+                            }
                         }
                     ]
                 }

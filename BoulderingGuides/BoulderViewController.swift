@@ -19,6 +19,8 @@ public class BoulderViewController: UIViewController {
         super.init(nibName: "BoulderView", bundle: nil)
         _boulder = boulder
         title = boulder.name
+        
+        navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Navigate", style: .plain, target:self, action: #selector(self.navigate(sender:)))
     }
     
     required public init?(coder aDecoder: NSCoder) {
@@ -29,6 +31,14 @@ public class BoulderViewController: UIViewController {
         _descriptionView.text = _boulder?.description
         if let image = _boulder?.image {
             imageView.image = UIImage(named: image)
+        }
+    }
+    
+    @objc
+    private func navigate(sender: NSObject) {
+        if let location = _boulder?.location {
+            let map = NavigationMapViewController(location: location, size: 0.1, name: _boulder?.name)
+            navigationController?.pushViewController(map, animated: true)
         }
     }
 }

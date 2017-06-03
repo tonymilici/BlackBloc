@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BB1B79011EE300B7009AF545 /* RouteMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1B79001EE300B7009AF545 /* RouteMapViewController.swift */; };
+		BB1B79011EE300B7009AF545 /* NavigationMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1B79001EE300B7009AF545 /* NavigationMapViewController.swift */; };
 		BB1B79031EE3129B009AF545 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1B79021EE3129B009AF545 /* MapViewController.swift */; };
 		BBA3C85F1E9D9B760037ED09 /* RouteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA3C85E1E9D9B760037ED09 /* RouteTableViewCell.swift */; };
 		BBA3C8641E9E7BAA0037ED09 /* Swiss Cheese.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BBA3C8631E9E7BAA0037ED09 /* Swiss Cheese.jpg */; };
@@ -66,7 +66,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		BB1B79001EE300B7009AF545 /* RouteMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RouteMapViewController.swift; sourceTree = "<group>"; };
+		BB1B79001EE300B7009AF545 /* NavigationMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationMapViewController.swift; sourceTree = "<group>"; };
 		BB1B79021EE3129B009AF545 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		BBA3C85E1E9D9B760037ED09 /* RouteTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RouteTableViewCell.swift; sourceTree = "<group>"; };
 		BBA3C8631E9E7BAA0037ED09 /* Swiss Cheese.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Swiss Cheese.jpg"; path = "Photos/Swiss Cheese.jpg"; sourceTree = "<group>"; };
@@ -155,7 +155,7 @@
 				BBEC0BE91E980E1400FB1EE6 /* RouteViewController.swift */,
 				BBEC0BF81E9D85C600FB1EE6 /* TabBar.xib */,
 				BBEC0BF61E9D856600FB1EE6 /* TabBarController.swift */,
-				BB1B79001EE300B7009AF545 /* RouteMapViewController.swift */,
+				BB1B79001EE300B7009AF545 /* NavigationMapViewController.swift */,
 				BB1B79021EE3129B009AF545 /* MapViewController.swift */,
 			);
 			name = Controllers;
@@ -406,7 +406,7 @@
 				BBBDD6CA1E92F7AA00FBC583 /* MainTableViewController.swift in Sources */,
 				BBEC0BEA1E980E1400FB1EE6 /* RouteViewController.swift in Sources */,
 				BBBDD6D21E94053400FBC583 /* Area.swift in Sources */,
-				BB1B79011EE300B7009AF545 /* RouteMapViewController.swift in Sources */,
+				BB1B79011EE300B7009AF545 /* NavigationMapViewController.swift in Sources */,
 				BBBDD6E61E97F6FC00FBC583 /* Route.swift in Sources */,
 				BBBDD6D61E95401300FBC583 /* AreaMapViewController.swift in Sources */,
 				BBBDD69A1E92F04E00FBC583 /* AppDelegate.swift in Sources */,

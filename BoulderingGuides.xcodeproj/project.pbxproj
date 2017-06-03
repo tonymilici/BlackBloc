@@ -15,7 +15,6 @@
 		BB1B790B1EE33D66009AF545 /* Zacks Roof.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB1B790A1EE33D66009AF545 /* Zacks Roof.jpg */; };
 		BB1B790D1EE33FB4009AF545 /* Victor Boulder.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB1B790C1EE33FB4009AF545 /* Victor Boulder.jpg */; };
 		BB1B790F1EE34319009AF545 /* The Great Curve.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB1B790E1EE34319009AF545 /* The Great Curve.jpg */; };
-		BBA3C85F1E9D9B760037ED09 /* RouteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA3C85E1E9D9B760037ED09 /* RouteTableViewCell.swift */; };
 		BBA3C8641E9E7BAA0037ED09 /* Swiss Cheese.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BBA3C8631E9E7BAA0037ED09 /* Swiss Cheese.jpg */; };
 		BBA3C8671E9E9EF70037ED09 /* Unknown1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BBA3C8661E9E9EF70037ED09 /* Unknown1.jpg */; };
 		BBA3C8691E9EA2A40037ED09 /* Unknown2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BBA3C8681E9EA2A40037ED09 /* Unknown2.jpg */; };
@@ -28,19 +27,14 @@
 		BBBDD6BA1E92F04E00FBC583 /* BoulderingGuidesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBDD6B91E92F04E00FBC583 /* BoulderingGuidesUITests.swift */; };
 		BBBDD6CA1E92F7AA00FBC583 /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBDD6C91E92F7AA00FBC583 /* MainTableViewController.swift */; };
 		BBBDD6CC1E92F85300FBC583 /* Areas.json in Resources */ = {isa = PBXBuildFile; fileRef = BBBDD6CB1E92F85300FBC583 /* Areas.json */; };
-		BBBDD6CE1E93060500FBC583 /* Areas.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBDD6CD1E93060500FBC583 /* Areas.swift */; };
 		BBBDD6D01E93062500FBC583 /* AreasTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBDD6CF1E93062500FBC583 /* AreasTest.swift */; };
-		BBBDD6D21E94053400FBC583 /* Area.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBDD6D11E94053400FBC583 /* Area.swift */; };
 		BBBDD6D41E953FC100FBC583 /* MapView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBBDD6D31E953FC100FBC583 /* MapView.xib */; };
 		BBBDD6D61E95401300FBC583 /* AreaMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBDD6D51E95401300FBC583 /* AreaMapViewController.swift */; };
-		BBBDD6D81E95573C00FBC583 /* Cluster.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBDD6D71E95573C00FBC583 /* Cluster.swift */; };
 		BBBDD6DA1E969CB100FBC583 /* ClusterTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBDD6D91E969CB100FBC583 /* ClusterTest.swift */; };
 		BBBDD6DC1E96C86500FBC583 /* ClusterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBBDD6DB1E96C86500FBC583 /* ClusterView.xib */; };
 		BBBDD6DE1E96C89100FBC583 /* ClusterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBDD6DD1E96C89100FBC583 /* ClusterViewController.swift */; };
-		BBBDD6E01E975A8A00FBC583 /* Boulder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBDD6DF1E975A8A00FBC583 /* Boulder.swift */; };
 		BBBDD6E21E97EFB800FBC583 /* BoulderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBBDD6E11E97EFB800FBC583 /* BoulderView.xib */; };
 		BBBDD6E41E97EFD700FBC583 /* BoulderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBDD6E31E97EFD700FBC583 /* BoulderViewController.swift */; };
-		BBBDD6E61E97F6FC00FBC583 /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBDD6E51E97F6FC00FBC583 /* Route.swift */; };
 		BBEC0BE81E980DF400FB1EE6 /* RouteView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBEC0BE71E980DF400FB1EE6 /* RouteView.xib */; };
 		BBEC0BEA1E980E1400FB1EE6 /* RouteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEC0BE91E980E1400FB1EE6 /* RouteViewController.swift */; };
 		BBEC0BEE1E9D567900FB1EE6 /* RouteTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEC0BED1E9D567900FB1EE6 /* RouteTest.swift */; };
@@ -50,6 +44,12 @@
 		BBEC0BFB1E9D8DB000FB1EE6 /* RoutesView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBEC0BFA1E9D8DB000FB1EE6 /* RoutesView.xib */; };
 		BBEC0BFD1E9D8DF400FB1EE6 /* RoutesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEC0BFC1E9D8DF400FB1EE6 /* RoutesViewController.swift */; };
 		BBEC0BFF1E9D90A100FB1EE6 /* AreaTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEC0BFE1E9D90A100FB1EE6 /* AreaTest.swift */; };
+		BBEF92BB1EE36F0F00E1781A /* Areas.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEF92BA1EE36F0F00E1781A /* Areas.swift */; };
+		BBEF92BD1EE36F5800E1781A /* Area.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEF92BC1EE36F5800E1781A /* Area.swift */; };
+		BBEF92BF1EE36F7B00E1781A /* Boulder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEF92BE1EE36F7B00E1781A /* Boulder.swift */; };
+		BBEF92C11EE36FA000E1781A /* Cluster.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEF92C01EE36FA000E1781A /* Cluster.swift */; };
+		BBEF92C31EE36FC100E1781A /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEF92C21EE36FC100E1781A /* Route.swift */; };
+		BBEF92C51EE36FFD00E1781A /* RouteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEF92C41EE36FFD00E1781A /* RouteTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,7 +78,6 @@
 		BB1B790A1EE33D66009AF545 /* Zacks Roof.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Zacks Roof.jpg"; path = "Photos/Zacks Roof.jpg"; sourceTree = "<group>"; };
 		BB1B790C1EE33FB4009AF545 /* Victor Boulder.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Victor Boulder.jpg"; path = "Photos/Victor Boulder.jpg"; sourceTree = "<group>"; };
 		BB1B790E1EE34319009AF545 /* The Great Curve.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "The Great Curve.jpg"; path = "Photos/The Great Curve.jpg"; sourceTree = "<group>"; };
-		BBA3C85E1E9D9B760037ED09 /* RouteTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RouteTableViewCell.swift; sourceTree = "<group>"; };
 		BBA3C8631E9E7BAA0037ED09 /* Swiss Cheese.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Swiss Cheese.jpg"; path = "Photos/Swiss Cheese.jpg"; sourceTree = "<group>"; };
 		BBA3C8661E9E9EF70037ED09 /* Unknown1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Unknown1.jpg; path = Photos/Unknown1.jpg; sourceTree = "<group>"; };
 		BBA3C8681E9EA2A40037ED09 /* Unknown2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Unknown2.jpg; path = Photos/Unknown2.jpg; sourceTree = "<group>"; };
@@ -97,19 +96,14 @@
 		BBBDD6BB1E92F04E00FBC583 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BBBDD6C91E92F7AA00FBC583 /* MainTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
 		BBBDD6CB1E92F85300FBC583 /* Areas.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Areas.json; sourceTree = "<group>"; };
-		BBBDD6CD1E93060500FBC583 /* Areas.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Areas.swift; sourceTree = "<group>"; };
 		BBBDD6CF1E93062500FBC583 /* AreasTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AreasTest.swift; sourceTree = "<group>"; };
-		BBBDD6D11E94053400FBC583 /* Area.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Area.swift; sourceTree = "<group>"; };
 		BBBDD6D31E953FC100FBC583 /* MapView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MapView.xib; sourceTree = "<group>"; };
 		BBBDD6D51E95401300FBC583 /* AreaMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AreaMapViewController.swift; sourceTree = "<group>"; };
-		BBBDD6D71E95573C00FBC583 /* Cluster.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cluster.swift; sourceTree = "<group>"; };
 		BBBDD6D91E969CB100FBC583 /* ClusterTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClusterTest.swift; sourceTree = "<group>"; };
 		BBBDD6DB1E96C86500FBC583 /* ClusterView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ClusterView.xib; sourceTree = "<group>"; };
 		BBBDD6DD1E96C89100FBC583 /* ClusterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClusterViewController.swift; sourceTree = "<group>"; };
-		BBBDD6DF1E975A8A00FBC583 /* Boulder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Boulder.swift; sourceTree = "<group>"; };
 		BBBDD6E11E97EFB800FBC583 /* BoulderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BoulderView.xib; sourceTree = "<group>"; };
 		BBBDD6E31E97EFD700FBC583 /* BoulderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoulderViewController.swift; sourceTree = "<group>"; };
-		BBBDD6E51E97F6FC00FBC583 /* Route.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Route.swift; sourceTree = "<group>"; };
 		BBEC0BE71E980DF400FB1EE6 /* RouteView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RouteView.xib; sourceTree = "<group>"; };
 		BBEC0BE91E980E1400FB1EE6 /* RouteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RouteViewController.swift; sourceTree = "<group>"; };
 		BBEC0BED1E9D567900FB1EE6 /* RouteTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RouteTest.swift; sourceTree = "<group>"; };
@@ -119,6 +113,12 @@
 		BBEC0BFA1E9D8DB000FB1EE6 /* RoutesView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RoutesView.xib; sourceTree = "<group>"; };
 		BBEC0BFC1E9D8DF400FB1EE6 /* RoutesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoutesViewController.swift; sourceTree = "<group>"; };
 		BBEC0BFE1E9D90A100FB1EE6 /* AreaTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AreaTest.swift; sourceTree = "<group>"; };
+		BBEF92BA1EE36F0F00E1781A /* Areas.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Areas.swift; path = Models/Areas.swift; sourceTree = "<group>"; };
+		BBEF92BC1EE36F5800E1781A /* Area.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Area.swift; path = Models/Area.swift; sourceTree = "<group>"; };
+		BBEF92BE1EE36F7B00E1781A /* Boulder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Boulder.swift; path = Models/Boulder.swift; sourceTree = "<group>"; };
+		BBEF92C01EE36FA000E1781A /* Cluster.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Cluster.swift; path = Models/Cluster.swift; sourceTree = "<group>"; };
+		BBEF92C21EE36FC100E1781A /* Route.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Route.swift; path = Models/Route.swift; sourceTree = "<group>"; };
+		BBEF92C41EE36FFD00E1781A /* RouteTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RouteTableViewCell.swift; path = Views/RouteTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,11 +172,11 @@
 		BBA3C8611E9DA1570037ED09 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				BBBDD6D11E94053400FBC583 /* Area.swift */,
-				BBBDD6CD1E93060500FBC583 /* Areas.swift */,
-				BBBDD6DF1E975A8A00FBC583 /* Boulder.swift */,
-				BBBDD6D71E95573C00FBC583 /* Cluster.swift */,
-				BBBDD6E51E97F6FC00FBC583 /* Route.swift */,
+				BBEF92BC1EE36F5800E1781A /* Area.swift */,
+				BBEF92BA1EE36F0F00E1781A /* Areas.swift */,
+				BBEF92BE1EE36F7B00E1781A /* Boulder.swift */,
+				BBEF92C01EE36FA000E1781A /* Cluster.swift */,
+				BBEF92C21EE36FC100E1781A /* Route.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -184,7 +184,7 @@
 		BBA3C8621E9DA1890037ED09 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				BBA3C85E1E9D9B760037ED09 /* RouteTableViewCell.swift */,
+				BBEF92C41EE36FFD00E1781A /* RouteTableViewCell.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -419,21 +419,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BBBDD6CE1E93060500FBC583 /* Areas.swift in Sources */,
 				BBBDD6CA1E92F7AA00FBC583 /* MainTableViewController.swift in Sources */,
 				BBEC0BEA1E980E1400FB1EE6 /* RouteViewController.swift in Sources */,
-				BBBDD6D21E94053400FBC583 /* Area.swift in Sources */,
 				BB1B79011EE300B7009AF545 /* NavigationMapViewController.swift in Sources */,
-				BBBDD6E61E97F6FC00FBC583 /* Route.swift in Sources */,
 				BBBDD6D61E95401300FBC583 /* AreaMapViewController.swift in Sources */,
+				BBEF92BF1EE36F7B00E1781A /* Boulder.swift in Sources */,
+				BBEF92C51EE36FFD00E1781A /* RouteTableViewCell.swift in Sources */,
+				BBEF92C31EE36FC100E1781A /* Route.swift in Sources */,
 				BBBDD69A1E92F04E00FBC583 /* AppDelegate.swift in Sources */,
-				BBBDD6E01E975A8A00FBC583 /* Boulder.swift in Sources */,
+				BBEF92BB1EE36F0F00E1781A /* Areas.swift in Sources */,
 				BBEC0BFD1E9D8DF400FB1EE6 /* RoutesViewController.swift in Sources */,
 				BBBDD6DE1E96C89100FBC583 /* ClusterViewController.swift in Sources */,
+				BBEF92C11EE36FA000E1781A /* Cluster.swift in Sources */,
 				BBEC0BF71E9D856600FB1EE6 /* TabBarController.swift in Sources */,
-				BBA3C85F1E9D9B760037ED09 /* RouteTableViewCell.swift in Sources */,
-				BBBDD6D81E95573C00FBC583 /* Cluster.swift in Sources */,
 				BBBDD6E41E97EFD700FBC583 /* BoulderViewController.swift in Sources */,
+				BBEF92BD1EE36F5800E1781A /* Area.swift in Sources */,
 				BB1B79031EE3129B009AF545 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

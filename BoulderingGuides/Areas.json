@@ -249,6 +249,71 @@
                                 "Latitude": 34.3416,
                                 "Longitude": -118.016
                             }
+                        },
+                        {
+                            "Name": "Thin Crack Boulder",
+                            "Description": "A tall boulder with an obvious crack, slightly off the trail to the left of the B1 Traverse boulder.",
+                            "Routes":
+                            [
+                                {
+                                    "Name":"Thin Crack",
+                                    "Description": "The obvious crack visible from the trail",
+                                    "Rating":"V0",
+                                    "Stars": 3,
+                                    "Image": "Thin Crack.jpg",
+                                }
+                            ],
+                            "Image": "Thin Crack.jpg"
+                        },
+                        {
+                            "Name": "Barndoor Arete Boulder",
+                            "Description": "Boulder with the obvious arete between the Fang and The Great Circle",
+                            "Routes":
+                            [
+                                {
+                                    "Name": "Barndoor Arete",
+                                    "Description": "The obvious arete",
+                                    "Rating": "V2",
+                                    "Stars": 3,
+                                    "Image": "Barndoor Arete.jpg"
+                                }
+                            ],
+                            "Image": "Barndoor Arete.jpg"
+                        },
+                        {
+                            "Name": "Sword of Damocles Boulder",
+                            "Description": "A tall boulder with an overhanging arete on the downhill side, in the middle of the main area, to the left of the Eriksson problem, looking uphill.",
+                            "Routes":
+                            [
+                                {
+                                    "Name": "Sword of Damocles",
+                                    "Description": "The improbable-looking tall arete on the right side of the downhill face",
+                                    "Rating": "V7",
+                                    "Stars": 4,
+                                    "Image": "Sword of Damocles.jpg"
+                                }
+                            ],
+                            "Image": "Sword of Damocles.jpg"
+                        },
+                        {
+                            "Name": "The Fang Boulder",
+                            "Description": "A boulder with a severly overhanging huecoed face just off the trail to the right just past the 5.7 Crack.",
+                            "Routes":
+                            [
+                                {
+                                    "Name": "The Fang",
+                                    "Description": "Start under the roof and climb the fang. The sit start is V5.",
+                                    "Rating": "V3",
+                                    "Stars": 3
+                                },
+                                {
+                                    "Name": "Zack's Roof",
+                                    "Description": "Start as for The Fang, but climb the huecos out right.",
+                                    "Rating": "V4",
+                                    "Stars": 3,
+                                    "Image": "Zacks Roof.jpg"
+                                }
+                            ]
                         }
                     ]
                 }

@@ -141,6 +141,7 @@
 		BBA3C8601E9DA0F90037ED09 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				BBBDD6D51E95401300FBC583 /* AreaMapViewController.swift */,
 				BBBDD6E11E97EFB800FBC583 /* BoulderView.xib */,
 				BBBDD6E31E97EFD700FBC583 /* BoulderViewController.swift */,
 				BBBDD6DB1E96C86500FBC583 /* ClusterView.xib */,
@@ -148,15 +149,14 @@
 				BBA3C86C1E9EE37C0037ED09 /* MainTableView.xib */,
 				BBBDD6C91E92F7AA00FBC583 /* MainTableViewController.swift */,
 				BBBDD6D31E953FC100FBC583 /* MapView.xib */,
-				BBBDD6D51E95401300FBC583 /* AreaMapViewController.swift */,
+				BB1B79021EE3129B009AF545 /* MapViewController.swift */,
+				BB1B79001EE300B7009AF545 /* NavigationMapViewController.swift */,
 				BBEC0BFA1E9D8DB000FB1EE6 /* RoutesView.xib */,
 				BBEC0BFC1E9D8DF400FB1EE6 /* RoutesViewController.swift */,
 				BBEC0BE71E980DF400FB1EE6 /* RouteView.xib */,
 				BBEC0BE91E980E1400FB1EE6 /* RouteViewController.swift */,
 				BBEC0BF81E9D85C600FB1EE6 /* TabBar.xib */,
 				BBEC0BF61E9D856600FB1EE6 /* TabBarController.swift */,
-				BB1B79001EE300B7009AF545 /* NavigationMapViewController.swift */,
-				BB1B79021EE3129B009AF545 /* MapViewController.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";

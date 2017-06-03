@@ -7,12 +7,13 @@
 //
 
 import UIKit
+import CoreLocation
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    let locationManager = CLLocationManager()
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         window = UIWindow(frame: UIScreen.main.bounds)
@@ -22,6 +23,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let mainViewController = UINavigationController(rootViewController: rootView)
         window!.rootViewController = mainViewController
         window!.makeKeyAndVisible()
+        
+        if CLLocationManager.authorizationStatus() == .notDetermined {
+            locationManager.requestWhenInUseAuthorization()
+        }
         return true
     }
 

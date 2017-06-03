@@ -38,6 +38,7 @@ class MapViewController: UIViewController {
         edgesForExtendedLayout = []
         
         mapView.mapType = .satellite
+        mapView.showsUserLocation = true
         
         let center = CLLocationCoordinate2D(latitude: (_location?.latitude)!, longitude: (_location?.longitude)!)
         let region = mapView.regionThatFits(MKCoordinateRegionMakeWithDistance(center, _size*_metersPerMile, _size*_metersPerMile))

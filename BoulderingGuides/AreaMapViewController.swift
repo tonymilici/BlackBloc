@@ -61,7 +61,6 @@ extension AreaMapViewController: MKMapViewDelegate {
         circle.alpha = 0.3
         circle.lineWidth = 1
         return circle
-     
     }
 }
 

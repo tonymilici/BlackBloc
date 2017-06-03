@@ -22,42 +22,25 @@ class RouteAnnotation: NSObject, MKAnnotation {
     }
 }
 
-class RouteMapViewController: UIViewController {
-    @IBOutlet var _mapView: MKMapView!
-    private let _metersPerMile = 1609.344
+class RouteMapViewController: MapViewController {
     private var _route: Route?
     
     public init(route: Route) {
-        super.init(nibName: "MapView", bundle: nil)
+        super.init(location: route.location!, size: 0.01)
         self._route = route
-        
-        let ann = RouteAnnotation(route: _route!)
-        self.mapView.addAnnotation(ann as MKAnnotation)
     }
     
     required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
     
-    private var mapView: MKMapView {
-        get {
-            return _mapView
-        }
-    }
-    
     public override func viewDidLoad() {
         super.viewDidLoad()
         
-        edgesForExtendedLayout = []
-        
         mapView.delegate = self
-        mapView.mapType = .satellite
         
-        let location = (_route?.location)!
-        let center = CLLocationCoordinate2D(latitude: location.latitude, longitude: location.longitude)
-        let region = mapView.regionThatFits(MKCoordinateRegionMakeWithDistance(center, 0.01*_metersPerMile, 0.01*_metersPerMile))
-        
-        mapView.region = region
+        let ann = RouteAnnotation(route: _route!)
+        self.mapView.addAnnotation(ann as MKAnnotation)
     }
 }
 

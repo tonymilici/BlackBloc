@@ -10,21 +10,29 @@ import Foundation
 import UIKit
 import MapKit
 
-/*class RouteAnnotation: MKAnnotation {
+class RouteAnnotation: NSObject, MKAnnotation {
+    public var coordinate: CLLocationCoordinate2D
+    public var title: String?
+    public var subtitle: String?
     
-}*/
+    public init(route: Route) {
+        let location = (route.location)!
+        coordinate = CLLocationCoordinate2D(latitude: location.latitude, longitude: location.longitude)
+        title = route.name
+    }
+}
 
 class RouteMapViewController: UIViewController {
     @IBOutlet var _mapView: MKMapView!
     private let _metersPerMile = 1609.344
-    private var _location: Location?
+    private var _route: Route?
     
-    public init(location: Location) {
+    public init(route: Route) {
         super.init(nibName: "MapView", bundle: nil)
-        self._location = location
+        self._route = route
         
- /*       let ann = RouteAnnotation()
-        self.mapView.addAnnotation(ann as! MKAnnotation)*/
+        let ann = RouteAnnotation(route: _route!)
+        self.mapView.addAnnotation(ann as MKAnnotation)
     }
     
     required init?(coder aDecoder: NSCoder) {
@@ -45,7 +53,8 @@ class RouteMapViewController: UIViewController {
         mapView.delegate = self
         mapView.mapType = .satellite
         
-        let center = CLLocationCoordinate2D(latitude: (_location?.latitude)!, longitude: (_location?.longitude)!)
+        let location = (_route?.location)!
+        let center = CLLocationCoordinate2D(latitude: location.latitude, longitude: location.longitude)
         let region = mapView.regionThatFits(MKCoordinateRegionMakeWithDistance(center, 0.01*_metersPerMile, 0.01*_metersPerMile))
         
         mapView.region = region

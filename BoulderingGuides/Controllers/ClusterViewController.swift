@@ -49,15 +49,24 @@ public class ClusterViewController: UITableViewController {
     }
     
     public override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let boulder = _boulders?[indexPath.row]
         if let cell = tableView.dequeueReusableCell(withIdentifier: _cellId) {
-            cell.textLabel?.text = _boulders?[indexPath.row].name
+            cell.textLabel?.text = boulder?.name
+            cell.detailTextLabel?.text = getDetailText(boulder: boulder)
             return cell
         }
         let cell = UITableViewCell(style: .subtitle, reuseIdentifier: _cellId)
         cell.textLabel?.text = _boulders?[indexPath.row].name
         
+        cell.detailTextLabel?.text = getDetailText(boulder: boulder)
+        
+        cell.accessoryType = UITableViewCellAccessoryType.disclosureIndicator
+        return cell
+    }
+    
+    private func getDetailText(boulder: Boulder?) -> String {
         var detailText = "0 routes"
-        if let rts = _boulders?[indexPath.row].routes {
+        if let rts = boulder?.routes {
             if rts.count == 1 {
                 detailText = "1 route"
             }
@@ -65,10 +74,7 @@ public class ClusterViewController: UITableViewController {
                 detailText = "\(rts.count) routes"
             }
         }
-        cell.detailTextLabel?.text = detailText
-        
-        cell.accessoryType = UITableViewCellAccessoryType.disclosureIndicator
-        return cell
+        return detailText;
     }
     
     override public func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {

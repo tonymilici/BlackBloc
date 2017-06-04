@@ -421,6 +421,29 @@
                             }
                         },
                         {
+                            "Name": "Pumpernickel Boulder",
+                            "Description": "A long short boulder with a nice traverse on good rock.",
+                            "Routes":
+                            [
+                                {
+                                    "Name": "Pumpernickel",
+                                    "Description": "A long pumpy traverse on mostly good holds and good rock. Start low and left and traverse all the way right until you can follow the holds up and to the top of the boulder.",
+                                    "Rating": "V5",
+                                    "Stars": 2,
+                                    "Location":
+                                    {
+                                        "Latitude": 34.34084,
+                                        "Longitude": -118.01577
+                                    }
+                                }
+                            ],
+                            "Location":
+                            {
+                                "Latitude": 34.34084,
+                                "Longitude": -118.01577
+                            }
+                        },
+                        {
                             "Name": "Thin Crack Boulder",
                             "Description": "A tall boulder with an obvious crack, slightly off the trail to the left of the B1 Traverse boulder.",
                             "Routes":
@@ -620,6 +643,47 @@
                             {
                                 "Latitude": 34.33997,
                                 "Longitude": -118.01659
+                            }
+                        },
+                        {
+                            "Name": "Refigerator Boulder",
+                            "Description": "Follow the main trail toward The Fang, heading left once you are below an obvious crack (5.7) on your righthand side. Once you head left you will see the boulder which has a large and obvious chalky rail about half way up the boulder.",
+                            "Routes":
+                            [
+                                {
+                                    "Name": "Defroster, aka The Freeze, aka The Fridge Door",
+                                    "Description": "Sit down start with a nice low right side pull and a good left.",
+                                    "Rating": "V2",
+                                    "Stars": 3,
+                                    "Location":
+                                    {
+                                        "Latitude": 34.34053,
+                                        "Longitude": -118.01664
+                                    }
+                                },
+                                {
+                                    "Name": "The Refidgerator",
+                                    "Description": "Sit start with a right mini-jug side pull and a left side pull. Make your way into the horizontal and top out on crimps and a hidden pocket.",
+                                    "Rating": "V4",
+                                    "Stars": 3
+                                },
+                                {
+                                    "Name": "Opposition Movement",
+                                    "Description": "Climb the seam in the corridor behing the Refidgerator.",
+                                    "Rating": "V5",
+                                    "Stars": 3
+                                },
+                                {
+                                    "Name": "Unnamed",
+                                    "Description": "Climb jugs on the block at the back of the Opposition Movement corridor.",
+                                    "Rating": "V Easy",
+                                    "Stars": 2
+                                }
+                            ],
+                            "Location":
+                            {
+                                "Latitude": 34.34053,
+                                "Longitude": -118.01664
                             }
                         }
                     ]

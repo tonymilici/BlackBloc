@@ -270,6 +270,29 @@
                             ]
                         },
                         {
+                            "Name": "Victory Boulder",
+                            "Description": "Unique wedged boulder near Blank Generation.",
+                            "Routes":
+                            [
+                                {
+                                    "Name": "Victory Arete",
+                                    "Description": "Climb the right arête and face.",
+                                    "Rating": "V5",
+                                    "Stars": 3,
+                                    "Location":
+                                    {
+                                        "Latitude": 34.34067,
+                                        "Longitude": -118.01578
+                                    }
+                                }
+                            ],
+                            "Location":
+                            {
+                                "Latitude": 34.34067,
+                                "Longitude": -118.01578
+                            }
+                        },
+                        {
                             "Name": "Alfa Boulder",
                             "Description": "The first boulder on the right after the Holy Water boulder with an overhanging prow.",
                             "Routes":
@@ -366,8 +389,19 @@
                                     "Rating": "V2",
                                     "Stars": 3,
                                     "Image": "Swiss Cheese.jpg"
+                                },
+                                {
+                                    "Name": "Passat",
+                                    "Description": "Pad stack or hop up to the jug rail at about 8/9 feet, use small feet and some technique to gain the patina up and right. Landing is fairly narrow so a spotter would be helpful.",
+                                    "Rating": "V1",
+                                    "Stars": 1
                                 }
-                            ]
+                            ],
+                            "Location":
+                            {
+                                "Latitude": 34.34038,
+                                "Longitude": -118.01565
+                            }
                         },
                         {
                             "Name": "Boulder",
@@ -469,6 +503,12 @@
                                     "Rating": "V2",
                                     "Stars": 3,
                                     "Image": "Barndoor Arete.jpg"
+                                },
+                                {
+                                    "Name": "Unnamed",
+                                    "Description": "Easy short crack left of Barndoor arete.",
+                                    "Rating": "5.8",
+                                    "Stars": 1
                                 }
                             ],
                             "Image": "Barndoor Arete.jpg"
@@ -530,7 +570,12 @@
                                     "Stars": 3,
                                     "Image": "Zacks Roof.jpg"
                                 }
-                            ]
+                            ],
+                            "Location":
+                            {
+                                "Latitude": 34.34074,
+                                "Longitude": -118.01659
+                            }
                         },
                         {
                             "Name": "Victor Boulder",
@@ -576,6 +621,36 @@
                             {
                                 "Latitude": 34.34087,
                                 "Longitude": -118.01606
+                            }
+                        },
+                        {
+                            "Name": "Skin Boulder",
+                            "Description": "Southern exposed granite boulder known for the area classic Bow Sprits. Just south of the Main trail.",
+                            "Routes":
+                            [
+                                {
+                                    "Name": "The Transom",
+                                    "Description": "Climb the sharp left-hand arete of the Skin boulder via a painful start and easier climbing above.",
+                                    "Rating": "V1",
+                                    "Stars": 3
+                                },
+                                {
+                                    "Name": "Mr Skin",
+                                    "Description": "Ascend the blank face between The Transom and Bowsprits. I have never heard of this actually being done, it looks impossible.",
+                                    "Rating": "V8",
+                                    "Stars": 1
+                                },
+                                {
+                                    "Name": "Bowsprits",
+                                    "Description": "Clinb the right-hand arete up beautiful orange rock with great movement to a juggy finish.",
+                                    "Rating": "V3",
+                                    "Stars": 4
+                                }
+                            ],
+                            "Location":
+                            {
+                                "Latitude": 34.33997,
+                                "Longitude": -118.01596
                             }
                         },
                         {
@@ -644,6 +719,43 @@
                                 "Latitude": 34.33997,
                                 "Longitude": -118.01659
                             }
+                        },
+                        {
+                            "Name": "unk Boulder",
+                            "Description": "The boulder next to Dragon Flake",
+                            "Routes":
+                            [
+                                {
+                                    "Name": "Unnamed",
+                                    "Description": "Left hand on the arete, right hand on the lower sidepull to start. Get on to the slab and go up.",
+                                    "Rating": "V1",
+                                    "Stars": 2
+                                },
+                                {
+                                    "Name": "Snowflake aka Schindler's Twist",
+                                    "Description": "Start far right on a couple of great holds. Move left using underclings and tiny ledge feet. Get a hand around the arete, use some tricky foot work to get matched on the arete. High left foot and rock over, continue up the center of the slab, avoid the arete on the right.",
+                                    "Rating": "V5",
+                                    "Stars": 3
+                                }
+                            ],
+                            "Location":
+                            {
+                                "Latitude": 34.33979,
+                                "Longitude": -118.01665
+                            }
+                        },
+                        {
+                            "Name": "Trailside Crack Boulder",
+                            "Description": "Just upt the trail from the main area, boulder with an obvious low angle crack right off the trail.",
+                            "Routes":
+                            [
+                                {
+                                    "Name": "Trailside Crack",
+                                    "Description": "Climb the obvious low angle crack.",
+                                    "Rating": "5.7",
+                                    "Stars": 2
+                                }
+                            ]
                         },
                         {
                             "Name": "Refigerator Boulder",

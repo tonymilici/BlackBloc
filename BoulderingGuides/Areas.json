@@ -197,9 +197,34 @@
                     "Name": "Main Area",
                     "CenterX": 34.341,
                     "CenterY": -118.0165,
-                    "Radius": 30,
+                    "Radius": 50,
                     "Boulders":
                     [
+                        {
+                            "Name": "Holy Water Boulder",
+                            "Description": "This small boulder is located somewhat by itself before you reach the main part of the Main Area. It is to the left of the trail, directly bordering the trail.",
+                            "Routes":
+                            [
+                                {
+                                    "Name": "In the Name of the Father",
+                                    "Description": "Climb the obvious large pockets facing the trail in the direction to the campground. Top out on large flakes.",
+                                    "Rating": "V-Easy",
+                                    "Stars": 1
+                                },
+                                {
+                                    "Name": "And the Son",
+                                    "Description": "From a sit start on the trail climb up straight on several horizontal cracks.",
+                                    "Rating": "V1",
+                                    "Stars": 1
+                                },
+                                {
+                                    "Name": "And the Holy Spirit, Amen",
+                                    "Description": "On the side facing the trail, sit start on crips, climb to the large pocket and top out.",
+                                    "Rating": "V2",
+                                    "Stars": 1
+                                }
+                            ]
+                        },
                         {
                             "Name": "B1 Boulder",
                             "Description": "The obvious chalked boulder right next to the trail.",
@@ -506,16 +531,7 @@
                                 "Latitude": 34.34087,
                                 "Longitude": -118.01606
                             }
-                        }
-                    ]
-                },
-                {
-                    "Name": "Dragon Flake Area",
-                    "CenterX": 34.33997,
-                    "CenterY": -118.01659,
-                    "Radius": 20,
-                    "Boulders":
-                    [
+                        },
                         {
                             "Name": "Dragon Rock",
                             "Description": "Beautiful, secluded, 35'+ southern exposed granite boulder.",
@@ -533,7 +549,7 @@
                                     "Rating": "V1 R",
                                     "Stars": 3
                                 }
-                            ],
+                             ],
                             "Location":
                             {
                                 "Latitude": 34.33997,
@@ -542,7 +558,7 @@
                         }
                     ]
                 }
-            ]
+             ]
         }
     ]
 }

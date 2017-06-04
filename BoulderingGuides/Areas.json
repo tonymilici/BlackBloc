@@ -245,7 +245,7 @@
                             ]
                         },
                         {
-                            "Name": "Boulder",
+                            "Name": "Alfa Boulder",
                             "Description": "The first boulder on the right after the Holy Water boulder with an overhanging prow.",
                             "Routes":
                             [
@@ -254,7 +254,36 @@
                                     "Description": "Sit start on crimps and climb over the roof/prow.",
                                     "Rating": "V2",
                                     "Stars": 2,
-                                    "Image": "Unknown2.jpg"
+                                    "Image": "Unknown2.jpg",
+                                    "Location":
+                                    {
+                                        "Latitude": 34.34031,
+                                        "Longitude": -118.0154
+                                    }
+                                },
+                            ],
+                            "Location":
+                            {
+                                "Latitude": 34.34031,
+                                "Longitude": -118.0154
+                            }
+                        },
+                        {
+                            "Name": "Arbor Day Boulder",
+                            "Description": "The large boulder just up the trail from the Alfa Boulder",
+                            "Routes":
+                            [
+                                {
+                                    "Name": "Better Bold than Old",
+                                    "Description": "Start sitting, on the lowest holds possible with a good left foot and go up and slightly left at first then straight up finishing with good holds and the lip. Amazing rock quality and good movement.",
+                                    "Rating": "V3",
+                                    "Stars": 3
+                                },
+                                {
+                                    "Name": "Arbor Days",
+                                    "Description": "tart on the obvious holds at face height and go up and slightly left on good crimps.",
+                                    "Rating": "V5",
+                                    "Stars": 3
                                 }
                             ]
                         },
@@ -438,6 +467,39 @@
                                 }
                             ],
                             "Image": "The Great Curve.jpg"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Dragon Flake Area",
+                    "CenterX": 34.33997,
+                    "CenterY": -118.01659,
+                    "Radius": 20,
+                    "Boulders":
+                    [
+                        {
+                            "Name": "Dragon Rock",
+                            "Description": "Beautiful, secluded, 35'+ southern exposed granite boulder.",
+                            "Routes":
+                            [
+                                {
+                                    "Name": "Dragon Flake",
+                                    "Description": "Start just right of Dragon Flake, go straight up to the finish.",
+                                    "Rating": "V5 R",
+                                    "Stars": 3
+                                },
+                                {
+                                    "Name": "Dragon Flake Cheater Variation",
+                                    "Description": "Follow the flake up and right and around the arete.",
+                                    "Rating": "V1 R",
+                                    "Stars": 3
+                                }
+                            ],
+                            "Location":
+                            {
+                                "Latitude": 34.33997,
+                                "Longitude": -118.01659
+                            }
                         }
                     ]
                 }

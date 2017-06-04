@@ -300,7 +300,12 @@
                                     "Image": "Eriksson Problem.jpg"
                                 }
                             ],
-                            "Image": "Eriksson Problem.jpg"
+                            "Image": "Eriksson Problem.jpg",
+                            "Location":
+                            {
+                                "Latitude": 34.34048,
+                                "Longitude": -118.01556
+                            }
                         },
                         {
                             "Name": "Swiss Cheese Boulder",
@@ -413,6 +418,30 @@
                             "Image": "Sword of Damocles.jpg"
                         },
                         {
+                            "Name": "Golf Boulder",
+                            "Description": "Boulder just uphill from Sword of Damocles",
+                            "Routes":
+                            [
+                                {
+                                    "Name": "Unnamed",
+                                    "Description": "Climb the arete on sharp holds.",
+                                    "Rating": "V1",
+                                    "Stars": 2
+                                },
+                                {
+                                    "Name": "The Hotel",
+                                    "Description": "Start with both hands matched on the underclings, make some moves up and right to crimps and slopes.",
+                                    "Rating": "V1",
+                                    "Stars": 2
+                                }
+                            ],
+                            "Location":
+                            {
+                                "Latitude": 34.34053,
+                                "Longitude": -118.01575
+                            }
+                        },
+                        {
                             "Name": "The Fang Boulder",
                             "Description": "A boulder with a severly overhanging huecoed face just off the trail to the right just past the 5.7 Crack.",
                             "Routes":
@@ -463,10 +492,20 @@
                                     "Description": "Jump start to a pinch on the blunt left arete, and climb the arete to a sketchy top out.",
                                     "Rating": "V6",
                                     "Stars": 3,
-                                    "Image": "The Great Curve.jpg"
+                                    "Image": "The Great Curve.jpg",
+                                    "Location":
+                                    {
+                                        "Latitude": 34.34087,
+                                        "Longitude": -118.01606
+                                    }
                                 }
-                            ],
-                            "Image": "The Great Curve.jpg"
+                             ],
+                            "Image": "The Great Curve.jpg",
+                            "Location":
+                            {
+                                "Latitude": 34.34087,
+                                "Longitude": -118.01606
+                            }
                         }
                     ]
                 },

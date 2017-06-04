@@ -157,6 +157,24 @@
                     "Boulders":
                     [
                         {
+                            "Name": "Rythym and the Heat Boulder",
+                            "Description": "The suspended block on the way to Teflon President",
+                            "Routes":
+                            [
+                                {
+                                    "Name": "Rhythym and the Heat",
+                                    "Description": "Climb the suspended block straight up.",
+                                    "Rating": "V0",
+                                    "Stars": 2
+                                }
+                            ],
+                            "Location":
+                            {
+                                "Latitude": 34.34224,
+                                "Longitude": -118.01293
+                            }
+                        },
+                        {
                             "Name": "Teflon President Boulder",
                             "Description": "The big boulder with ther arete on the southwest side.",
                             "Routes":
@@ -167,7 +185,12 @@
                                     "Rating": "V5",
                                     "Stars": 3
                                 }
-                            ]
+                            ],
+                            "Location":
+                            {
+                                "Latitude": 34.34258,
+                                "Longitude": -118.01285
+                            }
                         }
                     ]
                 },
@@ -693,6 +716,25 @@
                                     "Description": "Climb patina crimps on the right side of the face away from the trail.",
                                     "Rating": "V4",
                                     "Stars": 2
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Y Crack Boulder",
+                            "Description": "Obvious boulder with a Y - shaped crack on the right side of the trail.",
+                            "Routes":
+                            [
+                                {
+                                    "Name": "Fish Arete",
+                                    "Description": "Tall arete just left of Y-crack.",
+                                    "Rating": "V3",
+                                    "Stars": 2
+                                },
+                                {
+                                    "Name": "Y Crack",
+                                    "Description": "The highball Y crack with a sketchy landing. Usually TRd back in the day.",
+                                    "Rating": "V0 R",
+                                    "Stars": 3
                                 }
                             ]
                         },

@@ -26,7 +26,7 @@
 import Foundation
 
 public class Areas {
-    var _areas: [Area] = []
+    private var _areas: [Area] = []
     
     public init() {
         if let stream = InputStream(fileAtPath: Bundle.main.bundlePath + "/Areas.json") {

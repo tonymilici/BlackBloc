@@ -26,11 +26,11 @@
 import Foundation
 
 public class Boulder {
-    var name: String?
-    var description: String?
-    var routes: [Route] = []
-    var image: String?
-    var location: Location?
+    public var name: String?
+    public var description: String?
+    public var routes: [Route] = []
+    public var image: String?
+    public var location: Location?
     
     public init(name: String) {
         self.name = name

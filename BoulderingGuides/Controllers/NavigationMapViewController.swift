@@ -39,11 +39,11 @@ class Annotation: NSObject, MKAnnotation {
 }
 
 class NavigationMapViewController: MapViewController {
-    private var name: String?
+    private var _name: String?
     
     public init(location: Location?, size: Double, name: String?) {
         super.init(location: location!, size: size)
-        self.name = name
+        _name = name
     }
     
     required init?(coder aDecoder: NSCoder) {
@@ -53,7 +53,7 @@ class NavigationMapViewController: MapViewController {
     public override func viewDidLoad() {
         super.viewDidLoad()
         
-        let ann = Annotation(location: _location!, title: name!)
+        let ann = Annotation(location: _location!, title: _name!)
         self.mapView.addAnnotation(ann as MKAnnotation)
     }
 }

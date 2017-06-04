@@ -28,8 +28,8 @@ import UIKit
 
 class MainTableViewController: UIViewController {
     @IBOutlet var tableView: UITableView!
-    let _areas = Areas()
-    let cellId = "AreaCell"
+    fileprivate let _areas = Areas()
+    fileprivate let _cellId = "AreaCell"
     
     init() {
         super.init(nibName: "MainTableView", bundle: nil)
@@ -57,11 +57,11 @@ extension MainTableViewController: UITableViewDataSource {
     }
     
    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        if let cell = tableView.dequeueReusableCell(withIdentifier: cellId) {
+        if let cell = tableView.dequeueReusableCell(withIdentifier: _cellId) {
             cell.textLabel?.text = _areas.getArea(index: indexPath.row).name
             return cell
         }
-        let cell = UITableViewCell()
+    let cell = UITableViewCell(style: .default, reuseIdentifier: _cellId)
         cell.textLabel?.text = _areas.getArea(index: indexPath.row).name
         cell.accessoryType = UITableViewCellAccessoryType.disclosureIndicator
         return cell

@@ -27,8 +27,8 @@ import Foundation
 import UIKit
 
 public class ClusterViewController: UITableViewController {
-    var _boulders: [Boulder]?
-    let cellId = "BoulderCell"
+    private var _boulders: [Boulder]?
+    private let _cellId = "BoulderCell"
     
     public init(cluster: Cluster) {
         super.init(nibName: "ClusterView", bundle: nil)
@@ -49,11 +49,11 @@ public class ClusterViewController: UITableViewController {
     }
     
     public override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        if let cell = tableView.dequeueReusableCell(withIdentifier: cellId) {
+        if let cell = tableView.dequeueReusableCell(withIdentifier: _cellId) {
             cell.textLabel?.text = _boulders?[indexPath.row].name
             return cell
         }
-        let cell = UITableViewCell(style: .subtitle, reuseIdentifier: "cellId")
+        let cell = UITableViewCell(style: .subtitle, reuseIdentifier: _cellId)
         cell.textLabel?.text = _boulders?[indexPath.row].name
         
         var detailText = "0 routes"

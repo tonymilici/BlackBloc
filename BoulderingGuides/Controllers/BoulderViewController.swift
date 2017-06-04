@@ -27,10 +27,10 @@ import Foundation
 import UIKit
 
 public class BoulderViewController: UIViewController {
-    @IBOutlet weak var imageView: UIImageView!
+    @IBOutlet weak var _imageView: UIImageView!
     @IBOutlet weak var _descriptionView: UITextView!
     fileprivate var _boulder: Boulder?
-    let cellId = "RouteCell"
+    fileprivate let _cellId = "RouteCell"
     
     public init(boulder: Boulder) {
         super.init(nibName: "BoulderView", bundle: nil)
@@ -47,7 +47,7 @@ public class BoulderViewController: UIViewController {
     public override func viewDidLoad() {
         _descriptionView.text = _boulder?.description
         if let image = _boulder?.image {
-            imageView.image = UIImage(named: image)
+            _imageView.image = UIImage(named: image)
         }
     }
     
@@ -71,14 +71,14 @@ extension BoulderViewController: UITableViewDataSource, UITableViewDelegate {
     
     public func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let route = _boulder?.routes[indexPath.row]
-        if let cell = tableView.dequeueReusableCell(withIdentifier: cellId) as! RouteTableViewCell? {
+        if let cell = tableView.dequeueReusableCell(withIdentifier: _cellId) as! RouteTableViewCell? {
             if let r = route {
                 cell.setRoute(route: r)
             }
             return cell
         }
         
-        let cell = RouteTableViewCell(route: route, cellId: cellId)
+        let cell = RouteTableViewCell(route: route, cellId: _cellId)
         return cell
     }
 

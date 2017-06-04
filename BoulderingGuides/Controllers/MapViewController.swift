@@ -30,8 +30,8 @@ import MapKit
 class MapViewController: UIViewController {
     @IBOutlet var _mapView: MKMapView!
     private let _metersPerMile = 1609.344
-    public var _location: Location?
-    public var _size = 0.0
+    var _location: Location?
+    var _size = 0.0
     
     public init(location: Location, size: Double) {
         super.init(nibName: "MapView", bundle: nil)

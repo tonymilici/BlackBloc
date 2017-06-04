@@ -28,7 +28,7 @@ import UIKit
 
 public class RoutesViewController: UITableViewController {
     private var _routes: [Route]?
-    let cellId = "RouteCell"
+    private let _cellId = "RouteCell"
     
     public init(routes: [Route]) {
         super.init(nibName: "RoutesView", bundle: nil)
@@ -50,14 +50,14 @@ public class RoutesViewController: UITableViewController {
     
     override public func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let route = _routes?[indexPath.row]
-        if let cell = tableView.dequeueReusableCell(withIdentifier: cellId) as! RouteTableViewCell? {
+        if let cell = tableView.dequeueReusableCell(withIdentifier: _cellId) as! RouteTableViewCell? {
             if let r = route {
                 cell.setRoute(route: r)
             }
             return cell
         }
         
-        let cell = RouteTableViewCell(route: route, cellId: cellId)
+        let cell = RouteTableViewCell(route: route, cellId: _cellId)
         return cell
     }
     

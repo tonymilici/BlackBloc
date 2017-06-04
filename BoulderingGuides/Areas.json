@@ -333,6 +333,29 @@
                             }
                         },
                         {
+                            "Name": "Orange Flambe Boulder",
+                            "Description": "In between the refrigerator and the fang, the large orange boulder perched on the granite slab.",
+                            "Routes":
+                            [
+                                {
+                                    "Name": "Orange Flambe",
+                                    "Description": "Start hugging the Orange Patina with a good right hand sidepull and mediocre left hand sidepull. Use technique and a bit of wizardry to climb up and slightly right on holds you wish were better. A Horse Flats classic.",
+                                    "Rating": "V7",
+                                    "Stars": 4,
+                                    "Location":
+                                    {
+                                        "Latitude": 34.34883,
+                                        "Longitude": -118.0158
+                                    }
+                                }
+                            ],
+                            "Location":
+                            {
+                                "Latitude": 34.34883,
+                                "Longitude": -118.0158
+                            }
+                        },
+                        {
                             "Name": "Swiss Cheese Boulder",
                             "Description": "The boulder right next to the trail with the overhanging huecoed downhill face.",
                             "Routes":
@@ -531,6 +554,49 @@
                                 "Latitude": 34.34087,
                                 "Longitude": -118.01606
                             }
+                        },
+                        {
+                            "Name": "Peanut Boulder",
+                            "Description": "The boulder is straight downhill from the obvious Y-Crack past the Skin Boulder. It is visible from the trail.",
+                            "Routes":
+                            [
+                                {
+                                    "Name": "Unnamed",
+                                    "Description": "On the undercut face facing Mr Skin, climb the pockets.",
+                                    "Rating": "V1",
+                                    "Stars": 2
+                                },
+                                {
+                                    "Name": "Unnamed",
+                                    "Description": "On the left side of the boulder, when facing the boulder from the main trail, start near a small, sharp tree stump. The true sit start is perhaps v4.",
+                                    "Rating": "V1",
+                                    "Stars": 2
+                                },
+                                {
+                                    "Name": "Nothing But Sunshine",
+                                    "Description": "Start both hands in the diagonal jug, go right hand up to the crimp, then traverse left on crimps and pinches to a big throw to a good crimp out left and up to good patina up top. One of the best at The Flats.",
+                                    "Rating": "V9",
+                                    "Stars": 4
+                                },
+                                {
+                                    "Name": "The Peanut",
+                                    "Description": "Start in the same diagonal jug as NBS, but instead go left hand up to the crimp, then right hand to a slick side pull and a big crux throw up left to patina.",
+                                    "Rating": "V7",
+                                    "Stars": 3
+                                },
+                                {
+                                    "Name": "Daddy Long Legs",
+                                    "Description": "Right of the Peanut, in the center of the face, start on two good crimps and climb straight up.",
+                                    "Rating": "V4",
+                                    "Stars": 3
+                                },
+                                {
+                                    "Name": "Unnamed",
+                                    "Description": "Climb patina crimps on the right side of the face away from the trail.",
+                                    "Rating": "V4",
+                                    "Stars": 2
+                                }
+                            ]
                         },
                         {
                             "Name": "Dragon Rock",

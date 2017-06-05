@@ -157,6 +157,24 @@
                     "Boulders":
                     [
                         {
+                            "Name": "Adam's Rib Boulder",
+                            "Description": "Nice boulder with a couple problems close to camp.",
+                            "Routes":
+                            [
+                                {
+                                    "Name": "Adam's Rib Arete",
+                                    "Description": "Climb the left arete rail. Top out in the center of the boulder, or for a little more spice, top out to the left (through the tree branch).",
+                                    "Rating": "V1",
+                                    "Stars": 2
+                                }
+                            ],
+                            "Location":
+                            {
+                                "Latitude": 34.34147,
+                                "Longitude": -118.01362
+                            }
+                        },
+                        {
                             "Name": "Rythym and the Heat Boulder",
                             "Description": "The suspended block on the way to Teflon President",
                             "Routes":
@@ -165,7 +183,7 @@
                                     "Name": "Rhythym and the Heat",
                                     "Description": "Climb the suspended block straight up.",
                                     "Rating": "V0",
-                                    "Stars": 2
+                                    "Stars": 1
                                 }
                             ],
                             "Location":
@@ -190,6 +208,29 @@
                             {
                                 "Latitude": 34.34258,
                                 "Longitude": -118.01285
+                            }
+                        },
+                        {
+                            "Name": "Teflon Arete Boulder",
+                            "Description": "Tall boulder up the hill from Teflon Boulder.",
+                            "Routes":
+                            [
+                                {
+                                    "Name": "Teflon Arete",
+                                    "Description": "Climb the beautiful arete. A nice foot gets you started. Downclimb slab off the back of the boulder.",
+                                    "Rating": "V5",
+                                    "Stars": 3,
+                                    "Location":
+                                    {
+                                        "Latitude": 34.34252,
+                                        "Longitude": -118.01304
+                                    }
+                                }
+                            ],
+                            "Location":
+                            {
+                                "Latitude": 34.34252,
+                                "Longitude": -118.01304
                             }
                         }
                     ]

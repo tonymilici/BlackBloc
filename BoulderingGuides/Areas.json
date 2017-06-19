@@ -163,15 +163,21 @@
                             [
                                 {
                                     "Name": "Adam's Rib Arete",
-                                    "Description": "Climb the left arete rail. Top out in the center of the boulder, or for a little more spice, top out to the left (through the tree branch).",
+                                    "Description": "Climb the left arete rail. Top out in the center of the boulder, or for a little more spice, top out to the left (through the tree branch). There is a sharp yucca in the landing zone.",
                                     "Rating": "V1",
-                                    "Stars": 2
+                                    "Stars": 2,
+                                    "Location":
+                                    {
+                                        "Latitude": 34.340995,
+                                        "Longitude": -118.012459
+                                    }
                                 }
+                             
                             ],
                             "Location":
                             {
-                                "Latitude": 34.34147,
-                                "Longitude": -118.01362
+                                "Latitude": 34.340995,
+                                "Longitude": -118.012459
                             }
                         },
                         {
@@ -181,8 +187,8 @@
                             [
                                 {
                                     "Name": "Rhythym and the Heat",
-                                    "Description": "Climb the suspended block straight up.",
-                                    "Rating": "V0",
+                                    "Description": "Climb the suspended block straight up. It is a bit dirty these days but with more trafiic would clean up to a decent problem.",
+                                    "Rating": "V0-",
                                     "Stars": 1
                                 }
                             ],
@@ -201,7 +207,23 @@
                                     "Name": "Teflon President",
                                     "Description": "Climb the right arete.",
                                     "Rating": "V5",
-                                    "Stars": 3
+                                    "Stars": 3,
+                                    "Location":
+                                    {
+                                        "Latitude": 34.34256,
+                                        "Longitude": -118.01288
+                                    }
+                                },
+                                {
+                                    "Name": "Not Teflon President",
+                                    "Description": "Climb the left arete.",
+                                    "Rating": "V0",
+                                    "Stars": 2,
+                                    "Location":
+                                    {
+                                        "Latitude": 34.342622,
+                                        "Longitude": -118.012866
+                                    }
                                 }
                             ],
                             "Location":
@@ -222,8 +244,8 @@
                                     "Stars": 3,
                                     "Location":
                                     {
-                                        "Latitude": 34.34252,
-                                        "Longitude": -118.01304
+                                        "Latitude": 34.342517,
+                                        "Longitude": -118.013092
                                     }
                                 }
                             ],

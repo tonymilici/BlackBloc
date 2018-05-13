@@ -277,6 +277,18 @@
                         "Routes":
                         [
                             {
+                                "Name":"Talk Dirty to Me",
+                                "Description":"Climb the rouded arete.",
+                                "Rating":"V0",
+                                "Stars":1
+                            },
+                            {
+                                "Name":"Slept Together",
+                                "Description":"Climb the face left of Mr. Ed",
+                                "Rating":"V3",
+                                "Stars":1
+                            },
+                            {
                                 "Name": "Mr. Ed",
                                 "Description": "Climb the lieback crack on the north face. Often toproped.",
                                 "Rating": "VB",
@@ -286,6 +298,12 @@
                                 "Name":"Ionizer",
                                 "Description":"Climb the tall face right of Mr. Ed using tiny edges, often toproped.",
                                 "Rating":"V2",
+                                "Stars":1
+                            },
+                            {
+                                "Name":"Ed's Route",
+                                "Description":"Climb the face to the right of Ionizer.",
+                                "Rating":"V1",
                                 "Stars":1
                             }
                         ]
@@ -320,6 +338,12 @@
                                 "Name":"Do Me",
                                 "Description":"Climb the face right of the flake on Credit card Lover, often toproped.",
                                 "Rating":"V2",
+                                "Stars":1
+                            },
+                            {
+                                "Name":"Easy Face",
+                                "Description":"Climb the easy face around the corner to the right of Do Me.",
+                                "Rating":"VB",
                                 "Stars":1
                             }
                         ]

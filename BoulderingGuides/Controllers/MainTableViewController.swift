@@ -74,7 +74,7 @@ extension MainTableViewController: UITableViewDelegate {
         let mapController = AreaMapViewController(area: area)
         mapController.tabBarItem = UITabBarItem(title: "Navigate", image: nil, tag: 1)
         
-        let routesController = RoutesViewController(routes:area.getRoutes())
+        let routesController = AreaViewController(clusters: area.clusters)
         routesController.tabBarItem = UITabBarItem(title: "Routes", image: nil, tag: 2)
         
         let tabController = TabBarController()

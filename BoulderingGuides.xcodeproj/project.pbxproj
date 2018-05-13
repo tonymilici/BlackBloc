@@ -22,6 +22,8 @@
 		BB3CEC8520A89F57006E2BD4 /* Mr Ed.png in Resources */ = {isa = PBXBuildFile; fileRef = BB3CEC8420A89F57006E2BD4 /* Mr Ed.png */; };
 		BB3CEC8720A8A0F3006E2BD4 /* Credit Card Lover.png in Resources */ = {isa = PBXBuildFile; fileRef = BB3CEC8620A8A0F3006E2BD4 /* Credit Card Lover.png */; };
 		BB3CEC8920A8A314006E2BD4 /* Horse Farts.png in Resources */ = {isa = PBXBuildFile; fileRef = BB3CEC8820A8A314006E2BD4 /* Horse Farts.png */; };
+		BB3CEC8B20A8D176006E2BD4 /* AreaView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB3CEC8A20A8D176006E2BD4 /* AreaView.xib */; };
+		BB3CEC8D20A8D1A2006E2BD4 /* AreaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3CEC8C20A8D1A2006E2BD4 /* AreaViewController.swift */; };
 		BBA3C8641E9E7BAA0037ED09 /* Swiss Cheese.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BBA3C8631E9E7BAA0037ED09 /* Swiss Cheese.jpg */; };
 		BBA3C8671E9E9EF70037ED09 /* Unknown1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BBA3C8661E9E9EF70037ED09 /* Unknown1.jpg */; };
 		BBA3C8691E9EA2A40037ED09 /* Unknown2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BBA3C8681E9EA2A40037ED09 /* Unknown2.jpg */; };
@@ -94,6 +96,8 @@
 		BB3CEC8420A89F57006E2BD4 /* Mr Ed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Mr Ed.png"; path = "Photos/Mr Ed.png"; sourceTree = "<group>"; };
 		BB3CEC8620A8A0F3006E2BD4 /* Credit Card Lover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Credit Card Lover.png"; path = "Photos/Credit Card Lover.png"; sourceTree = "<group>"; };
 		BB3CEC8820A8A314006E2BD4 /* Horse Farts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Horse Farts.png"; path = "Photos/Horse Farts.png"; sourceTree = "<group>"; };
+		BB3CEC8A20A8D176006E2BD4 /* AreaView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AreaView.xib; sourceTree = "<group>"; };
+		BB3CEC8C20A8D1A2006E2BD4 /* AreaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AreaViewController.swift; sourceTree = "<group>"; };
 		BBA3C8631E9E7BAA0037ED09 /* Swiss Cheese.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Swiss Cheese.jpg"; path = "Photos/Swiss Cheese.jpg"; sourceTree = "<group>"; };
 		BBA3C8661E9E9EF70037ED09 /* Unknown1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Unknown1.jpg; path = Photos/Unknown1.jpg; sourceTree = "<group>"; };
 		BBA3C8681E9EA2A40037ED09 /* Unknown2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Unknown2.jpg; path = Photos/Unknown2.jpg; sourceTree = "<group>"; };
@@ -183,6 +187,8 @@
 				BBEF92E21EE373D300E1781A /* RouteViewController.swift */,
 				BBEF92E41EE3740200E1781A /* TabBar.xib */,
 				BBEF92E61EE3743F00E1781A /* TabBarController.swift */,
+				BB3CEC8A20A8D176006E2BD4 /* AreaView.xib */,
+				BB3CEC8C20A8D1A2006E2BD4 /* AreaViewController.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -414,6 +420,7 @@
 				BBEF92D31EE371FE00E1781A /* MapView.xib in Resources */,
 				BBA3C86F1E9EE8B50037ED09 /* Eriksson Problem.jpg in Resources */,
 				BB3CEC8320A88ECC006E2BD4 /* Teflon Arete.png in Resources */,
+				BB3CEC8B20A8D176006E2BD4 /* AreaView.xib in Resources */,
 				BB1B79091EE3341C009AF545 /* Sword of Damocles.jpg in Resources */,
 				BBA3C8691E9EA2A40037ED09 /* Unknown2.jpg in Resources */,
 				BB1B79051EE32F07009AF545 /* Thin Crack.jpg in Resources */,
@@ -468,6 +475,7 @@
 				BBEF92BB1EE36F0F00E1781A /* Areas.swift in Sources */,
 				BBEF92C11EE36FA000E1781A /* Cluster.swift in Sources */,
 				BBEF92D71EE3724B00E1781A /* NavigationMapViewController.swift in Sources */,
+				BB3CEC8D20A8D1A2006E2BD4 /* AreaViewController.swift in Sources */,
 				BBEF92C71EE370A300E1781A /* AreaMapViewController.swift in Sources */,
 				BBEF92BD1EE36F5800E1781A /* Area.swift in Sources */,
 				BBEF92D91EE3726F00E1781A /* MapViewController.swift in Sources */,

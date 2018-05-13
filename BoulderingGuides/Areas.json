@@ -281,6 +281,12 @@
                                 "Description": "Climb the lieback crack on the north face. Often toproped.",
                                 "Rating": "VB",
                                 "Stars": 2
+                            },
+                            {
+                                "Name":"Ionizer",
+                                "Description":"Climb the tall face right of Mr. Ed using tiny edges, often toproped.",
+                                "Rating":"V2",
+                                "Stars":1
                             }
                         ]
                      },
@@ -290,6 +296,13 @@
                         "Image":"Credit Card Lover.png",
                         "Routes":
                         [
+                            {
+                                "Name":"Regular Route",
+                                "Description":"Climb the left side of the slabby face, often toproped.",
+                                "Rating":"VB",
+                                "Stars":1,
+                                "Image":"Horse Farts.png"
+                            },
                             {
                                 "Name":"Horse Farts",
                                 "Description":"Slabby face left of Credit Card Lover, often toproped",
@@ -301,6 +314,12 @@
                                 "Name":"Credit Card Lover",
                                 "Description":"Climb the left-facing flake.",
                                 "Rating":"V1",
+                                "Stars":1
+                            },
+                            {
+                                "Name":"Do Me",
+                                "Description":"Climb the face right of the flake on Credit card Lover, often toproped.",
+                                "Rating":"V2",
                                 "Stars":1
                             }
                         ]

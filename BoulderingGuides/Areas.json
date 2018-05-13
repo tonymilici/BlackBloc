@@ -166,6 +166,7 @@
                                     "Description": "Climb the left arete rail. Top out in the center of the boulder, or for a little more spice, top out to the left (through the tree branch). There is a sharp yucca in the landing zone.",
                                     "Rating": "V1",
                                     "Stars": 2,
+                                    "Image":"Adams Rib.png",
                                     "Location":
                                     {
                                         "Latitude": 34.340995,
@@ -189,6 +190,7 @@
                                     "Name": "Rhythym and the Heat",
                                     "Description": "Climb the suspended block straight up. It is a bit dirty these days but with more trafiic would clean up to a decent problem.",
                                     "Rating": "V0-",
+                                    "Image":"Rhythym.png",
                                     "Stars": 1
                                 }
                             ],
@@ -206,8 +208,9 @@
                                 {
                                     "Name": "Teflon President",
                                     "Description": "Climb the right arete.",
-                                    "Rating": "V5",
+                                    "Rating": "V7",
                                     "Stars": 3,
+                                    "Image":"Teflon President.png",
                                     "Location":
                                     {
                                         "Latitude": 34.34256,
@@ -217,8 +220,9 @@
                                 {
                                     "Name": "Not Teflon President",
                                     "Description": "Climb the left arete.",
-                                    "Rating": "V0",
+                                    "Rating": "V1",
                                     "Stars": 2,
+                                    "Image":"Not Teflon President.png",
                                     "Location":
                                     {
                                         "Latitude": 34.342622,
@@ -230,7 +234,8 @@
                             {
                                 "Latitude": 34.34258,
                                 "Longitude": -118.01285
-                            }
+                            },
+                            "Image":"Teflon Boulder.png"
                         },
                         {
                             "Name": "Teflon Arete Boulder",
@@ -240,7 +245,7 @@
                                 {
                                     "Name": "Teflon Arete",
                                     "Description": "Climb the beautiful arete. A nice foot gets you started. Downclimb slab off the back of the boulder.",
-                                    "Rating": "V5",
+                                    "Rating": "V5 PG13",
                                     "Stars": 3,
                                     "Location":
                                     {
@@ -253,7 +258,8 @@
                             {
                                 "Latitude": 34.34252,
                                 "Longitude": -118.01304
-                            }
+                            },
+                            "Image":"Teflon Arete.png"
                         }
                     ]
                 },
@@ -265,15 +271,37 @@
                     "Boulders":
                     [
                      {
-                        "Name": "Romeo Void",
+                        "Name": "Mr Ed. Boulder",
                         "Description": "A large clump of boulders about 30 yards south of the trail. You see an obvoius crack/chute when approaching it.",
+                        "Image":"Mr Ed.png",
                         "Routes":
                         [
                             {
                                 "Name": "Mr. Ed",
                                 "Description": "Climb the lieback crack on the north face. Often toproped.",
-                                "Rating": "5.8",
+                                "Rating": "VB",
                                 "Stars": 2
+                            }
+                        ]
+                     },
+                     {
+                        "Name":"Credit Card Lover Boulder",
+                        "Description":"The Boulder left of Mr. Ed boulder with a left-facing flake on it, usually toproped",
+                        "Image":"Credit Card Lover.png",
+                        "Routes":
+                        [
+                            {
+                                "Name":"Horse Farts",
+                                "Description":"Slabby face left of Credit Card Lover, often toproped",
+                                "Rating":"V2",
+                                "Stars":1,
+                                "Image":"Horse Farts.png"
+                            },
+                            {
+                                "Name":"Credit Card Lover",
+                                "Description":"Climb the left-facing flake.",
+                                "Rating":"V1",
+                                "Stars":1
                             }
                         ]
                      }

@@ -93,11 +93,11 @@ public class Areas {
             let boulder = Boulder(name: boulderName)
             boulder.description = boulderDict["Description"] as! String?
             cluster.boulders.append(boulder)
+            boulder.image = boulderDict["Image"] as! String?
+            boulder.location = parseLocation(locationDict: boulderDict["Location"])
             if let routeObjs = boulderDict["Routes"] as! [Any]? {
                 parseRoutes(routeObjs: routeObjs, boulder: boulder)
             }
-            boulder.image = boulderDict["Image"] as! String?
-            boulder.location = parseLocation(locationDict: boulderDict["Location"])
         }
     }
     
@@ -108,7 +108,12 @@ public class Areas {
             route.description = routeDict["Description"] as! String?
             route.rating = routeDict["Rating"] as! String?
             route.stars = routeDict["Stars"] as! Int
-            route.image = routeDict["Image"] as! String?
+            if let image = routeDict["Image"] {
+                route.image = image as? String
+            }
+            else {
+                route.image = boulder.image
+            }
             route.location = parseLocation(locationDict: routeDict["Location"])
             boulder.routes.append(route)
         }

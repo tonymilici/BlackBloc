@@ -27,6 +27,7 @@ import Foundation
 import UIKit
 
 public class BoulderViewController: UIViewController {
+    @IBOutlet weak var _titleLabel: UILabel!
     @IBOutlet weak var _imageView: UIImageView!
     @IBOutlet weak var _descriptionView: UITextView!
     fileprivate var _boulder: Boulder?
@@ -35,7 +36,8 @@ public class BoulderViewController: UIViewController {
     public init(boulder: Boulder) {
         super.init(nibName: "BoulderView", bundle: nil)
         _boulder = boulder
-        title = boulder.name
+        title = "Boulder"
+        
         
         navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Navigate", style: .plain, target:self, action: #selector(self.navigate(sender:)))
     }
@@ -45,7 +47,9 @@ public class BoulderViewController: UIViewController {
     }
     
     public override func viewDidLoad() {
+        _titleLabel.text = _boulder?.name
         _descriptionView.text = _boulder?.description
+        
         if let image = _boulder?.image {
             _imageView.image = UIImage(named: image)
         }

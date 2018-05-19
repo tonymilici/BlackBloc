@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -13,6 +14,7 @@
             <connections>
                 <outlet property="_descriptionView" destination="qlO-8J-ZMl" id="rq3-lM-hxd"/>
                 <outlet property="_imageView" destination="PUA-Tw-Ggp" id="8B9-7a-JDq"/>
+                <outlet property="_titleLabel" destination="ywh-H4-POm" id="F0x-Pd-ePJ"/>
                 <outlet property="view" destination="iN0-l3-epB" id="R81-R2-Iaa"/>
             </connections>
         </placeholder>
@@ -21,43 +23,53 @@
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qlO-8J-ZMl">
-                    <rect key="frame" x="0.0" y="0.0" width="375" height="128"/>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ywh-H4-POm">
+                    <rect key="frame" x="0.0" y="20" width="375" height="29"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qlO-8J-ZMl">
+                    <rect key="frame" x="0.0" y="57" width="375" height="40"/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     <constraints>
-                        <constraint firstAttribute="height" constant="128" id="oqZ-Ns-9sF"/>
+                        <constraint firstAttribute="height" constant="88" id="oqZ-Ns-9sF" userLabel="height = 88"/>
                     </constraints>
                     <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                 </textView>
-                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="2pn-0h-t9T">
-                    <rect key="frame" x="0.0" y="136" width="375" height="289"/>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="PUA-Tw-Ggp">
+                    <rect key="frame" x="0.0" y="449.5" width="375" height="209.5"/>
+                </imageView>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="2pn-0h-t9T">
+                    <rect key="frame" x="0.0" y="152" width="375" height="322"/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="289" id="mrz-gg-rix"/>
                     </constraints>
+                    <color key="separatorColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                     <connections>
                         <outlet property="dataSource" destination="-1" id="TF6-6p-hWf"/>
                         <outlet property="delegate" destination="-1" id="Hxa-BI-yJQ"/>
                     </connections>
                 </tableView>
-                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="PUA-Tw-Ggp">
-                    <rect key="frame" x="0.0" y="433" width="375" height="234"/>
-                </imageView>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
+                <constraint firstItem="ywh-H4-POm" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="topMargin" constant="8" id="0xr-I7-Jd1" userLabel="Title Label.top = topMargin + 8"/>
                 <constraint firstItem="2pn-0h-t9T" firstAttribute="top" secondItem="qlO-8J-ZMl" secondAttribute="bottom" constant="8" id="1F5-ea-RvZ"/>
                 <constraint firstItem="PUA-Tw-Ggp" firstAttribute="top" secondItem="2pn-0h-t9T" secondAttribute="bottom" constant="8" id="4qx-uB-4IX"/>
-                <constraint firstItem="qlO-8J-ZMl" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="G6c-Ya-ABz"/>
+                <constraint firstItem="ywh-H4-POm" firstAttribute="trailing" secondItem="qlO-8J-ZMl" secondAttribute="trailing" id="7P4-Hq-bUq"/>
                 <constraint firstItem="qlO-8J-ZMl" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Gdv-0i-0m2"/>
                 <constraint firstAttribute="trailing" secondItem="qlO-8J-ZMl" secondAttribute="trailing" id="Gha-Vc-V2U"/>
                 <constraint firstItem="PUA-Tw-Ggp" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="JFa-GX-piG"/>
                 <constraint firstItem="2pn-0h-t9T" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Odo-WR-YLM"/>
+                <constraint firstItem="ywh-H4-POm" firstAttribute="leading" secondItem="qlO-8J-ZMl" secondAttribute="leading" id="WHY-Ib-JA5"/>
+                <constraint firstItem="qlO-8J-ZMl" firstAttribute="top" secondItem="ywh-H4-POm" secondAttribute="bottom" constant="8" symbolic="YES" id="eaR-au-YrH"/>
                 <constraint firstAttribute="trailing" secondItem="2pn-0h-t9T" secondAttribute="trailing" id="fp3-UX-Iya"/>
                 <constraint firstAttribute="trailing" secondItem="PUA-Tw-Ggp" secondAttribute="trailing" id="h25-Yk-diN"/>
-                <constraint firstAttribute="bottom" secondItem="PUA-Tw-Ggp" secondAttribute="bottom" id="iGf-bY-hIE"/>
+                <constraint firstAttribute="bottom" secondItem="PUA-Tw-Ggp" secondAttribute="bottom" constant="8" id="iGf-bY-hIE"/>
             </constraints>
             <point key="canvasLocation" x="33.5" y="54.5"/>
         </view>

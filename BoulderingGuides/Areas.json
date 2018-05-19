@@ -65,7 +65,45 @@
                                        }
                                    }
                               ]
-                         }
+                         },
+                         {
+                             "Name":"Couinard's Slab Boulder",
+                             "Description":"A small boulder just uphill from the Spiral boulder with an obvious slab problem.",
+                             "Image":"Chouinards Slab.png",
+                             "Location":
+                             {
+                                "Latitude": 34.270319,
+                                "Longitude":-118.603123,
+                             },
+                             "Routes":
+                             [
+                                 {
+                                     "Name":"Chouinard's Slab",
+                                     "Description":"Climb the easy slab.",
+                                     "Rating":"VB",
+                                     "Stars":2
+                                  }
+                             ]
+                          },
+                          {
+                              "Name":"Slap Boulder",
+                              "Description":"The obvious small chalked boulder just North of Spiral Traverse.",
+                              "Image":"Slap.png",
+                              "Location":
+                              {
+                                "Latitude": 34.270384,
+                                "Longitude":-118.603140,
+                              },
+                              "Routes":
+                              [
+                                  {
+                                       "Name":"Slap",
+                                       "Description":"Climb the lowball face.",
+                                       "Rating":"V2",
+                                       "Stars":1
+                                  }
+                              ]
+                          }
                      ]
                 },
                 {

@@ -10,6 +10,10 @@
 		BB0606BD20B0756500B465F1 /* Ummagumma.png in Resources */ = {isa = PBXBuildFile; fileRef = BB0606BC20B0756500B465F1 /* Ummagumma.png */; };
 		BB0606BF20B0874200B465F1 /* Face Problem.png in Resources */ = {isa = PBXBuildFile; fileRef = BB0606BE20B0874200B465F1 /* Face Problem.png */; };
 		BB0606C120B0911300B465F1 /* Boulder Behind Ummagumma.png in Resources */ = {isa = PBXBuildFile; fileRef = BB0606C020B0911300B465F1 /* Boulder Behind Ummagumma.png */; };
+		BB0606C320B0985400B465F1 /* Mommys Boys.png in Resources */ = {isa = PBXBuildFile; fileRef = BB0606C220B0985400B465F1 /* Mommys Boys.png */; };
+		BB0606C520B09A3700B465F1 /* Mommys Boy Left.png in Resources */ = {isa = PBXBuildFile; fileRef = BB0606C420B09A3700B465F1 /* Mommys Boy Left.png */; };
+		BB0606C720B09B9200B465F1 /* Mommys Boy Center.png in Resources */ = {isa = PBXBuildFile; fileRef = BB0606C620B09B9200B465F1 /* Mommys Boy Center.png */; };
+		BB0606C920B09D2B00B465F1 /* Mommys Boy Right.png in Resources */ = {isa = PBXBuildFile; fileRef = BB0606C820B09D2B00B465F1 /* Mommys Boy Right.png */; };
 		BB1B79051EE32F07009AF545 /* Thin Crack.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB1B79041EE32F07009AF545 /* Thin Crack.jpg */; };
 		BB1B79071EE330A3009AF545 /* Barndoor Arete.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB1B79061EE330A3009AF545 /* Barndoor Arete.jpg */; };
 		BB1B79091EE3341C009AF545 /* Sword of Damocles.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB1B79081EE3341C009AF545 /* Sword of Damocles.jpg */; };
@@ -87,6 +91,10 @@
 		BB0606BC20B0756500B465F1 /* Ummagumma.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Ummagumma.png; path = Photos/Ummagumma.png; sourceTree = "<group>"; };
 		BB0606BE20B0874200B465F1 /* Face Problem.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Face Problem.png"; path = "Photos/Face Problem.png"; sourceTree = "<group>"; };
 		BB0606C020B0911300B465F1 /* Boulder Behind Ummagumma.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Boulder Behind Ummagumma.png"; path = "Photos/Boulder Behind Ummagumma.png"; sourceTree = "<group>"; };
+		BB0606C220B0985400B465F1 /* Mommys Boys.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Mommys Boys.png"; path = "Photos/Mommys Boys.png"; sourceTree = "<group>"; };
+		BB0606C420B09A3700B465F1 /* Mommys Boy Left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Mommys Boy Left.png"; path = "Photos/Mommys Boy Left.png"; sourceTree = "<group>"; };
+		BB0606C620B09B9200B465F1 /* Mommys Boy Center.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Mommys Boy Center.png"; path = "Photos/Mommys Boy Center.png"; sourceTree = "<group>"; };
+		BB0606C820B09D2B00B465F1 /* Mommys Boy Right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Mommys Boy Right.png"; path = "Photos/Mommys Boy Right.png"; sourceTree = "<group>"; };
 		BB1B79041EE32F07009AF545 /* Thin Crack.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Thin Crack.jpg"; path = "Photos/Thin Crack.jpg"; sourceTree = "<group>"; };
 		BB1B79061EE330A3009AF545 /* Barndoor Arete.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Barndoor Arete.jpg"; path = "Photos/Barndoor Arete.jpg"; sourceTree = "<group>"; };
 		BB1B79081EE3341C009AF545 /* Sword of Damocles.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Sword of Damocles.jpg"; path = "Photos/Sword of Damocles.jpg"; sourceTree = "<group>"; };
@@ -222,6 +230,10 @@
 		BBA3C8651E9E7BBF0037ED09 /* Photos */ = {
 			isa = PBXGroup;
 			children = (
+				BB0606C820B09D2B00B465F1 /* Mommys Boy Right.png */,
+				BB0606C620B09B9200B465F1 /* Mommys Boy Center.png */,
+				BB0606C420B09A3700B465F1 /* Mommys Boy Left.png */,
+				BB0606C220B0985400B465F1 /* Mommys Boys.png */,
 				BB0606C020B0911300B465F1 /* Boulder Behind Ummagumma.png */,
 				BB0606BE20B0874200B465F1 /* Face Problem.png */,
 				BB0606BC20B0756500B465F1 /* Ummagumma.png */,
@@ -427,9 +439,11 @@
 				BB3CEC7D20A88B9B006E2BD4 /* Teflon President.png in Resources */,
 				BBEF92DD1EE372D400E1781A /* RoutesView.xib in Resources */,
 				BBEF92CD1EE3715A00E1781A /* ClusterView.xib in Resources */,
+				BB0606C720B09B9200B465F1 /* Mommys Boy Center.png in Resources */,
 				BBEF92D31EE371FE00E1781A /* MapView.xib in Resources */,
 				BBA3C86F1E9EE8B50037ED09 /* Eriksson Problem.jpg in Resources */,
 				BB3CEC8320A88ECC006E2BD4 /* Teflon Arete.png in Resources */,
+				BB0606C320B0985400B465F1 /* Mommys Boys.png in Resources */,
 				BB3CEC8B20A8D176006E2BD4 /* AreaView.xib in Resources */,
 				BB0606C120B0911300B465F1 /* Boulder Behind Ummagumma.png in Resources */,
 				BB1B79091EE3341C009AF545 /* Sword of Damocles.jpg in Resources */,
@@ -445,9 +459,11 @@
 				BB3CEC8720A8A0F3006E2BD4 /* Credit Card Lover.png in Resources */,
 				BB3CEC7920A88879006E2BD4 /* Adams Rib.png in Resources */,
 				BB3CEC7B20A88A8E006E2BD4 /* Rhythym.png in Resources */,
+				BB0606C920B09D2B00B465F1 /* Mommys Boy Right.png in Resources */,
 				BBEF92E51EE3740200E1781A /* TabBar.xib in Resources */,
 				BB1B79071EE330A3009AF545 /* Barndoor Arete.jpg in Resources */,
 				BBBDD6A11E92F04E00FBC583 /* Assets.xcassets in Resources */,
+				BB0606C520B09A3700B465F1 /* Mommys Boy Left.png in Resources */,
 				BB1B790D1EE33FB4009AF545 /* Victor Boulder.jpg in Resources */,
 				BB0606BF20B0874200B465F1 /* Face Problem.png in Resources */,
 			);

@@ -283,17 +283,27 @@
                         {
                             "Name": "Boulder 1",
                             "Description": "This is the obvious large boulder.",
+                            "Image":"Boulder 1.png",
                             "Routes":
                             [
+                                 {
+                                     "Name":"Nylon Boy",
+                                     "Description":"Just left of Boot Flake, climb up to a sidepull then to the top.",
+                                     "Rating":"V1",
+                                     "Stars":2,
+                                     "Image":"Boot Flake.png"
+                                 },
                                 {
                                     "Name": "Boot Flake",
                                     "Description": "Start slightly to the right of the \"boot\". Gain a right hand crimp and make a big move to the boot. Carefully top out.",
                                     "Rating": "V2",
+                                    "Image":"Boot Flake.png",
                                     "Stars": 2
                                 },
                                 {
                                     "Name": "Endo Boy",
                                     "Description": "This line climbs to the right of Boot Flake via sidepulls and crimps.",
+                                    "Image":"Boot Flake.png",
                                     "Rating": "V3",
                                     "Stars": 2
                                 },
@@ -313,7 +323,46 @@
                         },
                         {
                             "Name": "Slant Rock",
-                            "Description": "This boulder is a few yards to the southeast of Boulder 1 and has a low angle west face that is often ascended with no hands."
+                            "Description": "This boulder is a few yards to the southeast of Boulder 1 and has a low angle west face that is often ascended with no hands.",
+                            "Image":"Slant Rock.png",
+                            "Routes":
+                            [
+                                {
+                                    "Name":"The Edge",
+                                    "Description":"Climb the very easy west arete.",
+                                    "Rating":"VB",
+                                    "Stars":1,
+                                    "Image":"Slant Rock Face.png"
+                                },
+                                {
+                                    "Name":"Slant Rock Face Right",
+                                    "Description":"Climb the face just left of the edge.",
+                                    "Rating":"VB",
+                                    "Stars":1,
+                                    "Image":"Slant Rock Face.png"
+                                },
+                                {
+                                    "Name":"Slant Rock Face Center",
+                                    "Description":"Climb the center of the face using friction and small crimps.",
+                                    "Rating":"V0-",
+                                    "Stars":1,
+                                    "Image":"Slant Rock Face.png"
+                                },
+                                {
+                                    "Name":"Slant Rock Face Left",
+                                    "Description":"Climb the left side of the face.",
+                                    "Rating":"VB",
+                                    "Stars":1,
+                                    "Image":"Slant Rock Face.png"
+                                },
+                                {
+                                    "Name":"Slant Flake",
+                                    "Description":"Sit start and climb the juggy seam up and left to the mantle topout.",
+                                    "Rating":"V0",
+                                    "Stars":1,
+                                    "Image":"Slant Flake.png"
+                                }
+                            ]
                         },
                         {
                             "Name": "Pump Rock",
@@ -356,6 +405,7 @@
                     {
                         "Name": "Pile Ups Boulder",
                         "Description": "The obvious short boulder next to the trail.",
+                        "Image":"Pile Ups.png",
                         "Routes":
                         [
                             {

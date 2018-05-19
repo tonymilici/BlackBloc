@@ -51,6 +51,43 @@
                                     "Image":"Mommys Boy Right.png"
                                 }
                             ]
+                        },
+                        {
+                             "Name":"Boulder Opposite Mommy's Boys",
+                             "Description":"The boulder on the other side of the corridor.",
+                             "Image":"Yabo Dyno.png",
+                             "Location":
+                             {
+                                "Latitude": 34.27067,
+                                "Longitude":-118.60412,
+                             },
+                             "Routes":
+                             [
+                                 {
+                                      "Name":"Yabo Dyno",
+                                      "Description":"Start low on decent edges and move right to a dyno from a sidepull and a small edge to a rounded hold. Located directly across from Mommy's Boys. Located on the opposite side of the boulder from Mommy's Boys.",
+                                      "Rating":"V8",
+                                      "Stars":1,
+                                      "Image":"Yabo Dyno.png",
+                                      "Location":
+                                      {
+                                        "Latitude": 34.27064,
+                                        "Longitude":-118.60411,
+                                      }
+                                  },
+                                  {
+                                      "Name":"Pocket Traverse",
+                                      "Description":"Traverse from left to right on bad feet to a cruxy sequence moving right then up to a ledgy rail.",
+                                      "Rating":"V3",
+                                      "Stars":2,
+                                      "Image":"Pocket Traverse.png",
+                                      "Location":
+                                      {
+                                        "Latitude": 34.2707,
+                                        "Longitude":-118.60411,
+                                      }
+                                  }
+                             ]
                         }
                     ]
                 },

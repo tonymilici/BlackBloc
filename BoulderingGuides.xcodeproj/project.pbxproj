@@ -14,6 +14,7 @@
 		BB0606C520B09A3700B465F1 /* Mommys Boy Left.png in Resources */ = {isa = PBXBuildFile; fileRef = BB0606C420B09A3700B465F1 /* Mommys Boy Left.png */; };
 		BB0606C720B09B9200B465F1 /* Mommys Boy Center.png in Resources */ = {isa = PBXBuildFile; fileRef = BB0606C620B09B9200B465F1 /* Mommys Boy Center.png */; };
 		BB0606C920B09D2B00B465F1 /* Mommys Boy Right.png in Resources */ = {isa = PBXBuildFile; fileRef = BB0606C820B09D2B00B465F1 /* Mommys Boy Right.png */; };
+		BB0606CB20B0A0A300B465F1 /* Yabo Dyno.png in Resources */ = {isa = PBXBuildFile; fileRef = BB0606CA20B0A0A200B465F1 /* Yabo Dyno.png */; };
 		BB1B79051EE32F07009AF545 /* Thin Crack.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB1B79041EE32F07009AF545 /* Thin Crack.jpg */; };
 		BB1B79071EE330A3009AF545 /* Barndoor Arete.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB1B79061EE330A3009AF545 /* Barndoor Arete.jpg */; };
 		BB1B79091EE3341C009AF545 /* Sword of Damocles.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB1B79081EE3341C009AF545 /* Sword of Damocles.jpg */; };
@@ -68,6 +69,7 @@
 		BBEF92E31EE373D300E1781A /* RouteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEF92E21EE373D300E1781A /* RouteViewController.swift */; };
 		BBEF92E51EE3740200E1781A /* TabBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBEF92E41EE3740200E1781A /* TabBar.xib */; };
 		BBEF92E71EE3743F00E1781A /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEF92E61EE3743F00E1781A /* TabBarController.swift */; };
+		BBF7C9A420B0A50000BAE2CF /* Pocket Traverse.png in Resources */ = {isa = PBXBuildFile; fileRef = BBF7C9A320B0A4FF00BAE2CF /* Pocket Traverse.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -95,6 +97,7 @@
 		BB0606C420B09A3700B465F1 /* Mommys Boy Left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Mommys Boy Left.png"; path = "Photos/Mommys Boy Left.png"; sourceTree = "<group>"; };
 		BB0606C620B09B9200B465F1 /* Mommys Boy Center.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Mommys Boy Center.png"; path = "Photos/Mommys Boy Center.png"; sourceTree = "<group>"; };
 		BB0606C820B09D2B00B465F1 /* Mommys Boy Right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Mommys Boy Right.png"; path = "Photos/Mommys Boy Right.png"; sourceTree = "<group>"; };
+		BB0606CA20B0A0A200B465F1 /* Yabo Dyno.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Yabo Dyno.png"; path = "Photos/Yabo Dyno.png"; sourceTree = "<group>"; };
 		BB1B79041EE32F07009AF545 /* Thin Crack.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Thin Crack.jpg"; path = "Photos/Thin Crack.jpg"; sourceTree = "<group>"; };
 		BB1B79061EE330A3009AF545 /* Barndoor Arete.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Barndoor Arete.jpg"; path = "Photos/Barndoor Arete.jpg"; sourceTree = "<group>"; };
 		BB1B79081EE3341C009AF545 /* Sword of Damocles.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Sword of Damocles.jpg"; path = "Photos/Sword of Damocles.jpg"; sourceTree = "<group>"; };
@@ -155,6 +158,7 @@
 		BBEF92E21EE373D300E1781A /* RouteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RouteViewController.swift; path = Controllers/RouteViewController.swift; sourceTree = "<group>"; };
 		BBEF92E41EE3740200E1781A /* TabBar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TabBar.xib; path = Controllers/TabBar.xib; sourceTree = "<group>"; };
 		BBEF92E61EE3743F00E1781A /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TabBarController.swift; path = Controllers/TabBarController.swift; sourceTree = "<group>"; };
+		BBF7C9A320B0A4FF00BAE2CF /* Pocket Traverse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Pocket Traverse.png"; path = "Photos/Pocket Traverse.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -230,6 +234,8 @@
 		BBA3C8651E9E7BBF0037ED09 /* Photos */ = {
 			isa = PBXGroup;
 			children = (
+				BBF7C9A320B0A4FF00BAE2CF /* Pocket Traverse.png */,
+				BB0606CA20B0A0A200B465F1 /* Yabo Dyno.png */,
 				BB0606C820B09D2B00B465F1 /* Mommys Boy Right.png */,
 				BB0606C620B09B9200B465F1 /* Mommys Boy Center.png */,
 				BB0606C420B09A3700B465F1 /* Mommys Boy Left.png */,
@@ -452,6 +458,7 @@
 				BB3CEC8120A88E00006E2BD4 /* Not Teflon President.png in Resources */,
 				BB3CEC8920A8A314006E2BD4 /* Horse Farts.png in Resources */,
 				BB1B790F1EE34319009AF545 /* The Great Curve.jpg in Resources */,
+				BBF7C9A420B0A50000BAE2CF /* Pocket Traverse.png in Resources */,
 				BBEF92D11EE371CC00E1781A /* MainTableView.xib in Resources */,
 				BBBDD6A41E92F04E00FBC583 /* LaunchScreen.storyboard in Resources */,
 				BBA3C8671E9E9EF70037ED09 /* Unknown1.jpg in Resources */,
@@ -463,6 +470,7 @@
 				BBEF92E51EE3740200E1781A /* TabBar.xib in Resources */,
 				BB1B79071EE330A3009AF545 /* Barndoor Arete.jpg in Resources */,
 				BBBDD6A11E92F04E00FBC583 /* Assets.xcassets in Resources */,
+				BB0606CB20B0A0A300B465F1 /* Yabo Dyno.png in Resources */,
 				BB0606C520B09A3700B465F1 /* Mommys Boy Left.png in Resources */,
 				BB1B790D1EE33FB4009AF545 /* Victor Boulder.jpg in Resources */,
 				BB0606BF20B0874200B465F1 /* Face Problem.png in Resources */,

@@ -12,78 +12,130 @@
             "Clusters":
             [
                 {
-                "Name": "Boulder 1 Area",
-                "CenterX": 34.2698,
-                "CenterY": -118.6056,
-                "Radius": 28,
-                "Boulders":
-                [
-                    {
-                        "Name": "Boulder 1",
-                        "Description": "This is the obvious large boulder.",
-                        "Routes":
-                        [
+                    "Name":"Ummagumma Area",
+                    "CenterX":34.270985,
+                    "CenterY":-118.603731,
+                    "Radius":25,
+                    "Boulders":
+                    [
+                        {
+                            "Name":"Ummagumma Boulder",
+                            "Description":"A Large boulder that appears when the trail begins to flatten out.",
+                            "Image":"Ummagumma.png",
+                            "Location":
                             {
-                                "Name": "Boot Flake",
-                                "Description": "Start slightly to the right of the \"boot\". Gain a right hand crimp and make a big move to the boot. Carefully top out.",
-                                "Rating": "V2",
-                                "Stars": 2
+                                "Latitude": 34.27095,
+                                "Longitude":-118.60383,
                             },
+                            "Routes":
+                            [
+                                {
+                                    "Name":"Ummagumma",
+                                    "Description":"Start form the large hueco, fire to another, distant, hueco, then top out somehow.",
+                                    "Rating":"V6",
+                                    "Stars":3,
+                                    "Location":
+                                    {
+                                        "Latitude": 34.27095,
+                                        "Longitude":-118.603731,
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Name":"Boulder",
+                            "Description":"To the right (North) of the trail just downhill from Ummagumma.",
+                            "Location":
                             {
-                                "Name": "Endo Boy",
-                                "Description": "This line climbs to the right of Boot Flake via sidepulls and crimps.",
-                                "Rating": "V3",
-                                "Stars": 2
+                                "Latitude":34.270993,
+                                "Longitude":-118.603559
                             },
-                            {
-                                "Name": "Three Pigs",
-                                "Description": "Climb the pin scars on the east side of the boulder. Avoiding the scars is a grade or two harder.",
-                                "Rating": "V0",
-                                "Stars": 3
-                            },
-                            {
-                                "Name": "Undercling Problem",
-                                "Description": "Start at the flake and move into the undercling with slippery feet. Reach over the top for a chipped hold and top out.",
-                                "Rating": "V1",
-                                "Stars": 2
-                            }
-                        ]
-                    },
-                    {
-                        "Name": "Slant Rock",
-                        "Description": "This boulder is a few yards to the southeast of Boulder 1 and has a low angle west face that is often ascended with no hands."
-                    },
-                    {
-                        "Name": "Pump Rock",
-                        "Description": "This boulder lies just north of Boulder 1 and has a traverse around its lip",
-                        "Routes":
-                        [
-                            {
-                                "Name": "Pump Traverse",
-                                "Description": "Stand start at the south-east corner and traverse the        lip of the bouler to the north-west corner and top out. The sit start at the south-east corner is V1 and the sit start at he south-west corner is V2.",
-                                "Rating": "V0",
-                                "Stars": 3
-                            },
-                            {
-                                "Name": "Unnamed",
-                                "Description": "Climb the north-east arete via a sit start.",
-                                "Rating": "V2",
-                                "Stars": 1
-                            },
-                            {
-                                "Name": "Unknown",
-                                "Description": "Ascend the face opposite the north face of Pump Rock via sloping crips.",
-                                "Rating": "V2?",
-                                "Stars": 1
-                            }
-                         ]
-                    },
-                    {
-                        "Name": "Crank Queenie Boulder",
-                        "Description": "This boulder is adjacent to the north of Pump Boulder and has a very overhanging north face through the cave."
-                    }
-                ]
-             },
+                            "Routes":
+                            [
+                                {
+                                    "Name":"Face Problem",
+                                    "Description":"Start on edgges and climb through the hueco. A harder sit start is possible",
+                                    "Rating":"V3",
+                                    "Stars":2
+                                }
+                            ],
+                            "Image":"Face Problem.png"
+                     }
+                    ]
+                },
+                {
+                    "Name": "Boulder 1 Area",
+                    "CenterX": 34.2798,
+                    "CenterY": -118.6056,
+                    "Radius": 28,
+                    "Boulders":
+                    [
+                        {
+                            "Name": "Boulder 1",
+                            "Description": "This is the obvious large boulder.",
+                            "Routes":
+                            [
+                                {
+                                    "Name": "Boot Flake",
+                                    "Description": "Start slightly to the right of the \"boot\". Gain a right hand crimp and make a big move to the boot. Carefully top out.",
+                                    "Rating": "V2",
+                                    "Stars": 2
+                                },
+                                {
+                                    "Name": "Endo Boy",
+                                    "Description": "This line climbs to the right of Boot Flake via sidepulls and crimps.",
+                                    "Rating": "V3",
+                                    "Stars": 2
+                                },
+                                {
+                                    "Name": "Three Pigs",
+                                    "Description": "Climb the pin scars on the east side of the boulder. Avoiding the scars is a grade or two harder.",
+                                    "Rating": "V0",
+                                    "Stars": 3
+                                },
+                                {
+                                    "Name": "Undercling Problem",
+                                    "Description": "Start at the flake and move into the undercling with slippery feet. Reach over the top for a chipped hold and top out.",
+                                    "Rating": "V1",
+                                    "Stars": 2
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Slant Rock",
+                            "Description": "This boulder is a few yards to the southeast of Boulder 1 and has a low angle west face that is often ascended with no hands."
+                        },
+                        {
+                            "Name": "Pump Rock",
+                            "Description": "This boulder lies just north of Boulder 1 and has a traverse around its lip",
+                            "Routes":
+                            [
+                                {
+                                    "Name": "Pump Traverse",
+                                    "Description": "Stand start at the south-east corner and traverse the        lip of the bouler to the north-west corner and top out. The sit start at the south-east corner is V1 and the sit start at he south-west corner is V2.",
+                                    "Rating": "V0",
+                                    "Stars": 3
+                                },
+                                {
+                                    "Name": "Unnamed",
+                                    "Description": "Climb the north-east arete via a sit start.",
+                                    "Rating": "V2",
+                                    "Stars": 1
+                                },
+                                {
+                                    "Name": "Unknown",
+                                    "Description": "Ascend the face opposite the north face of Pump Rock via sloping crips.",
+                                    "Rating": "V2?",
+                                    "Stars": 1
+                                }
+                             ]
+                        },
+                        {
+                            "Name": "Crank Queenie Boulder",
+                            "Description": "This boulder is adjacent to the north of Pump Boulder and has a very overhanging north face through the cave."
+                        }
+                    ]
+                 },
              {
                 "Name": "Pile Ups",
                 "CenterX": 34.26923,

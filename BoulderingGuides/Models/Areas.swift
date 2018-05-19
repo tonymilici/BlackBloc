@@ -108,13 +108,8 @@ public class Areas {
             route.description = routeDict["Description"] as! String?
             route.rating = routeDict["Rating"] as! String?
             route.stars = routeDict["Stars"] as! Int
-            if let image = routeDict["Image"] {
-                route.image = image as? String
-            }
-            else {
-                route.image = boulder.image
-            }
-            route.location = parseLocation(locationDict: routeDict["Location"])
+            route.image = routeDict["Image"] as? String ?? boulder.image
+            route.location = parseLocation(locationDict: routeDict["Location"]) ?? boulder.location
             boulder.routes.append(route)
         }
     }

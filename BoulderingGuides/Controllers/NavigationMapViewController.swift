@@ -52,7 +52,7 @@ class NavigationMapViewController: MapViewController {
     
     public override func viewDidLoad() {
         super.viewDidLoad()
-        
+        print(_location)
         let ann = Annotation(location: _location!, title: _name!)
         self.mapView.addAnnotation(ann as MKAnnotation)
     }

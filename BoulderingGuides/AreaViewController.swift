@@ -42,4 +42,10 @@ public class AreaViewController: UITableViewController {
         cell.accessoryType = UITableViewCellAccessoryType.disclosureIndicator
         return cell
     }
+    
+    override public func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let cluster = _clusters?[indexPath.row]
+        let clusterViewController = ClusterViewController(cluster: cluster!)
+        navigationController?.pushViewController(clusterViewController, animated: true)
+    }
 }

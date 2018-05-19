@@ -172,7 +172,7 @@
                                   },
                                   {
                                       "Name":"Pocket Traverse",
-                                      "Description":"Traverse from left to right on bad feet to a cruxy sequence moving right then up to a ledgy rail.",
+                                      "Description":"Traverse from left to right on bad feet to a cruxy sequence moving right then up to a ledgy rail. On the opposite side of the boulder form Mommy's Boys.",
                                       "Rating":"V3",
                                       "Stars":2,
                                       "Image":"Pocket Traverse.png",
@@ -404,7 +404,7 @@
                 [
                     {
                         "Name": "Pile Ups Boulder",
-                        "Description": "The obvious short boulder next to the trail. Bada asda sdasd asd asd as das da sd as da sd as da sd a sdasd adqdqwdqw qw qweqw eq we qwe qw eq weqwe qw eq weq we qw eq we qw eqw eq we qwe qwe qw e qw eq we qw e qw eq we qw eq we qw eq we q we qw eq we qw e qw eq we qw e qw eq we qw eq eqeqweqw eqwe qweq we qwe qwe qwe qwe qw  weqweq weq we qweq weq weq weq we qwe qw q we qw eq we qweq we",
+                        "Description": "The obvious short boulder next to the trail.",
                         "Image":"Pile Ups.png",
                         "Routes":
                         [

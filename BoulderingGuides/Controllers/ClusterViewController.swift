@@ -40,6 +40,11 @@ public class ClusterViewController: UITableViewController {
         fatalError("init(coder:) has not been implemented")
     }
     
+    public override func viewDidLoad() {
+        super.viewDidLoad()
+        tableView.separatorStyle = UITableViewCellSeparatorStyle.none
+    }
+    
     public override func numberOfSections(in tableView: UITableView) -> Int {
         return 1;
     }

@@ -47,6 +47,7 @@ public class BoulderViewController: UIViewController {
     }
     
     public override func viewDidLoad() {
+        super.viewDidLoad()
         _titleLabel.text = _boulder?.name
         _descriptionView.text = _boulder?.description
         

@@ -41,6 +41,7 @@ class MainTableViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        tableView.separatorStyle = UITableViewCellSeparatorStyle.none
         tableView.dataSource = self
         tableView.delegate = self
         tableView.reloadData()

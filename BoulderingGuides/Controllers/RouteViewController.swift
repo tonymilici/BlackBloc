@@ -27,6 +27,7 @@ import Foundation
 import UIKit
 
 public class RouteViewController: UIViewController {
+    @IBOutlet weak var _titleLabel: UILabel!
     @IBOutlet weak var descriptionTextView: UITextView!
     @IBOutlet weak var _routeImageView: UIImageView!
     
@@ -35,7 +36,7 @@ public class RouteViewController: UIViewController {
     public init(route: Route) {
         super.init(nibName: "RouteView", bundle: nil)
         _route = route
-        title = route.name
+        title = "Route"
         navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Navigate", style: .plain, target: self, action: #selector(self.navigate(sender:)))
     }
     
@@ -47,6 +48,7 @@ public class RouteViewController: UIViewController {
         if let route = _route {
             let text = "\(route.rating!)  \(route.getStars())\n\n\(route.description!)"
             descriptionTextView.text = text
+            _titleLabel.text = route.name
             if let image = route.image {
                 _routeImageView.image = UIImage(named: image)
             }

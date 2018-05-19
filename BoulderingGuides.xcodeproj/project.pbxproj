@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		BB0606BD20B0756500B465F1 /* Ummagumma.png in Resources */ = {isa = PBXBuildFile; fileRef = BB0606BC20B0756500B465F1 /* Ummagumma.png */; };
 		BB0606BF20B0874200B465F1 /* Face Problem.png in Resources */ = {isa = PBXBuildFile; fileRef = BB0606BE20B0874200B465F1 /* Face Problem.png */; };
+		BB0606C120B0911300B465F1 /* Boulder Behind Ummagumma.png in Resources */ = {isa = PBXBuildFile; fileRef = BB0606C020B0911300B465F1 /* Boulder Behind Ummagumma.png */; };
 		BB1B79051EE32F07009AF545 /* Thin Crack.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB1B79041EE32F07009AF545 /* Thin Crack.jpg */; };
 		BB1B79071EE330A3009AF545 /* Barndoor Arete.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB1B79061EE330A3009AF545 /* Barndoor Arete.jpg */; };
 		BB1B79091EE3341C009AF545 /* Sword of Damocles.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB1B79081EE3341C009AF545 /* Sword of Damocles.jpg */; };
@@ -85,6 +86,7 @@
 /* Begin PBXFileReference section */
 		BB0606BC20B0756500B465F1 /* Ummagumma.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Ummagumma.png; path = Photos/Ummagumma.png; sourceTree = "<group>"; };
 		BB0606BE20B0874200B465F1 /* Face Problem.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Face Problem.png"; path = "Photos/Face Problem.png"; sourceTree = "<group>"; };
+		BB0606C020B0911300B465F1 /* Boulder Behind Ummagumma.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Boulder Behind Ummagumma.png"; path = "Photos/Boulder Behind Ummagumma.png"; sourceTree = "<group>"; };
 		BB1B79041EE32F07009AF545 /* Thin Crack.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Thin Crack.jpg"; path = "Photos/Thin Crack.jpg"; sourceTree = "<group>"; };
 		BB1B79061EE330A3009AF545 /* Barndoor Arete.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Barndoor Arete.jpg"; path = "Photos/Barndoor Arete.jpg"; sourceTree = "<group>"; };
 		BB1B79081EE3341C009AF545 /* Sword of Damocles.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Sword of Damocles.jpg"; path = "Photos/Sword of Damocles.jpg"; sourceTree = "<group>"; };
@@ -220,6 +222,7 @@
 		BBA3C8651E9E7BBF0037ED09 /* Photos */ = {
 			isa = PBXGroup;
 			children = (
+				BB0606C020B0911300B465F1 /* Boulder Behind Ummagumma.png */,
 				BB0606BE20B0874200B465F1 /* Face Problem.png */,
 				BB0606BC20B0756500B465F1 /* Ummagumma.png */,
 				BB3CEC8820A8A314006E2BD4 /* Horse Farts.png */,
@@ -428,6 +431,7 @@
 				BBA3C86F1E9EE8B50037ED09 /* Eriksson Problem.jpg in Resources */,
 				BB3CEC8320A88ECC006E2BD4 /* Teflon Arete.png in Resources */,
 				BB3CEC8B20A8D176006E2BD4 /* AreaView.xib in Resources */,
+				BB0606C120B0911300B465F1 /* Boulder Behind Ummagumma.png in Resources */,
 				BB1B79091EE3341C009AF545 /* Sword of Damocles.jpg in Resources */,
 				BBA3C8691E9EA2A40037ED09 /* Unknown2.jpg in Resources */,
 				BB1B79051EE32F07009AF545 /* Thin Crack.jpg in Resources */,

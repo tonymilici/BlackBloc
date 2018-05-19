@@ -27,13 +27,13 @@ import Foundation
 import UIKit
 
 public class ClusterViewController: UITableViewController {
-    private var _boulders: [Boulder]?
+    private var _cluster: Cluster?
     private let _cellId = "BoulderCell"
     
     public init(cluster: Cluster) {
         super.init(nibName: "ClusterView", bundle: nil)
-        title = cluster.name
-        _boulders = cluster.boulders
+        title = "Cluster"
+        _cluster = cluster
     }
     
     required public init?(coder aDecoder: NSCoder) {
@@ -45,18 +45,23 @@ public class ClusterViewController: UITableViewController {
     }
     
     public override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return (_boulders?.count)!
+        return (_cluster?.boulders.count)!
+    }
+    
+    public override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+        return _cluster?.name
     }
     
     public override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let boulder = _boulders?[indexPath.row]
+        let boulder = _cluster?.boulders[indexPath.row]
         if let cell = tableView.dequeueReusableCell(withIdentifier: _cellId) {
             cell.textLabel?.text = boulder?.name
             cell.detailTextLabel?.text = getDetailText(boulder: boulder)
             return cell
         }
         let cell = UITableViewCell(style: .subtitle, reuseIdentifier: _cellId)
-        cell.textLabel?.text = _boulders?[indexPath.row].name
+        
+        cell.textLabel?.text = boulder?.name
         
         cell.detailTextLabel?.text = getDetailText(boulder: boulder)
         
@@ -78,7 +83,7 @@ public class ClusterViewController: UITableViewController {
     }
     
     override public func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let boulder = _boulders?[indexPath.row]
+        let boulder = _cluster?.boulders[indexPath.row]
         let boulderViewController = BoulderViewController(boulder: boulder!)
         navigationController?.pushViewController(boulderViewController, animated: true)
     }

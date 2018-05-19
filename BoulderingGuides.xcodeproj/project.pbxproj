@@ -70,6 +70,9 @@
 		BBEF92E51EE3740200E1781A /* TabBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBEF92E41EE3740200E1781A /* TabBar.xib */; };
 		BBEF92E71EE3743F00E1781A /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEF92E61EE3743F00E1781A /* TabBarController.swift */; };
 		BBF7C9A420B0A50000BAE2CF /* Pocket Traverse.png in Resources */ = {isa = PBXBuildFile; fileRef = BBF7C9A320B0A4FF00BAE2CF /* Pocket Traverse.png */; };
+		BBF7C9A620B0AA9200BAE2CF /* Spiral Traverse.png in Resources */ = {isa = PBXBuildFile; fileRef = BBF7C9A520B0AA9200BAE2CF /* Spiral Traverse.png */; };
+		BBF7C9A820B0B22A00BAE2CF /* Spiral Direct.png in Resources */ = {isa = PBXBuildFile; fileRef = BBF7C9A720B0B22900BAE2CF /* Spiral Direct.png */; };
+		BBF7C9AA20B0B5AD00BAE2CF /* Borealis.png in Resources */ = {isa = PBXBuildFile; fileRef = BBF7C9A920B0B5AD00BAE2CF /* Borealis.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -159,6 +162,9 @@
 		BBEF92E41EE3740200E1781A /* TabBar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TabBar.xib; path = Controllers/TabBar.xib; sourceTree = "<group>"; };
 		BBEF92E61EE3743F00E1781A /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TabBarController.swift; path = Controllers/TabBarController.swift; sourceTree = "<group>"; };
 		BBF7C9A320B0A4FF00BAE2CF /* Pocket Traverse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Pocket Traverse.png"; path = "Photos/Pocket Traverse.png"; sourceTree = "<group>"; };
+		BBF7C9A520B0AA9200BAE2CF /* Spiral Traverse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Spiral Traverse.png"; path = "Photos/Spiral Traverse.png"; sourceTree = "<group>"; };
+		BBF7C9A720B0B22900BAE2CF /* Spiral Direct.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Spiral Direct.png"; path = "Photos/Spiral Direct.png"; sourceTree = "<group>"; };
+		BBF7C9A920B0B5AD00BAE2CF /* Borealis.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Borealis.png; path = Photos/Borealis.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -234,6 +240,9 @@
 		BBA3C8651E9E7BBF0037ED09 /* Photos */ = {
 			isa = PBXGroup;
 			children = (
+				BBF7C9A920B0B5AD00BAE2CF /* Borealis.png */,
+				BBF7C9A720B0B22900BAE2CF /* Spiral Direct.png */,
+				BBF7C9A520B0AA9200BAE2CF /* Spiral Traverse.png */,
 				BBF7C9A320B0A4FF00BAE2CF /* Pocket Traverse.png */,
 				BB0606CA20B0A0A200B465F1 /* Yabo Dyno.png */,
 				BB0606C820B09D2B00B465F1 /* Mommys Boy Right.png */,
@@ -439,6 +448,7 @@
 				BBA3C86B1E9EDC4F0037ED09 /* The Falcon.jpg in Resources */,
 				BBA3C8641E9E7BAA0037ED09 /* Swiss Cheese.jpg in Resources */,
 				BB1B790B1EE33D66009AF545 /* Zacks Roof.jpg in Resources */,
+				BBF7C9A620B0AA9200BAE2CF /* Spiral Traverse.png in Resources */,
 				BB3CEC7F20A88CDA006E2BD4 /* Teflon Boulder.png in Resources */,
 				BBEF92C91EE370D200E1781A /* BoulderView.xib in Resources */,
 				BB0606BD20B0756500B465F1 /* Ummagumma.png in Resources */,
@@ -471,6 +481,8 @@
 				BB1B79071EE330A3009AF545 /* Barndoor Arete.jpg in Resources */,
 				BBBDD6A11E92F04E00FBC583 /* Assets.xcassets in Resources */,
 				BB0606CB20B0A0A300B465F1 /* Yabo Dyno.png in Resources */,
+				BBF7C9AA20B0B5AD00BAE2CF /* Borealis.png in Resources */,
+				BBF7C9A820B0B22A00BAE2CF /* Spiral Direct.png in Resources */,
 				BB0606C520B09A3700B465F1 /* Mommys Boy Left.png in Resources */,
 				BB1B790D1EE33FB4009AF545 /* Victor Boulder.jpg in Resources */,
 				BB0606BF20B0874200B465F1 /* Face Problem.png in Resources */,

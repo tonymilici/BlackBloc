@@ -12,6 +12,63 @@
             "Clusters":
             [
                 {
+                     "Name":"Spiral Traverse Area",
+                     "CenterX":34.2703,
+                     "CenterY":-118.6031,
+                     "Radius":15,
+                     "Boulders":
+                     [
+                         {
+                              "Name":"Spiral Boulder",
+                              "Description":"The Huge boulder uphill from the trail slighly South of Split Rock.",
+                              "Image":"Spiral Traverse.png",
+                              "Location":
+                              {
+                                  "Latitude": 34.27025,
+                                  "Longitude":-118.60304,
+                              },
+                              "Routes":
+                              [
+                                   {
+                                       "Name":"Borealis",
+                                       "Description":"Start near the beginning of Spiral Traverse and climb the face above a sketchy landing.",
+                                       "Rating":"VB",
+                                       "Stars":1,
+                                       "Image":"Borealis.png",
+                                       "Location":
+                                       {
+                                           "Latitude": 34.270333,
+                                           "Longitude":-118.60304,
+                                       }
+                                  },
+                                  {
+                                      "Name":"Spiral Traverse",
+                                      "Description":"The classic traverse on the North side of the boulder goes left to right.",
+                                      "Rating":"V1",
+                                      "Stars":3,
+                                      "Location":
+                                      {
+                                          "Latitude": 34.270333,
+                                          "Longitude":-118.60304,
+                                      }
+                                   },
+                                   {
+                                       "Name":"Spiral Direct",
+                                       "Description":"Start on small udges, use an undercling to gain a pocket, then the juggy hueco at the top.",
+                                       "Rating":"V0+",
+                                       "Stars":2,
+                                       "Image":"Spiral Direct.png",
+                                       "Location":
+                                       {
+                                           "Latitude": 34.27034,
+                                           "Longitude":-118.60307,
+                                       }
+                                   }
+                              ]
+                         }
+                     ]
+                },
+                {
                     "Name":"Mommy's Boys Area",
                     "CenterX":34.270621,
                     "CenterY":-118.604111,

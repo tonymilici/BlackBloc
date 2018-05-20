@@ -56,7 +56,7 @@ class AreaMapViewController: MapViewController {
     func handleTap(gestureRecognizer: UIGestureRecognizer) {
         let tapPoint = gestureRecognizer.location(in: mapView)
         for cluster in (_area?.clusters)! {
-            let tapCoord = (mapView as MKMapView).convert(tapPoint, toCoordinateFrom: gestureRecognizer.view)
+            let tapCoord = (mapView as MKMapView).convert(tapPoint, toCoordinateFrom: mapView)
             let mp1 = MKMapPointForCoordinate(tapCoord)
             let mp2 = MKMapPointForCoordinate(cluster.center!)
             let dist = MKMetersBetweenMapPoints(mp1, mp2)

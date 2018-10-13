@@ -286,13 +286,19 @@
                             "Image":"Boulder 1.png",
                             "Routes":
                             [
-                                 {
+                                {
+                                    "Name":"West Arete",
+                                    "Description":"Cimb up the west arete via ledges, sidepulls and pockets.",
+                                    "Rating":"VB",
+                                    "Stars":2
+                                },
+                                {
                                      "Name":"Nylon Boy",
                                      "Description":"Just left of Boot Flake, climb up to a sidepull then to the top.",
                                      "Rating":"V1",
                                      "Stars":2,
                                      "Image":"Boot Flake.png"
-                                 },
+                                },
                                 {
                                     "Name": "Boot Flake",
                                     "Description": "Start slightly to the right of the \"boot\". Gain a right hand crimp and make a big move to the boot. Carefully top out.",
@@ -306,6 +312,12 @@
                                     "Image":"Boot Flake.png",
                                     "Rating": "V3",
                                     "Stars": 2
+                                },
+                                {
+                                    "Name":"Bob Kamps Face",
+                                    "Description": "Climb the easy face right of Endo Boy.",
+                                    "Rating":"VB",
+                                    "Stars":2
                                 },
                                 {
                                     "Name": "Three Pigs",

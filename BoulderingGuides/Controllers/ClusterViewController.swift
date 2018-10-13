@@ -42,7 +42,7 @@ public class ClusterViewController: UITableViewController {
     
     public override func viewDidLoad() {
         super.viewDidLoad()
-        tableView.separatorStyle = UITableViewCellSeparatorStyle.none
+        tableView.separatorStyle = UITableViewCell.SeparatorStyle.none
     }
     
     public override func numberOfSections(in tableView: UITableView) -> Int {
@@ -70,7 +70,7 @@ public class ClusterViewController: UITableViewController {
         
         cell.detailTextLabel?.text = getDetailText(boulder: boulder)
         
-        cell.accessoryType = UITableViewCellAccessoryType.disclosureIndicator
+        cell.accessoryType = UITableViewCell.AccessoryType.disclosureIndicator
         return cell
     }
     

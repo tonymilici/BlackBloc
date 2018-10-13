@@ -42,7 +42,7 @@ public class RoutesViewController: UITableViewController {
     
     public override func viewDidLoad() {
         super.viewDidLoad()
-        tableView.separatorStyle = UITableViewCellSeparatorStyle.none
+        tableView.separatorStyle = UITableViewCell.SeparatorStyle.none
     }
     
     override public func numberOfSections(in tableView: UITableView) -> Int {

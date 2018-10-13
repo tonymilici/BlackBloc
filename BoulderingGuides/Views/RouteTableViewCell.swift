@@ -34,7 +34,7 @@ public class RouteTableViewCell: UITableViewCell {
             setRoute(route: r)
         }
         
-        accessoryType = UITableViewCellAccessoryType.disclosureIndicator
+        accessoryType = UITableViewCell.AccessoryType.disclosureIndicator
     }
     
     required public init?(coder aDecoder: NSCoder) {

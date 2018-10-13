@@ -58,7 +58,7 @@ class MapViewController: UIViewController {
         mapView.showsUserLocation = true
         
         let center = CLLocationCoordinate2D(latitude: (_location?.latitude)!, longitude: (_location?.longitude)!)
-        let region = mapView.regionThatFits(MKCoordinateRegionMakeWithDistance(center, _size*_metersPerMile, _size*_metersPerMile))
+        let region = mapView.regionThatFits(MKCoordinateRegion.init(center: center, latitudinalMeters: _size*_metersPerMile, longitudinalMeters: _size*_metersPerMile))
         
         mapView.region = region
     }

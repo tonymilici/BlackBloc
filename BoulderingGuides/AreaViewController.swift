@@ -24,7 +24,7 @@ public class AreaViewController: UITableViewController {
     
     public override func viewDidLoad() {
         super.viewDidLoad()
-        tableView.separatorStyle = UITableViewCellSeparatorStyle.none
+        tableView.separatorStyle = UITableViewCell.SeparatorStyle.none
     }
     
     override public func numberOfSections(in tableView: UITableView) -> Int {
@@ -44,7 +44,7 @@ public class AreaViewController: UITableViewController {
         let cell = UITableViewCell(style: .subtitle, reuseIdentifier: _cellId)
         cell.textLabel?.text = _clusters?[indexPath.row].name
         
-        cell.accessoryType = UITableViewCellAccessoryType.disclosureIndicator
+        cell.accessoryType = UITableViewCell.AccessoryType.disclosureIndicator
         return cell
     }
     

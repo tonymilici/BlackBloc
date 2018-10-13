@@ -41,7 +41,7 @@ class MainTableViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        tableView.separatorStyle = UITableViewCellSeparatorStyle.none
+        tableView.separatorStyle = UITableViewCell.SeparatorStyle.none
         tableView.dataSource = self
         tableView.delegate = self
         tableView.reloadData()
@@ -64,7 +64,7 @@ extension MainTableViewController: UITableViewDataSource {
         }
     let cell = UITableViewCell(style: .default, reuseIdentifier: _cellId)
         cell.textLabel?.text = _areas.getArea(index: indexPath.row).name
-        cell.accessoryType = UITableViewCellAccessoryType.disclosureIndicator
+        cell.accessoryType = UITableViewCell.AccessoryType.disclosureIndicator
         return cell
     }
 }

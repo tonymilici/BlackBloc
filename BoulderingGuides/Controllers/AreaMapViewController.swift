@@ -46,20 +46,20 @@ class AreaMapViewController: MapViewController {
         
         for cluster in (_area?.clusters)! {
             let circ = MKCircle(center: cluster.center!, radius: cluster.radius!)
-            mapView.add(circ)
+            mapView.addOverlay(circ)
         }
 
         let tapRecognizer = UITapGestureRecognizer(target: self, action: #selector(self.handleTap(gestureRecognizer:)))
         mapView.addGestureRecognizer(tapRecognizer)
     }
     
-    func handleTap(gestureRecognizer: UIGestureRecognizer) {
+    @objc func handleTap(gestureRecognizer: UIGestureRecognizer) {
         let tapPoint = gestureRecognizer.location(in: mapView)
         for cluster in (_area?.clusters)! {
             let tapCoord = (mapView as MKMapView).convert(tapPoint, toCoordinateFrom: mapView)
-            let mp1 = MKMapPointForCoordinate(tapCoord)
-            let mp2 = MKMapPointForCoordinate(cluster.center!)
-            let dist = MKMetersBetweenMapPoints(mp1, mp2)
+            let mp1 = MKMapPoint.init(tapCoord)
+            let mp2 = MKMapPoint.init(cluster.center!)
+            let dist = mp1.distance(to: mp2)
             if dist < cluster.radius! {
                 navigationController?.pushViewController(ClusterViewController(cluster: cluster), animated: true)
                 break

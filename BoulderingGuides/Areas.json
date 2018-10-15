@@ -794,6 +794,12 @@
                                     "Description": "Start on bad crimps on glued-on flake, then boost out huge to high crimps, hit the lip and top-out. The sit start is V10.",
                                     "Rating": "V9",
                                     "Stars": 3
+                                },
+                                {
+                                    "Name": "Crooked I",
+                                    "Description": "Start with both hands on a decent crimp and climb up via a right-facing sloper to a hard finish.",
+                                    "Rating":"V3",
+                                    "Stars": 2
                                 }
                             ]
                         },
@@ -830,7 +836,6 @@
                                     "Description": "Sit start on crimps and climb over the roof/prow.",
                                     "Rating": "V2",
                                     "Stars": 2,
-                                    "Image": "Unknown2.jpg",
                                     "Location":
                                     {
                                         "Latitude": 34.34031,
@@ -838,6 +843,7 @@
                                     }
                                 },
                             ],
+                            "Image": "Unknown2.jpg",
                             "Location":
                             {
                                 "Latitude": 34.34031,
@@ -857,7 +863,7 @@
                                 },
                                 {
                                     "Name": "Arbor Days",
-                                    "Description": "tart on the obvious holds at face height and go up and slightly left on good crimps.",
+                                    "Description": "Start on the obvious holds at face height and go up and slightly left on good crimps.",
                                     "Rating": "V5",
                                     "Stars": 3
                                 }
@@ -865,7 +871,7 @@
                         },
                         {
                             "Name": "Eriksson Boulder",
-                            "Description": "Across form the Sword of Damocles Boulder",
+                            "Description": "Across from the Sword of Damocles Boulder",
                             "Routes":
                             [
                                 {
@@ -1348,6 +1354,299 @@
                     ]
                 }
              ]
+        },
+        {
+            "Name":"Castle Rock",
+            "Location":
+            {
+                "Latitude": 37.231,
+                "Longitude": -122.095
+            },
+            "Size": 0.6,
+            "Clusters":
+            [
+                {
+                    "Name":"Parking Lot Rock",
+                    "CenterX":37.23,
+                    "CenterY":-122.095,
+                    "Radius":30,
+                    "Boulders":
+                    [
+                        {
+                            "Name": "Parking Lot Rock",
+                            "Description": "This large 10 - 20' high pile of boulders is the closet climbing to the Castle Rock official parking area.",
+                            "Routes":
+                            [
+                                {
+                                    "Name":"Yabo Roof",
+                                    "Description":"Yabo cave heads out of a cave downgradient to the left about 15 feet from the highest point on the rock. The route heads out of the deep (approx. 6 feet) cave and up the huecos to a committing mantle finish.",
+                                    "Rating":"V5",
+                                    "Stars":3
+                                },
+                                {
+                                    "Name":"Tree Problem",
+                                    "Description":"The Tree Problem sits on the uphill side of The Parking Lot Boulder, strangely enough no where near a tree. Climbing is sustained, and many approaches can get you through the problem depending on your height and finger size.",
+                                    "Rating":"V4",
+                                    "Stars":3
+                                },
+                                {
+                                    "Name": "Rug Head (AKA Rug Rat)",
+                                    "Description": "Start with an undercling on a prow, then go straight up.",
+                                    "Rating": "V2-3",
+                                    "Stars": 3
+                                },
+                                {
+                                    "Name":"Flakes",
+                                    "Description":"Lieback the right facing flakes straight up.",
+                                    "Rating":"V3-",
+                                    "Stars":3
+                                }
+                            ],
+                            "Location":
+                            {
+                                "Latitude": 37.23,
+                                "Longitude": -122.095
+                            }
+                        }
+                    ]
+                },
+                {
+                    "Name":"Castle Rock Proper",
+                    "CenterX":37.229,
+                    "CenterY":-122.096,
+                    "Radius":60,
+                    "Boulders":
+                    [
+                        {
+                            "Name":"Castle Rock",
+                            "Description":"Castle Rock placeholder.",
+                            "Routes":
+                            [
+                                {
+                                    "Name":"Waimea Wall",
+                                    "Description":"Reachy or dynamic face to ledge.",
+                                    "Rating":"V1",
+                                    "Stars": 3
+                                }
+                            ]
+                        },
+                        {
+                            "Name":"The Spoon",
+                            "Description":"This small bouldering rock sits just downhill behind Castle Rock Proper. The top of the rock is shaped like an upside down spoon, and the rock itself looking at it across the gradient looks like a spoon.",
+                            "Routes":
+                            [
+                                {
+                                    "Name":"The Spoon",
+                                    "Description":"The Spoon has one directive. How much can you scare yourself mantling 10 feet off the ground? Many a beached whale have been spotted here, as solid hands lead to highball sketchyness to pull you over the top.",
+                                    "Rating":"V1+",
+                                    "Stars":3
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Name":"Magoos",
+                    "CenterX":37.228,
+                    "CenterY":-122.096,
+                    "Radius":20,
+                    "Boulders":
+                    [
+                        {
+                            "Name":"Mr. Magoo Boulder",
+                            "Description":"The Mr Magoo boulder at Castle Rock.",
+                            "Routes":
+                            [
+                                {
+                                    "Name":"Unnamed",
+                                    "Description":"Starting in the small cave go for the pocket to your left. Getting your feet high and work your right hand up the arete until you hit the sweet spot (you will know it when you hit it) and top out.",
+                                    "Rating":"V1",
+                                    "Stars":2
+                                },
+                                {
+                                    "Name":"Warm Up",
+                                    "Description":"Start just right of the flake and work your way right and up to the big pocket right above your head.",
+                                    "Rating":"V0",
+                                    "Stars":2
+                                },
+                                {
+                                    "Name":"Magoo Face",
+                                    "Description":"Starts on the undercling and/or the flared crack on the side of the boulder facing Castle Rock proper. Make a balancy move up to the sloper over the bulge and finally to the large hueco.",
+                                    "Rating":"V2",
+                                    "Stars":2
+                                },
+                                {
+                                    "Name":"Bates Eliminate, Left",
+                                    "Description":"Start with sloping crimps, bust a move up and left to the topout.",
+                                    "Rating":"V5",
+                                    "Stars":2
+                                },
+                                {
+                                    "Name":"Mr. Magoo",
+                                    "Description":"Sit start on the two obvious hand holds. Throw high to a small shelf. Then head straight up to top out.",
+                                    "Rating":"V1-2",
+                                    "Stars":3
+                                }
+                            ],
+                            "Location":
+                            {
+                                "Latitude": 37.228,
+                                "Longitude": -122.096
+                            }
+                        },
+                        {
+                            "Name":"Mrs. Magoo Boulder",
+                            "Description":"Mrs Magoo Boulder at Castle Rock.",
+                            "Routes":
+                            [
+                                {
+                                    "Name":"The Swim",
+                                    "Description":"Start On horn, go up via some interesting moves into the mantle top out under the tree limb.",
+                                    "Rating":"V3",
+                                    "Stars":3
+                                }
+                            ],
+                            "Location":
+                            {
+                                "Latitude": 37.228,
+                                "Longitude": -122.096
+                            }
+                        },
+                        {
+                            "Name":"Dog Dish Boulder",
+                            "Description":"The Dog Dish boulders at Castle Rock..",
+                            "Routes":
+                            [
+                                {
+                                    "Name":"The Warm Up",
+                                    "Description":"Start low on the outcropping of Dog Dish Boulder towards Mr. Magoo. Work your way through balancy moves to the right (towards the low-down oblong hueco) and top out at the highpoint.",
+                                    "Rating":"V1",
+                                    "Stars":3
+                                },
+                                {
+                                    "Name":"Hueco Slap",
+                                    "Description":"Start sitting with the big jug and slap out to the arete. Move up (staying on the same face) via a shallow pocket to the top.",
+                                    "Rating":"V4",
+                                    "Stars":3
+                                },
+                                {
+                                    "Name":"Hueco Wall",
+                                    "Description":"Up the huecos on the downhill face of the lowest boulder in this area!",
+                                    "Rating":"V5-6",
+                                    "Stars":3
+                                }
+                            ],
+                            "Location":
+                            {
+                                "Latitude": 37.228,
+                                "Longitude": -122.095
+                            }
+                        },
+                        {
+                            "Name":"The Beak",
+                            "Description":"This 12' - 18' boulder sits just south of Castle Rock proper, and holds bouldering problems suitable for warmups, and also for quite a challenge. Routes range from V0- to V6, on slabby to vertical faces.",
+                            "Routes":
+                            [
+                                {
+                                    "Name":"The Beak Traverse",
+                                    "Descripton":"Left right traverse across the Beak formation ending in a V0 type mantle.",
+                                    "Rating":"V3",
+                                    "Stars":3
+                                }
+                            ],
+                            "Location":
+                            {
+                                "Latitude": 37.228,
+                                "Longitude": -122.096
+                            }
+                        }
+                    ]
+                },
+                {
+                    "Name":"Bates Arete Boulder",
+                    "CenterX":37.229,
+                    "CenterY":-122.096,
+                    "Radius":10,
+                    "Boulders":
+                    [
+                        {
+                            "Name":"Bates Arete Boulder",
+                            "Description":"From the Castle Rock parking lot, head uphill on the leftmost walking path 0.3 miles to Castle Rock proper. The walk wanders a bit, but the path is signed the whole way, so it's hard to miss. Once at Castle Rock proper (the big one, you can't miss it), walk around the right side of the rock to the smaller boulders slightly downhill ad left of the trail. This is the first boulder the trail will take you to if you walk downhill to the lower side of the rocks. The front face of The Spoon is just left of the trail about 5 feet, and the Bates Arete Boulder is about 60 feet further than the spoon across the gradient.",
+                            "Routes":
+                            [
+                                {
+                                    "Name":"Bates Arete",
+                                    "Description":"The Bates Arete is one of the best problems of its grade in The Bay Area. Starting low on the right side of the rock, and about 25 feet long, first traversing up a steep overhang complete with large jugs and slopers leaving the desire for a good rest. The climb turns the corner from a good traverse into an uphill battle along a long solid arete where landings are bad. A final mantle, and the problem is yours.",
+                                    "Rating":"V4",
+                                    "Stars":4
+                                }
+                            ],
+                            "Location":
+                            {
+                                "Latitude": 37.229,
+                                "Longitude": -122.096
+                            }
+                        }
+                    ]
+                },
+                {
+                    "Name":"Indian Rock Side",
+                    "CenterX":37.23,
+                    "CenterY":-122.094,
+                    "Radius":30,
+                    "Boulders":
+                    [
+                        {
+                            "Name":"Lost Keys Boulder",
+                            "Description":"Lost Keys boulder.",
+                            "Routes":
+                            [
+                                {
+                                    "Name":"Lost Keys Traverse",
+                                    "Description":"Super awesome traverse boulder problem!",
+                                    "Rating":"V6",
+                                    "Stars":4
+                                }
+                            ],
+                            "Location":
+                            {
+                                "Latitude": 37.231,
+                                "Longitude": -122.091
+                            }
+                        },
+                        {
+                            "Name":"Nature Nazi Boulder",
+                            "Description":"Rad little area with some classics!",
+                            "Routes":
+                            [
+                                {
+                                    "Name":"Nature Nazi Arete",
+                                    "Description":"First arete you see when you walk up.",
+                                    "Rating":"V7-",
+                                    "Stars":4
+                                }
+                            ],
+                            "Location":
+                            {
+                                "Latitude": 37.231,
+                                "Longitude": -122.095
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Name":"Happy Boulders",
+            "Location":
+            {
+                "Latitude": 37.418,
+                "Longitude": -118.452
+            },
+            "Size": 1.0,
+            "Clusters":
+            [
+            ]
         }
     ]
 }

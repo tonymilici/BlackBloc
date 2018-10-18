@@ -1646,7 +1646,422 @@
             "Size": 1.0,
             "Clusters":
             [
-            ]
+                {
+                    "Name":"Tom Peter's Slab Area",
+                    "CenterX":37.416,
+                    "CenterY":-118.449,
+                    "Radius":30,
+                    "Boulders":
+                    [
+                        {
+                            "Name":"Tom Peter's Slab",
+                            "Description":"his large slabby wall is hidden from view as you hike up the trail but it is well worth searching out.",
+                            "Routes":
+                            [
+                                {
+                                    "Name":"The Pursuit of Wow",
+                                    "Description":"Start up of the block onto the slab. Climb good pockets until the deep finger crack is reached. Follow this until its end then straight up to finish.",
+                                    "Rating":"V0 PG13",
+                                    "Stars":3
+                                }
+                            ],
+                            "Location":
+                            {
+                                "Latitude": 37.416,
+                                "Longitude": -118.449
+                            }
+                        }
+                    ],
+                },
+                {
+                    "Name":"Slow Dance/Gleaner Area",
+                    "CenterX":37.4165,
+                    "CenterY":-118.4493,
+                    "Radius":30,
+                    "Boulders":
+                    [
+                        {
+                            "Name":"Slow Dance Cave",
+                            "Description":"A cool, shady area with big overhanging boulders.",
+                            "Routes":
+                            [
+                                {
+                                    "Name":"Meth Squealer",
+                                    "Description":"Sit start and climb the diagonal seam to slopers and finish up right.",
+                                    "Rating":"V2",
+                                    "Stars":2
+                                },
+                                {
+                                    "Name":"Weekender",
+                                    "Description":"Start in the back of the 'Slowdance Cave', on the left side at good jugs. Traverse right on high jugs to a harder move into good right-slanting flake. Climb up the steep flake using good holds then straight up good jugs into alcove some 18 feet up. From the alcove, either top out straight up on very high jugs, or traverse off left above Rave.",
+                                    "Rating":"V4",
+                                    "Stars":3
+                                }
+                            ],
+                            "Location":
+                            {
+                                "Latitude": 37.416,
+                                "Longitude": -118.449
+                            }
+                        },
+                        {
+                            "Name":"Corner Boulder",
+                            "Description":"A big intriguing boulder with two good highballs side-by-side on the west face.",
+                            "Routes":
+                            [
+                                {
+                                    "Name":"Corner Route",
+                                    "Description":"Start on juggy flakes then climb the steep obtuse corner using finger-locks and edges. Finish in a bucket.",
+                                    "Rating":"V0+",
+                                    "Stars":3
+                                },
+                                {
+                                    "Name":"The Tall Wall",
+                                    "Description":"Start on the left-facing fin. Work up on good huecos to the heady crux top-out.",
+                                    "Rating":"V1 R",
+                                    "Stars":3
+                                }
+                            ],
+                            "Location":
+                            {
+                                "Latitude": 37.416,
+                                "Longitude": -118.449
+                            }
+                        }
+                    ]
+                },
+                {
+                    "Name":"Wavy Gravy Area",
+                    "CenterX":37.417,
+                    "CenterY":-118.45,
+                    "Radius":30,
+                    "Boulders":
+                    [
+                        {
+                            "Name":"Slap Happy Boulder",
+                            "Description":"This fun boulder hosts good moderates that live up to their 'slappy' name.",
+                            "Routes":
+                            [
+                                {
+                                    "Name":"Slap Happy",
+                                    "Description":"Crouch start with difficulty and make a couple of hard pulls until good bucket holds above the overhang can be reached. From here finish easily above.",
+                                    "Rating":"V3",
+                                    "Stars":3
+                                }
+                            ],
+                            "Location":
+                            {
+                                "Latitude": 37.417,
+                                "Longitude": -118.45
+                            }
+                        }
+                    ]
+                },
+                {
+                    "Name":"Blood Simple Area",
+                    "CenterX":37.417,
+                    "CenterY":-118.449,
+                    "Radius":30,
+                    "Boulders":
+                    [
+                        {
+                            "Name":"Black Magic Boulder",
+                            "Description":"The tall dark South West face of this boulder will get most peoples palms sweating just looking at it. The rock on the smooth face is good quality, but due to the dark color it really heats up in the sun.",
+                            "Routes":
+                            [
+                                {
+                                    "Name":"Black Magic",
+                                    "Description":"Climb directly up the middle of the tall slabby face until the break at 3/4 height. Take a breath and continue up passing a good pocket to the top.",
+                                    "Rating":"V3 R",
+                                    "Stars":4
+                                }
+                            ],
+                            "Location":
+                            {
+                                "Latitude": 37.417,
+                                "Longitude": -118.449
+                            }
+                        }
+                    ]
+                },
+                {
+                    "Name":"Central Happiness",
+                    "CenterX":37.417,
+                    "CenterY":-118.451,
+                    "Radius":30,
+                    "Boulders":
+                    [
+                        {
+                            "Name":"Heavenly Path Boulder",
+                            "Description":"The strikingly beautiful and tall boulder with the smooth and angular west face - home to the classic highball 'Heavenly Path' v1, as well as a handful of other quality highballs and warm-ups.",
+                            "Routes":
+                            [
+                                {
+                                    "Name":"Which Road",
+                                    "Description":"Climb the face on good knobby holds.",
+                                    "Rating":"VB",
+                                    "Stars":2
+                                },
+                                {
+                                    "Name": "Heavenly Path",
+                                    "Description":"Climb jugs to a large hueco/undercling. Pull onto the the slab for an exciting finish on crimps.",
+                                    "Rating":"V1 PG13",
+                                    "Stars":4
+                                },
+                                {
+                                    "Name":"Celestial Trail",
+                                    "Description":"Start at a good sized hueco. Pull up and onto the slab and follow it, via nice slab moves, to the top. For the tick don't escape right onto the arete.",
+                                    "Rating":"V0- PG13",
+                                    "Stars":3
+                                }
+                            ],
+                            "Location":
+                            {
+                                "Latitude": 37.417,
+                                "Longitude": -118.451
+                            }
+                        },
+                        {
+                            "Name":"Solarium Boulder",
+                            "Description":"A large attractive boulder with a gently overhanging, pocket-ridden west face.",
+                            "Routes":
+                            [
+                                {
+                                    "Name":"Solarium",
+                                    "Description":"Just to the right of the arete, crouch-start on some big edges and head up and slightly right. Climb past a couple sets of thin pockets and make a toss for the lip.",
+                                    "Rating":"V4-",
+                                    "Stars":3
+                                },
+                                {
+                                    "Name":"Western Round Up",
+                                    "Description":"Climb up the wall on pockets with a tricky move to reach the slabby holds.",
+                                    "Rating":"V1",
+                                    "Stars":2
+                                }
+                            ],
+                            "Location":
+                            {
+                                "Latitude": 37.417,
+                                "Longitude": -118.451
+                            }
+                        },
+                        {
+                            "Name":"Happy Boulder",
+                            "Description":"This boulder lies in the central canyon, 30 feet past the Solarium Boulder, dead ahead.",
+                            "Routes":
+                            [
+                                {
+                                    "Name":"The Hulk",
+                                    "Description":"On the steep South face of the 'Happy Boulder', sit-start down and right on a juggy shelf. Steep moves lead to a left hand pinch and right hand sidepull/undercling. Make a big move up and left to the big block just below the lip (the \"Boss\" hold). From here, finish either up and left or up and right, same difficulty.",
+                                    "Rating":"V6",
+                                    "Stars":4
+                                }
+                            ],
+                            "Location":
+                            {
+                                "Latitude": 37.417,
+                                "Longitude": -118.451
+                            }
+                        }
+                    ]
+                },
+                {
+                    "Name":"Clapper Area",
+                    "CenterX":37.415,
+                    "CenterY":-118.449,
+                    "Radius":30,
+                    "Boulders":
+                    [
+                        {
+                            "Name":"Clapper Boulder",
+                            "Description":"The Clapper Boulder contains the best problems in this area all over perfect flat landings.",
+                            "Routes":
+                            [
+                                {
+                                    "Name":"Not the Clapper",
+                                    "Description":"Sit start with hand on good holds. Move up to the left trending rail and following it left and up. Make a hard move to gain hidden holds on the lip, and then continue directly to finish.",
+                                    "Rating":"V1+",
+                                    "Stars":3
+                                }
+                            ],
+                            "Location":
+                            {
+                                "Latitude": 37.415,
+                                "Longitude": -118.449
+                            }
+                        }
+                    ]
+                },
+                {
+                    "Name":"Serengeti Area",
+                    "CenterX":37.418,
+                    "CenterY":-118.453,
+                    "Radius":30,
+                    "Boulders":
+                    [
+                        {
+                            "Name":"Serengeti Boulder",
+                            "Description":"This boulder lies in the middle of the canyon, and can't be missed.",
+                            "Routes":
+                            [
+                                {
+                                    "Name":"Serengeti",
+                                    "Description":"Start on the undercling/sidepull fin on the left side of the overhanging face. Move up and right on sloped dishes up to a move off a high left-hand crimp to a sloper (crux). Gain the 'Africa Flake' (jugs/rest) and find nice positive pockets and edges to the top as the angle eases off.",
+                                    "Rating":"V5",
+                                    "Stars":3
+                                },
+                                {
+                                    "Name":"The Flying Zebra",
+                                    "Description":"A variation of Serengeti. Start on the undercling/sidepull fin on the left side of the face. This problem skips the crux crimps of Serengeti by traversing right into the pocket at the base of the Africa flake.",
+                                    "Rating":"V4",
+                                    "Stars":3
+                                }
+                            ],
+                            "Location":
+                            {
+                                "Latitude": 37.418,
+                                "Longitude": -118.453
+                            }
+                        },
+                        {
+                            "Name":"Soweto Boulder",
+                            "Description":"From the Serengeti Boulder head up rightwards to reach this boulder.",
+                            "Routes":
+                            [
+                                {
+                                    "Name":"Burning Rubber Necklace",
+                                    "Description":"A nice low traverse. Start low on the funky jugs on the right side of the small cave. Traverse left on good slopers and jugs staying low, making a couple cruxy moves with a crimp and good footwork, then head up and left to the big shelf.",
+                                    "Rating":"V4",
+                                    "Stars":3,
+                                    "Image":"Burning Rubber Necklace.jpg"
+                                }
+                            ],
+                            "Location":
+                            {
+                                "Latitude": 37.419,
+                                "Longitude": -118.453
+                            }
+                        }
+                    ]
+                },
+                {
+                    "Name":"Savannah Area",
+                    "CenterX":37.418,
+                    "CenterY":-118.452,
+                    "Radius":30,
+                    "Boulders":
+                    [
+                        {
+                            "Name":"Fred Boulder",
+                            "Description":"Although small the Fred Boulder packs in some nice problems.",
+                            "Routes":
+                            [
+                                {
+                                    "Name":"Carrot Top",
+                                    "Description":"Start at the same good flake as Sucker Punch. Traverse right on good incuts until possible to move up the blunt arete. Make hard moves to top out the arete.",
+                                    "Rating":"V3",
+                                    "Stars":3
+                                }
+                            ],
+                            "Location":
+                            {
+                                "Latitude": 37.418,
+                                "Longitude": -118.452
+                            }
+                        },
+                        {
+                            "Name":"Savannah Boulder",
+                            "Description":"The first large, obvious boulder on the right.",
+                            "Routes":
+                            [
+                                {
+                                    "Name":"Ketron Classic",
+                                    "Description":"Start low on sidepulls, do a move or two up to the left-hand undercling and make a big stretch to a big right-hand sloper. From here use either the intermediate left-hand crimp, or dyno for the bucket with your left hand (crux). Top out with jugs.",
+                                    "Rating":"V4",
+                                    "Stars":3
+                                }
+                            ],
+                            "Location":
+                            {
+                                "Latitude": 37.418,
+                                "Longitude": -118.452
+                            }
+                        }
+                    ]
+                },
+                {
+                    "Name":"Sixty Foot Woman/Shadow Play Area",
+                    "CenterX":37.418,
+                    "CenterY":-118.452,
+                    "Radius":30,
+                    "Boulders":
+                    [
+                        {
+                            "Name":"Sixty Foot Woman Wall",
+                            "Description":"An extremely pocketed wall on the east rim.",
+                            "Routes":
+                            [
+                                {
+                                    "Name":"Sixty Foot Woman Traverse",
+                                    "Description":"A left to right traverse of the wall.",
+                                    "Rating":"V2",
+                                    "Stars":3
+                                }
+                            ],
+                            "Location":
+                            {
+                                "Latitude": 37.418,
+                                "Longitude": -118.451
+                            }
+                        },
+                        {
+                            "Name":"Shadow Play Boulder",
+                            "Description":"This boulder has a number of great moderate and easy problems with a choice of climbing in and out of the sun. The easier problems are poised above the canyon giving them an high up feeling, whilst the others are mainly steep and short in a cooler cave.",
+                            "Routes":
+                            [
+                                {
+                                    "Name":"Spinal Snap",
+                                    "Description":"Sit start at the large undercling and move up with big moves on great holds. Move slightly right and then up and right to finish.",
+                                    "Rating":"V2",
+                                    "Stars":3
+                                }
+                            ],
+                            "Location":
+                            {
+                                "Latitude": 37.418,
+                                "Longitude": -118.451
+                            }
+                        }
+                    ]
+                },
+                {
+                    "Name":"Slight Inducement Area",
+                    "CenterX":37.419,
+                    "CenterY":-118.454,
+                    "Radius":30,
+                    "Boulders":
+                    [
+                        {
+                            "Name":"Slight Inducement Boulder",
+                            "Description":"The main boulder in this area has a fine collection of easy problems all of which face west. The problems range from steep on huge holds to vertical on smaller holds.",
+                            "Routes":
+                            [
+                                {
+                                    "Name":"Slight Inducement",
+                                    "Description":"Sit start at the good hold. Climb up the steep arete on excellent holds.",
+                                    "Rating":"V1",
+                                    "Stars":3
+                                }
+                            ],
+                            "Location":
+                            {
+                                "Latitude": 37.419,
+                                "Longitude": -118.453
+                            }
+                        }
+                    ],
+                }
+            ],
         }
     ]
 }

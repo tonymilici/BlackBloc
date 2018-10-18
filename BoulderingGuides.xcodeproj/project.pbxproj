@@ -44,6 +44,7 @@
 		BBBDD6CC1E92F85300FBC583 /* Areas.json in Resources */ = {isa = PBXBuildFile; fileRef = BBBDD6CB1E92F85300FBC583 /* Areas.json */; };
 		BBBDD6D01E93062500FBC583 /* AreasTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBDD6CF1E93062500FBC583 /* AreasTest.swift */; };
 		BBBDD6DA1E969CB100FBC583 /* ClusterTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBDD6D91E969CB100FBC583 /* ClusterTest.swift */; };
+		BBD23F6921782991006B08E8 /* Burning Rubber Necklace.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BBD23F6821782991006B08E8 /* Burning Rubber Necklace.jpg */; };
 		BBEC0BEE1E9D567900FB1EE6 /* RouteTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEC0BED1E9D567900FB1EE6 /* RouteTest.swift */; };
 		BBEC0BF01E9D5C7600FB1EE6 /* BoulderViewControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEC0BEF1E9D5C7600FB1EE6 /* BoulderViewControllerTest.swift */; };
 		BBEC0BFF1E9D90A100FB1EE6 /* AreaTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEC0BFE1E9D90A100FB1EE6 /* AreaTest.swift */; };
@@ -144,6 +145,7 @@
 		BBBDD6CB1E92F85300FBC583 /* Areas.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Areas.json; sourceTree = "<group>"; };
 		BBBDD6CF1E93062500FBC583 /* AreasTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AreasTest.swift; sourceTree = "<group>"; };
 		BBBDD6D91E969CB100FBC583 /* ClusterTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClusterTest.swift; sourceTree = "<group>"; };
+		BBD23F6821782991006B08E8 /* Burning Rubber Necklace.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Burning Rubber Necklace.jpg"; path = "Photos/Burning Rubber Necklace.jpg"; sourceTree = "<group>"; };
 		BBEC0BED1E9D567900FB1EE6 /* RouteTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RouteTest.swift; sourceTree = "<group>"; };
 		BBEC0BEF1E9D5C7600FB1EE6 /* BoulderViewControllerTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoulderViewControllerTest.swift; sourceTree = "<group>"; };
 		BBEC0BFE1E9D90A100FB1EE6 /* AreaTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AreaTest.swift; sourceTree = "<group>"; };
@@ -256,6 +258,7 @@
 		BBA3C8651E9E7BBF0037ED09 /* Photos */ = {
 			isa = PBXGroup;
 			children = (
+				BBD23F6821782991006B08E8 /* Burning Rubber Necklace.jpg */,
 				BBF7C9B920B0C4A200BAE2CF /* Pile Ups.png */,
 				BBF7C9B720B0C3DB00BAE2CF /* Slant Flake.png */,
 				BBF7C9B520B0C23100BAE2CF /* Slant Rock Face.png */,
@@ -497,6 +500,7 @@
 				BB1B79091EE3341C009AF545 /* Sword of Damocles.jpg in Resources */,
 				BBA3C8691E9EA2A40037ED09 /* Unknown2.jpg in Resources */,
 				BBF7C9B020B0BB5900BAE2CF /* Boulder 1.png in Resources */,
+				BBD23F6921782991006B08E8 /* Burning Rubber Necklace.jpg in Resources */,
 				BB1B79051EE32F07009AF545 /* Thin Crack.jpg in Resources */,
 				BB3CEC8120A88E00006E2BD4 /* Not Teflon President.png in Resources */,
 				BB3CEC8920A8A314006E2BD4 /* Horse Farts.png in Resources */,

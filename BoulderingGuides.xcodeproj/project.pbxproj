@@ -45,6 +45,8 @@
 		BBBDD6D01E93062500FBC583 /* AreasTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBDD6CF1E93062500FBC583 /* AreasTest.swift */; };
 		BBBDD6DA1E969CB100FBC583 /* ClusterTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBDD6D91E969CB100FBC583 /* ClusterTest.swift */; };
 		BBD23F6921782991006B08E8 /* Burning Rubber Necklace.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BBD23F6821782991006B08E8 /* Burning Rubber Necklace.jpg */; };
+		BBD90A4C2179717600BC0B9A /* Celestial Trail.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BBD90A4A2179717500BC0B9A /* Celestial Trail.jpg */; };
+		BBD90A4D2179717600BC0B9A /* Comfort of Home.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BBD90A4B2179717600BC0B9A /* Comfort of Home.jpg */; };
 		BBEC0BEE1E9D567900FB1EE6 /* RouteTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEC0BED1E9D567900FB1EE6 /* RouteTest.swift */; };
 		BBEC0BF01E9D5C7600FB1EE6 /* BoulderViewControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEC0BEF1E9D5C7600FB1EE6 /* BoulderViewControllerTest.swift */; };
 		BBEC0BFF1E9D90A100FB1EE6 /* AreaTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEC0BFE1E9D90A100FB1EE6 /* AreaTest.swift */; };
@@ -146,6 +148,8 @@
 		BBBDD6CF1E93062500FBC583 /* AreasTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AreasTest.swift; sourceTree = "<group>"; };
 		BBBDD6D91E969CB100FBC583 /* ClusterTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClusterTest.swift; sourceTree = "<group>"; };
 		BBD23F6821782991006B08E8 /* Burning Rubber Necklace.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Burning Rubber Necklace.jpg"; path = "Photos/Burning Rubber Necklace.jpg"; sourceTree = "<group>"; };
+		BBD90A4A2179717500BC0B9A /* Celestial Trail.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Celestial Trail.jpg"; path = "Photos/Celestial Trail.jpg"; sourceTree = "<group>"; };
+		BBD90A4B2179717600BC0B9A /* Comfort of Home.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Comfort of Home.jpg"; path = "Photos/Comfort of Home.jpg"; sourceTree = "<group>"; };
 		BBEC0BED1E9D567900FB1EE6 /* RouteTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RouteTest.swift; sourceTree = "<group>"; };
 		BBEC0BEF1E9D5C7600FB1EE6 /* BoulderViewControllerTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoulderViewControllerTest.swift; sourceTree = "<group>"; };
 		BBEC0BFE1E9D90A100FB1EE6 /* AreaTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AreaTest.swift; sourceTree = "<group>"; };
@@ -258,6 +262,8 @@
 		BBA3C8651E9E7BBF0037ED09 /* Photos */ = {
 			isa = PBXGroup;
 			children = (
+				BBD90A4A2179717500BC0B9A /* Celestial Trail.jpg */,
+				BBD90A4B2179717600BC0B9A /* Comfort of Home.jpg */,
 				BBD23F6821782991006B08E8 /* Burning Rubber Necklace.jpg */,
 				BBF7C9B920B0C4A200BAE2CF /* Pile Ups.png */,
 				BBF7C9B720B0C3DB00BAE2CF /* Slant Flake.png */,
@@ -490,6 +496,7 @@
 				BBEF92CD1EE3715A00E1781A /* ClusterView.xib in Resources */,
 				BB0606C720B09B9200B465F1 /* Mommys Boy Center.png in Resources */,
 				BBEF92D31EE371FE00E1781A /* MapView.xib in Resources */,
+				BBD90A4C2179717600BC0B9A /* Celestial Trail.jpg in Resources */,
 				BBA3C86F1E9EE8B50037ED09 /* Eriksson Problem.jpg in Resources */,
 				BB3CEC8320A88ECC006E2BD4 /* Teflon Arete.png in Resources */,
 				BBF7C9AC20B0B79400BAE2CF /* Chouinards Slab.png in Resources */,
@@ -518,6 +525,7 @@
 				BB0606C920B09D2B00B465F1 /* Mommys Boy Right.png in Resources */,
 				BBEF92E51EE3740200E1781A /* TabBar.xib in Resources */,
 				BB1B79071EE330A3009AF545 /* Barndoor Arete.jpg in Resources */,
+				BBD90A4D2179717600BC0B9A /* Comfort of Home.jpg in Resources */,
 				BBBDD6A11E92F04E00FBC583 /* Assets.xcassets in Resources */,
 				BB0606CB20B0A0A300B465F1 /* Yabo Dyno.png in Resources */,
 				BBF7C9AA20B0B5AD00BAE2CF /* Borealis.png in Resources */,

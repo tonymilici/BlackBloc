@@ -1785,7 +1785,7 @@
                     ]
                 },
                 {
-                    "Name":"Central Happiness",
+                    "Name":"More Water, Less Power Area",
                     "CenterX":37.417,
                     "CenterY":-118.451,
                     "Radius":30,
@@ -1812,7 +1812,8 @@
                                     "Name":"Celestial Trail",
                                     "Description":"Start at a good sized hueco. Pull up and onto the slab and follow it, via nice slab moves, to the top. For the tick don't escape right onto the arete.",
                                     "Rating":"V0- PG13",
-                                    "Stars":3
+                                    "Stars":3,
+                                    "Image":"Celestial Trail.jpg"
                                 }
                             ],
                             "Location":
@@ -1821,6 +1822,64 @@
                                 "Longitude": -118.451
                             }
                         },
+                        {
+                            "Name":"More Water, Less Power Boulder",
+                            "Description":"This is the low boulder that splits the path, left of and very slightly up canyon from the tall brown slab of the Heavenly Path boulder.",
+                            "Routes":
+                            [
+                                {
+                                    "Name":"Hydra Pilferers",
+                                    "Description":"Stand start and make a move up into the corner, which is finished direct.",
+                                    "Rating":"VB",
+                                    "Stars":1
+                                },
+                                {
+                                    "Name":"Any Which Way",
+                                    "Description":"Sit start below the arete. Climb up left of the arete on good pockets until it is possible to move left along the arete before topping out.",
+                                    "Rating":"V0+",
+                                    "Stars":2
+                                },
+                                {
+                                    "Name":"Comfort of Home",
+                                    "Description":"Sit-start low with a left-hand pinch/sidepull and a right-hand sidepull under the short overhang. Move up on dishes and pockets slightly left, then work your way over the lip using the sloping arete (crux). Top-out on the easy, low-angle arete.",
+                                    "Rating":"V2-3",
+                                    "Stars":2,
+                                    "Image":"Comfort of Home.jpg"
+                                },
+                                {
+                                    "Name":"Swing Your Partner",
+                                    "Description":"Sit start at the as for Comfort of Home. Immediately pull up and right to gain the good flakes which are followed to the top.",
+                                    "Rating":"V1",
+                                    "Stars":2
+                                },
+                                {
+                                    "Name":"Grant's Christmas Present",
+                                    "Description":"Sit start as for Happy Hooker. Make your way up and left across the overhanging face to finish up Swing Your Partner.",
+                                    "Rating":"V1",
+                                    "Stars":3
+                                },
+                                {
+                                    "Name":"Happy Hooker",
+                                    "Description":"Sit-start on good holds and work up on jugs and an undercling to the jugs on the lip. Rock over the lip and top-out.",
+                                    "Rating":"V0+",
+                                    "Stars":2
+                                }
+                            ],
+                            "Location":
+                            {
+                                "Latitude": 37.417,
+                                "Longitude": -118.451
+                            }
+                        }
+                    ]
+                },
+                {
+                    "Name":"Central Happiness",
+                    "CenterX":37.417,
+                    "CenterY":-118.451,
+                    "Radius":30,
+                    "Boulders":
+                    [
                         {
                             "Name":"Solarium Boulder",
                             "Description":"A large attractive boulder with a gently overhanging, pocket-ridden west face.",
@@ -1855,6 +1914,18 @@
                                     "Description":"On the steep South face of the 'Happy Boulder', sit-start down and right on a juggy shelf. Steep moves lead to a left hand pinch and right hand sidepull/undercling. Make a big move up and left to the big block just below the lip (the \"Boss\" hold). From here, finish either up and left or up and right, same difficulty.",
                                     "Rating":"V6",
                                     "Stars":4
+                                },
+                                {
+                                    "Name":"Big Chicken",
+                                    "Description":"On the steep South face of the 'Happy Boulder', sit-start on a juggy shelf (same starting holds as 'The Hulk'). Make a tricky sequence up and right onto the arete. Continue up the steep arete heading left on better holds to a few fun last moves.",
+                                    "Rating":"V4-",
+                                    "Stars":3
+                                },
+                                {
+                                    "Name":"Big Chicken Stand",
+                                    "Description":"Starting on opposing sidepulls climb trending left on the arete of the Happy Boulder.",
+                                    "Rating":"V2",
+                                    "Stars":3
                                 }
                             ],
                             "Location":
@@ -1888,6 +1959,39 @@
                             {
                                 "Latitude": 37.415,
                                 "Longitude": -118.449
+                            }
+                        }
+                    ]
+                },
+                {
+                    "Name":"Desert Skies Area",
+                    "CenterX":37.417,
+                    "CenterY":-118.451,
+                    "Radius":30,
+                    "Boulders":
+                    [
+                        {
+                            "Name":"Every Color Boulder",
+                            "Description":"A ship's prow of bullet-hard rock; steep on the downhill side, and just less than vertcal on the right.",
+                            "Routes":
+                            [
+                                {
+                                    "Name":"Every Color You Are",
+                                    "Description":"Crouch start on the left side of the prow. Follow good finger pockets to a long move to gain a good hold above the lip. Match on this and traverse right passing a deep slot/crack. Continue right with a hard sequence of moves to pull up and right to gain the good deep flake. Finish direct.",
+                                    "Rating":"V6",
+                                    "Stars":4
+                                },
+                                {
+                                    "Name":"Mr. Witty",
+                                    "Description":"Start with hands in good pockets. Rock up and over left with a tricky move to gain a thin flake for the left hand. Balance your way up the wall to gain the small slots. With fingers in the slots launch for the good lip.",
+                                    "Rating":"V6 PG13",
+                                    "Stars":4
+                                }
+                            ],
+                            "Location":
+                            {
+                                "Latitude": 37.417,
+                                "Longitude": -118.451
                             }
                         }
                     ]

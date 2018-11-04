@@ -1461,13 +1461,15 @@
                                     "Name":"Unnamed",
                                     "Description":"Starting in the small cave go for the pocket to your left. Getting your feet high and work your right hand up the arete until you hit the sweet spot (you will know it when you hit it) and top out.",
                                     "Rating":"V1",
-                                    "Stars":2
+                                    "Stars":2,
+                                    "Image":"Unnamed.jpg"
                                 },
                                 {
                                     "Name":"Warm Up",
                                     "Description":"Start just right of the flake and work your way right and up to the big pocket right above your head.",
                                     "Rating":"V0",
-                                    "Stars":2
+                                    "Stars":2,
+                                    "Image":"Warm Up.jpg"
                                 },
                                 {
                                     "Name":"Magoo Face",
@@ -1631,6 +1633,24 @@
                                 "Latitude": 37.231,
                                 "Longitude": -122.095
                             }
+                        },
+                        {
+                            "Name":"Thee Classic",
+                            "Description":"As you walk down the trail past the right side of Indian rock, this is the obvious line characterized by a large chalked up hueco in the middle. Pretty much directly under Donkey Dong.",
+                            "Routes":
+                            [
+                                {
+                                    "Name":"Thee Classic",
+                                    "Description":" Move through the large hueco in the middle of the face, make a long move to the cryptic sloper at the lip and try to figure out how to top out.",
+                                    "Rating":"V3+",
+                                    "Stars":3
+                                }
+                            ],
+                            "Location":
+                            {
+                                "Latitude": 37.231,
+                                "Longitude": -122.093
+                            }
                         }
                     ]
                 }
@@ -1662,6 +1682,24 @@
                                     "Name":"The Pursuit of Wow",
                                     "Description":"Start up of the block onto the slab. Climb good pockets until the deep finger crack is reached. Follow this until its end then straight up to finish.",
                                     "Rating":"V0 PG13",
+                                    "Stars":3
+                                }
+                            ],
+                            "Location":
+                            {
+                                "Latitude": 37.416,
+                                "Longitude": -118.449
+                            }
+                        },
+                        {
+                            "Name":"Grindrite Boulder",
+                            "Description":"From the main trail look back right and you'll see the prominent prow taken by Grindrite.",
+                            "Routes":
+                            [
+                                {
+                                    "Name":"Grindrite",
+                                    "Description":"Standing start at a good right hand hold. Pull up onto the rock into an immediately strenuous position. Make a few hard pulls up left then right to gain better holds and the spectacular horn like protrusion. Finish more easily up and left.",
+                                    "Rating":"V3",
                                     "Stars":3
                                 }
                             ],
@@ -1726,6 +1764,33 @@
                             {
                                 "Latitude": 37.416,
                                 "Longitude": -118.449
+                            }
+                        }
+                    ]
+                },
+                {
+                    "Name":"Atari Area",
+                    "CenterX":37.417,
+                    "CenterY":-118.448,
+                    "Radius":30,
+                    "Boulders":
+                    [
+                        {
+                            "Name":"The Hard Crack",
+                            "Description":"Along the cliffline right from Atari",
+                            "Routes":
+                            [
+                                {
+                                    "Name":"The Hard Crack",
+                                    "Description":"Climb the splitter crack on ringlocks.",
+                                    "Rating":"V3-",
+                                    "Stars":4
+                                }
+                            ],
+                            "Location":
+                            {
+                                "Latitude": 37.417,
+                                "Longitude": -118.448
                             }
                         }
                     ]
@@ -1862,7 +1927,8 @@
                                     "Name":"Happy Hooker",
                                     "Description":"Sit-start on good holds and work up on jugs and an undercling to the jugs on the lip. Rock over the lip and top-out.",
                                     "Rating":"V0+",
-                                    "Stars":2
+                                    "Stars":2,
+                                    "Image":"Happy Hooker.jpg"
                                 }
                             ],
                             "Location":
@@ -1895,7 +1961,8 @@
                                     "Name":"Western Round Up",
                                     "Description":"Climb up the wall on pockets with a tricky move to reach the slabby holds.",
                                     "Rating":"V1",
-                                    "Stars":2
+                                    "Stars":2,
+                                    "Image":"Western Round Up.jpg"
                                 }
                             ],
                             "Location":
@@ -2135,6 +2202,19 @@
                                 "Latitude": 37.418,
                                 "Longitude": -118.451
                             }
+                        },
+                        {
+                            "Name":"Secret Arete Boulder",
+                            "Description":"The Secret Arete boulder is tucked away on the rim of the canyon just east of Shadow Play.",
+                            "Routes":
+                            [
+                                {
+                                    "Name":"Rio's Secret Arete",
+                                    "Description":"In the chimney to the right of the prominent arete you will find the \"secret arete\". Climb the balancy arete. Optional sit start at the same grade.",
+                                    "Rating":"V3",
+                                    "Stars":4
+                                }
+                            ]
                         }
                     ]
                 },
@@ -2166,6 +2246,149 @@
                     ],
                 }
             ],
+        },
+        {
+            "Name":"Sad Boulders",
+            "Location":
+            {
+                "Latitude": 37.422,
+                "Longitude": -118.435
+            },
+            "Size": 0.5,
+            "Clusters":
+            [
+                {
+                    "Name":"Kung Fu Area",
+                    "CenterX":37.419,
+                    "CenterY":-118.434,
+                    "Radius":20,
+                    "Boulders":
+                    [
+                        {
+                            "Name":"Maximun Relaxum Boulder",
+                            "Description":"This boulder is up-canyon from the Cow Skull boulder.",
+                            "Routes":
+                            [
+                                {
+                                    "Name":"Maximum Relaxum",
+                                    "Description":"Begin low low down in the cave and climb out through the split on huge jugs, to smaller but good holds below the lip, then to the lip itself, and traverse right to top out.",
+                                    "Rating":"V3",
+                                    "Stars":3
+                                }
+                            ],
+                            "Location":
+                            {
+                                "Latitude": 37.419,
+                                "Longitude": -118.434
+                            }
+                        }
+                    ]
+                },
+                {
+                    "Name":"Molly Area",
+                    "CenterX":37.421,
+                    "CenterY":-118.434,
+                    "Radius":20,
+                    "Boulders":
+                    [
+                        {
+                            "Name":"China Doll Boulder",
+                            "Description":"Left of the Molly boulder is a tall, highly featured wall.",
+                            "Routes":
+                            [
+                                {
+                                    "Name":"China Doll",
+                                    "Description":"Climb the pretty and inviting rib feature on the boulder left of Molly, on huge holds.",
+                                    "Rating":"V0",
+                                    "Stars":3
+                                }
+                            ],
+                            "Location":
+                            {
+                                "Latitude": 37.421,
+                                "Longitude": -118.434
+                            }
+                        }
+                    ]
+                },
+                {
+                    "Name":"Misery Area",
+                    "CenterX":37.418,
+                    "CenterY":-118.433,
+                    "Radius":20,
+                    "Boulders":
+                    [
+                        {
+                            "Name":"Misery Cave",
+                            "Description":"A room formed by the West face of the Misery boulder.",
+                            "Routes":
+                            [
+                                {
+                                    "Name":"The Black Stuff",
+                                    "Description":"This is a tall and exciting problem on bomb-proof rock.",
+                                    "Rating":"V1 PG13",
+                                    "Stars":3
+                                }
+                            ]
+                        },
+                        {
+                            "Name":"Flake Boulder",
+                            "Description":"Above the Misery Cave and the Unclimbed Roof Crack, near the top of the slope is a large boulder with a fresh-cleaved chalk-colored slab on its uphill side and a dark brown north-facing side with a large left-facing flake crack.",
+                            "Routes":
+                            [
+                                {
+                                    "Name":"The Arete",
+                                    "Description":"Climb the leftwards arching arete with poor feet and improving hands.",
+                                    "Rating":"V0-",
+                                    "Stars":3
+                                },
+                                {
+                                    "Name":"The Groove",
+                                    "Description":"Climb the groove directly via a series of excellent technical moves.",
+                                    "Rating":"V0-",
+                                    "Stars":3
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Name":"Prozac Nation Bluffs",
+                    "CenterX":37.423,
+                    "CenterY":-118.433,
+                    "Radius":20,
+                    "Boulders":
+                    [
+                        {
+                            "Name":"Prozac Nation Boulder",
+                            "Description":"This set of bluffs contains a dense supply of fun moderates including Garden Pest and Prozac Nation.",
+                            "Routes":
+                            [
+                                {
+                                    "Name":"Prozac Nation",
+                                    "Description":"Start below the large horizontal flake. Climb up the pocketed wall and reach left to gain the flake. From the flake make a big move to the pistol grip hold then another over the overhang.Finish on big holds straight up.",
+                                    "Rating":"V2",
+                                    "Stars":3
+                                }
+                            ]
+                        },
+                        {
+                            "Name":"The Snapper Boulder",
+                            "Description":"This line of cliffs/boulders has a prominent high buttress at its left.",
+                            "Routes":
+                            [
+                                {
+                                    "Name":"Fire Pit",
+                                    "Description":"Climb up the arete with a big move to a good hold at mid height. Continue with a tricky pull to great finishing holds.",
+                                    "Rating":"V2 PG13",
+                                    "Stars":3
+                                }
+                            ]
+                        }
+                    ]
+                }
+            
+            ]
         }
     ]
 }

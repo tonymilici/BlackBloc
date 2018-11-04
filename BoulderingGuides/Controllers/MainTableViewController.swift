@@ -73,10 +73,10 @@ extension MainTableViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let area = _areas.getArea(index: indexPath.row)
         let mapController = AreaMapViewController(area: area)
-        mapController.tabBarItem = UITabBarItem(title: "Navigate", image: nil, tag: 1)
+        mapController.tabBarItem = UITabBarItem(title: "Navigate", image: UIImage(named: "location.png"), tag: 1)
         
         let routesController = AreaViewController(clusters: area.clusters)
-        routesController.tabBarItem = UITabBarItem(title: "Routes", image: nil, tag: 2)
+        routesController.tabBarItem = UITabBarItem(title: "Routes", image: UIImage(named: "list.png"), tag: 2)
         
         let tabController = TabBarController()
         tabController.viewControllers = [mapController, routesController]

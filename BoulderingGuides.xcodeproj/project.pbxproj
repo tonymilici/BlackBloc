@@ -21,6 +21,12 @@
 		BB1B790B1EE33D66009AF545 /* Zacks Roof.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB1B790A1EE33D66009AF545 /* Zacks Roof.jpg */; };
 		BB1B790D1EE33FB4009AF545 /* Victor Boulder.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB1B790C1EE33FB4009AF545 /* Victor Boulder.jpg */; };
 		BB1B790F1EE34319009AF545 /* The Great Curve.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB1B790E1EE34319009AF545 /* The Great Curve.jpg */; };
+		BB33C2F3218F48B90025371D /* list.png in Resources */ = {isa = PBXBuildFile; fileRef = BB33C2F0218F48B80025371D /* list.png */; };
+		BB33C2F4218F48B90025371D /* list@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BB33C2F1218F48B90025371D /* list@2x.png */; };
+		BB33C2F5218F48B90025371D /* list@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BB33C2F2218F48B90025371D /* list@3x.png */; };
+		BB33C2F9218F4A840025371D /* location@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BB33C2F6218F4A840025371D /* location@2x.png */; };
+		BB33C2FA218F4A840025371D /* location@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BB33C2F7218F4A840025371D /* location@3x.png */; };
+		BB33C2FB218F4A840025371D /* location.png in Resources */ = {isa = PBXBuildFile; fileRef = BB33C2F8218F4A840025371D /* location.png */; };
 		BB3CEC7920A88879006E2BD4 /* Adams Rib.png in Resources */ = {isa = PBXBuildFile; fileRef = BB3CEC7820A88879006E2BD4 /* Adams Rib.png */; };
 		BB3CEC7B20A88A8E006E2BD4 /* Rhythym.png in Resources */ = {isa = PBXBuildFile; fileRef = BB3CEC7A20A88A8E006E2BD4 /* Rhythym.png */; };
 		BB3CEC7D20A88B9B006E2BD4 /* Teflon President.png in Resources */ = {isa = PBXBuildFile; fileRef = BB3CEC7C20A88B9B006E2BD4 /* Teflon President.png */; };
@@ -32,6 +38,10 @@
 		BB3CEC8920A8A314006E2BD4 /* Horse Farts.png in Resources */ = {isa = PBXBuildFile; fileRef = BB3CEC8820A8A314006E2BD4 /* Horse Farts.png */; };
 		BB3CEC8B20A8D176006E2BD4 /* AreaView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB3CEC8A20A8D176006E2BD4 /* AreaView.xib */; };
 		BB3CEC8D20A8D1A2006E2BD4 /* AreaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3CEC8C20A8D1A2006E2BD4 /* AreaViewController.swift */; };
+		BB90B47B217AC0E200DBECE4 /* Unnamed.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB90B47A217AC0E200DBECE4 /* Unnamed.jpg */; };
+		BB90B47D217AC1CC00DBECE4 /* Warm Up.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB90B47C217AC1CB00DBECE4 /* Warm Up.jpg */; };
+		BB90B47F217AC2E500DBECE4 /* Happy Hooker.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB90B47E217AC2E500DBECE4 /* Happy Hooker.jpg */; };
+		BB90B481217AC3E500DBECE4 /* Western Round Up.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB90B480217AC3E400DBECE4 /* Western Round Up.jpg */; };
 		BBA3C8641E9E7BAA0037ED09 /* Swiss Cheese.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BBA3C8631E9E7BAA0037ED09 /* Swiss Cheese.jpg */; };
 		BBA3C8671E9E9EF70037ED09 /* Unknown1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BBA3C8661E9E9EF70037ED09 /* Unknown1.jpg */; };
 		BBA3C8691E9EA2A40037ED09 /* Unknown2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BBA3C8681E9EA2A40037ED09 /* Unknown2.jpg */; };
@@ -118,6 +128,12 @@
 		BB1B790A1EE33D66009AF545 /* Zacks Roof.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Zacks Roof.jpg"; path = "Photos/Zacks Roof.jpg"; sourceTree = "<group>"; };
 		BB1B790C1EE33FB4009AF545 /* Victor Boulder.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Victor Boulder.jpg"; path = "Photos/Victor Boulder.jpg"; sourceTree = "<group>"; };
 		BB1B790E1EE34319009AF545 /* The Great Curve.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "The Great Curve.jpg"; path = "Photos/The Great Curve.jpg"; sourceTree = "<group>"; };
+		BB33C2F0218F48B80025371D /* list.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = list.png; path = BoulderingGuides/Resources/list.png; sourceTree = SOURCE_ROOT; };
+		BB33C2F1218F48B90025371D /* list@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "list@2x.png"; path = "BoulderingGuides/Resources/list@2x.png"; sourceTree = SOURCE_ROOT; };
+		BB33C2F2218F48B90025371D /* list@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "list@3x.png"; path = "BoulderingGuides/Resources/list@3x.png"; sourceTree = SOURCE_ROOT; };
+		BB33C2F6218F4A840025371D /* location@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "location@2x.png"; path = "BoulderingGuides/Resources/location@2x.png"; sourceTree = SOURCE_ROOT; };
+		BB33C2F7218F4A840025371D /* location@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "location@3x.png"; path = "BoulderingGuides/Resources/location@3x.png"; sourceTree = SOURCE_ROOT; };
+		BB33C2F8218F4A840025371D /* location.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = location.png; path = BoulderingGuides/Resources/location.png; sourceTree = SOURCE_ROOT; };
 		BB3CEC7820A88879006E2BD4 /* Adams Rib.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Adams Rib.png"; path = "Photos/Adams Rib.png"; sourceTree = "<group>"; };
 		BB3CEC7A20A88A8E006E2BD4 /* Rhythym.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Rhythym.png; path = Photos/Rhythym.png; sourceTree = "<group>"; };
 		BB3CEC7C20A88B9B006E2BD4 /* Teflon President.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Teflon President.png"; path = "Photos/Teflon President.png"; sourceTree = "<group>"; };
@@ -129,6 +145,10 @@
 		BB3CEC8820A8A314006E2BD4 /* Horse Farts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Horse Farts.png"; path = "Photos/Horse Farts.png"; sourceTree = "<group>"; };
 		BB3CEC8A20A8D176006E2BD4 /* AreaView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AreaView.xib; sourceTree = "<group>"; };
 		BB3CEC8C20A8D1A2006E2BD4 /* AreaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AreaViewController.swift; sourceTree = "<group>"; };
+		BB90B47A217AC0E200DBECE4 /* Unnamed.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Unnamed.jpg; path = Photos/Unnamed.jpg; sourceTree = "<group>"; };
+		BB90B47C217AC1CB00DBECE4 /* Warm Up.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Warm Up.jpg"; path = "Photos/Warm Up.jpg"; sourceTree = "<group>"; };
+		BB90B47E217AC2E500DBECE4 /* Happy Hooker.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Happy Hooker.jpg"; path = "Photos/Happy Hooker.jpg"; sourceTree = "<group>"; };
+		BB90B480217AC3E400DBECE4 /* Western Round Up.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Western Round Up.jpg"; path = "Photos/Western Round Up.jpg"; sourceTree = "<group>"; };
 		BBA3C8631E9E7BAA0037ED09 /* Swiss Cheese.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Swiss Cheese.jpg"; path = "Photos/Swiss Cheese.jpg"; sourceTree = "<group>"; };
 		BBA3C8661E9E9EF70037ED09 /* Unknown1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Unknown1.jpg; path = Photos/Unknown1.jpg; sourceTree = "<group>"; };
 		BBA3C8681E9EA2A40037ED09 /* Unknown2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Unknown2.jpg; path = Photos/Unknown2.jpg; sourceTree = "<group>"; };
@@ -214,6 +234,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BB33C2EF218F489A0025371D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BB33C2F8218F4A840025371D /* location.png */,
+				BB33C2F6218F4A840025371D /* location@2x.png */,
+				BB33C2F7218F4A840025371D /* location@3x.png */,
+				BB33C2F0218F48B80025371D /* list.png */,
+				BB33C2F1218F48B90025371D /* list@2x.png */,
+				BB33C2F2218F48B90025371D /* list@3x.png */,
+			);
+			name = Resources;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
 		BBA3C8601E9DA0F90037ED09 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
@@ -262,6 +296,10 @@
 		BBA3C8651E9E7BBF0037ED09 /* Photos */ = {
 			isa = PBXGroup;
 			children = (
+				BB90B480217AC3E400DBECE4 /* Western Round Up.jpg */,
+				BB90B47E217AC2E500DBECE4 /* Happy Hooker.jpg */,
+				BB90B47C217AC1CB00DBECE4 /* Warm Up.jpg */,
+				BB90B47A217AC0E200DBECE4 /* Unnamed.jpg */,
 				BBD90A4A2179717500BC0B9A /* Celestial Trail.jpg */,
 				BBD90A4B2179717600BC0B9A /* Comfort of Home.jpg */,
 				BBD23F6821782991006B08E8 /* Burning Rubber Necklace.jpg */,
@@ -332,6 +370,7 @@
 		BBBDD6981E92F04E00FBC583 /* BoulderingGuides */ = {
 			isa = PBXGroup;
 			children = (
+				BB33C2EF218F489A0025371D /* Resources */,
 				BBA3C8651E9E7BBF0037ED09 /* Photos */,
 				BBA3C8601E9DA0F90037ED09 /* Controllers */,
 				BBA3C8611E9DA1570037ED09 /* Models */,
@@ -495,6 +534,7 @@
 				BBEF92DD1EE372D400E1781A /* RoutesView.xib in Resources */,
 				BBEF92CD1EE3715A00E1781A /* ClusterView.xib in Resources */,
 				BB0606C720B09B9200B465F1 /* Mommys Boy Center.png in Resources */,
+				BB33C2F4218F48B90025371D /* list@2x.png in Resources */,
 				BBEF92D31EE371FE00E1781A /* MapView.xib in Resources */,
 				BBD90A4C2179717600BC0B9A /* Celestial Trail.jpg in Resources */,
 				BBA3C86F1E9EE8B50037ED09 /* Eriksson Problem.jpg in Resources */,
@@ -502,17 +542,22 @@
 				BBF7C9AC20B0B79400BAE2CF /* Chouinards Slab.png in Resources */,
 				BBF7C9B420B0BDF000BAE2CF /* Slant Rock.png in Resources */,
 				BB0606C320B0985400B465F1 /* Mommys Boys.png in Resources */,
+				BB33C2FB218F4A840025371D /* location.png in Resources */,
 				BB3CEC8B20A8D176006E2BD4 /* AreaView.xib in Resources */,
+				BB33C2F3218F48B90025371D /* list.png in Resources */,
 				BB0606C120B0911300B465F1 /* Boulder Behind Ummagumma.png in Resources */,
 				BB1B79091EE3341C009AF545 /* Sword of Damocles.jpg in Resources */,
+				BB90B481217AC3E500DBECE4 /* Western Round Up.jpg in Resources */,
 				BBA3C8691E9EA2A40037ED09 /* Unknown2.jpg in Resources */,
 				BBF7C9B020B0BB5900BAE2CF /* Boulder 1.png in Resources */,
+				BB33C2F5218F48B90025371D /* list@3x.png in Resources */,
 				BBD23F6921782991006B08E8 /* Burning Rubber Necklace.jpg in Resources */,
 				BB1B79051EE32F07009AF545 /* Thin Crack.jpg in Resources */,
 				BB3CEC8120A88E00006E2BD4 /* Not Teflon President.png in Resources */,
 				BB3CEC8920A8A314006E2BD4 /* Horse Farts.png in Resources */,
 				BBF7C9B820B0C3DC00BAE2CF /* Slant Flake.png in Resources */,
 				BB1B790F1EE34319009AF545 /* The Great Curve.jpg in Resources */,
+				BB90B47B217AC0E200DBECE4 /* Unnamed.jpg in Resources */,
 				BBF7C9A420B0A50000BAE2CF /* Pocket Traverse.png in Resources */,
 				BBF7C9AE20B0B9EF00BAE2CF /* Slap.png in Resources */,
 				BBEF92D11EE371CC00E1781A /* MainTableView.xib in Resources */,
@@ -524,11 +569,15 @@
 				BB3CEC7B20A88A8E006E2BD4 /* Rhythym.png in Resources */,
 				BB0606C920B09D2B00B465F1 /* Mommys Boy Right.png in Resources */,
 				BBEF92E51EE3740200E1781A /* TabBar.xib in Resources */,
+				BB90B47D217AC1CC00DBECE4 /* Warm Up.jpg in Resources */,
 				BB1B79071EE330A3009AF545 /* Barndoor Arete.jpg in Resources */,
 				BBD90A4D2179717600BC0B9A /* Comfort of Home.jpg in Resources */,
 				BBBDD6A11E92F04E00FBC583 /* Assets.xcassets in Resources */,
 				BB0606CB20B0A0A300B465F1 /* Yabo Dyno.png in Resources */,
+				BB33C2F9218F4A840025371D /* location@2x.png in Resources */,
 				BBF7C9AA20B0B5AD00BAE2CF /* Borealis.png in Resources */,
+				BB33C2FA218F4A840025371D /* location@3x.png in Resources */,
+				BB90B47F217AC2E500DBECE4 /* Happy Hooker.jpg in Resources */,
 				BBF7C9A820B0B22A00BAE2CF /* Spiral Direct.png in Resources */,
 				BB0606C520B09A3700B465F1 /* Mommys Boy Left.png in Resources */,
 				BB1B790D1EE33FB4009AF545 /* Victor Boulder.jpg in Resources */,

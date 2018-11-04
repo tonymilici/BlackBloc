@@ -37,7 +37,7 @@ public class RouteViewController: UIViewController {
         super.init(nibName: "RouteView", bundle: nil)
         _route = route
         title = "Route"
-        navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Navigate", style: .plain, target: self, action: #selector(self.navigate(sender:)))
+        navigationItem.rightBarButtonItem = UIBarButtonItem(image: UIImage(named: "location.png"), style: .plain, target: self, action: #selector(self.navigate(sender:)))
     }
     
     required public init?(coder aDecoder: NSCoder) {

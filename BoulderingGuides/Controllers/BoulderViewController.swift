@@ -39,7 +39,7 @@ public class BoulderViewController: UIViewController {
         title = "Boulder"
         
         
-        navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Navigate", style: .plain, target:self, action: #selector(self.navigate(sender:)))
+        navigationItem.rightBarButtonItem = UIBarButtonItem(image: UIImage(named: "location.png"), style: .plain, target:self, action: #selector(self.navigate(sender:)))
     }
     
     required public init?(coder aDecoder: NSCoder) {

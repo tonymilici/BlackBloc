@@ -27,6 +27,8 @@
 		BB33C2F9218F4A840025371D /* location@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BB33C2F6218F4A840025371D /* location@2x.png */; };
 		BB33C2FA218F4A840025371D /* location@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BB33C2F7218F4A840025371D /* location@3x.png */; };
 		BB33C2FB218F4A840025371D /* location.png in Resources */ = {isa = PBXBuildFile; fileRef = BB33C2F8218F4A840025371D /* location.png */; };
+		BB33C2FD218F72FB0025371D /* Hero Roof.png in Resources */ = {isa = PBXBuildFile; fileRef = BB33C2FC218F72FB0025371D /* Hero Roof.png */; };
+		BB33C2FF218F94AF0025371D /* iron_man_traverse.png in Resources */ = {isa = PBXBuildFile; fileRef = BB33C2FE218F94AE0025371D /* iron_man_traverse.png */; };
 		BB3CEC7920A88879006E2BD4 /* Adams Rib.png in Resources */ = {isa = PBXBuildFile; fileRef = BB3CEC7820A88879006E2BD4 /* Adams Rib.png */; };
 		BB3CEC7B20A88A8E006E2BD4 /* Rhythym.png in Resources */ = {isa = PBXBuildFile; fileRef = BB3CEC7A20A88A8E006E2BD4 /* Rhythym.png */; };
 		BB3CEC7D20A88B9B006E2BD4 /* Teflon President.png in Resources */ = {isa = PBXBuildFile; fileRef = BB3CEC7C20A88B9B006E2BD4 /* Teflon President.png */; };
@@ -134,6 +136,8 @@
 		BB33C2F6218F4A840025371D /* location@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "location@2x.png"; path = "BoulderingGuides/Resources/location@2x.png"; sourceTree = SOURCE_ROOT; };
 		BB33C2F7218F4A840025371D /* location@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "location@3x.png"; path = "BoulderingGuides/Resources/location@3x.png"; sourceTree = SOURCE_ROOT; };
 		BB33C2F8218F4A840025371D /* location.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = location.png; path = BoulderingGuides/Resources/location.png; sourceTree = SOURCE_ROOT; };
+		BB33C2FC218F72FB0025371D /* Hero Roof.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Hero Roof.png"; path = "Photos/Hero Roof.png"; sourceTree = "<group>"; };
+		BB33C2FE218F94AE0025371D /* iron_man_traverse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iron_man_traverse.png; path = Photos/iron_man_traverse.png; sourceTree = "<group>"; };
 		BB3CEC7820A88879006E2BD4 /* Adams Rib.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Adams Rib.png"; path = "Photos/Adams Rib.png"; sourceTree = "<group>"; };
 		BB3CEC7A20A88A8E006E2BD4 /* Rhythym.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Rhythym.png; path = Photos/Rhythym.png; sourceTree = "<group>"; };
 		BB3CEC7C20A88B9B006E2BD4 /* Teflon President.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Teflon President.png"; path = "Photos/Teflon President.png"; sourceTree = "<group>"; };
@@ -296,6 +300,8 @@
 		BBA3C8651E9E7BBF0037ED09 /* Photos */ = {
 			isa = PBXGroup;
 			children = (
+				BB33C2FE218F94AE0025371D /* iron_man_traverse.png */,
+				BB33C2FC218F72FB0025371D /* Hero Roof.png */,
 				BB90B480217AC3E400DBECE4 /* Western Round Up.jpg */,
 				BB90B47E217AC2E500DBECE4 /* Happy Hooker.jpg */,
 				BB90B47C217AC1CB00DBECE4 /* Warm Up.jpg */,
@@ -528,6 +534,7 @@
 				BB3CEC7F20A88CDA006E2BD4 /* Teflon Boulder.png in Resources */,
 				BBEF92C91EE370D200E1781A /* BoulderView.xib in Resources */,
 				BBF7C9B620B0C23100BAE2CF /* Slant Rock Face.png in Resources */,
+				BB33C2FD218F72FB0025371D /* Hero Roof.png in Resources */,
 				BB0606BD20B0756500B465F1 /* Ummagumma.png in Resources */,
 				BB3CEC7D20A88B9B006E2BD4 /* Teflon President.png in Resources */,
 				BBF7C9BA20B0C4A200BAE2CF /* Pile Ups.png in Resources */,
@@ -557,6 +564,7 @@
 				BB3CEC8920A8A314006E2BD4 /* Horse Farts.png in Resources */,
 				BBF7C9B820B0C3DC00BAE2CF /* Slant Flake.png in Resources */,
 				BB1B790F1EE34319009AF545 /* The Great Curve.jpg in Resources */,
+				BB33C2FF218F94AF0025371D /* iron_man_traverse.png in Resources */,
 				BB90B47B217AC0E200DBECE4 /* Unnamed.jpg in Resources */,
 				BBF7C9A420B0A50000BAE2CF /* Pocket Traverse.png in Resources */,
 				BBF7C9AE20B0B9EF00BAE2CF /* Slap.png in Resources */,

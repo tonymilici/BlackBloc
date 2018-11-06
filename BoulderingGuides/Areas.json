@@ -537,20 +537,19 @@
                                     "Description": "Climb the left arete rail. Top out in the center of the boulder, or for a little more spice, top out to the left (through the tree branch). There is a sharp yucca in the landing zone.",
                                     "Rating": "V1",
                                     "Stars": 2,
-                                    "Image":"Adams Rib.png",
                                     "Location":
                                     {
                                         "Latitude": 34.340995,
                                         "Longitude": -118.012459
                                     }
                                 }
-                             
                             ],
                             "Location":
                             {
                                 "Latitude": 34.340995,
                                 "Longitude": -118.012459
-                            }
+                            },
+                            "Image":"adams_rib.png"
                         },
                         {
                             "Name": "Rythym and the Heat Boulder",
@@ -561,7 +560,6 @@
                                     "Name": "Rhythym and the Heat",
                                     "Description": "Climb the suspended block straight up. It is a bit dirty these days but with more trafiic would clean up to a decent problem.",
                                     "Rating": "V0-",
-                                    "Image":"Rhythym.png",
                                     "Stars": 1
                                 }
                             ],
@@ -569,7 +567,8 @@
                             {
                                 "Latitude": 34.34224,
                                 "Longitude": -118.01293
-                            }
+                            },
+                            "Image":"rhythym_and_the_heat.png"
                         },
                         {
                             "Name": "Teflon President Boulder",
@@ -578,9 +577,9 @@
                             [
                                 {
                                     "Name": "Teflon President",
-                                    "Description": "Climb the right arete.",
+                                    "Description": "Climb the right arete and top out at the apex of the boulder.",
                                     "Rating": "V7",
-                                    "Stars": 3,
+                                    "Stars": 4,
                                     "Image":"Teflon President.png",
                                     "Location":
                                     {
@@ -761,6 +760,61 @@
                             "Image":"holy_water_boulder.png"
                         },
                         {
+                            "Name": "Alfa Boulder",
+                            "Description": "The first boulder on the right after the Holy Water boulder with an overhanging prow.",
+                            "Routes":
+                            [
+                                {
+                                    "Name": "Unknown",
+                                    "Description": "Sit start on crimps and climb over the roof/prow.",
+                                    "Rating": "V2",
+                                    "Stars": 2,
+                                    "Location":
+                                    {
+                                        "Latitude": 34.34031,
+                                        "Longitude": -118.0154
+                                    }
+                                },
+                            ],
+                            "Image": "Unknown2.jpg",
+                            "Location":
+                            {
+                                "Latitude": 34.34031,
+                                "Longitude": -118.0154
+                            }
+                        },
+                        {
+                            "Name": "Arbor Day Boulder",
+                            "Description": "The large boulder just up the trail from the Alfa Boulder",
+                            "Routes":
+                            [
+                                {
+                                    "Name": "Better Bold than Old",
+                                    "Description": "Start sitting, on the lowest holds possible with a good left foot and go up and slightly left at first then straight up finishing with good holds and the lip. Amazing rock quality and good movement.",
+                                    "Rating": "V3",
+                                    "Stars": 3,
+                                    "Location":
+                                    {
+                                        "Latitude": 34.3402,
+                                        "Longitude": -118.016043
+                                    },
+                                    "Image":"better_bold_than_old.png"
+                                },
+                                {
+                                    "Name": "Arbor Days",
+                                    "Description": "Start on the obvious holds at face height and go up and slightly left on good crimps.",
+                                    "Rating": "V5",
+                                    "Stars": 3
+                                }
+                            ],
+                            "Location":
+                            {
+                                "Latitude": 34.340188,
+                                "Longitude": -118.015995
+                            },
+                            "Image":"arbor_days.png"
+                        },
+                        {
                             "Name": "B1 Boulder",
                             "Description": "The obvious chalked boulder right next to the trail.",
                             "Routes":
@@ -834,61 +888,6 @@
                             }
                         },
                         {
-                            "Name": "Alfa Boulder",
-                            "Description": "The first boulder on the right after the Holy Water boulder with an overhanging prow.",
-                            "Routes":
-                            [
-                                {
-                                    "Name": "Unknown",
-                                    "Description": "Sit start on crimps and climb over the roof/prow.",
-                                    "Rating": "V2",
-                                    "Stars": 2,
-                                    "Location":
-                                    {
-                                        "Latitude": 34.34031,
-                                        "Longitude": -118.0154
-                                    }
-                                },
-                            ],
-                            "Image": "Unknown2.jpg",
-                            "Location":
-                            {
-                                "Latitude": 34.34031,
-                                "Longitude": -118.0154
-                            }
-                        },
-                        {
-                            "Name": "Arbor Day Boulder",
-                            "Description": "The large boulder just up the trail from the Alfa Boulder",
-                            "Routes":
-                            [
-                                {
-                                    "Name": "Better Bold than Old",
-                                    "Description": "Start sitting, on the lowest holds possible with a good left foot and go up and slightly left at first then straight up finishing with good holds and the lip. Amazing rock quality and good movement.",
-                                    "Rating": "V3",
-                                    "Stars": 3,
-                                    "Location":
-                                    {
-                                        "Latitude": 34.3402,
-                                        "Longitude": -118.016043
-                                    },
-                                    "Image":"better_bold_than_old.png"
-                                },
-                                {
-                                    "Name": "Arbor Days",
-                                    "Description": "Start on the obvious holds at face height and go up and slightly left on good crimps.",
-                                    "Rating": "V5",
-                                    "Stars": 3
-                                }
-                            ],
-                            "Location":
-                            {
-                                "Latitude": 34.340188,
-                                "Longitude": -118.015995
-                            },
-                            "Image":"arbor_days.png"
-                        },
-                        {
                             "Name": "Eriksson Boulder",
                             "Description": "Across from the Sword of Damocles Boulder",
                             "Routes":
@@ -940,8 +939,7 @@
                                     "Name": "Swiss Cheese",
                                     "Description": "Climb the overhanging huecoed face on the downhill side of the boulder. The original finish stays left, but it is slightly easier to finish right, although the landing is worse.",
                                     "Rating": "V2",
-                                    "Stars": 3,
-                                    "Image": "Swiss Cheese.jpg"
+                                    "Stars": 3
                                 },
                                 {
                                     "Name": "Passat",
@@ -954,7 +952,8 @@
                             {
                                 "Latitude": 34.34038,
                                 "Longitude": -118.01565
-                            }
+                            },
+                            "Image": "swiss_cheese.jpg"
                         },
                         {
                             "Name": "Boulder",
@@ -1045,6 +1044,19 @@
                             "Image": "Thin Crack.jpg"
                         },
                         {
+                            "Name":"X2 Boulder",
+                            "Description":"Boulder just east of the Barndoor Arete.",
+                            "Routes":
+                            [
+                                {
+                                    "Name":"Your Everyday Junglist",
+                                    "Description":"Start at high underclings and make a few harder moves up and left to the lip. Can be done from a sit down and right at about V6.",
+                                    "Rating":"V1",
+                                    "Stars":2
+                                }
+                            ]
+                        },
+                        {
                             "Name": "Barndoor Arete Boulder",
                             "Description": "Boulder with the obvious arete between the Fang and The Great Circle",
                             "Routes":
@@ -1052,7 +1064,7 @@
                                 {
                                     "Name": "Barndoor Arete",
                                     "Description": "Ascend the obvious technical arete to better holds",
-                                    "Rating": "V2",
+                                    "Rating": "V3",
                                     "Stars": 3,
                                     "Image": "Barndoor Arete.jpg"
                                 },

@@ -39,6 +39,7 @@
 		BB33C34B2192340D0025371D /* defroster.png in Resources */ = {isa = PBXBuildFile; fileRef = BB33C34A2192340D0025371D /* defroster.png */; };
 		BB33C34D219234C80025371D /* the_refigerator.png in Resources */ = {isa = PBXBuildFile; fileRef = BB33C34C219234C80025371D /* the_refigerator.png */; };
 		BB33C34F2192358F0025371D /* holy_water_boulder.png in Resources */ = {isa = PBXBuildFile; fileRef = BB33C34E2192358F0025371D /* holy_water_boulder.png */; };
+		BB33C351219265D50025371D /* the_prow.png in Resources */ = {isa = PBXBuildFile; fileRef = BB33C350219265D50025371D /* the_prow.png */; };
 		BB3CEC7920A88879006E2BD4 /* adams_rib.png in Resources */ = {isa = PBXBuildFile; fileRef = BB3CEC7820A88879006E2BD4 /* adams_rib.png */; };
 		BB3CEC7B20A88A8E006E2BD4 /* rhythym_and_the_heat.png in Resources */ = {isa = PBXBuildFile; fileRef = BB3CEC7A20A88A8E006E2BD4 /* rhythym_and_the_heat.png */; };
 		BB3CEC7D20A88B9B006E2BD4 /* Teflon President.png in Resources */ = {isa = PBXBuildFile; fileRef = BB3CEC7C20A88B9B006E2BD4 /* Teflon President.png */; };
@@ -158,6 +159,7 @@
 		BB33C34A2192340D0025371D /* defroster.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = defroster.png; path = Photos/defroster.png; sourceTree = "<group>"; };
 		BB33C34C219234C80025371D /* the_refigerator.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = the_refigerator.png; path = Photos/the_refigerator.png; sourceTree = "<group>"; };
 		BB33C34E2192358F0025371D /* holy_water_boulder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = holy_water_boulder.png; path = Photos/holy_water_boulder.png; sourceTree = "<group>"; };
+		BB33C350219265D50025371D /* the_prow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = the_prow.png; path = Photos/the_prow.png; sourceTree = "<group>"; };
 		BB3CEC7820A88879006E2BD4 /* adams_rib.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = adams_rib.png; path = Photos/adams_rib.png; sourceTree = "<group>"; };
 		BB3CEC7A20A88A8E006E2BD4 /* rhythym_and_the_heat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rhythym_and_the_heat.png; path = Photos/rhythym_and_the_heat.png; sourceTree = "<group>"; };
 		BB3CEC7C20A88B9B006E2BD4 /* Teflon President.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Teflon President.png"; path = "Photos/Teflon President.png"; sourceTree = "<group>"; };
@@ -320,6 +322,7 @@
 		BBA3C8651E9E7BBF0037ED09 /* Photos */ = {
 			isa = PBXGroup;
 			children = (
+				BB33C350219265D50025371D /* the_prow.png */,
 				BB33C34E2192358F0025371D /* holy_water_boulder.png */,
 				BB33C34C219234C80025371D /* the_refigerator.png */,
 				BB33C34A2192340D0025371D /* defroster.png */,
@@ -594,6 +597,7 @@
 				BBA3C8691E9EA2A40037ED09 /* Unknown2.jpg in Resources */,
 				BBF7C9B020B0BB5900BAE2CF /* Boulder 1.png in Resources */,
 				BB33C2F5218F48B90025371D /* list@3x.png in Resources */,
+				BB33C351219265D50025371D /* the_prow.png in Resources */,
 				BBD23F6921782991006B08E8 /* Burning Rubber Necklace.jpg in Resources */,
 				BB1B79051EE32F07009AF545 /* Thin Crack.jpg in Resources */,
 				BB3CEC8120A88E00006E2BD4 /* Not Teflon President.png in Resources */,

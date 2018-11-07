@@ -12,6 +12,71 @@
             "Clusters":
             [
                 {
+                    "Name":"Split Rock Area",
+                    "CenterX":34.27053,
+                    "CenterY":-118.60283,
+                    "Radius":8,
+                    "Boulders":
+                    [
+                        {
+                            "Name":"Split Rock",
+                            "Description":"This easily identifiable boulder is just uphill from Power Glide and is split in two at an easy chimney.",
+                            "Routes":
+                            [
+                                {
+                                    "Name":"Dark Side of the Moon",
+                                    "Description":"Start low and head up the left side then traverse over (crux) and finish up the right arete as with Vaino Problem.",
+                                    "Rating":"V6",
+                                    "Stars":2,
+                                    "Location":
+                                    {
+                                        "Latitude": 34.270545,
+                                        "Longitude": -118.60283
+                                    }
+                                },
+                                {
+                                    "Name":"Vaino Problem",
+                                    "Description":"Start with a right hand on the left arete and a poor left-hand sloper. Continue up the arete.",
+                                    "Rating":"V4",
+                                    "Stars":2,
+                                    "Location":
+                                    {
+                                        "Latitude": 34.270547,
+                                        "Longitude": -118.60284
+                                    }
+                                },
+                                {
+                                    "Name":"Johnson Arete",
+                                    "Description":"Climb the right arete",
+                                    "Rating":"V4+",
+                                    "Stars":3,
+                                    "Location":
+                                    {
+                                        "Latitude": 34.270548,
+                                        "Longitude": -118.60286
+                                    }
+                                },
+                                {
+                                    "Name":"Johnson Problem",
+                                    "Description":"Start left hand on a large rounded side pull and right hand on a small right facing crimp. Climb up to a huge jug and over the bulge to the top.",
+                                    "Rating":"V7 R",
+                                    "Stars":4,
+                                    "Location":
+                                    {
+                                        "Latitude": 34.27048,
+                                        "Longitude": -118.60286
+                                    }
+                                }
+                            ],
+                            "Location":
+                            {
+                                "Latitude": 34.27051,
+                                "Longitude": -118.60283
+                            }
+                        }
+                    ]
+                },
+                {
                      "Name":"Spiral Traverse Area",
                      "CenterX":34.2703,
                      "CenterY":-118.6031,
@@ -1566,7 +1631,7 @@
                             }
                         },
                         {
-                            "Name":"Dog Dish Boulder",
+                            "Name":"Dog Dish Boulders",
                             "Description":"The Dog Dish boulders at Castle Rock..",
                             "Routes":
                             [
@@ -2246,6 +2311,12 @@
                                     "Description":"Sit start at the large undercling and move up with big moves on great holds. Move slightly right and then up and right to finish.",
                                     "Rating":"V2",
                                     "Stars":3
+                                },
+                                {
+                                    "Name":"Cue Ball",
+                                    "Description":"Sit start at the good pocket in the middle of the cave. Pull out right and then up to the arete via a pocket which you think should be much better than it feels.With right hand on the arete launch up and left to either the top jug or a side pull then the top jug.",
+                                    "Rating":"V4",
+                                    "Stars":3
                                 }
                             ],
                             "Location":
@@ -2343,6 +2414,19 @@
                     "Boulders":
                     [
                         {
+                            "Name":"Molly Boulder",
+                            "Description":"Facing up-canyon is the clean solid wall of the Molly Boulder.",
+                            "Routes":
+                            [
+                                {
+                                    "Name":"Molly Dyno",
+                                    "Description":"Use the two obvious good pockets around head height to make one huge move to the finishing jug of Molly.",
+                                    "Rating":"V4-5",
+                                    "Stars":3
+                                }
+                            ]
+                        },
+                        {
                             "Name":"China Doll Boulder",
                             "Description":"Left of the Molly boulder is a tall, highly featured wall.",
                             "Routes":
@@ -2404,6 +2488,50 @@
                     ]
                 },
                 {
+                    "Name":"Sad Parrot Area",
+                    "CenterX":37.422,
+                    "CenterY":-118.433,
+                    "Radius":20,
+                    "Boulders":
+                    [
+                        {
+                            "Name":"The Bird Cage Boulder",
+                            "Description":"From the center canyon follow the path up the east slope from the Pow Pow Area. The boulder is easily recognized by the fang like feature towards its right side.",
+                            "Routes":
+                            [
+                                {
+                                    "Name":"The Fang",
+                                    "Description":"Start at the large hole on the left of the cave. Move up and out towards the lip of the cave. Using core strength stay on and reach down and right to the fang. Grab the fang and squirm up it to reach better holds and the top.",
+                                    "Rating":"V4",
+                                    "Stars":3
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Name":"The Ice Caves",
+                    "CenterX":37.4226,
+                    "CenterY":-118.4336,
+                    "Radius":20,
+                    "Boulders":
+                    [
+                        {
+                            "Name":"The Passageway",
+                            "Description":"Turn right on entering the Ice caves to enter this passageway leading to the back of the caves.",
+                            "Routes":
+                            [
+                                {
+                                    "Name":"The Mothership Connection",
+                                    "Description":"Start at a huge hold on a block at head height. Climb via a horizontal crack to gain and climb the front face of the hanging boulder.",
+                                    "Rating":"V4",
+                                    "Stars":3
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
                     "Name":"Prozac Nation Bluffs",
                     "CenterX":37.423,
                     "CenterY":-118.433,
@@ -2437,12 +2565,33 @@
                             ]
                         }
                     ]
+                },
+                {
+                    "Name":"Kindergarten Area",
+                    "CenterX":37.423,
+                    "CenterY":-118.434,
+                    "Radius":30,
+                    "Boulders":
+                    [
+                        {
+                            "Name":"Rim Job Boulder",
+                            "Description":"A tall narrow boulder situated just below the rim has two good problems on good rock. From the parking lot head up right towards the rim. You'll see the distinctive overhanging face on the right.",
+                            "Routes":
+                            [
+                                {
+                                    "Name":"Whiskey, Beer and Spliff Hits for Breakfast",
+                                    "Description":"Start with hands low on good holds. Pull on get the feet set and crank out the steep face, finishing with a long reach up to the lip of the boulder.",
+                                    "Rating":"V4",
+                                    "Stars":3
+                                }
+                            ]
+                        }
+                    ]
                 }
-            
             ]
         },
         {
-            "Name":"Buttermilks main",
+            "Name":"Buttermilks Main",
             "Location":
             {
                 "Latitude": 37.328,
@@ -2451,6 +2600,61 @@
             "Size": 0.5,
             "Clusters":
             [
+                {
+                    "Name":"Birthday Boulders",
+                    "CenterX":37.3301,
+                    "CenterY":-118.5788,
+                    "Radius":20,
+                    "Boulders":
+                    [
+                        {
+                            "Name":"Birthday Boulder",
+                            "Description":"These boulders lie 20 feet from the upper parking area loop.",
+                            "Routes":
+                            [
+                                {
+                                    "Name":"Birthday Left",
+                                    "Description":"Far left route on the North face, just left of Birthday Direct. Stand-start on obvious crimps and work your way up slightly left to the lip.",
+                                    "Rating":"V1",
+                                    "Stars":2
+                                },
+                                {
+                                    "Name":"Birthday Direct",
+                                    "Description":"Stand-start matched on a crimp and make a reach up to a high right-hand gaston. Climb straight up with another gaston to a perfect jug on the lip.",
+                                    "Rating":"V3",
+                                    "Stars":3
+                                }
+                            ]
+                        },
+                        {
+                            "Name":"The Prow Boulder",
+                            "Description":"The boulder just east of the Birthday Boulder.",
+                            "Routes":
+                            [
+                                {
+                                    "Name":"The Prow",
+                                    "Description":"Sit-start on a sidepull and an undercling. Climb straight up the blunt arete with juggy sidepulls and good flakes. Tha stand start is V1",
+                                    "Rating":"V2",
+                                    "Stars":3,
+                                    "Image":"the_prow.png"
+                                }
+                            ]
+                        },
+                        {
+                            "Name":"The Loaf",
+                            "Description":"A large loaf-like boulder with some fun highballs on the west face.",
+                            "Routes":
+                            [
+                                {
+                                    "Name":"The Rising",
+                                    "Description":"Begin at opposing sidepulls and make a hard move to a crimp. Pull through to gain sidepulls and the top. A left start, using a large, but flexing hold is a little harder.",
+                                    "Rating":"V4",
+                                    "Stars":3
+                                }
+                            ]
+                        }
+                    ]
+                },
                 {
                     "Name":"Iron Man Area",
                     "CenterX":37.33,
@@ -2495,6 +2699,34 @@
                                 "Latitude": 37.33,
                                 "Longitude": -118.578
                             }
+                        }
+                    ]
+                },
+                {
+                    "Name":"Rowell Rocks",
+                    "CenterX":37.3288,
+                    "CenterY":-118.57667,
+                    "Radius":20,
+                    "Boulders":
+                    [
+                        {
+                            "Name":"Buttermilk Stem Boulder",
+                            "Description":"This boulder is just uphill from the Rowell Rocks, a group of boulders that are west of the Cave Area.",
+                            "Routes":
+                            [
+                                {
+                                    "Name":"Buttermilk Stem",
+                                    "Description":"Stand-start with wide palms and make a tricky first move to get your right foot on (crux). Stem your way up to the good fin and jugs to the easy but great top-out.",
+                                    "Rating":"V1",
+                                    "Stars":3
+                                },
+                                {
+                                    "Name":"Buttermilk Stem Sit Start",
+                                    "Description":" Starts matched on the juggy undercling and just pull up and press into the V1.",
+                                    "Rating":"V4",
+                                    "Stars":3
+                                }
+                            ]
                         }
                     ]
                 },
@@ -2566,6 +2798,85 @@
                             {
                                 "Latitude": 37.328,
                                 "Longitude": -118.575
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Name":"Dale's Camp",
+            "Location":
+            {
+                "Latitude": 37.321,
+                "Longitude": -118.574
+            },
+            "Size": 1.0,
+            "Clusters":
+            [
+                {
+                    "Name":"Dale's West",
+                    "CenterX":37.319,
+                    "CenterY":-118.578,
+                    "Radius":20,
+                    "Boulders":
+                    [
+                        {
+                            "Name":"Green Hornet Boulder",
+                            "Description":"A fine boulder with a nice steep slab on the north side. A couple hundred yards or so west of Dale's Dome in the trees.",
+                            "Routes":
+                            [
+                                {
+                                    "Name":"The Green Hornet",
+                                    "Description":"Climb small but good edges straight up the black streak to a committing crux near the top.",
+                                    "Rating":"V4",
+                                    "Stars":4
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Name":"Get Carter",
+            "Location":
+            {
+                "Latitude": 37.3388,
+                "Longitude": -118.57765
+            },
+            "Size": 0.1,
+            "Clusters":
+            [
+                {
+                    "Name":"Get Carter",
+                    "CenterX":37.3388,
+                    "CenterY":-118.57765,
+                    "Radius":10,
+                    "Boulders":
+                    [
+                        {
+                            "Name":"Get Carter Boulder",
+                            "Description":"A lone boulder west of the main area.",
+                            "Routes":
+                            [
+                                {
+                                    "Name":"Grommit",
+                                    "Description":"Follow the right-trending line of sidepulls to a hard move reaching out right and shooting to the lip.",
+                                    "Rating":"V4",
+                                    "Stars":4
+                                },
+                                {
+                                    "Name":"To Kill Ya Corner",
+                                    "Description":"Start high on the triangular block. Press out a technical high-step with a crimp to reach the large positive edge. Finish on jugs up high.",
+                                    "Rating":"V3",
+                                    "Stars":3
+                                }
+                            ],
+                            "Location":
+                            {
+                                "Latitude": 37.3388,
+                                "Longitude": -118.57765
                             }
                         }
                     ]

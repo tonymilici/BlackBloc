@@ -19,6 +19,40 @@
                     "Boulders":
                     [
                         {
+                            "Name":"Power Glide Boulder",
+                            "Description":"This boulder lies just uphill from the trail.",
+                            "Routes":
+                            [
+                                {
+                                    "Name":"Power Glide (aka Snot Here)",
+                                    "Description":"Start at the left edge of the boulder, traverse the slopey rail, reach up for the slot, use this to gain the crimp and make a big move for the jug.",
+                                    "Rating":"V6",
+                                    "Stars":4,
+                                    "Location":
+                                    {
+                                        "Latitude": 34.27049,
+                                        "Longitude": -118.60279
+                                    }
+                                },
+                                {
+                                    "Name":"Standard Route",
+                                    "Description":"Start with hands matched on a good hold in the horizontal crack and move up to small crimps then top out.",
+                                    "Rating":"V2",
+                                    "Stars":2,
+                                    "Location":
+                                    {
+                                        "Latitude": 34.2705,
+                                        "Longitude": -118.60276
+                                    }
+                                }
+                            ],
+                            "Location":
+                            {
+                                "Latitude": 34.2705,
+                                "Longitude": -118.60277
+                            }
+                        },
+                        {
                             "Name":"Split Rock",
                             "Description":"This easily identifiable boulder is just uphill from Power Glide and is split in two at an easy chimney.",
                             "Routes":

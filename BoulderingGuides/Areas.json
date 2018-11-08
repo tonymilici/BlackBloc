@@ -1772,6 +1772,12 @@
                             "Routes":
                             [
                                 {
+                                    "Name":"Nature Nazi Traverse",
+                                    "Description":"Starts low and to the left on the shortest part of the boulder, make your way rightward along the sloping lip, move through the insecure crux bulge and top out at some good jugs just before the large tree.",
+                                    "Rating":"V4",
+                                    "Stars":3
+                                },
+                                {
                                     "Name":"Nature Nazi Arete",
                                     "Description":"First arete you see when you walk up.",
                                     "Rating":"V7-",
@@ -2182,9 +2188,9 @@
                 },
                 {
                     "Name":"Desert Skies Area",
-                    "CenterX":37.417,
-                    "CenterY":-118.451,
-                    "Radius":30,
+                    "CenterX":37.41685,
+                    "CenterY":-118.4515,
+                    "Radius":15,
                     "Boulders":
                     [
                         {
@@ -2209,6 +2215,24 @@
                             {
                                 "Latitude": 37.417,
                                 "Longitude": -118.451
+                            }
+                        },
+                        {
+                            "Name":"Desert Skies",
+                            "Description":"The wide undercut buttress with a line of pockets running along its base",
+                            "Routes":
+                            [
+                                {
+                                    "Name":"My Heart Grew Wings Under Desert Skies",
+                                    "Description":"Start with pockets down low under the giant, obvious hueco. Use pockets and edges to make a couple stout moves to gain the jug in the giant hueco (crux). Move up on edges and jugs to the topout.",
+                                    "Rating":"V4 PG13",
+                                    "Stars":3
+                                }
+                            ],
+                            "Location":
+                            {
+                                "Latitude": 37.41685,
+                                "Longitude": -118.4515
                             }
                         }
                     ]

@@ -107,7 +107,7 @@ public class Areas {
             let route = Route(name: (routeDict["Name"] as? String)!)
             route.description = routeDict["Description"] as! String?
             route.rating = routeDict["Rating"] as! String?
-            route.stars = routeDict["Stars"] as! Int
+            route.stars = routeDict["Stars"] as? Int
             route.image = routeDict["Image"] as? String ?? boulder.image
             route.location = parseLocation(locationDict: routeDict["Location"]) ?? boulder.location
             boulder.routes.append(route)

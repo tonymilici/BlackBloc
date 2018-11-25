@@ -101,8 +101,8 @@
 		BBF7C9AA20B0B5AD00BAE2CF /* Borealis.png in Resources */ = {isa = PBXBuildFile; fileRef = BBF7C9A920B0B5AD00BAE2CF /* Borealis.png */; };
 		BBF7C9AC20B0B79400BAE2CF /* Chouinards Slab.png in Resources */ = {isa = PBXBuildFile; fileRef = BBF7C9AB20B0B79400BAE2CF /* Chouinards Slab.png */; };
 		BBF7C9AE20B0B9EF00BAE2CF /* Slap.png in Resources */ = {isa = PBXBuildFile; fileRef = BBF7C9AD20B0B9EF00BAE2CF /* Slap.png */; };
-		BBF7C9B020B0BB5900BAE2CF /* Boulder 1.png in Resources */ = {isa = PBXBuildFile; fileRef = BBF7C9AF20B0BB5900BAE2CF /* Boulder 1.png */; };
-		BBF7C9B220B0BC0C00BAE2CF /* Boot Flake.png in Resources */ = {isa = PBXBuildFile; fileRef = BBF7C9B120B0BC0C00BAE2CF /* Boot Flake.png */; };
+		BBF7C9B020B0BB5900BAE2CF /* boulder_1.png in Resources */ = {isa = PBXBuildFile; fileRef = BBF7C9AF20B0BB5900BAE2CF /* boulder_1.png */; };
+		BBF7C9B220B0BC0C00BAE2CF /* boot_flake.png in Resources */ = {isa = PBXBuildFile; fileRef = BBF7C9B120B0BC0C00BAE2CF /* boot_flake.png */; };
 		BBF7C9B420B0BDF000BAE2CF /* Slant Rock.png in Resources */ = {isa = PBXBuildFile; fileRef = BBF7C9B320B0BDF000BAE2CF /* Slant Rock.png */; };
 		BBF7C9B620B0C23100BAE2CF /* Slant Rock Face.png in Resources */ = {isa = PBXBuildFile; fileRef = BBF7C9B520B0C23100BAE2CF /* Slant Rock Face.png */; };
 		BBF7C9B820B0C3DC00BAE2CF /* Slant Flake.png in Resources */ = {isa = PBXBuildFile; fileRef = BBF7C9B720B0C3DB00BAE2CF /* Slant Flake.png */; };
@@ -227,8 +227,8 @@
 		BBF7C9A920B0B5AD00BAE2CF /* Borealis.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Borealis.png; path = Photos/Borealis.png; sourceTree = "<group>"; };
 		BBF7C9AB20B0B79400BAE2CF /* Chouinards Slab.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Chouinards Slab.png"; path = "Photos/Chouinards Slab.png"; sourceTree = "<group>"; };
 		BBF7C9AD20B0B9EF00BAE2CF /* Slap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Slap.png; path = Photos/Slap.png; sourceTree = "<group>"; };
-		BBF7C9AF20B0BB5900BAE2CF /* Boulder 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Boulder 1.png"; path = "Photos/Boulder 1.png"; sourceTree = "<group>"; };
-		BBF7C9B120B0BC0C00BAE2CF /* Boot Flake.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Boot Flake.png"; path = "Photos/Boot Flake.png"; sourceTree = "<group>"; };
+		BBF7C9AF20B0BB5900BAE2CF /* boulder_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = boulder_1.png; path = Photos/boulder_1.png; sourceTree = "<group>"; };
+		BBF7C9B120B0BC0C00BAE2CF /* boot_flake.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = boot_flake.png; path = Photos/boot_flake.png; sourceTree = "<group>"; };
 		BBF7C9B320B0BDF000BAE2CF /* Slant Rock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Slant Rock.png"; path = "Photos/Slant Rock.png"; sourceTree = "<group>"; };
 		BBF7C9B520B0C23100BAE2CF /* Slant Rock Face.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Slant Rock Face.png"; path = "Photos/Slant Rock Face.png"; sourceTree = "<group>"; };
 		BBF7C9B720B0C3DB00BAE2CF /* Slant Flake.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Slant Flake.png"; path = "Photos/Slant Flake.png"; sourceTree = "<group>"; };
@@ -346,8 +346,8 @@
 				BBF7C9B720B0C3DB00BAE2CF /* Slant Flake.png */,
 				BBF7C9B520B0C23100BAE2CF /* Slant Rock Face.png */,
 				BBF7C9B320B0BDF000BAE2CF /* Slant Rock.png */,
-				BBF7C9B120B0BC0C00BAE2CF /* Boot Flake.png */,
-				BBF7C9AF20B0BB5900BAE2CF /* Boulder 1.png */,
+				BBF7C9B120B0BC0C00BAE2CF /* boot_flake.png */,
+				BBF7C9AF20B0BB5900BAE2CF /* boulder_1.png */,
 				BBF7C9AD20B0B9EF00BAE2CF /* Slap.png */,
 				BBF7C9AB20B0B79400BAE2CF /* Chouinards Slab.png */,
 				BBF7C9A920B0B5AD00BAE2CF /* Borealis.png */,
@@ -558,7 +558,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BB3CEC8520A89F57006E2BD4 /* Mr Ed.png in Resources */,
-				BBF7C9B220B0BC0C00BAE2CF /* Boot Flake.png in Resources */,
+				BBF7C9B220B0BC0C00BAE2CF /* boot_flake.png in Resources */,
 				BBEF92DF1EE3730500E1781A /* RouteView.xib in Resources */,
 				BBA3C86B1E9EDC4F0037ED09 /* The Falcon.jpg in Resources */,
 				BBA3C8641E9E7BAA0037ED09 /* swiss_cheese.jpg in Resources */,
@@ -595,7 +595,7 @@
 				BB90B481217AC3E500DBECE4 /* Western Round Up.jpg in Resources */,
 				BB33C33D21922E400025371D /* and_the_holy_spirit_amen.png in Resources */,
 				BBA3C8691E9EA2A40037ED09 /* Unknown2.jpg in Resources */,
-				BBF7C9B020B0BB5900BAE2CF /* Boulder 1.png in Resources */,
+				BBF7C9B020B0BB5900BAE2CF /* boulder_1.png in Resources */,
 				BB33C2F5218F48B90025371D /* list@3x.png in Resources */,
 				BB33C351219265D50025371D /* the_prow.png in Resources */,
 				BBD23F6921782991006B08E8 /* Burning Rubber Necklace.jpg in Resources */,

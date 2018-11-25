@@ -602,9 +602,103 @@
              },
              {
                 "Name": "Boulder 2/B1 Boulder area",
-                "CenterX": 34.2693,
+                "CenterX": 34.2692,
                 "CenterY": -118.6037,
-                "Radius": 14
+                "Radius": 14,
+                "Boulders":
+                [
+                    {
+                        "Name":"B1 Boulder",
+                        "Description":"Numerous hard and overhanging classic problems on the west, south and east sides of this boulder.",
+                        "Routes":
+                        [
+                            {
+                                "Name":"The Corner",
+                                "Description":"Starts out on the north side of the Northwest corner on the well chalked right facing sidepulls. Follow good holds up and slightly left.",
+                                "Rating":"V0",
+                                "Stars":2
+                            },
+                            {
+                                "Name":"Hog Tied",
+                                "Description":"Easily up steep rock to a tricky and committing move to reach a hold which could be better, the crux is utilizing this to gain the top.",
+                                "Rating":"V1 R",
+                                "Stars":3
+                            },
+                            {
+                                "Name":"Master of Reality",
+                                "Description":"Try and figure this one out without beta, you'll be glad you did - a wonderful unlikely sequence of almost zen-like moves leads to a small crimper (used be a nice jug) then smearing and stemming (crux) lead to the final slopers...",
+                                "Rating":"V5",
+                                "Stars":4
+                            },
+                            {
+                                "Name":"Expansion Chamber",
+                                "Description":"Start left hand on a big sidepull and right on a shallow dish. Climb up to small crimps using desperate smears to a funky top out.",
+                                "Rating":"V5",
+                                "Stars":3
+                                
+                            },
+                            {
+                                "Name":"The Ear",
+                                "Description":"Start with hands on edges at the bottom of a large hueco and go straight up through an undercling and small edges.",
+                                "Rating":"V4",
+                                "Stars":2
+                            },
+                            {
+                                "Name":"ELP",
+                                "Description":"Jump off pads to two pockets. Campus to a flat sloping hold and rock over left to a crimp. Finish easier up crimps.",
+                                "Rating":"V4",
+                                "Stars":3
+                            },
+                            {
+                                "Name":"Pink Floyd",
+                                "Description":"Jump start to an undercling with the left and the right on the Apesma sidepull. Crank to slopey sidepulls and a mantle top out.",
+                                "Rating":"V4",
+                                "Stars":2
+                            },
+                            {
+                                "Name":"Apesma",
+                                "Description":"Start in a two finger pocket and fire to a crescent crimp. Move right to shallow sidepulls and top out. Direct (V8) and left (V5) variations have been done.",
+                                "Rating":"V6",
+                                "Stars":3
+                            },
+                            {
+                                "Name":"The Crack",
+                                "Description":"Start with right hand undercling and left in sloping pocket. Figure out a way to gain the next pocket for the left and ake a big move out right to a jug. Finish with a commiting topout. Classic. Climbing the crack direct is V5.",
+                                "Rating":"V3",
+                                "Stars":3
+                            },
+                            {
+                                "Name":"Flying Circus",
+                                "Description":"Start on the right side of the arête and stay on that side going straight up on big moves. The move of this route seems to be a big right hand deadpoint move to a lonely pocket on an otherwise smooth face.",
+                                "Rating":"V5",
+                                "Stars":3
+                            },
+                            {
+                                "Name":"Two Scoops",
+                                "Description":"Starts on the arête using a side crimp. Go up and mainly left using big slopey holds and poor feet going through the two scoops and up to the top from there.",
+                                "Rating":"V1+",
+                                "Stars":2
+                            }
+                        ],
+                        "Location":
+                        {
+                            "Latitude": 34.26925,
+                            "Longitude": -118.6036
+                        }
+                    },
+                    {
+                        "Name":"Turlock Boulder (aka Boulder 2)",
+                        "Description":"The large obvious boulder right next to the trail.",
+                        "Routes":
+                        [
+                        ],
+                        "Location":
+                        {
+                            "Latitude": 34.26915,
+                            "Longitude": -118.6037
+                        }
+                    }
+                ]
              }
              
         ]
@@ -1823,6 +1917,33 @@
             "Clusters":
             [
                 {
+                    "Name":"Hand To Hand Combat Area",
+                    "CenterX":37.416,
+                    "CenterY":-118.45,
+                    "Radius":20,
+                    "Boulders":
+                    [
+                        {
+                            "Name":"Hand to Hand Combat Wall",
+                            "Description":"Great pocketed wall with some cool features.",
+                            "Routes":
+                            [
+                                {
+                                    "Name":"Rene",
+                                    "Description":"Start at the center of the back wall. Move up to the deep hueco and here is where the fun begins....make some really committing moves on TINY pockets. Crux feels like the scary move you have to make to the lip.",
+                                    "Rating":"V5 PG13",
+                                    "Stars":4
+                                }
+                            ],
+                            "Location":
+                            {
+                                "Latitude": 37.416,
+                                "Longitude": -118.45
+                            }
+                        }
+                    ]
+                },
+                {
                     "Name":"Tom Peter's Slab Area",
                     "CenterX":37.416,
                     "CenterY":-118.449,
@@ -2001,6 +2122,32 @@
                             {
                                 "Latitude": 37.417,
                                 "Longitude": -118.449
+                            }
+                        }
+                    ]
+                },
+                {
+                    "Name":"Split Melon Area",
+                    "CenterX":37.4168,
+                    "CenterY":-118.4506,
+                    "Radius":20,
+                    "Boulders":
+                    [
+                        {
+                            "Name":"Safe Surfer Boulder",
+                            "Description":"This boulder looks like a wave, across from the Heavenly Path boulder.",
+                            "Routes":
+                            [
+                                {
+                                    "Name":"Traverse slopey lip from right to left. Mantle top-out or turn the corner to top-out.",
+                                    "Rating":"V5",
+                                    "Stars":4
+                                }
+                            ],
+                            "Location":
+                            {
+                                "Latitude": 37.4168,
+                                "Longitude": -118.45065
                             }
                         }
                     ]
@@ -2465,6 +2612,33 @@
                     ]
                 },
                 {
+                    "Name":"Death Star Cave Area",
+                    "CenterX":37.4201,
+                    "CenterY":-118.4339,
+                    "Radius":15,
+                    "Boulders":
+                    [
+                        {
+                            "Name":"Death Star Cave",
+                            "Description":"This is a large cave, hidden under a giant capstone boulder, at the east side of the canyon, 50 yards up canyon from the Cow Sull boulder and across the canyon from the Rio's Crack main area.",
+                            "Routes":
+                            [
+                                {
+                                    "Name":"Anti-Hero",
+                                    "Description":"Start very low, left hand on the right arete right on a good incut. Climb up via powerful moves between big pockets, flakes and underclings.",
+                                    "Rating":"V5",
+                                    "Stars":3
+                                }
+                            ],
+                            "Location":
+                            {
+                                "Latitude": 37.4201,
+                                "Longitude": -118.4339
+                            }
+                        }
+                    ]
+                },
+                {
                     "Name":"Molly Area",
                     "CenterX":37.421,
                     "CenterY":-118.434,
@@ -2476,6 +2650,12 @@
                             "Description":"Facing up-canyon is the clean solid wall of the Molly Boulder.",
                             "Routes":
                             [
+                                {
+                                    "Name":"Molly",
+                                    "Description":"Sit-start on low pockets, make a couple easy moves in more pockets then stretch up high to the left-hand sidepull. Pull up to the crimp in the horizontal seam or throw for the lip (crux).",
+                                    "Rating":"V5",
+                                    "Stars":3
+                                },
                                 {
                                     "Name":"Molly Dyno",
                                     "Description":"Use the two obvious good pockets around head height to make one huge move to the finishing jug of Molly.",
@@ -2562,6 +2742,28 @@
                                     "Description":"Start at the large hole on the left of the cave. Move up and out towards the lip of the cave. Using core strength stay on and reach down and right to the fang. Grab the fang and squirm up it to reach better holds and the top.",
                                     "Rating":"V4",
                                     "Stars":3
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Name":"Strength In Numbers Area",
+                    "CenterX":37.422,
+                    "CenterY":-118.433,
+                    "Radius":10,
+                    "Boulders":
+                    [
+                        {
+                            "Name":"Strength In Numbers Boulder",
+                            "Description":"Facing up the canyon is the overhanging face of the outsatnding Strength In Numbers boulder",
+                            "Routes":
+                            [
+                                {
+                                    "Name":"Strength in Numbers",
+                                    "Description":"Sit-start on the large obvious twin-hueco underclings. Make a big move straight up to the gaping hueco, then style your way up and left to the good right-facing edges that lead to the rest on the good jug/sidepull. A couple large moves up and left between crimps on the lip will get it done.",
+                                    "Rating":"V5",
+                                    "Stars":4
                                 }
                             ]
                         }
@@ -2714,6 +2916,38 @@
                     ]
                 },
                 {
+                    "Name":"Fly Boy Area",
+                    "CenterX":37.3306,
+                    "CenterY":-118.5784,
+                    "Radius":20,
+                    "Boulders":
+                    [
+                        {
+                            "Name":"Fly Boy Boulder",
+                            "Description":"A huge block with something of every grade.",
+                            "Routes":
+                            [
+                                {
+                                    "Name":"Fly Boy Arete",
+                                    "Description":"Start as for the Flyboy sit start and move left to the arete and up.",
+                                    "Rating":"V5",
+                                    "Stars":3,
+                                    "Location":
+                                    {
+                                        "Latitude": 37.3307,
+                                        "Longitude": -118.57834
+                                    }
+                                }
+                            ],
+                            "Location":
+                            {
+                                "Latitude": 37.3306,
+                                "Longitude": -118.57835
+                            }
+                        }
+                    ]
+                },
+                {
                     "Name":"Iron Man Area",
                     "CenterX":37.33,
                     "CenterY":-118.578,
@@ -2761,10 +2995,42 @@
                     ]
                 },
                 {
-                    "Name":"Rowell Rocks",
-                    "CenterX":37.3288,
-                    "CenterY":-118.57667,
+                    "Name":"Corner Boulders",
+                    "CenterX":37.3291,
+                    "CenterY":-118.5778,
                     "Radius":20,
+                    "Boulders":
+                    [
+                        {
+                            "Name":"Leary/Bard Boulder",
+                            "Description":"Big boulder",
+                            "Routes":
+                            [
+                                {
+                                    "Name":"Leary/Bard Arete",
+                                    "Description":"Work your way up the right side of the arete using thin sharp crimps and keen footwork. Finish with a tricky and insecure slab top-out.",
+                                    "Rating":"V5",
+                                    "Stars":4,
+                                    "Location":
+                                    {
+                                        "Latitude": 37.32906,
+                                        "Longitude": -118.57787
+                                    }
+                                }
+                            ],
+                            "Location":
+                            {
+                                "Latitude": 37.32906,
+                                "Longitude": -118.57783
+                            }
+                        }
+                    ]
+                },
+                {
+                    "Name":"Rowell Rocks",
+                    "CenterX":37.32885,
+                    "CenterY":-118.5768,
+                    "Radius":30,
                     "Boulders":
                     [
                         {
@@ -2784,15 +3050,20 @@
                                     "Rating":"V4",
                                     "Stars":3
                                 }
-                            ]
+                            ],
+                            "Location":
+                            {
+                                "Latitude": 37.32905,
+                                "Longitude": -118.57679
+                            }
                         }
                     ]
                 },
                 {
                     "Name":"Soul Slinger Area",
-                    "CenterX":37.329,
-                    "CenterY":-118.576,
-                    "Radius":20,
+                    "CenterX":37.3288,
+                    "CenterY":-118.5759,
+                    "Radius":30,
                     "Boulders":
                     [
                         {
@@ -2809,16 +3080,16 @@
                             ],
                             "Location":
                             {
-                                "Latitude": 37.329,
-                                "Longitude": -118.577
+                                "Latitude": 37.3286,
+                                "Longitude": -118.57577
                             }
                         }
                     ]
                 },
                 {
                     "Name":"Peabody Boulders",
-                    "CenterX":37.328,
-                    "CenterY":-118.575,
+                    "CenterX":37.32825,
+                    "CenterY":-118.5748,
                     "Radius":20,
                     "Boulders":
                     [
@@ -2836,7 +3107,7 @@
                             ],
                             "Location":
                             {
-                                "Latitude": 37.328,
+                                "Latitude": 37.329,
                                 "Longitude": -118.575
                             }
                         },
@@ -2850,12 +3121,103 @@
                                     "Description":"Go more or less straight up many huecos to a hole and finish up the slab to the summit, or downclimb.",
                                     "Rating":"V0",
                                     "Stars":3
+                                },
+                                {
+                                    "Name":"Go Granny Go",
+                                    "Description":"Sit start at a good flake and climb up and right to good holds. From these pull directly up to good incuts above a scoop by any number of options. Drop off.",
+                                    "Rating":"V5",
+                                    "Stars":3,
+                                    "Location":
+                                    {
+                                        "Latitude": 37.32836,
+                                        "Longitude": -118.57475
+                                    }
+                                },
+                                {
+                                    "Name":"Go Granny Go: Right Finish",
+                                    "Description":"Sit start (same as Go Granny Go) at a good flake and climb up and right to good holds, and then further right to the arete. Continue up to the good incuts at about 10 feet. Climb down or drop off.",
+                                    "Rating":"V5",
+                                    "Stars":3,
+                                    "Location":
+                                    {
+                                        "Latitude": 37.32836,
+                                        "Longitude": -118.57475
+                                    }
                                 }
                             ],
                             "Location":
                             {
-                                "Latitude": 37.328,
-                                "Longitude": -118.575
+                                "Latitude": 37.32836,
+                                "Longitude": -118.57475
+                            }
+                        }
+                    ]
+                },
+                {
+                    "Name":"Sunshine Area",
+                    "CenterX":37.32875,
+                    "CenterY":-118.5752,
+                    "Radius":20,
+                    "Boulders":
+                    [
+                        {
+                            "Name":"Sunshine Boulder",
+                            "Description":"This is the next boulder to the northwest of the Grandma Peabody Boulder.",
+                            "Routes":
+                            [
+                                {
+                                    "Name":"Good Morning Sunshine",
+                                    "Description":"Climb up the steep slab using crimps, side-pulls and high-steps to an exciting crux up high.",
+                                    "Rating":"V1 PG13",
+                                    "Stars":3
+                                }
+                            ],
+                            "Location":
+                            {
+                                "Latitude": 37.32857,
+                                "Longitude": -118.57515
+                            }
+                        },
+                        {
+                            "Name":"Green Wall Boulder",
+                            "Description":"This boulder lies uphill and to the left of the Grandma and Grandpa Peabody Boulders.",
+                            "Routes":
+                            [
+                                {
+                                    "Name":"Green Wall Essential",
+                                    "Description":"After a couple of great moves, larger holds are reached, from which the top is easily gained.",
+                                    "Rating":"V2",
+                                    "Stars":3
+                                },
+                                {
+                                    "Name":"Green Wall Center",
+                                    "Description":"Start with two opposing sidepulls. Good footwork on slippery feet will lead you to a right high step and a long reach to a vertical slot. Continue straight up and finish in a jug.",
+                                    "Rating":"V6",
+                                    "Stars":3
+                                }
+                            ],
+                            "Location":
+                            {
+                                "Latitude": 37.3287,
+                                "Longitude": -118.5753
+                            }
+                        },
+                        {
+                            "Name":"The Hunk",
+                            "Description":"The large boulder is uphill and to the right of the Green Wall Boulder",
+                            "Routes":
+                            [
+                                {
+                                    "Name":"The Hunk",
+                                    "Description":"Tricky and technical climbing down low on small edges leads to easier, but committing moves on good holds to the top.",
+                                    "Rating":"V2",
+                                    "Stars":4
+                                }
+                            ],
+                            "Location":
+                            {
+                                "Latitude": 37.32884,
+                                "Longitude": -118.5751
                             }
                         }
                     ]
@@ -2939,6 +3301,57 @@
                         }
                     ]
                 }
+            ]
+        },
+        {
+            "Name":"Pollen Grains",
+            "Location":
+            {
+                "Latitude": 37.338,
+                "Longitude": -118.571
+            },
+            "Size": 0.5,
+            "Clusters":
+            [
+                {
+                    "Name":"Lidija Boulder Area",
+                    "CenterX":37.3377,
+                    "CenterY":-118.5701,
+                    "Radius":15,
+                    "Boulders":
+                    [
+                        {
+                            "Name":"Lidija Boulder",
+                            "Description":"The biggest boulder in the area with some great climbs.",
+                            "Routes":
+                            [
+                                {
+                                    "Name":"Suspended in Silence",
+                                    "Description":"Start on 1 of 2 big flakes at head height. Crux is the first move up to a smallish crimp. Stick this and screw up the courage for the long haul to the top. Reachy moves between small sidepulls and gastons leads you straight up and over the bulge (at about 30 feet).",
+                                    "Rating":"V5 R",
+                                    "Stars":4
+                                }
+                            ],
+                            "Location":
+                            {
+                                "Latitude": 37.3377,
+                                "Longitude": -118.5701
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Name":"Hidden Valley Campground",
+            "Location":
+            {
+                "Latitude": 34.016,
+                "Longitude": -116.161
+            },
+            "Size": 1.0,
+            "Clusters":
+            [
             ]
         }
     ]

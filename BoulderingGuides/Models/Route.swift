@@ -29,7 +29,7 @@ public class Route {
     public var name: String?
     public var description: String?
     public var rating: String?
-    public var stars = -1
+    public var stars: Int?
     public var image: String?
     public var location: Location?
     
@@ -38,16 +38,18 @@ public class Route {
     }
     
     public func getStars() -> String {
-        var star = ""
-        if stars < 1 {
-            return star
+        var starChars = ""
+        if let star = stars
+        {
+            if star < 1 {
+                return starChars
+            }
+            
+            let starChar = "\u{2605}"
+            for _ in 1...stars! {
+                starChars += starChar
+            }
         }
-        
-        let starChar = "\u{2605}"
-        for _ in 1...stars {
-            star += starChar
-        }
-
-        return star
+        return starChars
     }
 }

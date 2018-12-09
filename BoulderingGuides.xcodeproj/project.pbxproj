@@ -103,9 +103,9 @@
 		BBF7C9AE20B0B9EF00BAE2CF /* Slap.png in Resources */ = {isa = PBXBuildFile; fileRef = BBF7C9AD20B0B9EF00BAE2CF /* Slap.png */; };
 		BBF7C9B020B0BB5900BAE2CF /* boulder_1.png in Resources */ = {isa = PBXBuildFile; fileRef = BBF7C9AF20B0BB5900BAE2CF /* boulder_1.png */; };
 		BBF7C9B220B0BC0C00BAE2CF /* boot_flake.png in Resources */ = {isa = PBXBuildFile; fileRef = BBF7C9B120B0BC0C00BAE2CF /* boot_flake.png */; };
-		BBF7C9B420B0BDF000BAE2CF /* Slant Rock.png in Resources */ = {isa = PBXBuildFile; fileRef = BBF7C9B320B0BDF000BAE2CF /* Slant Rock.png */; };
-		BBF7C9B620B0C23100BAE2CF /* Slant Rock Face.png in Resources */ = {isa = PBXBuildFile; fileRef = BBF7C9B520B0C23100BAE2CF /* Slant Rock Face.png */; };
-		BBF7C9B820B0C3DC00BAE2CF /* Slant Flake.png in Resources */ = {isa = PBXBuildFile; fileRef = BBF7C9B720B0C3DB00BAE2CF /* Slant Flake.png */; };
+		BBF7C9B420B0BDF000BAE2CF /* slant_rock.png in Resources */ = {isa = PBXBuildFile; fileRef = BBF7C9B320B0BDF000BAE2CF /* slant_rock.png */; };
+		BBF7C9B620B0C23100BAE2CF /* slant_rock_face.png in Resources */ = {isa = PBXBuildFile; fileRef = BBF7C9B520B0C23100BAE2CF /* slant_rock_face.png */; };
+		BBF7C9B820B0C3DC00BAE2CF /* slant_flake.png in Resources */ = {isa = PBXBuildFile; fileRef = BBF7C9B720B0C3DB00BAE2CF /* slant_flake.png */; };
 		BBF7C9BA20B0C4A200BAE2CF /* Pile Ups.png in Resources */ = {isa = PBXBuildFile; fileRef = BBF7C9B920B0C4A200BAE2CF /* Pile Ups.png */; };
 /* End PBXBuildFile section */
 
@@ -229,9 +229,9 @@
 		BBF7C9AD20B0B9EF00BAE2CF /* Slap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Slap.png; path = Photos/Slap.png; sourceTree = "<group>"; };
 		BBF7C9AF20B0BB5900BAE2CF /* boulder_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = boulder_1.png; path = Photos/boulder_1.png; sourceTree = "<group>"; };
 		BBF7C9B120B0BC0C00BAE2CF /* boot_flake.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = boot_flake.png; path = Photos/boot_flake.png; sourceTree = "<group>"; };
-		BBF7C9B320B0BDF000BAE2CF /* Slant Rock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Slant Rock.png"; path = "Photos/Slant Rock.png"; sourceTree = "<group>"; };
-		BBF7C9B520B0C23100BAE2CF /* Slant Rock Face.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Slant Rock Face.png"; path = "Photos/Slant Rock Face.png"; sourceTree = "<group>"; };
-		BBF7C9B720B0C3DB00BAE2CF /* Slant Flake.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Slant Flake.png"; path = "Photos/Slant Flake.png"; sourceTree = "<group>"; };
+		BBF7C9B320B0BDF000BAE2CF /* slant_rock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = slant_rock.png; path = Photos/slant_rock.png; sourceTree = "<group>"; };
+		BBF7C9B520B0C23100BAE2CF /* slant_rock_face.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = slant_rock_face.png; path = Photos/slant_rock_face.png; sourceTree = "<group>"; };
+		BBF7C9B720B0C3DB00BAE2CF /* slant_flake.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = slant_flake.png; path = Photos/slant_flake.png; sourceTree = "<group>"; };
 		BBF7C9B920B0C4A200BAE2CF /* Pile Ups.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Pile Ups.png"; path = "Photos/Pile Ups.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -343,9 +343,9 @@
 				BBD90A4B2179717600BC0B9A /* Comfort of Home.jpg */,
 				BBD23F6821782991006B08E8 /* Burning Rubber Necklace.jpg */,
 				BBF7C9B920B0C4A200BAE2CF /* Pile Ups.png */,
-				BBF7C9B720B0C3DB00BAE2CF /* Slant Flake.png */,
-				BBF7C9B520B0C23100BAE2CF /* Slant Rock Face.png */,
-				BBF7C9B320B0BDF000BAE2CF /* Slant Rock.png */,
+				BBF7C9B720B0C3DB00BAE2CF /* slant_flake.png */,
+				BBF7C9B520B0C23100BAE2CF /* slant_rock_face.png */,
+				BBF7C9B320B0BDF000BAE2CF /* slant_rock.png */,
 				BBF7C9B120B0BC0C00BAE2CF /* boot_flake.png */,
 				BBF7C9AF20B0BB5900BAE2CF /* boulder_1.png */,
 				BBF7C9AD20B0B9EF00BAE2CF /* Slap.png */,
@@ -566,7 +566,7 @@
 				BBF7C9A620B0AA9200BAE2CF /* Spiral Traverse.png in Resources */,
 				BB3CEC7F20A88CDA006E2BD4 /* Teflon Boulder.png in Resources */,
 				BBEF92C91EE370D200E1781A /* BoulderView.xib in Resources */,
-				BBF7C9B620B0C23100BAE2CF /* Slant Rock Face.png in Resources */,
+				BBF7C9B620B0C23100BAE2CF /* slant_rock_face.png in Resources */,
 				BB33C2FD218F72FB0025371D /* Hero Roof.png in Resources */,
 				BB0606BD20B0756500B465F1 /* Ummagumma.png in Resources */,
 				BB33C34121922F8E0025371D /* better_bold_than_old.png in Resources */,
@@ -583,7 +583,7 @@
 				BB3CEC8320A88ECC006E2BD4 /* Teflon Arete.png in Resources */,
 				BB33C348219232F70025371D /* unnamed_1.png in Resources */,
 				BBF7C9AC20B0B79400BAE2CF /* Chouinards Slab.png in Resources */,
-				BBF7C9B420B0BDF000BAE2CF /* Slant Rock.png in Resources */,
+				BBF7C9B420B0BDF000BAE2CF /* slant_rock.png in Resources */,
 				BB33C34F2192358F0025371D /* holy_water_boulder.png in Resources */,
 				BB33C34D219234C80025371D /* the_refigerator.png in Resources */,
 				BB0606C320B0985400B465F1 /* Mommys Boys.png in Resources */,
@@ -603,7 +603,7 @@
 				BB3CEC8120A88E00006E2BD4 /* Not Teflon President.png in Resources */,
 				BB3CEC8920A8A314006E2BD4 /* Horse Farts.png in Resources */,
 				BB33C34B2192340D0025371D /* defroster.png in Resources */,
-				BBF7C9B820B0C3DC00BAE2CF /* Slant Flake.png in Resources */,
+				BBF7C9B820B0C3DC00BAE2CF /* slant_flake.png in Resources */,
 				BB1B790F1EE34319009AF545 /* The Great Curve.jpg in Resources */,
 				BB33C2FF218F94AF0025371D /* iron_man_traverse.png in Resources */,
 				BB90B47B217AC0E200DBECE4 /* Unnamed.jpg in Resources */,

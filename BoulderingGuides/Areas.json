@@ -43,7 +43,8 @@
                                     {
                                         "Latitude": 34.27003,
                                         "Longitude": -118.60555
-                                    }
+                                    },
+                                    "Image":"crankin_queenie.png"
                                 },
                                 {
                                     "Name":"Aftershock",
@@ -54,7 +55,8 @@
                                     {
                                         "Latitude": 34.26998,
                                         "Longitude": -118.60554
-                                    }
+                                    },
+                                    "Image":"aftershock.png"
                                 },
                                 {
                                     "Name":"Say Goodnight",
@@ -88,14 +90,16 @@
                                     {
                                         "Latitude": 34.26999,
                                         "Longitude": -118.60557
-                                    }
+                                    },
+                                    "Image":"west_face.png"
                                 }
                             ],
                             "Location":
                             {
                                 "Latitude": 34.27001,
                                 "Longitude": -118.60556
-                            }
+                            },
+                            "Image":"west_face.png"
                         },
                         {
                             "Name": "Pump Rock",
@@ -117,7 +121,8 @@
                                     {
                                         "Latitude": 34.26998,
                                         "Longitude": -118.60557
-                                    }
+                                    },
+                                    "Image":"pump_arete.png"
                                 },
                                 {
                                     "Name":"North Face Pump Rock",
@@ -152,7 +157,8 @@
                                     {
                                         "Latitude": 34.26978,
                                         "Longitude": -118.60565
-                                    }
+                                    },
+                                    "Image":"west_arete.png"
                                 },
                                 {
                                     "Name":"Nylon Boy",
@@ -221,7 +227,8 @@
                                     {
                                         "Latitude": 34.26974,
                                         "Longitude": -118.6056
-                                    }
+                                    },
+                                    "Image":"vivarin.png"
                                 },
                                 {
                                     "Name":"Southeast Corner",
@@ -243,7 +250,8 @@
                                     {
                                         "Latitude": 34.26973,
                                         "Longitude": -118.60557
-                                    }
+                                    },
+                                    "Image":"three_pigs.png"
                                 },
                                 {
                                     "Name": "Three Pigs",
@@ -254,7 +262,8 @@
                                     {
                                         "Latitude": 34.26974,
                                         "Longitude": -118.60556
-                                    }
+                                    },
+                                    "Image":"three_pigs.png"
                                 },
                                 {
                                     "Name": "Undercling",
@@ -302,7 +311,7 @@
                                 },
                                 {
                                     "Name":"The Nose",
-                                    "Description":"Climb the arete to a nervt topout.",
+                                    "Description":"Climb the arete to a nervy topout.",
                                     "Rating":"VB",
                                     "Stars":3,
                                     "Location":
@@ -452,8 +461,8 @@
                                 {
                                     "Name": "Pile Ups Traverse",
                                     "Description": "Traverse the lip of the boulder left-to-right.",
-                                    "Rating": "V1",
-                                    "Stars": 1
+                                    "Rating": "V2-3",
+                                    "Stars":2
                                 },
                                 {
                                     "Name": "Pile Driver",
@@ -462,18 +471,285 @@
                                     "Stars": 2
                                 },
                                 {
-                                    "Name": "Pile Driver Lieback",
+                                    "Name": "Pile Lieback",
                                     "Description": "Start matched on a good crimp, reach left for the lieback hold, pop for the sloping shelf and make a big move to top out at the apex of the boulder.",
                                     "Rating": "V2",
-                                    "Stars": 2
+                                    "Stars": 3
                                 },
                                 {
                                     "Name": "Gomer Pile",
                                     "Description": "Ascend the face to the right of Pile Driver Lieback.",
                                     "Rating": "V4",
-                                    "Stars": 1
+                                    "Stars": 3
+                                },
+                                {
+                                    "Name":"Sledgehammer",
+                                    "Description":"Start on decent edges and go up through sideulls.",
+                                    "Rating":"V4",
+                                    "Stars":1
+                                },
+                                {
+                                    "Name":"Pile Ups Mantle",
+                                    "Description":"Mantle the lip on the right side of the boulder.",
+                                    "Rating":"V2",
+                                    "Stars":1
+                                },
+                                {
+                                    "Name":"White Angel Traverse (aka Low and Behold)",
+                                    "Description":"Start hands matched on the left side of the boulder. Traverse right through the middle of the boulder on funky crimps and underclings.",
+                                    "Rating":"V8",
+                                    "Stars":3
                                 }
-                            ]
+                            ],
+                            "Location":
+                            {
+                                "Latitude": 34.2695,
+                                "Longitude": -118.60442
+                            }
+                        },
+                        {
+                            "Name":"Angel Wings Boulder",
+                            "Description":"The boulder just behind the Pile Ups boulder.",
+                            "Routes":
+                            [
+                                {
+                                    "Name":"Scary Face",
+                                    "Description":"Start to the left of Ghetto Bird and trend left on loose holds.",
+                                    "Rating":"V4",
+                                    "Stars":1
+                                },
+                                {
+                                    "Name":"Ghetto Bird",
+                                    "Description":"Start on opposing sidepulls/flakes. Climb direct, up crimps and slopers to good holds at the apex of the boulder.",
+                                    "Rating":"V5",
+                                    "Stars":2
+                                },
+                                {
+                                    "Name":"Angel Wings",
+                                    "Description":"Start on a decent left hand sidepull and a right hand crimp. treaverse right through a small edge to a good hold at the corner and do a big move for the top.",
+                                    "Rating":"V6",
+                                    "Stars":2
+                                },
+                                {
+                                    "Name":"Unknown",
+                                    "Description":"Sit start at the corner of the boulder.",
+                                    "Rating":"V4",
+                                    "Stars":2
+                                }
+                            ],
+                            "Location":
+                            {
+                                "Latitude": 34.26951,
+                                "Longitude": -118.60432
+                            }
+                        }
+                    ]
+                },
+                {
+                    "Name": "Boulder 2/B1 Boulder area",
+                    "CenterX": 34.2692,
+                    "CenterY": -118.6037,
+                    "Radius": 14,
+                    "Boulders":
+                    [
+                        {
+                            "Name":"B1 Boulder",
+                            "Description":"Numerous hard and overhanging classic problems on the west, south and east sides of this boulder.",
+                            "Routes":
+                            [
+                                {
+                                    "Name":"The Corner",
+                                    "Description":"Starts out on the north side of the Northwest corner on the well chalked right facing sidepulls. Follow good holds up and slightly left.",
+                                    "Rating":"V0",
+                                    "Stars":2
+                                },
+                                {
+                                    "Name":"Hog Tied",
+                                    "Description":"Easily up steep rock to a tricky and committing move to reach a hold which could be better, the crux is utilizing this to gain the top.",
+                                    "Rating":"V1 R",
+                                    "Stars":3
+                                },
+                                {
+                                    "Name":"Master of Reality",
+                                    "Description":"Try and figure this one out without beta, you'll be glad you did - a wonderful unlikely sequence of almost zen-like moves leads to a small crimper (used be a nice jug) then smearing and stemming (crux) lead to the final slopers...",
+                                    "Rating":"V5",
+                                    "Stars":4
+                                },
+                                {
+                                    "Name":"Expansion Chamber",
+                                    "Description":"Start left hand on a big sidepull and right on a shallow dish. Climb up to small crimps using desperate smears to a funky top out.",
+                                    "Rating":"V5",
+                                    "Stars":3
+                                    
+                                },
+                                {
+                                    "Name":"The Ear",
+                                    "Description":"Start with hands on edges at the bottom of a large hueco and go straight up through an undercling and small edges.",
+                                    "Rating":"V4",
+                                    "Stars":2
+                                },
+                                {
+                                    "Name":"ELP",
+                                    "Description":"Jump off pads to two pockets. Campus to a flat sloping hold and rock over left to a crimp. Finish easier up crimps.",
+                                    "Rating":"V4",
+                                    "Stars":3
+                                },
+                                {
+                                    "Name":"Pink Floyd",
+                                    "Description":"Jump start to an undercling with the left and the right on the Apesma sidepull. Crank to slopey sidepulls and a mantle top out.",
+                                    "Rating":"V4",
+                                    "Stars":2
+                                },
+                                {
+                                    "Name":"Apesma",
+                                    "Description":"Start in a two finger pocket and fire to a crescent crimp. Move right to shallow sidepulls and top out. Direct (V8) and left (V5) variations have been done.",
+                                    "Rating":"V6",
+                                    "Stars":3
+                                },
+                                {
+                                    "Name":"The Crack",
+                                    "Description":"Start with right hand undercling and left in sloping pocket. Figure out a way to gain the next pocket for the left and ake a big move out right to a jug. Finish with a commiting topout. Classic. Climbing the crack direct is V5.",
+                                    "Rating":"V3",
+                                    "Stars":3
+                                },
+                                {
+                                    "Name":"Flying Circus",
+                                    "Description":"Start on the right side of the arête and stay on that side going straight up on big moves. The move of this route seems to be a big right hand deadpoint move to a lonely pocket on an otherwise smooth face.",
+                                    "Rating":"V5",
+                                    "Stars":3
+                                },
+                                {
+                                    "Name":"Two Scoops",
+                                    "Description":"Starts on the arête using a side crimp. Go up and mainly left using big slopey holds and poor feet going through the two scoops and up to the top from there.",
+                                    "Rating":"V1+",
+                                    "Stars":2
+                                }
+                            ],
+                            "Location":
+                            {
+                                "Latitude": 34.26925,
+                                "Longitude": -118.6036
+                            }
+                        },
+                        {
+                            "Name":"Turlock Boulder (aka Boulder 2)",
+                            "Description":"The large obvious boulder right next to the trail.",
+                            "Routes":
+                            [
+                                {
+                                    "Name":"The Corner",
+                                    "Description":"Start with the left hand on a rounded undercling and the right hand in a pocket. Climb uo the arete and mantel the lip to gain a crack.",
+                                    "Rating":"V2",
+                                    "Stars":3
+                                },
+                                {
+                                    "Name":"Silent Running",
+                                    "Description":"Start at sidepill pockets, climb up through a seam to a crack.",
+                                    "Rating":"V0",
+                                    "Stars":2
+                                },
+                                {
+                                    "Name":"The Flake",
+                                    "Description":"Climb up a right leaning flake to a rounded topout.",
+                                    "Rating":"V0",
+                                    "Stars":2
+                                },
+                                {
+                                    "Name":"Turlock Face",
+                                    "Description":"Climb some thin crimpers to a great right hand crimper up high, highstep and hit the left sidepull (good) and you're at the top.",
+                                    "Rating":"V0",
+                                    "Stars":2
+                                },
+                                {
+                                    "Name":"The Bulge",
+                                    "Description":"Start in the big pocket to the right under the bulge and go up and left doing a couple powerful moves mantling up to a deep little finger pocket on the face. Top out from here.",
+                                    "Rating":"V1",
+                                    "Stars":3
+                                },
+                                {
+                                    "Name":"Untold Story",
+                                    "Description":"Climb pockets and a largish hole to finish on slopers near the top.",
+                                    "Rating":"V0",
+                                    "Stars":2
+                                },
+                                {
+                                    "Name":"Potholes (Left)",
+                                    "Description":"Start at the left-most pothole lead and move right to a large cave-like pothole, pass this on the right to the finishing cave-like pothole, then left of this to the finishing jugs.",
+                                    "Rating":"V0",
+                                    "Stars":2
+                                },
+                                {
+                                    "Name":"Potholes (Center)",
+                                    "Description":"Climb good incut holds to a large cave-like pothole, pass this on the right to the finishing cave-like pothole, then left of this to the finishing jugs.",
+                                    "Rating":"V0",
+                                    "Stars":2
+                                },
+                                {
+                                    "Name":"Potholes (Right)",
+                                    "Description":"Traverse right out of the bottom cave and onto the right arete of the boulder, then up this a little then traverse left and jug up into the finishing cave, use good holds in the cave to reach the finishing jugs up and left.",
+                                    "Rating":"VB",
+                                    "Stars":2
+                                },
+                                {
+                                    "Name":"Ramada",
+                                    "Description":"Start on a slopey dish and climb up edges and pockets to a huge jug finish.",
+                                    "Rating":"V0",
+                                    "Stars":2
+                                },
+                                {
+                                    "Name":"The Real Crystal Ball Mantle",
+                                    "Description":"Start the same as Pliers, but move left through small crimps and mantle the crystal-ball like sloping shelf.",
+                                    "Rating":"V6",
+                                    "Stars":3
+                                },
+                                {
+                                    "Name":"Pliers",
+                                    "Description":"Start with left hand on face high edh=ge and right on crimpy pocket. Climb up through good edges, then pinch the fin to gain the sloping angling rail with the left hand. Mantle the rounded ledge to top out.",
+                                    "Rating":"V2",
+                                    "Stars":3
+                                },
+                                {
+                                    "Name":"Slime",
+                                    "Description":"Climb polished starting holds to gain a shallow pocket for the right hand. Lieback the fin with the left hand and press out the sloping mantle.",
+                                    "Rating":"V1",
+                                    "Stars":3
+                                },
+                                {
+                                    "Name":"Hoof and Mouth",
+                                    "Description":"Climb or jump to large hueco, then move up and left to a jug at the lip.",
+                                    "Rating":"V1",
+                                    "Stars":3
+                                },
+                                {
+                                    "Name":"North Face",
+                                    "Description":"Climb straight up the north face of the boulder.",
+                                    "Rating":"V0-",
+                                    "Stars":3
+                                },
+                                {
+                                    "Name":"North Flake",
+                                    "Description":"Start the sam as North Face but traverse right at the ledge and climb the flake to the top.",
+                                    "Rating":"VB",
+                                    "Stars":2
+                                },
+                                {
+                                    "Name":"Crowd Pleaser (aka Yabo Roof)",
+                                    "Description":"Climb up the arching arete through flakes to a scary lip turn.",
+                                    "Rating":"V2+",
+                                    "Stars":4
+                                },
+                                {
+                                    "Name":"Crystal Ball Mantle",
+                                    "Description":"Jump to the 'crystal ball' jug and climb striaght up through the overhang.",
+                                    "Rating":"V4-5",
+                                    "Stars":4
+                                }
+                            ],
+                            "Location":
+                            {
+                                "Latitude": 34.26915,
+                                "Longitude": -118.6037
+                            }
                         }
                     ]
                 },
@@ -672,6 +948,140 @@
                      ]
                 },
                 {
+                    "Name":"The Back Wall",
+                    "CenterX":34.271,
+                    "CenterY":-118.6032,
+                    "Radius":15,
+                    "Boulders":
+                    [
+                        {
+                            "Name":"The Back Wall",
+                            "Description":"This is the large / prominent wall around the corner (east) of Beethovens Wall. Many toprope problems ascend this wall and one boulder treavers of note.",
+                            "Routes":
+                            [
+                                {
+                                    "Name":"Potholes Traverse",
+                                    "Description":"Traverse the wall between the cracks on crimps and gastons. Can be done in either direction.",
+                                    "Rating":"V1",
+                                    "Stars":3
+                                }
+                            ],
+                            "Location":
+                            {
+                                "Latitude": 34.2709,
+                                "Longitude":-118.6032,
+                            }
+                        }
+                    ]
+                },
+                {
+                    "Name":"Canyon Boulders",
+                    "CenterX":34.2715,
+                    "CenterY":-118.6033,
+                    "Radius":20,
+                    "Boulders":
+                    [
+                        {
+                            "Name":"Scrambled Eggs Boulder",
+                            "Description":"This boulder lies just north of Beethoven's Wall.",
+                            "Routes":
+                            [
+                                {
+                                    "Name":"Scrambled Eggs",
+                                    "Description":"Start on good two-hand ledge. Moves up left to a horizontal band of worsening holds to a very good bird hole. High step and finish up and left.",
+                                    "Rating":"V3",
+                                    "Stars":3
+                                }
+                            ],
+                            "Location":
+                            {
+                                "Latitude": 34.27135,
+                                "Longitude":-118.60334,
+                            }
+                        },
+                        {
+                            "Name":"Pancake Boulder",
+                            "Description":"This boulder lies north of Beethoven's Wall and forms the west side of a shady alcove.",
+                            "Routes":
+                            [
+                                {
+                                    "Name":"Pancake",
+                                    "Description":"Sit start up to diagonal rail, then mantle.",
+                                    "Rating":"V2-3",
+                                    "Stars":3,
+                                    "Image":"pancake.png"
+                                }
+                            ],
+                            "Location":
+                            {
+                                "Latitude": 34.2714,
+                                "Longitude":-118.60327,
+                            }
+                        },
+                        {
+                            "Name":"Font Boulder",
+                            "Descrition":"This boulder lies just north of the Pancake boulder and forms the west wall of a narrow corridor.",
+                            "Routes":
+                            [
+                                {
+                                    "Name":"Critter Crack",
+                                    "Description":"Jam and lieback up to a two-finger pin scar and a worrying move (crux) to the rounded but good finishing holds.",
+                                    "Rating":"V0",
+                                    "Stars":3
+                                },
+                                {
+                                    "Name":"Mantlelobotomy",
+                                    "Description":"Start with hands matched on a slopey undercling and climb up through small edges to the mantle.",
+                                    "Rating":"V1+",
+                                    "Stars":3
+                                },
+                                {
+                                    "Name":"The Font",
+                                    "Description":"Start on sidepulls in the pod and climb up through pockets to a heinous sloping mantle.",
+                                    "Rating":"V7",
+                                    "Stars":3
+                                }
+                            ],
+                            "Location":
+                            {
+                                "Latitude": 34.27145,
+                                "Longitude":-118.60327,
+                            }
+                        },
+                        {
+                            "Name":"Fritz Boulder",
+                            "Description":"A boulder north of Beethoven's wall that forms the east side of a shady alcove.",
+                            "Routes":
+                            [
+                                {
+                                    "Name":"Easy Face",
+                                    "Description":"Climd the easy face in the corridor.",
+                                    "Rating":"VB",
+                                    "Stars":2,
+                                    "Image":"easy_face.png"
+                                },
+                                {
+                                    "Name":"Blocky",
+                                    "Description":"Climb the blocky prow going up and right.",
+                                    "Rating":"V0",
+                                    "Stars":2
+                                },
+                                {
+                                    "Name":"Spooky (aka Hedgeclipper)",
+                                    "Description":"A funky start leads to a shallow dish continuing up to a spooky topout.",
+                                    "Rating":"V1 PG13",
+                                    "Stars":3
+                                }
+                            ],
+                            "Location":
+                            {
+                                "Latitude": 34.2714,
+                                "Longitude":-118.6032,
+                            }
+                        }
+                    ]
+                },
+                {
                     "Name":"Mommy's Boys Area",
                     "CenterX":34.270621,
                     "CenterY":-118.604111,
@@ -837,109 +1247,8 @@
                             "Image":"Face Problem.png"
                      }
                     ]
-                },             
-             {
-                "Name": "Boulder 2/B1 Boulder area",
-                "CenterX": 34.2692,
-                "CenterY": -118.6037,
-                "Radius": 14,
-                "Boulders":
-                [
-                    {
-                        "Name":"B1 Boulder",
-                        "Description":"Numerous hard and overhanging classic problems on the west, south and east sides of this boulder.",
-                        "Routes":
-                        [
-                            {
-                                "Name":"The Corner",
-                                "Description":"Starts out on the north side of the Northwest corner on the well chalked right facing sidepulls. Follow good holds up and slightly left.",
-                                "Rating":"V0",
-                                "Stars":2
-                            },
-                            {
-                                "Name":"Hog Tied",
-                                "Description":"Easily up steep rock to a tricky and committing move to reach a hold which could be better, the crux is utilizing this to gain the top.",
-                                "Rating":"V1 R",
-                                "Stars":3
-                            },
-                            {
-                                "Name":"Master of Reality",
-                                "Description":"Try and figure this one out without beta, you'll be glad you did - a wonderful unlikely sequence of almost zen-like moves leads to a small crimper (used be a nice jug) then smearing and stemming (crux) lead to the final slopers...",
-                                "Rating":"V5",
-                                "Stars":4
-                            },
-                            {
-                                "Name":"Expansion Chamber",
-                                "Description":"Start left hand on a big sidepull and right on a shallow dish. Climb up to small crimps using desperate smears to a funky top out.",
-                                "Rating":"V5",
-                                "Stars":3
-                                
-                            },
-                            {
-                                "Name":"The Ear",
-                                "Description":"Start with hands on edges at the bottom of a large hueco and go straight up through an undercling and small edges.",
-                                "Rating":"V4",
-                                "Stars":2
-                            },
-                            {
-                                "Name":"ELP",
-                                "Description":"Jump off pads to two pockets. Campus to a flat sloping hold and rock over left to a crimp. Finish easier up crimps.",
-                                "Rating":"V4",
-                                "Stars":3
-                            },
-                            {
-                                "Name":"Pink Floyd",
-                                "Description":"Jump start to an undercling with the left and the right on the Apesma sidepull. Crank to slopey sidepulls and a mantle top out.",
-                                "Rating":"V4",
-                                "Stars":2
-                            },
-                            {
-                                "Name":"Apesma",
-                                "Description":"Start in a two finger pocket and fire to a crescent crimp. Move right to shallow sidepulls and top out. Direct (V8) and left (V5) variations have been done.",
-                                "Rating":"V6",
-                                "Stars":3
-                            },
-                            {
-                                "Name":"The Crack",
-                                "Description":"Start with right hand undercling and left in sloping pocket. Figure out a way to gain the next pocket for the left and ake a big move out right to a jug. Finish with a commiting topout. Classic. Climbing the crack direct is V5.",
-                                "Rating":"V3",
-                                "Stars":3
-                            },
-                            {
-                                "Name":"Flying Circus",
-                                "Description":"Start on the right side of the arête and stay on that side going straight up on big moves. The move of this route seems to be a big right hand deadpoint move to a lonely pocket on an otherwise smooth face.",
-                                "Rating":"V5",
-                                "Stars":3
-                            },
-                            {
-                                "Name":"Two Scoops",
-                                "Description":"Starts on the arête using a side crimp. Go up and mainly left using big slopey holds and poor feet going through the two scoops and up to the top from there.",
-                                "Rating":"V1+",
-                                "Stars":2
-                            }
-                        ],
-                        "Location":
-                        {
-                            "Latitude": 34.26925,
-                            "Longitude": -118.6036
-                        }
-                    },
-                    {
-                        "Name":"Turlock Boulder (aka Boulder 2)",
-                        "Description":"The large obvious boulder right next to the trail.",
-                        "Routes":
-                        [
-                        ],
-                        "Location":
-                        {
-                            "Latitude": 34.26915,
-                            "Longitude": -118.6037
-                        }
-                    }
-                ]
-             }
-             
-        ]
+                },
+            ]
         },
         {
             "Name":"Horse Flats",
@@ -1172,7 +1481,7 @@
                                 {
                                     "Name": "In the Name of the Father",
                                     "Description": "Climb the obvious large pockets facing the trail in the direction to the campground. Top out on large flakes.",
-                                    "Rating": "V0",
+                                    "Rating": "VB",
                                     "Stars": 1
                                 },
                                 {

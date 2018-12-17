@@ -24,7 +24,7 @@
                             "Routes":
                             [
                                 {
-                                    "Name":"Jam Crack",
+                                    "Name":"The Jam Crack",
                                     "Description":"Climb the crack on the North side of the boulder.",
                                     "Rating":"VB",
                                     "Stars":3,
@@ -32,7 +32,8 @@
                                     {
                                         "Latitude": 34.27003,
                                         "Longitude": -118.6055
-                                    }
+                                    },
+                                    "Image":"the_jam_crack.png"
                                 },
                                 {
                                     "Name": "Cranking Queenie",
@@ -67,7 +68,8 @@
                                     {
                                         "Latitude": 34.26996,
                                         "Longitude": -118.6055
-                                    }
+                                    },
+                                    "Image":"say_goodnight.png"
                                 }
                             ],
                             "Location":
@@ -140,7 +142,8 @@
                             {
                                 "Latitude": 34.26997,
                                 "Longitude": -118.60558
-                            }
+                            },
+                            "Image":"pump_rock.png"
                         },
                         {
                             "Name": "Boulder 1",

@@ -24,6 +24,9 @@
 		BB07701D21C6F0BD005CD391 /* west_arete.png in Resources */ = {isa = PBXBuildFile; fileRef = BB07701C21C6F0BD005CD391 /* west_arete.png */; };
 		BB07701F21C6F139005CD391 /* three_pigs.png in Resources */ = {isa = PBXBuildFile; fileRef = BB07701E21C6F139005CD391 /* three_pigs.png */; };
 		BB07702121C6F1E5005CD391 /* vivarin.png in Resources */ = {isa = PBXBuildFile; fileRef = BB07702021C6F1E4005CD391 /* vivarin.png */; };
+		BB07702321C71E13005CD391 /* the_jam_crack.png in Resources */ = {isa = PBXBuildFile; fileRef = BB07702221C71E13005CD391 /* the_jam_crack.png */; };
+		BB07702521C71F03005CD391 /* say_goodnight.png in Resources */ = {isa = PBXBuildFile; fileRef = BB07702421C71F03005CD391 /* say_goodnight.png */; };
+		BB07702721C72005005CD391 /* pump_rock.png in Resources */ = {isa = PBXBuildFile; fileRef = BB07702621C72005005CD391 /* pump_rock.png */; };
 		BB1B79051EE32F07009AF545 /* Thin Crack.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB1B79041EE32F07009AF545 /* Thin Crack.jpg */; };
 		BB1B79071EE330A3009AF545 /* Barndoor Arete.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB1B79061EE330A3009AF545 /* Barndoor Arete.jpg */; };
 		BB1B79091EE3341C009AF545 /* Sword of Damocles.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB1B79081EE3341C009AF545 /* Sword of Damocles.jpg */; };
@@ -153,6 +156,9 @@
 		BB07701C21C6F0BD005CD391 /* west_arete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = west_arete.png; path = Photos/west_arete.png; sourceTree = "<group>"; };
 		BB07701E21C6F139005CD391 /* three_pigs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = three_pigs.png; path = Photos/three_pigs.png; sourceTree = "<group>"; };
 		BB07702021C6F1E4005CD391 /* vivarin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = vivarin.png; path = Photos/vivarin.png; sourceTree = "<group>"; };
+		BB07702221C71E13005CD391 /* the_jam_crack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = the_jam_crack.png; path = Photos/the_jam_crack.png; sourceTree = "<group>"; };
+		BB07702421C71F03005CD391 /* say_goodnight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = say_goodnight.png; path = Photos/say_goodnight.png; sourceTree = "<group>"; };
+		BB07702621C72005005CD391 /* pump_rock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pump_rock.png; path = Photos/pump_rock.png; sourceTree = "<group>"; };
 		BB1B79041EE32F07009AF545 /* Thin Crack.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Thin Crack.jpg"; path = "Photos/Thin Crack.jpg"; sourceTree = "<group>"; };
 		BB1B79061EE330A3009AF545 /* Barndoor Arete.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Barndoor Arete.jpg"; path = "Photos/Barndoor Arete.jpg"; sourceTree = "<group>"; };
 		BB1B79081EE3341C009AF545 /* Sword of Damocles.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Sword of Damocles.jpg"; path = "Photos/Sword of Damocles.jpg"; sourceTree = "<group>"; };
@@ -340,6 +346,9 @@
 		BBA3C8651E9E7BBF0037ED09 /* Photos */ = {
 			isa = PBXGroup;
 			children = (
+				BB07702621C72005005CD391 /* pump_rock.png */,
+				BB07702421C71F03005CD391 /* say_goodnight.png */,
+				BB07702221C71E13005CD391 /* the_jam_crack.png */,
 				BB07702021C6F1E4005CD391 /* vivarin.png */,
 				BB07701E21C6F139005CD391 /* three_pigs.png */,
 				BB07701C21C6F0BD005CD391 /* west_arete.png */,
@@ -584,6 +593,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB07702721C72005005CD391 /* pump_rock.png in Resources */,
 				BB3CEC8520A89F57006E2BD4 /* Mr Ed.png in Resources */,
 				BBF7C9B220B0BC0C00BAE2CF /* boot_flake.png in Resources */,
 				BB07701721C6EF01005CD391 /* aftershock.png in Resources */,
@@ -659,7 +669,9 @@
 				BBBDD6A11E92F04E00FBC583 /* Assets.xcassets in Resources */,
 				BB07702121C6F1E5005CD391 /* vivarin.png in Resources */,
 				BB0606CB20B0A0A300B465F1 /* Yabo Dyno.png in Resources */,
+				BB07702521C71F03005CD391 /* say_goodnight.png in Resources */,
 				BB33C2F9218F4A840025371D /* location@2x.png in Resources */,
+				BB07702321C71E13005CD391 /* the_jam_crack.png in Resources */,
 				BB07701521C6EE78005CD391 /* crankin_queenie.png in Resources */,
 				BBF7C9AA20B0B5AD00BAE2CF /* Borealis.png in Resources */,
 				BB33C2FA218F4A840025371D /* location@3x.png in Resources */,

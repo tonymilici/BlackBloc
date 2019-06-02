@@ -4124,28 +4124,31 @@
                             [
                                 {
                                     "Name":"Route A",
-                                    "Description":"Climb the left side of the hueco covered wall using amazing holds.",
-                                    "Rating":"VB",
+                                    "Description":"Climb the left side of the boulder using huecos and jugs.",
+                                    "Rating":"VB R",
                                     "Stars":2
                                 },
                                 {
                                     "Name":"Tiny Crack",
                                     "Description":"Five feet left of the start of Linear Fracture Traverse climb the blunt arete using micro-crimps, the very tiny crack, and tenuous smearing.",
                                     "Rating":"V3",
-                                    "Stars":2
+                                    "Stars":2,
+                                    "Image":"tiny_crack.png"
                                 },
                                 {
                                     "Name":"Linear Fracture Traverse",
                                     "Description":" Begin on the right side of the tallest face of the boulder. A tricky deadpoint or dyno gains the 'linear fracture' (i.e., shallow horizontal crack) which is traversed left and slightly upwards to jugs.",
                                     "Rating":"V2",
-                                    "Stars":3
+                                    "Stars":3,
+                                    "Image":"linear_fracture_traverse.png"
                                 }
                             ],
                             "Location":
                             {
                                 "Latitude":33.98205,
                                 "Longitude":-117.39387
-                            }
+                            },
+                            "Image":"hueco_boulder.png"
                         },
                         {
                             "Name":"Island Wall",
@@ -4292,7 +4295,7 @@
                                 },
                                 {
                                     "Name":"Problem B",
-                                    "Description":"Climb the well featured wall as direct as the holds allow. Trickier than it looks since not all the breaks are stellar holds.",
+                                    "Description":"Climb the plated wall left of the crack as direct as possible.",
                                     "Rating":"V0",
                                     "Stars":1
                                 },
@@ -4403,9 +4406,10 @@
                             [
                                 {
                                     "Name":"Double Helix",
-                                    "Description":"Start up the right racing seam, and follow it to the top of the boulder via exquisite moves.",
+                                    "Description":"Climb the right-slanting rail to a sloping topout over a cliff. Very sketchy without a good spot.",
                                     "Rating":"VB",
-                                    "Stars":3
+                                    "Stars":3,
+                                    "Image":"double_helix.png"
                                 },
                                 {
                                     "Name":"Free Feels",

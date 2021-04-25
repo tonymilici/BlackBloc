@@ -33,7 +33,7 @@ class AreasTest: XCTestCase {
         XCTAssertNotNil(route.name)
         XCTAssertNotNil(route.description)
         XCTAssertNotNil(route.rating)
-        XCTAssertTrue(route.stars >= 0)
+        XCTAssertTrue(route.stars! >= 0)
         
        // XCTAssertNotNil(route.image)
     }

@@ -295,6 +295,7 @@
 		BB33C2EF218F489A0025371D /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				BBBDD6CB1E92F85300FBC583 /* Areas.json */,
 				BB33C2F8218F4A840025371D /* location.png */,
 				BB33C2F6218F4A840025371D /* location@2x.png */,
 				BB33C2F7218F4A840025371D /* location@3x.png */,
@@ -466,7 +467,6 @@
 				BBBDD6A01E92F04E00FBC583 /* Assets.xcassets */,
 				BBBDD6A21E92F04E00FBC583 /* LaunchScreen.storyboard */,
 				BBBDD6A51E92F04E00FBC583 /* Info.plist */,
-				BBBDD6CB1E92F85300FBC583 /* Areas.json */,
 			);
 			path = BoulderingGuides;
 			sourceTree = "<group>";

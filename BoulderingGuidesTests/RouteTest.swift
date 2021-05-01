@@ -11,7 +11,7 @@ import XCTest
 
 class RouteTest: XCTestCase {
     func test_getStars() {
-        let route = Route(name: "name")
+        var route = Route(name: "name")
         XCTAssertEqual(route.getStars(), "")
         
         let stars1 = "\u{2605}"

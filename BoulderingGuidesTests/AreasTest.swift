@@ -13,19 +13,19 @@ class AreasTest: XCTestCase {
     func testLoad() {
         let areas = Areas()
         
-        XCTAssertEqual(areas.count(), 2)
+        XCTAssertTrue(areas.count() > 0)
         
         let area = areas.getArea(index: 0)
-        XCTAssertEqual(area.name, "Stoney Point")
-        XCTAssertEqual(area.location?.latitude, 34.271)
+        XCTAssertNotNil(area.name)
+        XCTAssertNotNil(area.location)
         XCTAssertTrue(area.clusters.count > 0)
         
         let cluster = area.clusters[0];
-        XCTAssertEqual(cluster.name, "Boulder 1 Area")
+        XCTAssertNotNil(cluster.name)
         XCTAssertTrue(cluster.boulders.count > 0)
         
         let boulder = cluster.boulders[0]
-        XCTAssertEqual(boulder.name, "Boulder 1")
+        XCTAssertNotNil(boulder.name)
         XCTAssertNotNil(boulder.description)
         XCTAssertTrue(boulder.routes.count > 0)
         
@@ -35,6 +35,6 @@ class AreasTest: XCTestCase {
         XCTAssertNotNil(route.rating)
         XCTAssertTrue(route.stars! >= 0)
         
-       // XCTAssertNotNil(route.image)
+        XCTAssertNotNil(route.image)
     }
 }

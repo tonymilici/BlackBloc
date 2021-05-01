@@ -26,14 +26,18 @@
 import Foundation
 import MapKit
 
-public struct Cluster {
-    public var center: CLLocationCoordinate2D?
-    public var radius: Double?
-    public var name: String?
+public struct Cluster: Codable {
+    public var location: Location
+    public var radius: Double
+    public var name: String
     public var boulders: [Boulder] = []
     
+    public var centerLoc: CLLocationCoordinate2D {
+        CLLocationCoordinate2D(latitude: location.latitude, longitude: location.longitude)
+    }
+    
     public init(name: String, centerX: Double, centerY: Double, radius: Double)  {
-        center = CLLocationCoordinate2D(latitude: centerX, longitude: centerY)
+        location = Location(latitude: centerX, longitude: centerY)
         self.radius = radius
         self.name = name
     }

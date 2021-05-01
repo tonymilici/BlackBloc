@@ -11,8 +11,8 @@ import XCTest
 
 class BoulderViewControllerTest: XCTestCase {
     func test_tableView_CellForRowAt() {
-        let boulder = Boulder(name: "Black Bloc")
-        let route = Route(name: "name")
+        var boulder = Boulder(name: "Black Bloc")
+        var route = Route(name: "name")
         route.rating = "V17"
         route.stars = 4
         boulder.routes.append(route)

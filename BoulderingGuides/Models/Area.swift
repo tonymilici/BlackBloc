@@ -25,12 +25,13 @@
 
 import Foundation
 
-public struct Location {
+public struct Location: Codable {
     public var latitude: Double
     public var longitude: Double
 }
 
-public class Area {
+public struct Area: Codable {
+    
     public var name = ""
     public var location: Location?
     public var size: Double?

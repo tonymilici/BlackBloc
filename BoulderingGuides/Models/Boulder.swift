@@ -25,7 +25,7 @@
 
 import Foundation
 
-public class Boulder {
+public struct Boulder: Codable {
     public var name: String?
     public var description: String?
     public var routes: [Route] = []

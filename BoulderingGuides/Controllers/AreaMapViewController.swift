@@ -45,7 +45,7 @@ class AreaMapViewController: MapViewController {
         mapView.delegate = self
         
         for cluster in (_area?.clusters)! {
-            let circ = MKCircle(center: cluster.center!, radius: cluster.radius!)
+            let circ = MKCircle(center: cluster.centerLoc, radius: cluster.radius)
             mapView.addOverlay(circ)
         }
 
@@ -58,9 +58,9 @@ class AreaMapViewController: MapViewController {
         for cluster in (_area?.clusters)! {
             let tapCoord = (mapView as MKMapView).convert(tapPoint, toCoordinateFrom: mapView)
             let mp1 = MKMapPoint.init(tapCoord)
-            let mp2 = MKMapPoint.init(cluster.center!)
+            let mp2 = MKMapPoint.init(cluster.centerLoc)
             let dist = mp1.distance(to: mp2)
-            if dist < cluster.radius! {
+            if dist < cluster.radius {
                 navigationController?.pushViewController(ClusterViewController(cluster: cluster), animated: true)
                 break
             }

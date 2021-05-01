@@ -16,8 +16,10 @@ class AreaTest: XCTestCase {
         boulder.routes.append(route)
         var cluster = Cluster(name: "Fuck", centerX: 0, centerY: 0, radius: 0)
         cluster.boulders.append(boulder)
-        var area = Area(name: "Horse Flats")
-        area.clusters.append(cluster)
+        let area = Area(
+            name: "Horse Flats",
+            location: Location(latitude: 33.9873, longitude: -117.3899),
+            size: 10, clusters: [cluster])
         
         let routes = area.getRoutes()
         

@@ -26,20 +26,16 @@
 import Foundation
 
 public struct Location: Codable {
-    public var latitude: Double
-    public var longitude: Double
+    public let latitude: Double
+    public let longitude: Double
 }
 
 public struct Area: Codable {
     
-    public var name = ""
-    public var location: Location?
-    public var size: Double?
-    public var clusters: [Cluster] = []
-    
-    init(name: String) {
-        self.name = name
-    }
+    public let name: String
+    public let location: Location
+    public let size: Double
+    public let clusters: [Cluster]
     
     public func getRoutes() -> [Route] {
         var routes: [Route] = []

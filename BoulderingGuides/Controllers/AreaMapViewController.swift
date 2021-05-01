@@ -31,7 +31,7 @@ class AreaMapViewController: MapViewController {
     private var _area: Area?
     
     public init(area: Area) {
-        super.init(location: area.location!, size: area.size!)
+        super.init(location: area.location, size: area.size)
         _area = area
     }
     

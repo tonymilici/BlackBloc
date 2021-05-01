@@ -26,13 +26,9 @@
 import Foundation
 
 public struct Boulder: Codable {
-    public var name: String?
-    public var description: String?
-    public var routes: [Route] = []
-    public var image: String?
-    public var location: Location?
-    
-    public init(name: String) {
-        self.name = name
-    }
+    public let name: String
+    public let description: String?
+    public let routes: [Route]
+    public let image: String?
+    public let location: Location?
 }

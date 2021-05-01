@@ -46,7 +46,7 @@ public class RouteViewController: UIViewController {
     
     public override func viewDidLoad() {
         if let route = _route {
-            let text = "\(route.rating!)  \(route.getStars())\n\n\(route.description!)"
+            let text = "\(route.rating)  \(route.getStars)\n\n\(route.description!)"
             descriptionTextView.text = text
             _titleLabel.text = route.name
             if let image = route.image {

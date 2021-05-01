@@ -11,7 +11,13 @@ import XCTest
 
 class AreaTest: XCTestCase {
     func test_getRoutes() {
-        let route = Route(name: "Hardest Route in the World")
+        let route = Route(
+            name: "Hardest Route in the World",
+            description: "",
+            rating: "V18",
+            stars: nil,
+            image: nil,
+            location: nil)
         
         let boulder = Boulder(
             name: "",

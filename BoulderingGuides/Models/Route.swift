@@ -26,18 +26,14 @@
 import Foundation
 
 public struct Route: Codable {
-    public var name: String?
-    public var description: String?
-    public var rating: String?
-    public var stars: Int?
-    public var image: String?
-    public var location: Location?
+    public let name: String
+    public let description: String?
+    public let rating: String
+    public let stars: Int?
+    public let image: String?
+    public let location: Location?
     
-    public init(name: String) {
-        self.name = name
-    }
-    
-    public func getStars() -> String {
+    public var getStars: String {
         var starChars = ""
         if let star = stars
         {

@@ -43,8 +43,6 @@ public class RouteTableViewCell: UITableViewCell {
     
     public func setRoute(route: Route) {
         textLabel?.text = route.name
-        if let rating = route.rating {
-            detailTextLabel?.text = "\(rating)  \(route.getStars())"
-        }
+        detailTextLabel?.text = "\(route.rating)  \(route.getStars)"
     }
 }

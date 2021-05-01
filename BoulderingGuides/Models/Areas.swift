@@ -26,33 +26,7 @@
 import Foundation
 
 public class Areas {
-    private var areas: [Area] = []
-    
-    public init() {
-        areas = load("Areas.json")
-    }
-    
-    func load<T: Decodable>(_ filename: String) -> T {
-        let data: Data
-        
-        guard let file = Bundle.main.url(forResource: filename, withExtension: nil)
-        else {
-            fatalError("Couldn't fin \(filename) in main bundle.")
-        }
-        
-        do {
-            data = try Data(contentsOf: file)
-        } catch {
-            fatalError("Coudln't load \(filename) from main bundle:\n\(error)")
-        }
-        
-        do {
-            let decoder = JSONDecoder()
-            return try decoder.decode(T.self, from: data)
-        } catch {
-            fatalError("Couldn't parse \(filename) as \(T.self):\n\(error)")
-        }
-    }
+    private let areas: [Area] = load("Areas.json")
     
     public func count() -> Int {
         areas.count
@@ -60,5 +34,27 @@ public class Areas {
     
     public func getArea(index: Int) -> Area {
         areas[index]
+    }
+}
+
+func load<T: Decodable>(_ filename: String) -> T {
+    let data: Data
+    
+    guard let file = Bundle.main.url(forResource: filename, withExtension: nil)
+    else {
+        fatalError("Couldn't fin \(filename) in main bundle.")
+    }
+    
+    do {
+        data = try Data(contentsOf: file)
+    } catch {
+        fatalError("Coudln't load \(filename) from main bundle:\n\(error)")
+    }
+    
+    do {
+        let decoder = JSONDecoder()
+        return try decoder.decode(T.self, from: data)
+    } catch {
+        fatalError("Couldn't parse \(filename) as \(T.self):\n\(error)")
     }
 }

@@ -11,7 +11,7 @@ import XCTest
 
 class ClusterTest: XCTestCase {
     func test_init() {
-        let cluster = Cluster(name: "Boulder 1 Area", centerX: 34.2, centerY: -118.6, radius: 100)
+        let cluster = Cluster(location: Location(latitude: 34.2, longitude: -118.6), radius: 100, name: "", boulders: [])
         
         XCTAssertEqual(cluster.location.latitude, 34.2)
         XCTAssertEqual(cluster.location.longitude, -118.6)

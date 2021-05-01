@@ -12,6 +12,7 @@ import XCTest
 class AreaTest: XCTestCase {
     func test_getRoutes() {
         let route = Route(name: "Hardest Route in the World")
+        
         let boulder = Boulder(
             name: "",
             description: nil,
@@ -19,9 +20,12 @@ class AreaTest: XCTestCase {
             image: nil,
             location: nil)
         
-        var cluster = Cluster(name: "Fuck", centerX: 0, centerY: 0, radius: 0)
-        
-        cluster.boulders.append(boulder)
+        let cluster = Cluster(
+            location: Location(latitude: 0, longitude: 0),
+            radius: 0,
+            name: "Fuck",
+            boulders: [boulder])
+
         let area = Area(
             name: "Horse Flats",
             location: Location(latitude: 33.9873, longitude: -117.3899),

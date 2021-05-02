@@ -31,15 +31,16 @@ public class BoulderViewController: UIViewController {
     @IBOutlet weak var _titleLabel: UILabel!
     @IBOutlet weak var _imageView: UIImageView!
     @IBOutlet weak var _descriptionView: UITextView!
-    fileprivate var _boulder: Boulder?
+    
+    fileprivate let boulder: Boulder
     fileprivate let _cellId = "RouteCell"
     
     public init(boulder: Boulder) {
+        self.boulder = boulder
         super.init(nibName: "BoulderView", bundle: nil)
-        _boulder = boulder
+        
         title = "Boulder"
-        
-        
+
         navigationItem.rightBarButtonItem = UIBarButtonItem(image: UIImage(named: "location.png"), style: .plain, target:self, action: #selector(self.navigate(sender:)))
     }
     
@@ -49,18 +50,18 @@ public class BoulderViewController: UIViewController {
     
     public override func viewDidLoad() {
         super.viewDidLoad()
-        _titleLabel.text = _boulder?.name
-        _descriptionView.text = _boulder?.description
+        _titleLabel.text = boulder.name
+        _descriptionView.text = boulder.description
         
-        if let image = _boulder?.image {
+        if let image = boulder.image {
             _imageView.image = UIImage(named: image)
         }
     }
     
     @objc
     private func navigate(sender: NSObject) {
-        if let location = _boulder?.location {
-            let map = NavigationMapViewController(location: location, size: 0.1, name: _boulder?.name)
+        if let location = boulder.location {
+            let map = NavigationMapViewController(location: location, size: 0.1, name: boulder.name)
             navigationController?.pushViewController(map, animated: true)
         }
     }
@@ -72,15 +73,13 @@ extension BoulderViewController: UITableViewDataSource, UITableViewDelegate {
     }
     
     public func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return (_boulder?.routes.count)!
+        return (boulder.routes.count)
     }
     
     public func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let route = _boulder?.routes[indexPath.row]
+        let route = boulder.routes[indexPath.row]
         if let cell = tableView.dequeueReusableCell(withIdentifier: _cellId) as! RouteTableViewCell? {
-            if let r = route {
-                cell.setRoute(route: r)
-            }
+            cell.setRoute(route: route)
             return cell
         }
         
@@ -93,8 +92,8 @@ extension BoulderViewController: UITableViewDataSource, UITableViewDelegate {
     }
     
     public func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let route = _boulder?.routes[indexPath.row]
-        let routeViewController = UIHostingController(rootView: RoutePage(route: route!))
+        let route = boulder.routes[indexPath.row]
+        let routeViewController = UIHostingController(rootView: RoutePage(route: route))
         navigationController?.pushViewController(routeViewController, animated: true)
     }
 }

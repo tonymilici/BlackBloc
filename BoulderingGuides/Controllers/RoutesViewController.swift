@@ -25,6 +25,7 @@
 
 import Foundation
 import UIKit
+import SwiftUI
 
 public class RoutesViewController: UITableViewController {
     private var _routes: [Route]?
@@ -68,7 +69,7 @@ public class RoutesViewController: UITableViewController {
     
     override public func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let route = _routes?[indexPath.row]
-        let routeViewController = RouteViewController(route: route!)
+        let routeViewController = UIHostingController(rootView: RoutePage(route: route!))
         navigationController?.pushViewController(routeViewController, animated: true)
     }
 }

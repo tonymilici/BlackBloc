@@ -28,6 +28,7 @@
 		BB07702521C71F03005CD391 /* say_goodnight.png in Resources */ = {isa = PBXBuildFile; fileRef = BB07702421C71F03005CD391 /* say_goodnight.png */; };
 		BB07702721C72005005CD391 /* pump_rock.png in Resources */ = {isa = PBXBuildFile; fileRef = BB07702621C72005005CD391 /* pump_rock.png */; };
 		BB1AC427263EE37A00264CCD /* RoutePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1AC426263EE37A00264CCD /* RoutePage.swift */; };
+		BB1AC437263F3FD600264CCD /* RouteList.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1AC436263F3FD600264CCD /* RouteList.swift */; };
 		BB1B79051EE32F07009AF545 /* Thin Crack.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB1B79041EE32F07009AF545 /* Thin Crack.jpg */; };
 		BB1B79071EE330A3009AF545 /* Barndoor Arete.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB1B79061EE330A3009AF545 /* Barndoor Arete.jpg */; };
 		BB1B79091EE3341C009AF545 /* Sword of Damocles.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB1B79081EE3341C009AF545 /* Sword of Damocles.jpg */; };
@@ -107,9 +108,7 @@
 		BBEF92D71EE3724B00E1781A /* NavigationMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEF92D61EE3724B00E1781A /* NavigationMapViewController.swift */; };
 		BBEF92D91EE3726F00E1781A /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEF92D81EE3726F00E1781A /* MapViewController.swift */; };
 		BBEF92DD1EE372D400E1781A /* RoutesView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBEF92DC1EE372D400E1781A /* RoutesView.xib */; };
-		BBEF92DF1EE3730500E1781A /* RouteView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBEF92DE1EE3730500E1781A /* RouteView.xib */; };
 		BBEF92E11EE3737100E1781A /* RoutesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEF92E01EE3737100E1781A /* RoutesViewController.swift */; };
-		BBEF92E31EE373D300E1781A /* RouteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEF92E21EE373D300E1781A /* RouteViewController.swift */; };
 		BBEF92E51EE3740200E1781A /* TabBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBEF92E41EE3740200E1781A /* TabBar.xib */; };
 		BBEF92E71EE3743F00E1781A /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEF92E61EE3743F00E1781A /* TabBarController.swift */; };
 		BBF7C9A420B0A50000BAE2CF /* Pocket Traverse.png in Resources */ = {isa = PBXBuildFile; fileRef = BBF7C9A320B0A4FF00BAE2CF /* Pocket Traverse.png */; };
@@ -165,6 +164,7 @@
 		BB07702421C71F03005CD391 /* say_goodnight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = say_goodnight.png; path = Photos/say_goodnight.png; sourceTree = "<group>"; };
 		BB07702621C72005005CD391 /* pump_rock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pump_rock.png; path = Photos/pump_rock.png; sourceTree = "<group>"; };
 		BB1AC426263EE37A00264CCD /* RoutePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutePage.swift; sourceTree = "<group>"; };
+		BB1AC436263F3FD600264CCD /* RouteList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteList.swift; sourceTree = "<group>"; };
 		BB1B79041EE32F07009AF545 /* Thin Crack.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Thin Crack.jpg"; path = "Photos/Thin Crack.jpg"; sourceTree = "<group>"; };
 		BB1B79061EE330A3009AF545 /* Barndoor Arete.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Barndoor Arete.jpg"; path = "Photos/Barndoor Arete.jpg"; sourceTree = "<group>"; };
 		BB1B79081EE3341C009AF545 /* Sword of Damocles.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Sword of Damocles.jpg"; path = "Photos/Sword of Damocles.jpg"; sourceTree = "<group>"; };
@@ -250,9 +250,7 @@
 		BBEF92D61EE3724B00E1781A /* NavigationMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NavigationMapViewController.swift; path = Controllers/NavigationMapViewController.swift; sourceTree = "<group>"; };
 		BBEF92D81EE3726F00E1781A /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MapViewController.swift; path = Controllers/MapViewController.swift; sourceTree = "<group>"; };
 		BBEF92DC1EE372D400E1781A /* RoutesView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = RoutesView.xib; path = Controllers/RoutesView.xib; sourceTree = "<group>"; };
-		BBEF92DE1EE3730500E1781A /* RouteView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = RouteView.xib; path = Controllers/RouteView.xib; sourceTree = "<group>"; };
 		BBEF92E01EE3737100E1781A /* RoutesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RoutesViewController.swift; path = Controllers/RoutesViewController.swift; sourceTree = "<group>"; };
-		BBEF92E21EE373D300E1781A /* RouteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RouteViewController.swift; path = Controllers/RouteViewController.swift; sourceTree = "<group>"; };
 		BBEF92E41EE3740200E1781A /* TabBar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TabBar.xib; path = Controllers/TabBar.xib; sourceTree = "<group>"; };
 		BBEF92E61EE3743F00E1781A /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TabBarController.swift; path = Controllers/TabBarController.swift; sourceTree = "<group>"; };
 		BBF7C9A320B0A4FF00BAE2CF /* Pocket Traverse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Pocket Traverse.png"; path = "Photos/Pocket Traverse.png"; sourceTree = "<group>"; };
@@ -325,8 +323,6 @@
 				BBEF92D61EE3724B00E1781A /* NavigationMapViewController.swift */,
 				BBEF92DC1EE372D400E1781A /* RoutesView.xib */,
 				BBEF92E01EE3737100E1781A /* RoutesViewController.swift */,
-				BBEF92DE1EE3730500E1781A /* RouteView.xib */,
-				BBEF92E21EE373D300E1781A /* RouteViewController.swift */,
 				BBEF92E41EE3740200E1781A /* TabBar.xib */,
 				BBEF92E61EE3743F00E1781A /* TabBarController.swift */,
 				BB3CEC8A20A8D176006E2BD4 /* AreaView.xib */,
@@ -352,6 +348,7 @@
 			children = (
 				BBEF92C41EE36FFD00E1781A /* RouteTableViewCell.swift */,
 				BB1AC426263EE37A00264CCD /* RoutePage.swift */,
+				BB1AC436263F3FD600264CCD /* RouteList.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -612,7 +609,6 @@
 				BB3CEC8520A89F57006E2BD4 /* Mr Ed.png in Resources */,
 				BBF7C9B220B0BC0C00BAE2CF /* boot_flake.png in Resources */,
 				BB07701721C6EF01005CD391 /* aftershock.png in Resources */,
-				BBEF92DF1EE3730500E1781A /* RouteView.xib in Resources */,
 				BBA3C86B1E9EDC4F0037ED09 /* The Falcon.jpg in Resources */,
 				BBA3C8641E9E7BAA0037ED09 /* swiss_cheese.jpg in Resources */,
 				BB1B790B1EE33D66009AF545 /* Zacks Roof.jpg in Resources */,
@@ -728,7 +724,7 @@
 				BBEF92CB1EE3710F00E1781A /* BoulderViewController.swift in Sources */,
 				BBEF92E71EE3743F00E1781A /* TabBarController.swift in Sources */,
 				BBEF92BF1EE36F7B00E1781A /* Boulder.swift in Sources */,
-				BBEF92E31EE373D300E1781A /* RouteViewController.swift in Sources */,
+				BB1AC437263F3FD600264CCD /* RouteList.swift in Sources */,
 				BBEF92D51EE3720D00E1781A /* MainTableViewController.swift in Sources */,
 				BBEF92C51EE36FFD00E1781A /* RouteTableViewCell.swift in Sources */,
 				BBEF92C31EE36FC100E1781A /* Route.swift in Sources */,

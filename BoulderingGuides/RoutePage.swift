@@ -1,9 +1,9 @@
 //
-//  Area.swift
+//  RoutePage.swift
 //  BoulderingGuides
 //
-//  Created by Tony Milici on 4/4/17.
-//  Copyright © 2017 Black Bloc Software. All rights reserved.
+//  Created by Tony Milici on 5/2/21.
+//  Copyright © 2021 Black Bloc Software. All rights reserved.
 //
 //Permission is hereby granted, free of charge, to any person obtaining a copy
 //of this software and associated documentation files (the "Software"), to deal
@@ -23,30 +23,27 @@
 //OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 //SOFTWARE./
 
-import Foundation
+import SwiftUI
 
-public struct Location: Codable {
-    public let latitude: Double
-    public let longitude: Double
+struct RoutePage: View {
+    var route: Route
+    
+    var body: some View {
+        VStack(alignment: .center, spacing: 20) {
+            Text(route.name)
+                .font(.headline)
+            Text("\(route.rating)  \(route.getStars)\n\n\(route.description!)")
+                .font(.system(size: 14))
+                .padding(EdgeInsets(top: 0, leading: 20, bottom: 0, trailing: 20))
+            Image(uiImage: UIImage(named: route.image!)!)
+                .resizable()
+                .aspectRatio(contentMode: .fit)
+        }
+    }
 }
 
-public struct Area: Codable {
-    
-    public let name: String
-    public let location: Location
-    public let size: Double
-    public let clusters: [Cluster]
-    
-    public func getRoutes() -> [Route] {
-        var routes: [Route] = []
-        
-        for cluster in clusters {
-            for boulder in cluster.boulders {
-                for route in boulder.routes {
-                    routes.append(route)
-                }
-            }
-        }
-        return routes
+struct RoutePage_Previews: PreviewProvider {
+    static var previews: some View {
+        RoutePage(route: Areas().getArea(index: 0).getRoutes()[2])
     }
 }

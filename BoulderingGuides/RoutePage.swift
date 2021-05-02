@@ -35,10 +35,14 @@ struct RoutePage: View {
             Text("\(route.rating)  \(route.getStars)\n\n\(route.description!)")
                 .font(.system(size: 14))
                 .padding(EdgeInsets(top: 0, leading: 20, bottom: 0, trailing: 20))
-            Image(uiImage: UIImage(named: route.image!)!)
-                .resizable()
-                .aspectRatio(contentMode: .fit)
+            
+            if let image = route.image {
+                Image(uiImage: UIImage(named: image)!)
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+            }
         }
+        .padding(.top)
     }
 }
 

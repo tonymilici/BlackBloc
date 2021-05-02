@@ -25,6 +25,7 @@
 
 import Foundation
 import UIKit
+import SwiftUI
 
 public class BoulderViewController: UIViewController {
     @IBOutlet weak var _titleLabel: UILabel!
@@ -93,7 +94,7 @@ extension BoulderViewController: UITableViewDataSource, UITableViewDelegate {
     
     public func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let route = _boulder?.routes[indexPath.row]
-        let routeViewController = RouteViewController(route: route!)
+        let routeViewController = UIHostingController(rootView: RoutePage(route: route!))
         navigationController?.pushViewController(routeViewController, animated: true)
     }
 }

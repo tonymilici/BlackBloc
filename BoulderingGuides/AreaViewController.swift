@@ -8,6 +8,7 @@
 
 import Foundation
 import UIKit
+import SwiftUI
 
 public class AreaViewController: UITableViewController {
     private var _clusters: [Cluster]?
@@ -50,7 +51,7 @@ public class AreaViewController: UITableViewController {
     
     override public func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let cluster = _clusters?[indexPath.row]
-        let clusterViewController = ClusterViewController(cluster: cluster!)
+        let clusterViewController = UIHostingController(rootView: ClusterPage(cluster: cluster!))
         navigationController?.pushViewController(clusterViewController, animated: true)
     }
 }

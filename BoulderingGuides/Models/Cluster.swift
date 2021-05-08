@@ -26,7 +26,7 @@
 import Foundation
 import MapKit
 
-public struct Cluster: Codable {
+public struct Cluster: Decodable {
     public let location: Location
     public let radius: Double
     public let name: String

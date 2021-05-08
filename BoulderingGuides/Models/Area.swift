@@ -25,12 +25,12 @@
 
 import Foundation
 
-public struct Location: Codable {
+public struct Location: Decodable {
     public let latitude: Double
     public let longitude: Double
 }
 
-public struct Area: Codable {
+public struct Area: Decodable {
     
     public let name: String
     public let location: Location

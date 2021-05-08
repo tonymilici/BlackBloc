@@ -25,7 +25,7 @@
 
 import Foundation
 
-public struct Boulder: Codable {
+public struct Boulder: Decodable {
     public let name: String
     public let description: String?
     public let routes: [Route]

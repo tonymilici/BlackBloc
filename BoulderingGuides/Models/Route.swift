@@ -25,7 +25,7 @@
 
 import Foundation
 
-public struct Route: Codable {
+public struct Route: Decodable {
     public let name: String
     public let description: String?
     public let rating: String

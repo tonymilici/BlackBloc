@@ -3,7 +3,7 @@
 //  BoulderingGuides
 //
 //  Created by Tony Milici on 4/6/17.
-//  Copyright © 2017 Black Bloc Apps. All rights reserved.
+//  Copyright © 2017 BlackBloc Software. All rights reserved.
 //
 //Permission is hereby granted, free of charge, to any person obtaining a copy
 //of this software and associated documentation files (the "Software"), to deal
@@ -25,10 +25,19 @@
 
 import Foundation
 
-public struct Boulder: Decodable {
+public struct Boulder: Decodable, Identifiable {
+    public let id = UUID()
     public let name: String
     public let description: String?
     public let routes: [Route]
     public let image: String?
     public let location: Location?
+    
+    enum CodingKeys: String, CodingKey {
+        case name
+        case description
+        case routes
+        case image
+        case location
+    }
 }

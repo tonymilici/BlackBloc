@@ -28,6 +28,7 @@
 		BB07702521C71F03005CD391 /* say_goodnight.png in Resources */ = {isa = PBXBuildFile; fileRef = BB07702421C71F03005CD391 /* say_goodnight.png */; };
 		BB07702721C72005005CD391 /* pump_rock.png in Resources */ = {isa = PBXBuildFile; fileRef = BB07702621C72005005CD391 /* pump_rock.png */; };
 		BB0E2F1D2646DF5B0065C1CC /* AreaPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0E2F1C2646DF5B0065C1CC /* AreaPage.swift */; };
+		BB0E2F2B2647228B0065C1CC /* ClusterPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0E2F2A2647228B0065C1CC /* ClusterPage.swift */; };
 		BB1AC427263EE37A00264CCD /* RoutePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1AC426263EE37A00264CCD /* RoutePage.swift */; };
 		BB1B79051EE32F07009AF545 /* Thin Crack.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB1B79041EE32F07009AF545 /* Thin Crack.jpg */; };
 		BB1B79071EE330A3009AF545 /* Barndoor Arete.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB1B79061EE330A3009AF545 /* Barndoor Arete.jpg */; };
@@ -164,6 +165,7 @@
 		BB07702421C71F03005CD391 /* say_goodnight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = say_goodnight.png; path = Photos/say_goodnight.png; sourceTree = "<group>"; };
 		BB07702621C72005005CD391 /* pump_rock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pump_rock.png; path = Photos/pump_rock.png; sourceTree = "<group>"; };
 		BB0E2F1C2646DF5B0065C1CC /* AreaPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AreaPage.swift; sourceTree = "<group>"; };
+		BB0E2F2A2647228B0065C1CC /* ClusterPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClusterPage.swift; sourceTree = "<group>"; };
 		BB1AC426263EE37A00264CCD /* RoutePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutePage.swift; sourceTree = "<group>"; };
 		BB1B79041EE32F07009AF545 /* Thin Crack.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Thin Crack.jpg"; path = "Photos/Thin Crack.jpg"; sourceTree = "<group>"; };
 		BB1B79061EE330A3009AF545 /* Barndoor Arete.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Barndoor Arete.jpg"; path = "Photos/Barndoor Arete.jpg"; sourceTree = "<group>"; };
@@ -349,6 +351,7 @@
 				BBEF92C41EE36FFD00E1781A /* RouteTableViewCell.swift */,
 				BB1AC426263EE37A00264CCD /* RoutePage.swift */,
 				BB0E2F1C2646DF5B0065C1CC /* AreaPage.swift */,
+				BB0E2F2A2647228B0065C1CC /* ClusterPage.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -721,6 +724,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB0E2F2B2647228B0065C1CC /* ClusterPage.swift in Sources */,
 				BB0E2F1D2646DF5B0065C1CC /* AreaPage.swift in Sources */,
 				BBEF92CB1EE3710F00E1781A /* BoulderViewController.swift in Sources */,
 				BBEF92E71EE3743F00E1781A /* TabBarController.swift in Sources */,

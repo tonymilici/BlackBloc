@@ -1,9 +1,9 @@
 //
-//  RoutePage.swift
+//  ClusterPage.swift
 //  BoulderingGuides
 //
 //  Created by Tony Milici on 5/8/21.
-//  Copyright © 2021 Black Bloc Software. All rights reserved.
+//  Copyright © 2021 BlackBloc Software. All rights reserved.
 //
 //Permission is hereby granted, free of charge, to any person obtaining a copy
 //of this software and associated documentation files (the "Software"), to deal
@@ -21,30 +21,26 @@
 //AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 //LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 //OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-//SOFTWARE./
+//SOFTWARE.
 
 import SwiftUI
 
-struct AreaPage: View {
-    let area: Area
+struct ClusterPage: View {
+    let cluster: Cluster
     
     var body: some View {
-        NavigationView {
-            List {
-                ForEach(area.clusters) {cluster in
-                    NavigationLink(destination: ClusterPage(cluster: cluster)) {
-                    Text(cluster.name)
-                    }
-                }
+        List {
+            ForEach(cluster.boulders) {boulder in
+                Text(boulder.name)
             }
-            .navigationTitle(area.name)
-            .navigationBarTitleDisplayMode(.inline)
         }
+        .navigationTitle(cluster.name)
+        .navigationBarTitleDisplayMode(.inline)
     }
 }
 
-struct AreaPage_Previews: PreviewProvider {
+struct ClusterPage_Previews: PreviewProvider {
     static var previews: some View {
-        AreaPage(area: Areas().getArea(index: 0))
+        ClusterPage(cluster: Areas().getArea(index: 0).clusters[0])
     }
 }

@@ -1,9 +1,9 @@
 //
-//  RoutePage.swift
+//  BoulderPage.swift
 //  BoulderingGuides
 //
 //  Created by Tony Milici on 5/8/21.
-//  Copyright © 2021 Black Bloc Software. All rights reserved.
+//  Copyright © 2021 BlackBloc Software. All rights reserved.
 //
 //Permission is hereby granted, free of charge, to any person obtaining a copy
 //of this software and associated documentation files (the "Software"), to deal
@@ -21,30 +21,44 @@
 //AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 //LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 //OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-//SOFTWARE./
+//SOFTWARE.
 
 import SwiftUI
 
-struct AreaPage: View {
-    let area: Area
+struct BoulderPage: View {
+    let boulder: Boulder
     
     var body: some View {
-        NavigationView {
+        VStack(alignment: .center, spacing: 20) {
+            Text(boulder.name)
+                .font(.headline)
+            
+            Text(boulder.description!)
+                .font(.system(size: 14))
+                .padding(EdgeInsets(top: 0, leading: 20, bottom: 0, trailing: 20))
+            
             List {
-                ForEach(area.clusters) {cluster in
-                    NavigationLink(destination: ClusterPage(cluster: cluster)) {
-                        Text(cluster.name)
+                ForEach(boulder.routes) {route in
+                    NavigationLink(destination: RoutePage(route: route)) {
+                        Text(route.name)
                     }
                 }
             }
-            .navigationTitle(area.name)
-            .navigationBarTitleDisplayMode(.inline)
+            
+            if let image = boulder.image {
+                Image(uiImage: UIImage(named: image)!)
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+            }
         }
+        .padding(.top)
+        .navigationTitle("Boulder")
+        .navigationBarTitleDisplayMode(.inline)
     }
 }
 
-struct AreaPage_Previews: PreviewProvider {
+struct BoulderPage_Previews: PreviewProvider {
     static var previews: some View {
-        AreaPage(area: Areas().getArea(index: 0))
+        BoulderPage(boulder: Areas().getArea(index: 0).clusters[0].boulders[0])
     }
 }

@@ -31,7 +31,9 @@ struct ClusterPage: View {
     var body: some View {
         List {
             ForEach(cluster.boulders) {boulder in
-                Text(boulder.name)
+                NavigationLink(destination: BoulderPage(boulder: boulder)) {
+                    Text(boulder.name)
+                }
             }
         }
         .navigationTitle(cluster.name)

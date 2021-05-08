@@ -31,7 +31,6 @@ public struct Location: Decodable {
 }
 
 public struct Area: Decodable {
-    
     public let name: String
     public let location: Location
     public let size: Double

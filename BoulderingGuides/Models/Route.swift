@@ -25,13 +25,23 @@
 
 import Foundation
 
-public struct Route: Decodable {
+public struct Route: Decodable, Identifiable {
+    public let id = UUID()
     public let name: String
     public let description: String?
     public let rating: String
     public let stars: Int?
     public let image: String?
     public let location: Location?
+    
+    enum CodingKeys: String, CodingKey {
+        case name
+        case description
+        case rating
+        case stars
+        case image
+        case location
+    }
     
     public var getStars: String {
         var starChars = ""

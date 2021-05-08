@@ -33,13 +33,27 @@ struct ClusterPage: View {
             Section(header: Text(cluster.name)) {
                 ForEach(cluster.boulders) {boulder in
                     NavigationLink(destination: BoulderPage(boulder: boulder)) {
-                        Text(boulder.name)
+                        ListItemView(
+                            item: ListItem(
+                                label: boulder.name,
+                                detail: getDetailText(boulder: boulder)))
                     }
                 }
             }
         }
         .navigationTitle("Cluster")
         .navigationBarTitleDisplayMode(.inline)
+    }
+    
+    private func getDetailText(boulder: Boulder) -> String {
+        var detailText = "0 routes"
+        if boulder.routes.count == 1 {
+            detailText = "1 route"
+        }
+        else if boulder.routes.count > 1 {
+            detailText = "\(boulder.routes.count) routes"
+        }
+        return detailText;
     }
 }
 

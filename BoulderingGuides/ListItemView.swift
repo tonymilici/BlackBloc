@@ -1,5 +1,5 @@
 //
-//  RouteItemView.swift
+//  ListItemView.swift
 //  BoulderingGuides
 //
 //  Created by Tony Milici on 5/8/21.
@@ -8,20 +8,20 @@
 
 import SwiftUI
 
-struct RouteItemView: View {
-    let route: Route
+struct ListItemView: View {
+    let item: ListItem
     
     var body: some View {
         VStack(alignment: .leading) {
-            Text(route.name)
-            Text("\(route.rating)  \(route.getStars)")
+            Text(item.label)
+            Text(item.detail)
                 .font(.system(size: 12))
         }
     }
 }
 
-struct RouteItemView_Previews: PreviewProvider {
+struct ListItemView_Previews: PreviewProvider {
     static var previews: some View {
-        RouteItemView(route: Areas().getArea(index: 0).getRoutes()[2])
+        ListItemView(item: ListItem(label: "Label", detail: "Detail"))
     }
 }

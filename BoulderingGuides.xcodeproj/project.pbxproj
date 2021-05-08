@@ -27,8 +27,8 @@
 		BB07702321C71E13005CD391 /* the_jam_crack.png in Resources */ = {isa = PBXBuildFile; fileRef = BB07702221C71E13005CD391 /* the_jam_crack.png */; };
 		BB07702521C71F03005CD391 /* say_goodnight.png in Resources */ = {isa = PBXBuildFile; fileRef = BB07702421C71F03005CD391 /* say_goodnight.png */; };
 		BB07702721C72005005CD391 /* pump_rock.png in Resources */ = {isa = PBXBuildFile; fileRef = BB07702621C72005005CD391 /* pump_rock.png */; };
+		BB0E2F1D2646DF5B0065C1CC /* AreaPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0E2F1C2646DF5B0065C1CC /* AreaPage.swift */; };
 		BB1AC427263EE37A00264CCD /* RoutePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1AC426263EE37A00264CCD /* RoutePage.swift */; };
-		BB1AC437263F3FD600264CCD /* RouteList.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1AC436263F3FD600264CCD /* RouteList.swift */; };
 		BB1B79051EE32F07009AF545 /* Thin Crack.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB1B79041EE32F07009AF545 /* Thin Crack.jpg */; };
 		BB1B79071EE330A3009AF545 /* Barndoor Arete.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB1B79061EE330A3009AF545 /* Barndoor Arete.jpg */; };
 		BB1B79091EE3341C009AF545 /* Sword of Damocles.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB1B79081EE3341C009AF545 /* Sword of Damocles.jpg */; };
@@ -163,8 +163,8 @@
 		BB07702221C71E13005CD391 /* the_jam_crack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = the_jam_crack.png; sourceTree = "<group>"; };
 		BB07702421C71F03005CD391 /* say_goodnight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = say_goodnight.png; path = Photos/say_goodnight.png; sourceTree = "<group>"; };
 		BB07702621C72005005CD391 /* pump_rock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pump_rock.png; path = Photos/pump_rock.png; sourceTree = "<group>"; };
+		BB0E2F1C2646DF5B0065C1CC /* AreaPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AreaPage.swift; sourceTree = "<group>"; };
 		BB1AC426263EE37A00264CCD /* RoutePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutePage.swift; sourceTree = "<group>"; };
-		BB1AC436263F3FD600264CCD /* RouteList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteList.swift; sourceTree = "<group>"; };
 		BB1B79041EE32F07009AF545 /* Thin Crack.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Thin Crack.jpg"; path = "Photos/Thin Crack.jpg"; sourceTree = "<group>"; };
 		BB1B79061EE330A3009AF545 /* Barndoor Arete.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Barndoor Arete.jpg"; path = "Photos/Barndoor Arete.jpg"; sourceTree = "<group>"; };
 		BB1B79081EE3341C009AF545 /* Sword of Damocles.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Sword of Damocles.jpg"; path = "Photos/Sword of Damocles.jpg"; sourceTree = "<group>"; };
@@ -348,7 +348,7 @@
 			children = (
 				BBEF92C41EE36FFD00E1781A /* RouteTableViewCell.swift */,
 				BB1AC426263EE37A00264CCD /* RoutePage.swift */,
-				BB1AC436263F3FD600264CCD /* RouteList.swift */,
+				BB0E2F1C2646DF5B0065C1CC /* AreaPage.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -721,10 +721,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB0E2F1D2646DF5B0065C1CC /* AreaPage.swift in Sources */,
 				BBEF92CB1EE3710F00E1781A /* BoulderViewController.swift in Sources */,
 				BBEF92E71EE3743F00E1781A /* TabBarController.swift in Sources */,
 				BBEF92BF1EE36F7B00E1781A /* Boulder.swift in Sources */,
-				BB1AC437263F3FD600264CCD /* RouteList.swift in Sources */,
 				BBEF92D51EE3720D00E1781A /* MainTableViewController.swift in Sources */,
 				BBEF92C51EE36FFD00E1781A /* RouteTableViewCell.swift in Sources */,
 				BBEF92C31EE36FC100E1781A /* Route.swift in Sources */,
@@ -840,7 +840,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -895,7 +895,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -910,7 +910,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = CHA2LYGQ69;
 				INFOPLIST_FILE = BoulderingGuides/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = blackbloc.BoulderingGuides;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -925,7 +925,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = CHA2LYGQ69;
 				INFOPLIST_FILE = BoulderingGuides/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = blackbloc.BoulderingGuides;
 				PRODUCT_NAME = "$(TARGET_NAME)";

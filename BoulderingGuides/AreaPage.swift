@@ -1,9 +1,9 @@
 //
-//  ClusterOverlay.swift
+//  RoutePage.swift
 //  BoulderingGuides
 //
-//  Created by Tony Milici on 4/5/17.
-//  Copyright © 2017 Black Bloc Apps. All rights reserved.
+//  Created by Tony Milici on 5/8/21.
+//  Copyright © 2021 Black Bloc Software. All rights reserved.
 //
 //Permission is hereby granted, free of charge, to any person obtaining a copy
 //of this software and associated documentation files (the "Software"), to deal
@@ -21,26 +21,28 @@
 //AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 //LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 //OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-//SOFTWARE.
+//SOFTWARE./
 
-import Foundation
-import MapKit
+import SwiftUI
 
-public struct Cluster: Decodable, Identifiable {
-    public let id = UUID()
-    public let location: Location
-    public let radius: Double
-    public let name: String
-    public let boulders: [Boulder]
+struct AreaPage: View {
+    let area: Area
     
-    enum CodingKeys: String, CodingKey {
-        case location
-        case radius
-        case name
-        case boulders
+    var body: some View {
+        NavigationView {
+            List {
+                ForEach(area.clusters) {cluster in
+                    Text(cluster.name)
+                }
+            }
+            .navigationTitle(area.name)
+            .navigationBarTitleDisplayMode(.inline)
+        }
     }
-    
-    public var centerLoc: CLLocationCoordinate2D {
-        CLLocationCoordinate2D(latitude: location.latitude, longitude: location.longitude)
+}
+
+struct AreaPage_Previews: PreviewProvider {
+    static var previews: some View {
+        AreaPage(area: Areas().getArea(index: 0))
     }
 }

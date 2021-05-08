@@ -30,13 +30,15 @@ struct ClusterPage: View {
     
     var body: some View {
         List {
-            ForEach(cluster.boulders) {boulder in
-                NavigationLink(destination: BoulderPage(boulder: boulder)) {
-                    Text(boulder.name)
+            Section(header: Text(cluster.name)) {
+                ForEach(cluster.boulders) {boulder in
+                    NavigationLink(destination: BoulderPage(boulder: boulder)) {
+                        Text(boulder.name)
+                    }
                 }
             }
         }
-        .navigationTitle(cluster.name)
+        .navigationTitle("Cluster")
         .navigationBarTitleDisplayMode(.inline)
     }
 }

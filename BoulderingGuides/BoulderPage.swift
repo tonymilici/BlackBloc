@@ -29,18 +29,20 @@ struct BoulderPage: View {
     let boulder: Boulder
     
     var body: some View {
-        VStack(alignment: .center, spacing: 20) {
+        VStack(alignment: .center, spacing: 16) {
             Text(boulder.name)
                 .font(.headline)
             
             Text(boulder.description!)
                 .font(.system(size: 14))
-                .padding(EdgeInsets(top: 0, leading: 20, bottom: 0, trailing: 20))
+                .padding(EdgeInsets(top: 0, leading: 8, bottom: 0, trailing: 8))
             
             List {
-                ForEach(boulder.routes) {route in
-                    NavigationLink(destination: RoutePage(route: route)) {
-                        Text(route.name)
+                Section(header: Text("Routes")){
+                    ForEach(boulder.routes) {route in
+                        NavigationLink(destination: RoutePage(route: route)) {
+                            Text(route.name)
+                        }
                     }
                 }
             }
@@ -51,7 +53,7 @@ struct BoulderPage: View {
                     .aspectRatio(contentMode: .fit)
             }
         }
-        .padding(.top)
+        .padding(EdgeInsets(top: 8, leading: 0, bottom: 8, trailing: 0))
         .navigationTitle("Boulder")
         .navigationBarTitleDisplayMode(.inline)
     }

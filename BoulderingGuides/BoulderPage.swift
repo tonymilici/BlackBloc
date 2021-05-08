@@ -41,7 +41,7 @@ struct BoulderPage: View {
                 Section(header: Text("Routes")){
                     ForEach(boulder.routes) {route in
                         NavigationLink(destination: RoutePage(route: route)) {
-                            Text(route.name)
+                            RouteItemView(route: route)
                         }
                     }
                 }

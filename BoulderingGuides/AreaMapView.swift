@@ -28,26 +28,64 @@ import MapKit
 
 struct AreaMapView: View {
     let area: Area
-    let metersPerMile = 1609.344
+
+    @State var dragLocation: CGPoint?
+    @State var tapLocation: CGPoint?
+
+    @State var selectedClusterIndex: Int? = nil
+    
+    private let metersPerMile = 1609.344
     
     var region: MKCoordinateRegion {
         MKCoordinateRegion(
             center: CLLocationCoordinate2D(
                 latitude: area.location.latitude,
-                 longitude: area.location.longitude),
+                longitude: area.location.longitude),
             latitudinalMeters: area.size * metersPerMile,
             longitudinalMeters: area.size * metersPerMile)
     }
     
     var body: some View {
         let mapView = MapViewUIKit(region: region)
-        
+
         for cluster in area.clusters {
             let circ = MKCircle(center: cluster.centerLoc, radius: cluster.radius)
             mapView.addOverlay(circle: circ)
         }
         
-        return mapView
+        let tap = TapGesture()
+            .onEnded {
+                handleTap(tapPoint: dragLocation!, mapView: mapView)
+            }
+        
+        let drag = DragGesture(minimumDistance: 0)
+            .onChanged { value in
+                dragLocation = value.location
+            }
+            .sequenced(before: tap)
+        
+        return ZStack {
+            mapView.gesture(drag)
+            
+            ForEach(0 ..< area.clusters.count) {index in NavigationLink(destination: ClusterPage(cluster: area.clusters[index]), tag: index, selection: $selectedClusterIndex) {
+                    EmptyView()
+                }
+            }
+        }
+    }
+    
+    func handleTap(tapPoint: CGPoint, mapView: MapViewUIKit) {
+        let tapCoord = mapView.convert(point: tapPoint)
+        let mp1 = MKMapPoint.init(tapCoord)
+        
+        for cluster in area.clusters {
+            let mp2 = MKMapPoint.init(cluster.centerLoc)
+            let dist = mp1.distance(to: mp2)
+            if dist < cluster.radius {
+                selectedClusterIndex = area.clusters.firstIndex(of: cluster)
+                break
+            }
+        }
     }
 }
 

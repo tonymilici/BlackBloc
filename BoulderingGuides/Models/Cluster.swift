@@ -17,7 +17,7 @@
 
 //THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 //IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-//FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+//FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO Elhs.VENT SHALL THE
 //AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 //LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 //OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
@@ -26,7 +26,7 @@
 import Foundation
 import MapKit
 
-public struct Cluster: Decodable, Identifiable {
+public struct Cluster: Decodable, Identifiable, Equatable {
     public let id = UUID()
     public let location: Location
     public let radius: Double
@@ -42,5 +42,9 @@ public struct Cluster: Decodable, Identifiable {
     
     public var centerLoc: CLLocationCoordinate2D {
         CLLocationCoordinate2D(latitude: location.latitude, longitude: location.longitude)
+    }
+    
+    public static func == (lhs: Cluster, rhs: Cluster) -> Bool {
+        lhs.name == rhs.name
     }
 }

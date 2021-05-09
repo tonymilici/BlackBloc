@@ -41,8 +41,12 @@ struct MapViewUIKit: UIViewRepresentable {
     func updateUIView(_ mapView: MKMapView, context: Context) {
     }
     
-    func addOverlay(circle: MKCircle) {
+    public func addOverlay(circle: MKCircle) {
         mapView.addOverlay(circle)
+    }
+    
+    public func convert(point tapPoint: CGPoint) -> CLLocationCoordinate2D {
+        mapView.convert(tapPoint, toCoordinateFrom: mapView)
     }
 }
 

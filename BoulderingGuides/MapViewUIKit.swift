@@ -28,13 +28,11 @@ import MapKit
 
 struct MapViewUIKit: UIViewRepresentable {
     let region: MKCoordinateRegion
-    let mapViewDelegate = MapViewDelegate()
     let mapView = MKMapView()
     
     func makeUIView(context: Context) -> MKMapView {
         mapView.mapType = .satellite
         mapView.setRegion(region, animated: false)
-        mapView.delegate = mapViewDelegate
         return mapView
     }
     
@@ -48,15 +46,25 @@ struct MapViewUIKit: UIViewRepresentable {
     public func convert(point tapPoint: CGPoint) -> CLLocationCoordinate2D {
         mapView.convert(tapPoint, toCoordinateFrom: mapView)
     }
-}
-
-class MapViewDelegate: NSObject, MKMapViewDelegate {
-    func mapView(_ mapView: MKMapView, rendererFor overlay: MKOverlay) -> MKOverlayRenderer {
-        let circle = MKCircleRenderer(overlay: overlay)
-        circle.fillColor = UIColor.blue
-        circle.strokeColor = UIColor.blue
-        circle.alpha = 0.3
-        circle.lineWidth = 1
-        return circle
+    
+    func makeCoordinator() -> Coordinator {
+        Coordinator(self)
+    }
+    
+    class Coordinator: NSObject, MKMapViewDelegate {
+        
+        init(_ mapView: MapViewUIKit) {
+            super.init()
+            mapView.mapView.delegate = self
+        }
+        
+        func mapView(_ mapView: MKMapView, rendererFor overlay: MKOverlay) -> MKOverlayRenderer {
+            let circle = MKCircleRenderer(overlay: overlay)
+            circle.fillColor = UIColor.blue
+            circle.strokeColor = UIColor.blue
+            circle.alpha = 0.3
+            circle.lineWidth = 1
+            return circle
+        }
     }
 }

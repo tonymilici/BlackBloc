@@ -33,6 +33,7 @@ struct MapViewUIKit: UIViewRepresentable {
     func makeUIView(context: Context) -> MKMapView {
         mapView.mapType = .satellite
         mapView.setRegion(region, animated: false)
+        mapView.delegate = context.coordinator
         return mapView
     }
     
@@ -52,10 +53,10 @@ struct MapViewUIKit: UIViewRepresentable {
     }
     
     class Coordinator: NSObject, MKMapViewDelegate {
+        var parent: MapViewUIKit
         
-        init(_ mapView: MapViewUIKit) {
-            super.init()
-            mapView.mapView.delegate = self
+        init(_ parent: MapViewUIKit) {
+            self.parent = parent
         }
         
         func mapView(_ mapView: MKMapView, rendererFor overlay: MKOverlay) -> MKOverlayRenderer {

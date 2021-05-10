@@ -34,25 +34,9 @@ struct AreaMapView: View {
 
     @State var selectedClusterIndex: Int? = nil
     
-    private let metersPerMile = 1609.344
-    
-    var region: MKCoordinateRegion {
-        MKCoordinateRegion(
-            center: CLLocationCoordinate2D(
-                latitude: area.location.latitude,
-                longitude: area.location.longitude),
-            latitudinalMeters: area.size * metersPerMile,
-            longitudinalMeters: area.size * metersPerMile)
-    }
-    
     var body: some View {
-        let mapView = MapViewUIKit(region: region)
+        let mapView = MapViewUIKit(area: area)
 
-        for cluster in area.clusters {
-            let circ = MKCircle(center: cluster.centerLoc, radius: cluster.radius)
-            mapView.addOverlay(circle: circ)
-        }
-        
         let tap = TapGesture()
             .onEnded {
                 handleTap(tapPoint: dragLocation!, mapView: mapView)
@@ -67,7 +51,11 @@ struct AreaMapView: View {
         return ZStack {
             mapView.gesture(drag)
             
-            ForEach(0 ..< area.clusters.count) {index in NavigationLink(destination: ClusterPage(cluster: area.clusters[index]), tag: index, selection: $selectedClusterIndex) {
+            ForEach(0 ..< area.clusters.count) {index in
+                NavigationLink(
+                    destination: ClusterPage(cluster: area.clusters[index]),
+                    tag: index,
+                    selection: $selectedClusterIndex) {
                     EmptyView()
                 }
             }

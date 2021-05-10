@@ -27,21 +27,32 @@ import SwiftUI
 import MapKit
 
 struct MapViewUIKit: UIViewRepresentable {
-    let region: MKCoordinateRegion
     let mapView = MKMapView()
+    let area: Area
     
     func makeUIView(context: Context) -> MKMapView {
-        mapView.mapType = .satellite
+        let metersPerMile = 1609.344
+        
+        let region = MKCoordinateRegion(
+                center: CLLocationCoordinate2D(
+                    latitude: area.location.latitude,
+                    longitude: area.location.longitude),
+                latitudinalMeters: area.size * metersPerMile,
+                longitudinalMeters: area.size * metersPerMile)
+
         mapView.setRegion(region, animated: false)
+        mapView.mapType = .satellite
         mapView.delegate = context.coordinator
+        
+        for cluster in area.clusters {
+            let circle = MKCircle(center: cluster.centerLoc, radius: cluster.radius)
+            mapView.addOverlay(circle)
+        }
+        
         return mapView
     }
     
     func updateUIView(_ mapView: MKMapView, context: Context) {
-    }
-    
-    public func addOverlay(circle: MKCircle) {
-        mapView.addOverlay(circle)
     }
     
     public func convert(point tapPoint: CGPoint) -> CLLocationCoordinate2D {

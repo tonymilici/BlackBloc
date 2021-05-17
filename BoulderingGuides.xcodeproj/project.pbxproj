@@ -70,7 +70,6 @@
 		BB3CEC8720A8A0F3006E2BD4 /* Credit Card Lover.png in Resources */ = {isa = PBXBuildFile; fileRef = BB3CEC8620A8A0F3006E2BD4 /* Credit Card Lover.png */; };
 		BB3CEC8920A8A314006E2BD4 /* Horse Farts.png in Resources */ = {isa = PBXBuildFile; fileRef = BB3CEC8820A8A314006E2BD4 /* Horse Farts.png */; };
 		BB3CEC8B20A8D176006E2BD4 /* AreaView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB3CEC8A20A8D176006E2BD4 /* AreaView.xib */; };
-		BB3CEC8D20A8D1A2006E2BD4 /* AreaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3CEC8C20A8D1A2006E2BD4 /* AreaViewController.swift */; };
 		BB90B47B217AC0E200DBECE4 /* Unnamed.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB90B47A217AC0E200DBECE4 /* Unnamed.jpg */; };
 		BB90B47D217AC1CC00DBECE4 /* Warm Up.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB90B47C217AC1CB00DBECE4 /* Warm Up.jpg */; };
 		BB90B47F217AC2E500DBECE4 /* Happy Hooker.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB90B47E217AC2E500DBECE4 /* Happy Hooker.jpg */; };
@@ -212,7 +211,6 @@
 		BB3CEC8620A8A0F3006E2BD4 /* Credit Card Lover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Credit Card Lover.png"; path = "Photos/Credit Card Lover.png"; sourceTree = "<group>"; };
 		BB3CEC8820A8A314006E2BD4 /* Horse Farts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Horse Farts.png"; path = "Photos/Horse Farts.png"; sourceTree = "<group>"; };
 		BB3CEC8A20A8D176006E2BD4 /* AreaView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AreaView.xib; sourceTree = "<group>"; };
-		BB3CEC8C20A8D1A2006E2BD4 /* AreaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AreaViewController.swift; sourceTree = "<group>"; };
 		BB90B47A217AC0E200DBECE4 /* Unnamed.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Unnamed.jpg; path = Photos/Unnamed.jpg; sourceTree = "<group>"; };
 		BB90B47C217AC1CB00DBECE4 /* Warm Up.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Warm Up.jpg"; path = "Photos/Warm Up.jpg"; sourceTree = "<group>"; };
 		BB90B47E217AC2E500DBECE4 /* Happy Hooker.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Happy Hooker.jpg"; path = "Photos/Happy Hooker.jpg"; sourceTree = "<group>"; };
@@ -338,7 +336,6 @@
 				BBEF92E41EE3740200E1781A /* TabBar.xib */,
 				BBEF92E61EE3743F00E1781A /* TabBarController.swift */,
 				BB3CEC8A20A8D176006E2BD4 /* AreaView.xib */,
-				BB3CEC8C20A8D1A2006E2BD4 /* AreaViewController.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -758,7 +755,6 @@
 				BBEF92BB1EE36F0F00E1781A /* Areas.swift in Sources */,
 				BBEF92C11EE36FA000E1781A /* Cluster.swift in Sources */,
 				BBEF92D71EE3724B00E1781A /* NavigationMapViewController.swift in Sources */,
-				BB3CEC8D20A8D1A2006E2BD4 /* AreaViewController.swift in Sources */,
 				BB1AC427263EE37A00264CCD /* RoutePage.swift in Sources */,
 				BBEF92C71EE370A300E1781A /* AreaMapViewController.swift in Sources */,
 				BBEF92BD1EE36F5800E1781A /* Area.swift in Sources */,

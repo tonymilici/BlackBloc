@@ -36,7 +36,7 @@ public struct Area: Decodable {
     public let size: Double
     public let clusters: [Cluster]
     
-    public func getRoutes() -> [Route] {
+    public var routes: [Route] {
         var routes: [Route] = []
         
         for cluster in clusters {

@@ -30,7 +30,7 @@ struct RoutesPage: View {
     
     var body: some View {
         List {
-            ForEach(area.getRoutes()) {route in
+            ForEach(area.routes) {route in
                 NavigationLink(destination: RoutePage(route: route)) {
                     ListItemView(
                         item: ListItem(

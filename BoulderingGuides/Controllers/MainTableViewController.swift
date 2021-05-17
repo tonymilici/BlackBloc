@@ -73,7 +73,7 @@ extension MainTableViewController: UITableViewDataSource {
 extension MainTableViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let area = _areas.getArea(index: indexPath.row)
-        let mapController = UIHostingController(rootView: AreaMapView(area: area))
+        let mapController = AreaMapViewController(area: area)//UIHostingController(rootView: AreaMapView(area: area))
         mapController.tabBarItem = UITabBarItem(title: "Navigate", image: UIImage(named: "location.png"), tag: 1)
         
         let routesController = AreaViewController(clusters: area.clusters)

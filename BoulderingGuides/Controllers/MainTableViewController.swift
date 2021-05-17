@@ -73,15 +73,7 @@ extension MainTableViewController: UITableViewDataSource {
 extension MainTableViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let area = _areas.getArea(index: indexPath.row)
-        let mapController = AreaMapViewController(area: area)
-        mapController.tabBarItem = UITabBarItem(title: "Navigate", image: UIImage(named: "location.png"), tag: 1)
-        
-        let routesController = UIHostingController(rootView: RoutesPage(area: area))
-        routesController.tabBarItem = UITabBarItem(title: "Routes", image: UIImage(named: "list.png"), tag: 2)
-        
-        let tabController = TabBarController()
-        tabController.viewControllers = [mapController, routesController]
-        tabController.title = area.name
+        let tabController = UIHostingController(rootView: MainPage(area: area))
         
         navigationController?.pushViewController(tabController, animated: true)
     }

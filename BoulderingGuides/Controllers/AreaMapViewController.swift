@@ -26,6 +26,7 @@
 import Foundation
 import UIKit
 import MapKit
+import SwiftUI
 
 class AreaMapViewController: MapViewController {
     private var _area: Area?
@@ -61,7 +62,8 @@ class AreaMapViewController: MapViewController {
             let mp2 = MKMapPoint.init(cluster.centerLoc)
             let dist = mp1.distance(to: mp2)
             if dist < cluster.radius {
-                navigationController?.pushViewController(ClusterViewController(cluster: cluster), animated: true)
+                let clusterPage = ClusterPage(cluster: cluster)
+                navigationController?.pushViewController(UIHostingController(rootView: clusterPage), animated: true)
                 break
             }
         }

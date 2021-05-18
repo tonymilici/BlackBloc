@@ -50,11 +50,11 @@ class AreaMapViewController: MapViewController {
             mapView.addOverlay(circ)
         }
 
-        let tapRecognizer = UITapGestureRecognizer(target: self, action: #selector(self.handleTap(gestureRecognizer:)))
-        mapView.addGestureRecognizer(tapRecognizer)
+    //    let tapRecognizer = UITapGestureRecognizer(target: self, action: #selector(self.handleTap(gestureRecognizer:)))
+    //    mapView.addGestureRecognizer(tapRecognizer)
     }
     
-    @objc func handleTap(gestureRecognizer: UIGestureRecognizer) {
+  /*  @objc func handleTap(gestureRecognizer: UIGestureRecognizer) {
         let tapPoint = gestureRecognizer.location(in: mapView)
         for cluster in (_area?.clusters)! {
             let tapCoord = (mapView as MKMapView).convert(tapPoint, toCoordinateFrom: mapView)
@@ -67,7 +67,9 @@ class AreaMapViewController: MapViewController {
                 break
             }
         }
-    }
+    }*/
+    
+    
 }
 
 extension AreaMapViewController: MKMapViewDelegate {

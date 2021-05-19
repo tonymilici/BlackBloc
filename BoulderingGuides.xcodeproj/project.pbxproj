@@ -107,8 +107,6 @@
 		BBEF92D11EE371CC00E1781A /* MainTableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBEF92D01EE371CC00E1781A /* MainTableView.xib */; };
 		BBEF92D51EE3720D00E1781A /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEF92D41EE3720D00E1781A /* MainTableViewController.swift */; };
 		BBEF92D91EE3726F00E1781A /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEF92D81EE3726F00E1781A /* MapViewController.swift */; };
-		BBEF92E51EE3740200E1781A /* TabBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBEF92E41EE3740200E1781A /* TabBar.xib */; };
-		BBEF92E71EE3743F00E1781A /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEF92E61EE3743F00E1781A /* TabBarController.swift */; };
 		BBF7C9A420B0A50000BAE2CF /* Pocket Traverse.png in Resources */ = {isa = PBXBuildFile; fileRef = BBF7C9A320B0A4FF00BAE2CF /* Pocket Traverse.png */; };
 		BBF7C9A620B0AA9200BAE2CF /* Spiral Traverse.png in Resources */ = {isa = PBXBuildFile; fileRef = BBF7C9A520B0AA9200BAE2CF /* Spiral Traverse.png */; };
 		BBF7C9A820B0B22A00BAE2CF /* Spiral Direct.png in Resources */ = {isa = PBXBuildFile; fileRef = BBF7C9A720B0B22900BAE2CF /* Spiral Direct.png */; };
@@ -247,8 +245,6 @@
 		BBEF92D01EE371CC00E1781A /* MainTableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MainTableView.xib; path = Controllers/MainTableView.xib; sourceTree = "<group>"; };
 		BBEF92D41EE3720D00E1781A /* MainTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainTableViewController.swift; path = Controllers/MainTableViewController.swift; sourceTree = "<group>"; };
 		BBEF92D81EE3726F00E1781A /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MapViewController.swift; path = Controllers/MapViewController.swift; sourceTree = "<group>"; };
-		BBEF92E41EE3740200E1781A /* TabBar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TabBar.xib; path = Controllers/TabBar.xib; sourceTree = "<group>"; };
-		BBEF92E61EE3743F00E1781A /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TabBarController.swift; path = Controllers/TabBarController.swift; sourceTree = "<group>"; };
 		BBF7C9A320B0A4FF00BAE2CF /* Pocket Traverse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Pocket Traverse.png"; path = "Photos/Pocket Traverse.png"; sourceTree = "<group>"; };
 		BBF7C9A520B0AA9200BAE2CF /* Spiral Traverse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Spiral Traverse.png"; path = "Photos/Spiral Traverse.png"; sourceTree = "<group>"; };
 		BBF7C9A720B0B22900BAE2CF /* Spiral Direct.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Spiral Direct.png"; path = "Photos/Spiral Direct.png"; sourceTree = "<group>"; };
@@ -310,8 +306,6 @@
 				BBEF92D01EE371CC00E1781A /* MainTableView.xib */,
 				BBEF92D41EE3720D00E1781A /* MainTableViewController.swift */,
 				BBEF92D81EE3726F00E1781A /* MapViewController.swift */,
-				BBEF92E41EE3740200E1781A /* TabBar.xib */,
-				BBEF92E61EE3743F00E1781A /* TabBarController.swift */,
 				BB3CEC8A20A8D176006E2BD4 /* AreaView.xib */,
 			);
 			name = Controllers;
@@ -665,7 +659,6 @@
 				BB3CEC7920A88879006E2BD4 /* adams_rib.png in Resources */,
 				BB3CEC7B20A88A8E006E2BD4 /* rhythym_and_the_heat.png in Resources */,
 				BB0606C920B09D2B00B465F1 /* Mommys Boy Right.png in Resources */,
-				BBEF92E51EE3740200E1781A /* TabBar.xib in Resources */,
 				BB90B47D217AC1CC00DBECE4 /* Warm Up.jpg in Resources */,
 				BB07701D21C6F0BD005CD391 /* west_arete.png in Resources */,
 				BB1B79071EE330A3009AF545 /* Barndoor Arete.jpg in Resources */,
@@ -717,7 +710,6 @@
 				BB0E2F3026472F020065C1CC /* BoulderPage.swift in Sources */,
 				BB92DDF22652B99B002897C3 /* AreaMapPage.swift in Sources */,
 				BB92DDB3264740A0002897C3 /* ListItem.swift in Sources */,
-				BBEF92E71EE3743F00E1781A /* TabBarController.swift in Sources */,
 				BB92DE1F26547671002897C3 /* MapView.swift in Sources */,
 				BBEF92BF1EE36F7B00E1781A /* Boulder.swift in Sources */,
 				BBEF92D51EE3720D00E1781A /* MainTableViewController.swift in Sources */,

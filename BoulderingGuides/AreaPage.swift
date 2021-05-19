@@ -45,6 +45,6 @@ struct AreaPage: View {
 
 struct AreaPage_Previews: PreviewProvider {
     static var previews: some View {
-        AreaPage(area: Areas().getArea(index: 0))
+        AreaPage(area: Areas().areas[0])
     }
 }

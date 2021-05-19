@@ -48,6 +48,6 @@ struct RoutePage: View {
 
 struct RoutePage_Previews: PreviewProvider {
     static var previews: some View {
-        RoutePage(route: Areas().getArea(index: 0).routes[2])
+        RoutePage(route: Areas().areas[0].routes[2])
     }
 }

@@ -64,6 +64,6 @@ struct BoulderPage: View {
 
 struct BoulderPage_Previews: PreviewProvider {
     static var previews: some View {
-        BoulderPage(boulder: Areas().getArea(index: 0).clusters[0].boulders[0])
+        BoulderPage(boulder: Areas().areas[0].clusters[0].boulders[0])
     }
 }

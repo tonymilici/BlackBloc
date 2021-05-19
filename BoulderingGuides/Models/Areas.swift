@@ -26,15 +26,7 @@
 import Foundation
 
 public class Areas {
-    private let areas: [Area] = load("Areas.json")
-    
-    public func count() -> Int {
-        areas.count
-    }
-    
-    public func getArea(index: Int) -> Area {
-        areas[index]
-    }
+     let areas: [Area] = load("Areas.json")
 }
 
 func load<T: Decodable>(_ filename: String) -> T {

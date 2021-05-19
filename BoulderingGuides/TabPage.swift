@@ -53,6 +53,6 @@ struct TabPage: View {
 
 struct TabPage_Previews: PreviewProvider {
     static var previews: some View {
-        TabPage(area: Areas().getArea(index: 0))
+        TabPage(area: Areas().areas[0])
     }
 }

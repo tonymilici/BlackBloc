@@ -1,8 +1,8 @@
 //
-//  AreaMapPage.swift
+//  AreasView.swift
 //  BoulderingGuides
 //
-//  Created by Tony Milici on 5/17/21.
+//  Created by Tony Milici on 5/19/21.
 //  Copyright © 2021 BlackBloc Software. All rights reserved.
 //
 //The above copyright notice and this permission notice shall be included in all
@@ -16,33 +16,25 @@
 //OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 //SOFTWARE./
 
+
 import SwiftUI
 
-struct AreaMapPage: View {
-    let area: Area
-    
-    @State private var selectedCluster: Int?
+struct AreasView: View {
+    let areas = Areas()
     
     var body: some View {
-        ZStack {
-            MapView(area: area) { index in
-                selectedCluster = index
-            }
-            
-            ForEach (0 ..< area.clusters.count) { index in
-                NavigationLink(
-                    destination: ClusterPage(cluster: area.clusters[index]),
-                    tag: index,
-                    selection: $selectedCluster) {
-                    EmptyView()
+        List {
+            ForEach(areas.areas) { area in
+                NavigationLink(destination: TabPage(area: area)) {
+                    Text(area.name)
                 }
             }
         }
     }
 }
 
-struct AreaMapPage_Previews: PreviewProvider {
+struct AreasView_Previews: PreviewProvider {
     static var previews: some View {
-        AreaMapPage(area: Areas().areas[0])
+        AreasView()
     }
 }

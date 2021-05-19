@@ -80,6 +80,7 @@
 		BB92DDED2652B6FE002897C3 /* TabPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB92DDEC2652B6FE002897C3 /* TabPage.swift */; };
 		BB92DDF22652B99B002897C3 /* AreaMapPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB92DDF12652B99B002897C3 /* AreaMapPage.swift */; };
 		BB92DE1F26547671002897C3 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB92DE1E26547671002897C3 /* MapView.swift */; };
+		BB92DE39265536E5002897C3 /* AreasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB92DE38265536E5002897C3 /* AreasView.swift */; };
 		BBA3C8641E9E7BAA0037ED09 /* swiss_cheese.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BBA3C8631E9E7BAA0037ED09 /* swiss_cheese.jpg */; };
 		BBA3C8671E9E9EF70037ED09 /* golf_boulder.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BBA3C8661E9E9EF70037ED09 /* golf_boulder.jpg */; };
 		BBA3C8691E9EA2A40037ED09 /* Unknown2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BBA3C8681E9EA2A40037ED09 /* Unknown2.jpg */; };
@@ -210,6 +211,7 @@
 		BB92DDEC2652B6FE002897C3 /* TabPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabPage.swift; sourceTree = "<group>"; };
 		BB92DDF12652B99B002897C3 /* AreaMapPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AreaMapPage.swift; sourceTree = "<group>"; };
 		BB92DE1E26547671002897C3 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		BB92DE38265536E5002897C3 /* AreasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AreasView.swift; sourceTree = "<group>"; };
 		BBA3C8631E9E7BAA0037ED09 /* swiss_cheese.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = swiss_cheese.jpg; path = Photos/swiss_cheese.jpg; sourceTree = "<group>"; };
 		BBA3C8661E9E9EF70037ED09 /* golf_boulder.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = golf_boulder.jpg; path = Photos/golf_boulder.jpg; sourceTree = "<group>"; };
 		BBA3C8681E9EA2A40037ED09 /* Unknown2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Unknown2.jpg; path = Photos/Unknown2.jpg; sourceTree = "<group>"; };
@@ -332,6 +334,7 @@
 				BB92DDEC2652B6FE002897C3 /* TabPage.swift */,
 				BB92DDF12652B99B002897C3 /* AreaMapPage.swift */,
 				BB92DE1E26547671002897C3 /* MapView.swift */,
+				BB92DE38265536E5002897C3 /* AreasView.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -704,6 +707,7 @@
 				BB0E2F3026472F020065C1CC /* BoulderPage.swift in Sources */,
 				BB92DDF22652B99B002897C3 /* AreaMapPage.swift in Sources */,
 				BB92DDB3264740A0002897C3 /* ListItem.swift in Sources */,
+				BB92DE39265536E5002897C3 /* AreasView.swift in Sources */,
 				BB92DE1F26547671002897C3 /* MapView.swift in Sources */,
 				BBEF92BF1EE36F7B00E1781A /* Boulder.swift in Sources */,
 				BBEF92D51EE3720D00E1781A /* MainTableViewController.swift in Sources */,

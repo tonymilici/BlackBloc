@@ -29,7 +29,7 @@ import SwiftUI
 
 class MainTableViewController: UIViewController {
     @IBOutlet var tableView: UITableView!
-    fileprivate let _areas = Areas()
+    fileprivate let areas = Areas()
     fileprivate let _cellId = "AreaCell"
     
     init() {
@@ -55,16 +55,16 @@ extension MainTableViewController: UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return _areas.count()
+        return areas.areas.count
     }
     
    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         if let cell = tableView.dequeueReusableCell(withIdentifier: _cellId) {
-            cell.textLabel?.text = _areas.getArea(index: indexPath.row).name
+            cell.textLabel?.text = areas.areas[indexPath.row].name
             return cell
         }
     let cell = UITableViewCell(style: .default, reuseIdentifier: _cellId)
-        cell.textLabel?.text = _areas.getArea(index: indexPath.row).name
+        cell.textLabel?.text = areas.areas[indexPath.row].name
         cell.accessoryType = UITableViewCell.AccessoryType.disclosureIndicator
         return cell
     }
@@ -72,7 +72,7 @@ extension MainTableViewController: UITableViewDataSource {
 
 extension MainTableViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let area = _areas.getArea(index: indexPath.row)
+        let area = areas.areas[indexPath.row]
         let tabController = UIHostingController(rootView: TabPage(area: area))
         
         navigationController?.pushViewController(tabController, animated: true)

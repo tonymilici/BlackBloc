@@ -59,6 +59,6 @@ struct ClusterPage: View {
 
 struct ClusterPage_Previews: PreviewProvider {
     static var previews: some View {
-        ClusterPage(cluster: Areas().getArea(index: 0).clusters[0])
+        ClusterPage(cluster: Areas().areas[0].clusters[0])
     }
 }

@@ -37,10 +37,8 @@ class AreaTest: XCTestCase {
             location: Location(latitude: 33.9873, longitude: -117.3899),
             size: 10, clusters: [cluster])
         
-        let routes = area.getRoutes()
-        
-        XCTAssertNotNil(routes)
-        XCTAssertEqual(routes.count, 1)
+        XCTAssertNotNil(area.routes)
+        XCTAssertEqual(area.routes.count, 1)
     }
     
 }

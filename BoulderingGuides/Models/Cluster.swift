@@ -26,7 +26,7 @@
 import Foundation
 import MapKit
 
-public struct Cluster: Decodable, Identifiable {
+public struct Cluster: Decodable, Identifiable, Equatable {
     public let id = UUID()
     public let location: Location
     public let radius: Double
@@ -42,5 +42,9 @@ public struct Cluster: Decodable, Identifiable {
     
     public var centerLoc: CLLocationCoordinate2D {
         CLLocationCoordinate2D(latitude: location.latitude, longitude: location.longitude)
+    }
+    
+    public static func == (lhs: Cluster, rhs: Cluster) -> Bool {
+        lhs.id == rhs.id
     }
 }

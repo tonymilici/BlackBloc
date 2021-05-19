@@ -20,15 +20,22 @@ import SwiftUI
 
 struct AreaMapPage: View {
     let area: Area
+    
     @State private var selectedCluster: Int?
     
     var body: some View {
         ZStack {
-            MapView(area: area) {index in
+            MapView(area: area) { index in
                 selectedCluster = index
             }
-            NavigationLink( destination: ClusterPage(cluster: area.clusters[0]), tag: 0, selection: $selectedCluster){
-                EmptyView()
+            
+            ForEach (0 ..< area.clusters.count) { index in
+                NavigationLink(
+                    destination: ClusterPage(cluster: area.clusters[index]),
+                    tag: index,
+                    selection: $selectedCluster) {
+                    EmptyView()
+                }
             }
         }
     }
@@ -36,7 +43,6 @@ struct AreaMapPage: View {
 
 struct AreaMapPage_Previews: PreviewProvider {
     static var previews: some View {
-        
         AreaMapPage(area: Areas().getArea(index: 0))
     }
 }

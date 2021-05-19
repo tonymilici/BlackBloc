@@ -77,7 +77,7 @@
 		BB92DDB3264740A0002897C3 /* ListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB92DDB2264740A0002897C3 /* ListItem.swift */; };
 		BB92DDB8264740F9002897C3 /* ListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB92DDB7264740F9002897C3 /* ListItemView.swift */; };
 		BB92DDD32652A205002897C3 /* RoutesPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB92DDD22652A205002897C3 /* RoutesPage.swift */; };
-		BB92DDED2652B6FE002897C3 /* MainPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB92DDEC2652B6FE002897C3 /* MainPage.swift */; };
+		BB92DDED2652B6FE002897C3 /* TabPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB92DDEC2652B6FE002897C3 /* TabPage.swift */; };
 		BB92DDF22652B99B002897C3 /* AreaMapPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB92DDF12652B99B002897C3 /* AreaMapPage.swift */; };
 		BB92DE1F26547671002897C3 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB92DE1E26547671002897C3 /* MapView.swift */; };
 		BBA3C8641E9E7BAA0037ED09 /* swiss_cheese.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BBA3C8631E9E7BAA0037ED09 /* swiss_cheese.jpg */; };
@@ -104,9 +104,7 @@
 		BBEF92C11EE36FA000E1781A /* Cluster.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEF92C01EE36FA000E1781A /* Cluster.swift */; };
 		BBEF92C31EE36FC100E1781A /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEF92C21EE36FC100E1781A /* Route.swift */; };
 		BBEF92C51EE36FFD00E1781A /* RouteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEF92C41EE36FFD00E1781A /* RouteTableViewCell.swift */; };
-		BBEF92C71EE370A300E1781A /* AreaMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEF92C61EE370A300E1781A /* AreaMapViewController.swift */; };
 		BBEF92D11EE371CC00E1781A /* MainTableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBEF92D01EE371CC00E1781A /* MainTableView.xib */; };
-		BBEF92D31EE371FE00E1781A /* MapView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBEF92D21EE371FE00E1781A /* MapView.xib */; };
 		BBEF92D51EE3720D00E1781A /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEF92D41EE3720D00E1781A /* MainTableViewController.swift */; };
 		BBEF92D91EE3726F00E1781A /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEF92D81EE3726F00E1781A /* MapViewController.swift */; };
 		BBEF92E51EE3740200E1781A /* TabBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBEF92E41EE3740200E1781A /* TabBar.xib */; };
@@ -213,7 +211,7 @@
 		BB92DDB2264740A0002897C3 /* ListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListItem.swift; sourceTree = "<group>"; };
 		BB92DDB7264740F9002897C3 /* ListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListItemView.swift; sourceTree = "<group>"; };
 		BB92DDD22652A205002897C3 /* RoutesPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutesPage.swift; sourceTree = "<group>"; };
-		BB92DDEC2652B6FE002897C3 /* MainPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPage.swift; sourceTree = "<group>"; };
+		BB92DDEC2652B6FE002897C3 /* TabPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabPage.swift; sourceTree = "<group>"; };
 		BB92DDF12652B99B002897C3 /* AreaMapPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AreaMapPage.swift; sourceTree = "<group>"; };
 		BB92DE1E26547671002897C3 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		BBA3C8631E9E7BAA0037ED09 /* swiss_cheese.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = swiss_cheese.jpg; path = Photos/swiss_cheese.jpg; sourceTree = "<group>"; };
@@ -246,9 +244,7 @@
 		BBEF92C01EE36FA000E1781A /* Cluster.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Cluster.swift; path = Models/Cluster.swift; sourceTree = "<group>"; };
 		BBEF92C21EE36FC100E1781A /* Route.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Route.swift; path = Models/Route.swift; sourceTree = "<group>"; };
 		BBEF92C41EE36FFD00E1781A /* RouteTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RouteTableViewCell.swift; path = Views/RouteTableViewCell.swift; sourceTree = "<group>"; };
-		BBEF92C61EE370A300E1781A /* AreaMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AreaMapViewController.swift; path = Controllers/AreaMapViewController.swift; sourceTree = "<group>"; };
 		BBEF92D01EE371CC00E1781A /* MainTableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MainTableView.xib; path = Controllers/MainTableView.xib; sourceTree = "<group>"; };
-		BBEF92D21EE371FE00E1781A /* MapView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MapView.xib; path = Controllers/MapView.xib; sourceTree = "<group>"; };
 		BBEF92D41EE3720D00E1781A /* MainTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainTableViewController.swift; path = Controllers/MainTableViewController.swift; sourceTree = "<group>"; };
 		BBEF92D81EE3726F00E1781A /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MapViewController.swift; path = Controllers/MapViewController.swift; sourceTree = "<group>"; };
 		BBEF92E41EE3740200E1781A /* TabBar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TabBar.xib; path = Controllers/TabBar.xib; sourceTree = "<group>"; };
@@ -311,8 +307,6 @@
 		BBA3C8601E9DA0F90037ED09 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				BBEF92D21EE371FE00E1781A /* MapView.xib */,
-				BBEF92C61EE370A300E1781A /* AreaMapViewController.swift */,
 				BBEF92D01EE371CC00E1781A /* MainTableView.xib */,
 				BBEF92D41EE3720D00E1781A /* MainTableViewController.swift */,
 				BBEF92D81EE3726F00E1781A /* MapViewController.swift */,
@@ -346,7 +340,7 @@
 				BB0E2F2F26472F020065C1CC /* BoulderPage.swift */,
 				BB92DDB7264740F9002897C3 /* ListItemView.swift */,
 				BB92DDD22652A205002897C3 /* RoutesPage.swift */,
-				BB92DDEC2652B6FE002897C3 /* MainPage.swift */,
+				BB92DDEC2652B6FE002897C3 /* TabPage.swift */,
 				BB92DDF12652B99B002897C3 /* AreaMapPage.swift */,
 				BB92DE1E26547671002897C3 /* MapView.swift */,
 			);
@@ -626,7 +620,6 @@
 				BB0606C720B09B9200B465F1 /* Mommys Boy Center.png in Resources */,
 				BB33C2F4218F48B90025371D /* list@2x.png in Resources */,
 				BB07701F21C6F139005CD391 /* three_pigs.png in Resources */,
-				BBEF92D31EE371FE00E1781A /* MapView.xib in Resources */,
 				BBD90A4C2179717600BC0B9A /* Celestial Trail.jpg in Resources */,
 				BBA3C86F1E9EE8B50037ED09 /* Eriksson Problem.jpg in Resources */,
 				BB3CEC8320A88ECC006E2BD4 /* Teflon Arete.png in Resources */,
@@ -734,9 +727,8 @@
 				BBEF92BB1EE36F0F00E1781A /* Areas.swift in Sources */,
 				BBEF92C11EE36FA000E1781A /* Cluster.swift in Sources */,
 				BB1AC427263EE37A00264CCD /* RoutePage.swift in Sources */,
-				BB92DDED2652B6FE002897C3 /* MainPage.swift in Sources */,
+				BB92DDED2652B6FE002897C3 /* TabPage.swift in Sources */,
 				BB92DDD32652A205002897C3 /* RoutesPage.swift in Sources */,
-				BBEF92C71EE370A300E1781A /* AreaMapViewController.swift in Sources */,
 				BBEF92BD1EE36F5800E1781A /* Area.swift in Sources */,
 				BBEF92D91EE3726F00E1781A /* MapViewController.swift in Sources */,
 			);

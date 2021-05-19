@@ -25,7 +25,7 @@
 
 import SwiftUI
 
-struct MainPage: View {
+struct TabPage: View {
     @State private var selection: Tab = .navigate
     
     let area: Area
@@ -39,8 +39,7 @@ struct MainPage: View {
         TabView(selection: $selection) {
             AreaMapPage(area: area)
                 .tabItem {
-                    Label("Navigate", systemImage:
-                    "safari")
+                    Label("Navigate", systemImage: "safari")
                 }
                 .tag(Tab.navigate)
             RoutesPage(area: area)
@@ -52,8 +51,8 @@ struct MainPage: View {
     }
 }
 
-struct MainPage_Previews: PreviewProvider {
+struct TabPage_Previews: PreviewProvider {
     static var previews: some View {
-        MainPage(area: Areas().getArea(index: 0))
+        TabPage(area: Areas().getArea(index: 0))
     }
 }

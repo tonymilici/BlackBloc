@@ -73,7 +73,7 @@ extension MainTableViewController: UITableViewDataSource {
 extension MainTableViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let area = _areas.getArea(index: indexPath.row)
-        let tabController = UIHostingController(rootView: MainPage(area: area))
+        let tabController = UIHostingController(rootView: TabPage(area: area))
         
         navigationController?.pushViewController(tabController, animated: true)
     }

@@ -48,6 +48,8 @@ struct TabPage: View {
                 }
                 .tag(Tab.routes)
         }
+        .navigationTitle(area.name)
+        .navigationBarTitleDisplayMode(.inline)
     }
 }
 

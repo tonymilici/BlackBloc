@@ -25,6 +25,7 @@
 
 import UIKit
 import CoreLocation
+import SwiftUI
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -35,7 +36,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         window = UIWindow(frame: UIScreen.main.bounds)
         
-        let rootView = MainTableViewController()
+        let rootView = UIHostingController(rootView: AreasView())
         
         let mainViewController = UINavigationController(rootViewController: rootView)
         window!.rootViewController = mainViewController

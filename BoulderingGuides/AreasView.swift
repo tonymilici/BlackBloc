@@ -30,6 +30,8 @@ struct AreasView: View {
                 }
             }
         }
+        .navigationTitle("Areas")
+        .navigationBarTitleDisplayMode(.inline)
     }
 }
 

@@ -40,6 +40,7 @@ struct RoutePage: View {
                 Image(uiImage: UIImage(named: image)!)
                     .resizable()
                     .aspectRatio(contentMode: .fit)
+                    .padding(EdgeInsets(top: 0, leading: 0, bottom: 20, trailing: 0))
             }
         }
         .padding(.top)

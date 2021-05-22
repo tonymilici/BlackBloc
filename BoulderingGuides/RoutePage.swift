@@ -44,6 +44,14 @@ struct RoutePage: View {
             }
         }
         .padding(.top)
+        .toolbar {
+            NavigationLink(destination: NavigationPage(location: route.location!, title: route.name)) {
+                Button(action: {  }) {
+                    Image(systemName: "safari")
+                        .accessibilityLabel("user Profile")
+                }
+            }
+        }
     }
 }
 

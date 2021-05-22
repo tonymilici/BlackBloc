@@ -16,17 +16,18 @@
 import SwiftUI
 
 struct NavigationPage: View {
-    let boulder: Boulder
+    let location: Location
+    let title: String
     
     var body: some View {
-        NavigationMapView(location: boulder.location!)
-            .navigationTitle(boulder.name)
+        NavigationMapView(location: location)
+            .navigationTitle(title)
             .navigationBarTitleDisplayMode(.inline)
     }
 }
 
 struct NavigationPage_Previews: PreviewProvider {
     static var previews: some View {
-        NavigationPage(boulder: Areas().areas[0].clusters[0].boulders[0])
+        NavigationPage(location: Areas().areas[0].clusters[0].boulders[0].location!, title: "whateve")
     }
 }

@@ -43,6 +43,14 @@ struct ClusterPage: View {
         }
         .navigationTitle("Cluster")
         .navigationBarTitleDisplayMode(.inline)
+        .toolbar {
+            NavigationLink(destination: NavigationPage(location: cluster.location, title: cluster.name)) {
+                Button(action: {  }) {
+                    Image(systemName: "safari")
+                        .accessibilityLabel("user Profile")
+                }
+            }
+        }
     }
     
     private func getDetailText(boulder: Boulder) -> String {

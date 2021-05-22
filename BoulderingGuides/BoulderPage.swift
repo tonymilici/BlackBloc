@@ -60,7 +60,7 @@ struct BoulderPage: View {
         .navigationTitle("Boulder")
         .navigationBarTitleDisplayMode(.inline)
         .toolbar {
-            NavigationLink(destination: NavigationPage(boulder: boulder)) {
+            NavigationLink(destination: NavigationPage(location: boulder.location!, title: boulder.name)) {
                 Button(action: {  }) {
                     Image(systemName: "safari")
                         .accessibilityLabel("user Profile")

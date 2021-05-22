@@ -20,7 +20,7 @@ import Foundation
 import SwiftUI
 import MapKit
 
-struct MapView: UIViewRepresentable {
+struct AreaMapView: UIViewRepresentable {
     let area: Area
     let mapView = MKMapView()
     var tapCallback: ((Int) -> Void)
@@ -62,9 +62,9 @@ struct MapView: UIViewRepresentable {
     }
    
     class Coordinator: NSObject, MKMapViewDelegate {
-        let parent: MapView
+        let parent: AreaMapView
        
-        init(_ parent: MapView) {
+        init(_ parent: AreaMapView) {
             self.parent = parent
             super.init()
         }

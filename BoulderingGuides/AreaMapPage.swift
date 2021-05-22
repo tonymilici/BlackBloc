@@ -25,7 +25,7 @@ struct AreaMapPage: View {
     
     var body: some View {
         ZStack {
-            MapView(area: area) { index in
+            AreaMapView(area: area) { index in
                 selectedCluster = index
             }
             

@@ -28,6 +28,8 @@ import SwiftUI
 struct RoutePage: View {
     var route: Route
     
+    @State var isNavigateActive = false
+    
     var body: some View {
         VStack(alignment: .center, spacing: 20) {
             Text(route.name)
@@ -44,14 +46,16 @@ struct RoutePage: View {
             } else {
                 Spacer()
             }
+            
+            NavigationLink(destination: NavigationPage(location: route.location!, title: route.name), isActive: $isNavigateActive) {
+                EmptyView()
+            }
         }
         .padding(.top)
         .toolbar {
-            NavigationLink(destination: NavigationPage(location: route.location!, title: route.name)) {
-                Button(action: {  }) {
-                    Image(systemName: "safari")
-                        .accessibilityLabel("user Profile")
-                }
+            Button(action: { isNavigateActive = true }) {
+                Image(systemName: "safari")
+                    .accessibilityLabel("user Profile")
             }
         }
     }

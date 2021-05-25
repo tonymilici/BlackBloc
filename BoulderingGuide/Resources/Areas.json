@@ -892,7 +892,7 @@
                                 "location":
                                 {
                                     "latitude": 34.26913,
-                                    "longitude": -118.6037
+                                    "longitude": -118.60368
                                 }
                             },
                             {
@@ -903,44 +903,74 @@
                                 "location":
                                 {
                                     "latitude": 34.26915,
-                                    "longitude": -118.6037
+                                    "longitude": -118.60368
                                 }
                             },
                             {
                                 "name":"Slime",
                                 "description":"Climb polished starting holds to gain a shallow pocket for the right hand. Lieback the fin with the left hand and press out the sloping mantle.",
                                 "rating":"V1",
-                                "stars":3
+                                "stars":3,
+                                "location":
+                                {
+                                    "latitude": 34.26916,
+                                    "longitude": -118.60368
+                                }
                             },
                             {
                                 "name":"Hoof and Mouth",
                                 "description":"Climb or jump to large hueco, then move up and left to a jug at the lip.",
                                 "rating":"V1",
-                                "stars":3
+                                "stars":3,
+                                "location":
+                                {
+                                    "latitude": 34.26917,
+                                    "longitude": -118.60368
+                                }
                             },
                             {
                                 "name":"North Face",
                                 "description":"Climb straight up the north face of the boulder.",
                                 "rating":"V0-",
-                                "stars":3
+                                "stars":3,
+                                "location":
+                                {
+                                    "latitude": 34.26918,
+                                    "longitude": -118.60369
+                                }
                             },
                             {
                                 "name":"North Flake",
                                 "description":"Start the sam as North Face but traverse right at the ledge and climb the flake to the top.",
                                 "rating":"VB",
-                                "stars":2
+                                "stars":3,
+                                "location":
+                                {
+                                    "latitude": 34.26918,
+                                    "longitude": -118.60369
+                                }
                             },
                             {
                                 "name":"Crowd Pleaser (aka Yabo Roof)",
                                 "description":"Climb up the arching arete through flakes to a scary lip turn.",
                                 "rating":"V2+",
-                                "stars":4
+                                "stars":4,
+                                "location":
+                                {
+                                    "latitude": 34.2692,
+                                    "longitude": -118.6037
+                                }
                             },
                             {
                                 "name":"Crystal Ball Mantle",
                                 "description":"Jump to the 'crystal ball' jug and climb striaght up through the overhang.",
                                 "rating":"V4-5",
-                                "stars":4
+                                "stars":4,
+                                "location":
+                                {
+                                    "latitude": 34.26921,
+                                    "longitude": -118.60372
+                                }
                             }
                         ],
                         "location":

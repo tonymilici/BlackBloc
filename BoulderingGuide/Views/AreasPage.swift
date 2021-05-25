@@ -19,24 +19,26 @@
 
 import SwiftUI
 
-struct AreasView: View {
+struct AreasPage: View {
     let areas = Areas()
     
     var body: some View {
-        List {
-            ForEach(areas.areas) { area in
-                NavigationLink(destination: TabPage(area: area)) {
-                    Text(area.name)
+        NavigationView {
+            List {
+                ForEach(areas.areas) { area in
+                    NavigationLink(destination: TabPage(area: area)) {
+                        Text(area.name)
+                    }
                 }
             }
+            .navigationTitle("Areas")
+            .navigationBarTitleDisplayMode(.inline)
         }
-        .navigationTitle("Areas")
-        .navigationBarTitleDisplayMode(.inline)
     }
 }
 
 struct AreasView_Previews: PreviewProvider {
     static var previews: some View {
-        AreasView()
+        AreasPage()
     }
 }

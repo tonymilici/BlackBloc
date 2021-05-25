@@ -1,5 +1,5 @@
 //
-//  BoulderPage.swift
+//  ClusterPage.swift
 //  BoulderingGuides
 //
 //  Created by Tony Milici on 5/8/21.
@@ -25,53 +25,54 @@
 
 import SwiftUI
 
-struct BoulderPage: View {
-    let boulder: Boulder
+struct ClusterPage: View {
+    let cluster: Cluster
+    
+    @State var isNavigateActive = false
     
     var body: some View {
-        VStack(alignment: .center, spacing: 16) {
-            Text(boulder.name)
-                .font(.headline)
-            
-            Text(boulder.description!)
-                .font(.system(size: 14))
-                .padding(EdgeInsets(top: 0, leading: 8, bottom: 0, trailing: 8))
-            
+        ZStack {
             List {
-                Section(header: Text("Routes")){
-                    ForEach(boulder.routes) {route in
-                        NavigationLink(destination: RoutePage(route: route)) {
+                Section(header: Text(cluster.name)) {
+                    ForEach(cluster.boulders) {boulder in
+                        NavigationLink(destination: BoulderPage(boulder: boulder)) {
                             ListItemView(
                                 item: ListItem(
-                                    label: route.name,
-                                    detail: "\(route.rating)  \(route.getStars)"))
+                                    label: boulder.name,
+                                    detail: getDetailText(boulder: boulder)))
                         }
                     }
                 }
             }
             
-            if let image = boulder.image {
-                Image(uiImage: UIImage(named: image)!)
-                    .resizable()
-                    .aspectRatio(contentMode: .fit)
+            NavigationLink(destination: NavigationPage(location: cluster.location, title: cluster.name), isActive: $isNavigateActive) {
+                EmptyView()
             }
         }
-        .padding(EdgeInsets(top: 8, leading: 0, bottom: 8, trailing: 0))
-        .navigationTitle("Boulder")
+        .navigationTitle("Cluster")
         .navigationBarTitleDisplayMode(.inline)
         .toolbar {
-            NavigationLink(destination: NavigationPage(location: boulder.location!, title: boulder.name)) {
-                Button(action: {  }) {
-                    Image(systemName: "safari")
-                        .accessibilityLabel("user Profile")
-                }
+            Button(action: { isNavigateActive = true }) {
+                Image(systemName: "safari")
+                    .accessibilityLabel("user Profile")
             }
         }
     }
+    
+    private func getDetailText(boulder: Boulder) -> String {
+        var detailText = "0 routes"
+        if boulder.routes.count == 1 {
+            detailText = "1 route"
+        }
+        else if boulder.routes.count > 1 {
+            detailText = "\(boulder.routes.count) routes"
+        }
+        return detailText;
+    }
 }
 
-struct BoulderPage_Previews: PreviewProvider {
+struct ClusterPage_Previews: PreviewProvider {
     static var previews: some View {
-        BoulderPage(boulder: Areas().areas[0].clusters[0].boulders[0])
+        ClusterPage(cluster: Areas().areas[0].clusters[0])
     }
 }

@@ -18,7 +18,7 @@
 		BB92DEBA265C7C8E002897C3 /* AreaTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB92DEB7265C7C8E002897C3 /* AreaTest.swift */; };
 		BB92DEC6265C7E9B002897C3 /* Areas.json in Resources */ = {isa = PBXBuildFile; fileRef = BB92DEC5265C7E9B002897C3 /* Areas.json */; };
 		BB92DECD265C7F2B002897C3 /* Areas.json in Resources */ = {isa = PBXBuildFile; fileRef = BB92DEC5265C7E9B002897C3 /* Areas.json */; };
-		BB92DEE2265C805A002897C3 /* AreasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB92DED2265C7FCF002897C3 /* AreasView.swift */; };
+		BB92DEE2265C805A002897C3 /* AreasPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB92DED2265C7FCF002897C3 /* AreasPage.swift */; };
 		BB92DEE6265C805D002897C3 /* TabPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB92DEDA265C802D002897C3 /* TabPage.swift */; };
 		BB92DEF0265C8072002897C3 /* Area.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB92DEA8265C7BEA002897C3 /* Area.swift */; };
 		BB92DEF4265C8075002897C3 /* Areas.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB92DEA9265C7BEA002897C3 /* Areas.swift */; };
@@ -153,7 +153,7 @@
 		BB92DEB6265C7C8E002897C3 /* ClusterTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClusterTest.swift; sourceTree = "<group>"; };
 		BB92DEB7265C7C8E002897C3 /* AreaTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AreaTest.swift; sourceTree = "<group>"; };
 		BB92DEC5265C7E9B002897C3 /* Areas.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Areas.json; sourceTree = "<group>"; };
-		BB92DED2265C7FCF002897C3 /* AreasView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AreasView.swift; sourceTree = "<group>"; };
+		BB92DED2265C7FCF002897C3 /* AreasPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AreasPage.swift; sourceTree = "<group>"; };
 		BB92DEDA265C802D002897C3 /* TabPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabPage.swift; sourceTree = "<group>"; };
 		BB92DF13265C80B1002897C3 /* AreaMapPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AreaMapPage.swift; sourceTree = "<group>"; };
 		BB92DF18265C80D1002897C3 /* AreaMapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AreaMapView.swift; sourceTree = "<group>"; };
@@ -361,7 +361,7 @@
 				BB92DF4F265C81E4002897C3 /* RoutesPage.swift */,
 				BB92DF13265C80B1002897C3 /* AreaMapPage.swift */,
 				BB92DF18265C80D1002897C3 /* AreaMapView.swift */,
-				BB92DED2265C7FCF002897C3 /* AreasView.swift */,
+				BB92DED2265C7FCF002897C3 /* AreasPage.swift */,
 				BB92DF22265C8105002897C3 /* BoulderPage.swift */,
 				BB92DF1D265C80EC002897C3 /* ClusterPage.swift */,
 				BB92DF3F265C8193002897C3 /* ListItemView.swift */,
@@ -679,7 +679,7 @@
 				BB92DE68265C7ABA002897C3 /* ContentView.swift in Sources */,
 				BB92DFE1265D2735002897C3 /* TabBarController.swift in Sources */,
 				BB92DF48265C81BE002897C3 /* ListItem.swift in Sources */,
-				BB92DEE2265C805A002897C3 /* AreasView.swift in Sources */,
+				BB92DEE2265C805A002897C3 /* AreasPage.swift in Sources */,
 				BB92DF33265C8154002897C3 /* NavigationMapView.swift in Sources */,
 				BB92DE66265C7ABA002897C3 /* BoulderingGuideApp.swift in Sources */,
 				BB92DF23265C8105002897C3 /* BoulderPage.swift in Sources */,

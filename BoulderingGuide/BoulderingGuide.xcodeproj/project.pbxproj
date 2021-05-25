@@ -1,0 +1,1011 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB92DE66265C7ABA002897C3 /* BoulderingGuideApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB92DE65265C7ABA002897C3 /* BoulderingGuideApp.swift */; };
+		BB92DE68265C7ABA002897C3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB92DE67265C7ABA002897C3 /* ContentView.swift */; };
+		BB92DE6A265C7ABD002897C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB92DE69265C7ABD002897C3 /* Assets.xcassets */; };
+		BB92DE6D265C7ABD002897C3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB92DE6C265C7ABD002897C3 /* Preview Assets.xcassets */; };
+		BB92DE83265C7ABD002897C3 /* BoulderingGuideUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB92DE82265C7ABD002897C3 /* BoulderingGuideUITests.swift */; };
+		BB92DE94265C7B4D002897C3 /* RouteTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB92DE93265C7B4D002897C3 /* RouteTest.swift */; };
+		BB92DEB8265C7C8E002897C3 /* AreasTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB92DEB5265C7C8E002897C3 /* AreasTest.swift */; };
+		BB92DEB9265C7C8E002897C3 /* ClusterTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB92DEB6265C7C8E002897C3 /* ClusterTest.swift */; };
+		BB92DEBA265C7C8E002897C3 /* AreaTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB92DEB7265C7C8E002897C3 /* AreaTest.swift */; };
+		BB92DEC6265C7E9B002897C3 /* Areas.json in Resources */ = {isa = PBXBuildFile; fileRef = BB92DEC5265C7E9B002897C3 /* Areas.json */; };
+		BB92DECD265C7F2B002897C3 /* Areas.json in Resources */ = {isa = PBXBuildFile; fileRef = BB92DEC5265C7E9B002897C3 /* Areas.json */; };
+		BB92DEE2265C805A002897C3 /* AreasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB92DED2265C7FCF002897C3 /* AreasView.swift */; };
+		BB92DEE6265C805D002897C3 /* TabPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB92DEDA265C802D002897C3 /* TabPage.swift */; };
+		BB92DEF0265C8072002897C3 /* Area.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB92DEA8265C7BEA002897C3 /* Area.swift */; };
+		BB92DEF4265C8075002897C3 /* Areas.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB92DEA9265C7BEA002897C3 /* Areas.swift */; };
+		BB92DEF8265C8077002897C3 /* Boulder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB92DEA7265C7BEA002897C3 /* Boulder.swift */; };
+		BB92DEFC265C807A002897C3 /* Cluster.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB92DEAA265C7BEA002897C3 /* Cluster.swift */; };
+		BB92DF00265C807C002897C3 /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB92DE9F265C7BB1002897C3 /* Route.swift */; };
+		BB92DF14265C80B1002897C3 /* AreaMapPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB92DF13265C80B1002897C3 /* AreaMapPage.swift */; };
+		BB92DF19265C80D1002897C3 /* AreaMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB92DF18265C80D1002897C3 /* AreaMapView.swift */; };
+		BB92DF1E265C80EC002897C3 /* ClusterPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB92DF1D265C80EC002897C3 /* ClusterPage.swift */; };
+		BB92DF23265C8105002897C3 /* BoulderPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB92DF22265C8105002897C3 /* BoulderPage.swift */; };
+		BB92DF2B265C8134002897C3 /* NavigationPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB92DF2A265C8134002897C3 /* NavigationPage.swift */; };
+		BB92DF33265C8154002897C3 /* NavigationMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB92DF32265C8153002897C3 /* NavigationMapView.swift */; };
+		BB92DF3B265C8172002897C3 /* RoutePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB92DF3A265C8172002897C3 /* RoutePage.swift */; };
+		BB92DF40265C8193002897C3 /* ListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB92DF3F265C8193002897C3 /* ListItemView.swift */; };
+		BB92DF48265C81BE002897C3 /* ListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB92DF47265C81BE002897C3 /* ListItem.swift */; };
+		BB92DF50265C81E4002897C3 /* RoutesPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB92DF4F265C81E4002897C3 /* RoutesPage.swift */; };
+		BB92DFA1265D2735002897C3 /* Credit Card Lover.png in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF55265D2732002897C3 /* Credit Card Lover.png */; };
+		BB92DFA2265D2735002897C3 /* the_prow.png in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF56265D2732002897C3 /* the_prow.png */; };
+		BB92DFA3265D2735002897C3 /* Western Round Up.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF57265D2732002897C3 /* Western Round Up.jpg */; };
+		BB92DFA4265D2735002897C3 /* better_bold_than_old.png in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF58265D2732002897C3 /* better_bold_than_old.png */; };
+		BB92DFA5265D2735002897C3 /* opposition_movement.png in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF59265D2732002897C3 /* opposition_movement.png */; };
+		BB92DFA6265D2735002897C3 /* Eriksson Problem.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF5A265D2733002897C3 /* Eriksson Problem.jpg */; };
+		BB92DFA7265D2735002897C3 /* arbor_days.png in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF5B265D2733002897C3 /* arbor_days.png */; };
+		BB92DFA8265D2735002897C3 /* Mommys Boy Left.png in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF5C265D2733002897C3 /* Mommys Boy Left.png */; };
+		BB92DFA9265D2735002897C3 /* The Great Curve.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF5D265D2733002897C3 /* The Great Curve.jpg */; };
+		BB92DFAA265D2735002897C3 /* Face Problem.png in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF5E265D2733002897C3 /* Face Problem.png */; };
+		BB92DFAB265D2735002897C3 /* Teflon Arete.png in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF5F265D2733002897C3 /* Teflon Arete.png */; };
+		BB92DFAC265D2735002897C3 /* west_face.png in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF60265D2733002897C3 /* west_face.png */; };
+		BB92DFAD265D2735002897C3 /* Mr Ed.png in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF61265D2733002897C3 /* Mr Ed.png */; };
+		BB92DFAE265D2735002897C3 /* Hero Roof.png in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF62265D2733002897C3 /* Hero Roof.png */; };
+		BB92DFAF265D2735002897C3 /* Horse Farts.png in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF63265D2733002897C3 /* Horse Farts.png */; };
+		BB92DFB0265D2735002897C3 /* The Falcon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF64265D2733002897C3 /* The Falcon.jpg */; };
+		BB92DFB1265D2735002897C3 /* Unknown2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF65265D2733002897C3 /* Unknown2.jpg */; };
+		BB92DFB2265D2735002897C3 /* y_crack.png in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF66265D2733002897C3 /* y_crack.png */; };
+		BB92DFB3265D2735002897C3 /* Chouinards Slab.png in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF67265D2733002897C3 /* Chouinards Slab.png */; };
+		BB92DFB4265D2735002897C3 /* Borealis.png in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF68265D2733002897C3 /* Borealis.png */; };
+		BB92DFB5265D2735002897C3 /* Happy Hooker.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF69265D2733002897C3 /* Happy Hooker.jpg */; };
+		BB92DFB6265D2735002897C3 /* and_the_holy_spirit_amen.png in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF6A265D2733002897C3 /* and_the_holy_spirit_amen.png */; };
+		BB92DFB7265D2735002897C3 /* Thin Crack.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF6B265D2733002897C3 /* Thin Crack.jpg */; };
+		BB92DFB8265D2735002897C3 /* Spiral Direct.png in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF6C265D2733002897C3 /* Spiral Direct.png */; };
+		BB92DFB9265D2735002897C3 /* Warm Up.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF6D265D2733002897C3 /* Warm Up.jpg */; };
+		BB92DFBA265D2735002897C3 /* pump_arete.png in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF6E265D2733002897C3 /* pump_arete.png */; };
+		BB92DFBB265D2735002897C3 /* rhythym_and_the_heat.png in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF6F265D2733002897C3 /* rhythym_and_the_heat.png */; };
+		BB92DFBC265D2735002897C3 /* slant_rock.png in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF70265D2733002897C3 /* slant_rock.png */; };
+		BB92DFBD265D2735002897C3 /* west_arete.png in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF71265D2733002897C3 /* west_arete.png */; };
+		BB92DFBE265D2735002897C3 /* Mommys Boy Center.png in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF72265D2733002897C3 /* Mommys Boy Center.png */; };
+		BB92DFBF265D2735002897C3 /* Barndoor Arete.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF73265D2733002897C3 /* Barndoor Arete.jpg */; };
+		BB92DFC0265D2735002897C3 /* Yabo Dyno.png in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF74265D2733002897C3 /* Yabo Dyno.png */; };
+		BB92DFC1265D2735002897C3 /* golf_boulder.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF75265D2733002897C3 /* golf_boulder.jpg */; };
+		BB92DFC2265D2735002897C3 /* hueco_boulder.png in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF76265D2734002897C3 /* hueco_boulder.png */; };
+		BB92DFC3265D2735002897C3 /* Sword of Damocles.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF77265D2734002897C3 /* Sword of Damocles.jpg */; };
+		BB92DFC4265D2735002897C3 /* boulder_1.png in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF78265D2734002897C3 /* boulder_1.png */; };
+		BB92DFC5265D2735002897C3 /* Celestial Trail.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF79265D2734002897C3 /* Celestial Trail.jpg */; };
+		BB92DFC6265D2735002897C3 /* slant_rock_face.png in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF7A265D2734002897C3 /* slant_rock_face.png */; };
+		BB92DFC7265D2735002897C3 /* pancake.png in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF7B265D2734002897C3 /* pancake.png */; };
+		BB92DFC8265D2735002897C3 /* pump_rock.png in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF7C265D2734002897C3 /* pump_rock.png */; };
+		BB92DFC9265D2735002897C3 /* Comfort of Home.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF7D265D2734002897C3 /* Comfort of Home.jpg */; };
+		BB92DFCA265D2735002897C3 /* holy_water_boulder.png in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF7E265D2734002897C3 /* holy_water_boulder.png */; };
+		BB92DFCB265D2735002897C3 /* iron_man_traverse.png in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF7F265D2734002897C3 /* iron_man_traverse.png */; };
+		BB92DFCC265D2735002897C3 /* three_pigs.png in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF80265D2734002897C3 /* three_pigs.png */; };
+		BB92DFCD265D2735002897C3 /* Mommys Boy Right.png in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF81265D2734002897C3 /* Mommys Boy Right.png */; };
+		BB92DFCE265D2735002897C3 /* Boulder Behind Ummagumma.png in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF82265D2734002897C3 /* Boulder Behind Ummagumma.png */; };
+		BB92DFCF265D2735002897C3 /* swiss_cheese.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF83265D2734002897C3 /* swiss_cheese.jpg */; };
+		BB92DFD0265D2735002897C3 /* Teflon President.png in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF84265D2734002897C3 /* Teflon President.png */; };
+		BB92DFD1265D2735002897C3 /* adams_rib.png in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF85265D2734002897C3 /* adams_rib.png */; };
+		BB92DFD2265D2735002897C3 /* Ummagumma.png in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF86265D2734002897C3 /* Ummagumma.png */; };
+		BB92DFD3265D2735002897C3 /* unnamed_1.png in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF87265D2734002897C3 /* unnamed_1.png */; };
+		BB92DFD4265D2735002897C3 /* Unnamed.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF88265D2734002897C3 /* Unnamed.jpg */; };
+		BB92DFD5265D2735002897C3 /* linear_fracture_traverse.png in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF89265D2734002897C3 /* linear_fracture_traverse.png */; };
+		BB92DFD6265D2735002897C3 /* double_helix.png in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF8A265D2734002897C3 /* double_helix.png */; };
+		BB92DFD7265D2735002897C3 /* Pile Ups.png in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF8B265D2734002897C3 /* Pile Ups.png */; };
+		BB92DFD8265D2735002897C3 /* the_refigerator.png in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF8C265D2734002897C3 /* the_refigerator.png */; };
+		BB92DFD9265D2735002897C3 /* crankin_queenie.png in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF8D265D2734002897C3 /* crankin_queenie.png */; };
+		BB92DFDA265D2735002897C3 /* Not Teflon President.png in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF8E265D2734002897C3 /* Not Teflon President.png */; };
+		BB92DFDB265D2735002897C3 /* Zacks Roof.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF8F265D2734002897C3 /* Zacks Roof.jpg */; };
+		BB92DFDC265D2735002897C3 /* aftershock.png in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF90265D2734002897C3 /* aftershock.png */; };
+		BB92DFDD265D2735002897C3 /* vivarin.png in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF91265D2734002897C3 /* vivarin.png */; };
+		BB92DFDE265D2735002897C3 /* tiny_crack.png in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF92265D2735002897C3 /* tiny_crack.png */; };
+		BB92DFDF265D2735002897C3 /* Burning Rubber Necklace.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF93265D2735002897C3 /* Burning Rubber Necklace.jpg */; };
+		BB92DFE0265D2735002897C3 /* Slap.png in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF94265D2735002897C3 /* Slap.png */; };
+		BB92DFE1265D2735002897C3 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB92DF95265D2735002897C3 /* TabBarController.swift */; };
+		BB92DFE2265D2735002897C3 /* unnamed_2.png in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF96265D2735002897C3 /* unnamed_2.png */; };
+		BB92DFE3265D2735002897C3 /* boot_flake.png in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF97265D2735002897C3 /* boot_flake.png */; };
+		BB92DFE4265D2735002897C3 /* Mommys Boys.png in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF98265D2735002897C3 /* Mommys Boys.png */; };
+		BB92DFE5265D2735002897C3 /* say_goodnight.png in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF99265D2735002897C3 /* say_goodnight.png */; };
+		BB92DFE6265D2735002897C3 /* Pocket Traverse.png in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF9A265D2735002897C3 /* Pocket Traverse.png */; };
+		BB92DFE7265D2735002897C3 /* slant_flake.png in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF9B265D2735002897C3 /* slant_flake.png */; };
+		BB92DFE8265D2735002897C3 /* Victor Boulder.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF9C265D2735002897C3 /* Victor Boulder.jpg */; };
+		BB92DFE9265D2735002897C3 /* easy_face.png in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF9D265D2735002897C3 /* easy_face.png */; };
+		BB92DFEA265D2735002897C3 /* Teflon Boulder.png in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF9E265D2735002897C3 /* Teflon Boulder.png */; };
+		BB92DFEB265D2735002897C3 /* Spiral Traverse.png in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF9F265D2735002897C3 /* Spiral Traverse.png */; };
+		BB92DFEC265D2735002897C3 /* defroster.png in Resources */ = {isa = PBXBuildFile; fileRef = BB92DFA0265D2735002897C3 /* defroster.png */; };
+		BB92DFF1265D2841002897C3 /* the_jam_crack.png in Resources */ = {isa = PBXBuildFile; fileRef = BB92DFF0265D2841002897C3 /* the_jam_crack.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BB92DE74265C7ABD002897C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB92DE5A265C7ABA002897C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB92DE61265C7ABA002897C3;
+			remoteInfo = BoulderingGuide;
+		};
+		BB92DE7F265C7ABD002897C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB92DE5A265C7ABA002897C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB92DE61265C7ABA002897C3;
+			remoteInfo = BoulderingGuide;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BB92DE62265C7ABA002897C3 /* BoulderingGuide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BoulderingGuide.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB92DE65265C7ABA002897C3 /* BoulderingGuideApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoulderingGuideApp.swift; sourceTree = "<group>"; };
+		BB92DE67265C7ABA002897C3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BB92DE69265C7ABD002897C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BB92DE6C265C7ABD002897C3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BB92DE6E265C7ABD002897C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB92DE73265C7ABD002897C3 /* BoulderingGuideTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BoulderingGuideTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB92DE79265C7ABD002897C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB92DE7E265C7ABD002897C3 /* BoulderingGuideUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BoulderingGuideUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB92DE82265C7ABD002897C3 /* BoulderingGuideUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoulderingGuideUITests.swift; sourceTree = "<group>"; };
+		BB92DE84265C7ABD002897C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB92DE93265C7B4D002897C3 /* RouteTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RouteTest.swift; sourceTree = "<group>"; };
+		BB92DE9F265C7BB1002897C3 /* Route.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Route.swift; sourceTree = "<group>"; };
+		BB92DEA7265C7BEA002897C3 /* Boulder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Boulder.swift; sourceTree = "<group>"; };
+		BB92DEA8265C7BEA002897C3 /* Area.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Area.swift; sourceTree = "<group>"; };
+		BB92DEA9265C7BEA002897C3 /* Areas.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Areas.swift; sourceTree = "<group>"; };
+		BB92DEAA265C7BEA002897C3 /* Cluster.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cluster.swift; sourceTree = "<group>"; };
+		BB92DEB5265C7C8E002897C3 /* AreasTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AreasTest.swift; sourceTree = "<group>"; };
+		BB92DEB6265C7C8E002897C3 /* ClusterTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClusterTest.swift; sourceTree = "<group>"; };
+		BB92DEB7265C7C8E002897C3 /* AreaTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AreaTest.swift; sourceTree = "<group>"; };
+		BB92DEC5265C7E9B002897C3 /* Areas.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Areas.json; sourceTree = "<group>"; };
+		BB92DED2265C7FCF002897C3 /* AreasView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AreasView.swift; sourceTree = "<group>"; };
+		BB92DEDA265C802D002897C3 /* TabPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabPage.swift; sourceTree = "<group>"; };
+		BB92DF13265C80B1002897C3 /* AreaMapPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AreaMapPage.swift; sourceTree = "<group>"; };
+		BB92DF18265C80D1002897C3 /* AreaMapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AreaMapView.swift; sourceTree = "<group>"; };
+		BB92DF1D265C80EC002897C3 /* ClusterPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClusterPage.swift; sourceTree = "<group>"; };
+		BB92DF22265C8105002897C3 /* BoulderPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoulderPage.swift; sourceTree = "<group>"; };
+		BB92DF2A265C8134002897C3 /* NavigationPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationPage.swift; sourceTree = "<group>"; };
+		BB92DF32265C8153002897C3 /* NavigationMapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationMapView.swift; sourceTree = "<group>"; };
+		BB92DF3A265C8172002897C3 /* RoutePage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoutePage.swift; sourceTree = "<group>"; };
+		BB92DF3F265C8193002897C3 /* ListItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListItemView.swift; sourceTree = "<group>"; };
+		BB92DF47265C81BE002897C3 /* ListItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListItem.swift; sourceTree = "<group>"; };
+		BB92DF4F265C81E4002897C3 /* RoutesPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoutesPage.swift; sourceTree = "<group>"; };
+		BB92DF55265D2732002897C3 /* Credit Card Lover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Credit Card Lover.png"; sourceTree = "<group>"; };
+		BB92DF56265D2732002897C3 /* the_prow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = the_prow.png; sourceTree = "<group>"; };
+		BB92DF57265D2732002897C3 /* Western Round Up.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Western Round Up.jpg"; sourceTree = "<group>"; };
+		BB92DF58265D2732002897C3 /* better_bold_than_old.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = better_bold_than_old.png; sourceTree = "<group>"; };
+		BB92DF59265D2732002897C3 /* opposition_movement.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = opposition_movement.png; sourceTree = "<group>"; };
+		BB92DF5A265D2733002897C3 /* Eriksson Problem.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Eriksson Problem.jpg"; sourceTree = "<group>"; };
+		BB92DF5B265D2733002897C3 /* arbor_days.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arbor_days.png; sourceTree = "<group>"; };
+		BB92DF5C265D2733002897C3 /* Mommys Boy Left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Mommys Boy Left.png"; sourceTree = "<group>"; };
+		BB92DF5D265D2733002897C3 /* The Great Curve.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "The Great Curve.jpg"; sourceTree = "<group>"; };
+		BB92DF5E265D2733002897C3 /* Face Problem.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Face Problem.png"; sourceTree = "<group>"; };
+		BB92DF5F265D2733002897C3 /* Teflon Arete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Teflon Arete.png"; sourceTree = "<group>"; };
+		BB92DF60265D2733002897C3 /* west_face.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = west_face.png; sourceTree = "<group>"; };
+		BB92DF61265D2733002897C3 /* Mr Ed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Mr Ed.png"; sourceTree = "<group>"; };
+		BB92DF62265D2733002897C3 /* Hero Roof.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Hero Roof.png"; sourceTree = "<group>"; };
+		BB92DF63265D2733002897C3 /* Horse Farts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Horse Farts.png"; sourceTree = "<group>"; };
+		BB92DF64265D2733002897C3 /* The Falcon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "The Falcon.jpg"; sourceTree = "<group>"; };
+		BB92DF65265D2733002897C3 /* Unknown2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Unknown2.jpg; sourceTree = "<group>"; };
+		BB92DF66265D2733002897C3 /* y_crack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = y_crack.png; sourceTree = "<group>"; };
+		BB92DF67265D2733002897C3 /* Chouinards Slab.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Chouinards Slab.png"; sourceTree = "<group>"; };
+		BB92DF68265D2733002897C3 /* Borealis.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Borealis.png; sourceTree = "<group>"; };
+		BB92DF69265D2733002897C3 /* Happy Hooker.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Happy Hooker.jpg"; sourceTree = "<group>"; };
+		BB92DF6A265D2733002897C3 /* and_the_holy_spirit_amen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = and_the_holy_spirit_amen.png; sourceTree = "<group>"; };
+		BB92DF6B265D2733002897C3 /* Thin Crack.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Thin Crack.jpg"; sourceTree = "<group>"; };
+		BB92DF6C265D2733002897C3 /* Spiral Direct.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Spiral Direct.png"; sourceTree = "<group>"; };
+		BB92DF6D265D2733002897C3 /* Warm Up.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Warm Up.jpg"; sourceTree = "<group>"; };
+		BB92DF6E265D2733002897C3 /* pump_arete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pump_arete.png; sourceTree = "<group>"; };
+		BB92DF6F265D2733002897C3 /* rhythym_and_the_heat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rhythym_and_the_heat.png; sourceTree = "<group>"; };
+		BB92DF70265D2733002897C3 /* slant_rock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slant_rock.png; sourceTree = "<group>"; };
+		BB92DF71265D2733002897C3 /* west_arete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = west_arete.png; sourceTree = "<group>"; };
+		BB92DF72265D2733002897C3 /* Mommys Boy Center.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Mommys Boy Center.png"; sourceTree = "<group>"; };
+		BB92DF73265D2733002897C3 /* Barndoor Arete.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Barndoor Arete.jpg"; sourceTree = "<group>"; };
+		BB92DF74265D2733002897C3 /* Yabo Dyno.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Yabo Dyno.png"; sourceTree = "<group>"; };
+		BB92DF75265D2733002897C3 /* golf_boulder.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = golf_boulder.jpg; sourceTree = "<group>"; };
+		BB92DF76265D2734002897C3 /* hueco_boulder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hueco_boulder.png; sourceTree = "<group>"; };
+		BB92DF77265D2734002897C3 /* Sword of Damocles.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Sword of Damocles.jpg"; sourceTree = "<group>"; };
+		BB92DF78265D2734002897C3 /* boulder_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = boulder_1.png; sourceTree = "<group>"; };
+		BB92DF79265D2734002897C3 /* Celestial Trail.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Celestial Trail.jpg"; sourceTree = "<group>"; };
+		BB92DF7A265D2734002897C3 /* slant_rock_face.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slant_rock_face.png; sourceTree = "<group>"; };
+		BB92DF7B265D2734002897C3 /* pancake.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pancake.png; sourceTree = "<group>"; };
+		BB92DF7C265D2734002897C3 /* pump_rock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pump_rock.png; sourceTree = "<group>"; };
+		BB92DF7D265D2734002897C3 /* Comfort of Home.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Comfort of Home.jpg"; sourceTree = "<group>"; };
+		BB92DF7E265D2734002897C3 /* holy_water_boulder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = holy_water_boulder.png; sourceTree = "<group>"; };
+		BB92DF7F265D2734002897C3 /* iron_man_traverse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iron_man_traverse.png; sourceTree = "<group>"; };
+		BB92DF80265D2734002897C3 /* three_pigs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = three_pigs.png; sourceTree = "<group>"; };
+		BB92DF81265D2734002897C3 /* Mommys Boy Right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Mommys Boy Right.png"; sourceTree = "<group>"; };
+		BB92DF82265D2734002897C3 /* Boulder Behind Ummagumma.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Boulder Behind Ummagumma.png"; sourceTree = "<group>"; };
+		BB92DF83265D2734002897C3 /* swiss_cheese.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = swiss_cheese.jpg; sourceTree = "<group>"; };
+		BB92DF84265D2734002897C3 /* Teflon President.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Teflon President.png"; sourceTree = "<group>"; };
+		BB92DF85265D2734002897C3 /* adams_rib.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = adams_rib.png; sourceTree = "<group>"; };
+		BB92DF86265D2734002897C3 /* Ummagumma.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ummagumma.png; sourceTree = "<group>"; };
+		BB92DF87265D2734002897C3 /* unnamed_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unnamed_1.png; sourceTree = "<group>"; };
+		BB92DF88265D2734002897C3 /* Unnamed.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Unnamed.jpg; sourceTree = "<group>"; };
+		BB92DF89265D2734002897C3 /* linear_fracture_traverse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = linear_fracture_traverse.png; sourceTree = "<group>"; };
+		BB92DF8A265D2734002897C3 /* double_helix.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = double_helix.png; sourceTree = "<group>"; };
+		BB92DF8B265D2734002897C3 /* Pile Ups.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pile Ups.png"; sourceTree = "<group>"; };
+		BB92DF8C265D2734002897C3 /* the_refigerator.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = the_refigerator.png; sourceTree = "<group>"; };
+		BB92DF8D265D2734002897C3 /* crankin_queenie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = crankin_queenie.png; sourceTree = "<group>"; };
+		BB92DF8E265D2734002897C3 /* Not Teflon President.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Not Teflon President.png"; sourceTree = "<group>"; };
+		BB92DF8F265D2734002897C3 /* Zacks Roof.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Zacks Roof.jpg"; sourceTree = "<group>"; };
+		BB92DF90265D2734002897C3 /* aftershock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aftershock.png; sourceTree = "<group>"; };
+		BB92DF91265D2734002897C3 /* vivarin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vivarin.png; sourceTree = "<group>"; };
+		BB92DF92265D2735002897C3 /* tiny_crack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tiny_crack.png; sourceTree = "<group>"; };
+		BB92DF93265D2735002897C3 /* Burning Rubber Necklace.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Burning Rubber Necklace.jpg"; sourceTree = "<group>"; };
+		BB92DF94265D2735002897C3 /* Slap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Slap.png; sourceTree = "<group>"; };
+		BB92DF95265D2735002897C3 /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		BB92DF96265D2735002897C3 /* unnamed_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unnamed_2.png; sourceTree = "<group>"; };
+		BB92DF97265D2735002897C3 /* boot_flake.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = boot_flake.png; sourceTree = "<group>"; };
+		BB92DF98265D2735002897C3 /* Mommys Boys.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Mommys Boys.png"; sourceTree = "<group>"; };
+		BB92DF99265D2735002897C3 /* say_goodnight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = say_goodnight.png; sourceTree = "<group>"; };
+		BB92DF9A265D2735002897C3 /* Pocket Traverse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pocket Traverse.png"; sourceTree = "<group>"; };
+		BB92DF9B265D2735002897C3 /* slant_flake.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slant_flake.png; sourceTree = "<group>"; };
+		BB92DF9C265D2735002897C3 /* Victor Boulder.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Victor Boulder.jpg"; sourceTree = "<group>"; };
+		BB92DF9D265D2735002897C3 /* easy_face.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = easy_face.png; sourceTree = "<group>"; };
+		BB92DF9E265D2735002897C3 /* Teflon Boulder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Teflon Boulder.png"; sourceTree = "<group>"; };
+		BB92DF9F265D2735002897C3 /* Spiral Traverse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Spiral Traverse.png"; sourceTree = "<group>"; };
+		BB92DFA0265D2735002897C3 /* defroster.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = defroster.png; sourceTree = "<group>"; };
+		BB92DFF0265D2841002897C3 /* the_jam_crack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = the_jam_crack.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB92DE5F265C7ABA002897C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB92DE70265C7ABD002897C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB92DE7B265C7ABD002897C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB92DE59265C7ABA002897C3 = {
+			isa = PBXGroup;
+			children = (
+				BB92DF54265D26FC002897C3 /* Photos */,
+				BB92DED1265C7F77002897C3 /* Views */,
+				BB92DEC1265C7DE3002897C3 /* Resources */,
+				BB92DE9E265C7B86002897C3 /* Models */,
+				BB92DE64265C7ABA002897C3 /* BoulderingGuide */,
+				BB92DE76265C7ABD002897C3 /* BoulderingGuideTests */,
+				BB92DE81265C7ABD002897C3 /* BoulderingGuideUITests */,
+				BB92DE63265C7ABA002897C3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BB92DE63265C7ABA002897C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB92DE62265C7ABA002897C3 /* BoulderingGuide.app */,
+				BB92DE73265C7ABD002897C3 /* BoulderingGuideTests.xctest */,
+				BB92DE7E265C7ABD002897C3 /* BoulderingGuideUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB92DE64265C7ABA002897C3 /* BoulderingGuide */ = {
+			isa = PBXGroup;
+			children = (
+				BB92DE65265C7ABA002897C3 /* BoulderingGuideApp.swift */,
+				BB92DE67265C7ABA002897C3 /* ContentView.swift */,
+				BB92DE69265C7ABD002897C3 /* Assets.xcassets */,
+				BB92DE6E265C7ABD002897C3 /* Info.plist */,
+				BB92DE6B265C7ABD002897C3 /* Preview Content */,
+			);
+			path = BoulderingGuide;
+			sourceTree = "<group>";
+		};
+		BB92DE6B265C7ABD002897C3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BB92DE6C265C7ABD002897C3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BB92DE76265C7ABD002897C3 /* BoulderingGuideTests */ = {
+			isa = PBXGroup;
+			children = (
+				BB92DEB5265C7C8E002897C3 /* AreasTest.swift */,
+				BB92DEB7265C7C8E002897C3 /* AreaTest.swift */,
+				BB92DEB6265C7C8E002897C3 /* ClusterTest.swift */,
+				BB92DE93265C7B4D002897C3 /* RouteTest.swift */,
+				BB92DE79265C7ABD002897C3 /* Info.plist */,
+			);
+			path = BoulderingGuideTests;
+			sourceTree = "<group>";
+		};
+		BB92DE81265C7ABD002897C3 /* BoulderingGuideUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BB92DE82265C7ABD002897C3 /* BoulderingGuideUITests.swift */,
+				BB92DE84265C7ABD002897C3 /* Info.plist */,
+			);
+			path = BoulderingGuideUITests;
+			sourceTree = "<group>";
+		};
+		BB92DE9E265C7B86002897C3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BB92DEA8265C7BEA002897C3 /* Area.swift */,
+				BB92DEA9265C7BEA002897C3 /* Areas.swift */,
+				BB92DEA7265C7BEA002897C3 /* Boulder.swift */,
+				BB92DEAA265C7BEA002897C3 /* Cluster.swift */,
+				BB92DF47265C81BE002897C3 /* ListItem.swift */,
+				BB92DE9F265C7BB1002897C3 /* Route.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BB92DEC1265C7DE3002897C3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BB92DEC5265C7E9B002897C3 /* Areas.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		BB92DED1265C7F77002897C3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BB92DF4F265C81E4002897C3 /* RoutesPage.swift */,
+				BB92DF13265C80B1002897C3 /* AreaMapPage.swift */,
+				BB92DF18265C80D1002897C3 /* AreaMapView.swift */,
+				BB92DED2265C7FCF002897C3 /* AreasView.swift */,
+				BB92DF22265C8105002897C3 /* BoulderPage.swift */,
+				BB92DF1D265C80EC002897C3 /* ClusterPage.swift */,
+				BB92DF3F265C8193002897C3 /* ListItemView.swift */,
+				BB92DF32265C8153002897C3 /* NavigationMapView.swift */,
+				BB92DF2A265C8134002897C3 /* NavigationPage.swift */,
+				BB92DF3A265C8172002897C3 /* RoutePage.swift */,
+				BB92DEDA265C802D002897C3 /* TabPage.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BB92DF54265D26FC002897C3 /* Photos */ = {
+			isa = PBXGroup;
+			children = (
+				BB92DFF0265D2841002897C3 /* the_jam_crack.png */,
+				BB92DF85265D2734002897C3 /* adams_rib.png */,
+				BB92DF90265D2734002897C3 /* aftershock.png */,
+				BB92DF6A265D2733002897C3 /* and_the_holy_spirit_amen.png */,
+				BB92DF5B265D2733002897C3 /* arbor_days.png */,
+				BB92DF73265D2733002897C3 /* Barndoor Arete.jpg */,
+				BB92DF58265D2732002897C3 /* better_bold_than_old.png */,
+				BB92DF97265D2735002897C3 /* boot_flake.png */,
+				BB92DF68265D2733002897C3 /* Borealis.png */,
+				BB92DF82265D2734002897C3 /* Boulder Behind Ummagumma.png */,
+				BB92DF78265D2734002897C3 /* boulder_1.png */,
+				BB92DF93265D2735002897C3 /* Burning Rubber Necklace.jpg */,
+				BB92DF79265D2734002897C3 /* Celestial Trail.jpg */,
+				BB92DF67265D2733002897C3 /* Chouinards Slab.png */,
+				BB92DF7D265D2734002897C3 /* Comfort of Home.jpg */,
+				BB92DF8D265D2734002897C3 /* crankin_queenie.png */,
+				BB92DF55265D2732002897C3 /* Credit Card Lover.png */,
+				BB92DFA0265D2735002897C3 /* defroster.png */,
+				BB92DF8A265D2734002897C3 /* double_helix.png */,
+				BB92DF9D265D2735002897C3 /* easy_face.png */,
+				BB92DF5A265D2733002897C3 /* Eriksson Problem.jpg */,
+				BB92DF5E265D2733002897C3 /* Face Problem.png */,
+				BB92DF75265D2733002897C3 /* golf_boulder.jpg */,
+				BB92DF69265D2733002897C3 /* Happy Hooker.jpg */,
+				BB92DF62265D2733002897C3 /* Hero Roof.png */,
+				BB92DF7E265D2734002897C3 /* holy_water_boulder.png */,
+				BB92DF63265D2733002897C3 /* Horse Farts.png */,
+				BB92DF76265D2734002897C3 /* hueco_boulder.png */,
+				BB92DF7F265D2734002897C3 /* iron_man_traverse.png */,
+				BB92DF89265D2734002897C3 /* linear_fracture_traverse.png */,
+				BB92DF72265D2733002897C3 /* Mommys Boy Center.png */,
+				BB92DF5C265D2733002897C3 /* Mommys Boy Left.png */,
+				BB92DF81265D2734002897C3 /* Mommys Boy Right.png */,
+				BB92DF98265D2735002897C3 /* Mommys Boys.png */,
+				BB92DF61265D2733002897C3 /* Mr Ed.png */,
+				BB92DF8E265D2734002897C3 /* Not Teflon President.png */,
+				BB92DF59265D2732002897C3 /* opposition_movement.png */,
+				BB92DF7B265D2734002897C3 /* pancake.png */,
+				BB92DF8B265D2734002897C3 /* Pile Ups.png */,
+				BB92DF9A265D2735002897C3 /* Pocket Traverse.png */,
+				BB92DF6E265D2733002897C3 /* pump_arete.png */,
+				BB92DF7C265D2734002897C3 /* pump_rock.png */,
+				BB92DF6F265D2733002897C3 /* rhythym_and_the_heat.png */,
+				BB92DF99265D2735002897C3 /* say_goodnight.png */,
+				BB92DF9B265D2735002897C3 /* slant_flake.png */,
+				BB92DF7A265D2734002897C3 /* slant_rock_face.png */,
+				BB92DF70265D2733002897C3 /* slant_rock.png */,
+				BB92DF94265D2735002897C3 /* Slap.png */,
+				BB92DF6C265D2733002897C3 /* Spiral Direct.png */,
+				BB92DF9F265D2735002897C3 /* Spiral Traverse.png */,
+				BB92DF83265D2734002897C3 /* swiss_cheese.jpg */,
+				BB92DF77265D2734002897C3 /* Sword of Damocles.jpg */,
+				BB92DF95265D2735002897C3 /* TabBarController.swift */,
+				BB92DF5F265D2733002897C3 /* Teflon Arete.png */,
+				BB92DF9E265D2735002897C3 /* Teflon Boulder.png */,
+				BB92DF84265D2734002897C3 /* Teflon President.png */,
+				BB92DF64265D2733002897C3 /* The Falcon.jpg */,
+				BB92DF5D265D2733002897C3 /* The Great Curve.jpg */,
+				BB92DF56265D2732002897C3 /* the_prow.png */,
+				BB92DF8C265D2734002897C3 /* the_refigerator.png */,
+				BB92DF6B265D2733002897C3 /* Thin Crack.jpg */,
+				BB92DF80265D2734002897C3 /* three_pigs.png */,
+				BB92DF92265D2735002897C3 /* tiny_crack.png */,
+				BB92DF86265D2734002897C3 /* Ummagumma.png */,
+				BB92DF65265D2733002897C3 /* Unknown2.jpg */,
+				BB92DF87265D2734002897C3 /* unnamed_1.png */,
+				BB92DF96265D2735002897C3 /* unnamed_2.png */,
+				BB92DF88265D2734002897C3 /* Unnamed.jpg */,
+				BB92DF9C265D2735002897C3 /* Victor Boulder.jpg */,
+				BB92DF91265D2734002897C3 /* vivarin.png */,
+				BB92DF6D265D2733002897C3 /* Warm Up.jpg */,
+				BB92DF71265D2733002897C3 /* west_arete.png */,
+				BB92DF60265D2733002897C3 /* west_face.png */,
+				BB92DF57265D2732002897C3 /* Western Round Up.jpg */,
+				BB92DF66265D2733002897C3 /* y_crack.png */,
+				BB92DF74265D2733002897C3 /* Yabo Dyno.png */,
+				BB92DF8F265D2734002897C3 /* Zacks Roof.jpg */,
+			);
+			path = Photos;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB92DE61265C7ABA002897C3 /* BoulderingGuide */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB92DE87265C7ABD002897C3 /* Build configuration list for PBXNativeTarget "BoulderingGuide" */;
+			buildPhases = (
+				BB92DE5E265C7ABA002897C3 /* Sources */,
+				BB92DE5F265C7ABA002897C3 /* Frameworks */,
+				BB92DE60265C7ABA002897C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BoulderingGuide;
+			productName = BoulderingGuide;
+			productReference = BB92DE62265C7ABA002897C3 /* BoulderingGuide.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BB92DE72265C7ABD002897C3 /* BoulderingGuideTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB92DE8A265C7ABD002897C3 /* Build configuration list for PBXNativeTarget "BoulderingGuideTests" */;
+			buildPhases = (
+				BB92DE6F265C7ABD002897C3 /* Sources */,
+				BB92DE70265C7ABD002897C3 /* Frameworks */,
+				BB92DE71265C7ABD002897C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB92DE75265C7ABD002897C3 /* PBXTargetDependency */,
+			);
+			name = BoulderingGuideTests;
+			productName = BoulderingGuideTests;
+			productReference = BB92DE73265C7ABD002897C3 /* BoulderingGuideTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BB92DE7D265C7ABD002897C3 /* BoulderingGuideUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB92DE8D265C7ABD002897C3 /* Build configuration list for PBXNativeTarget "BoulderingGuideUITests" */;
+			buildPhases = (
+				BB92DE7A265C7ABD002897C3 /* Sources */,
+				BB92DE7B265C7ABD002897C3 /* Frameworks */,
+				BB92DE7C265C7ABD002897C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB92DE80265C7ABD002897C3 /* PBXTargetDependency */,
+			);
+			name = BoulderingGuideUITests;
+			productName = BoulderingGuideUITests;
+			productReference = BB92DE7E265C7ABD002897C3 /* BoulderingGuideUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB92DE5A265C7ABA002897C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					BB92DE61265C7ABA002897C3 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					BB92DE72265C7ABD002897C3 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = BB92DE61265C7ABA002897C3;
+					};
+					BB92DE7D265C7ABD002897C3 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = BB92DE61265C7ABA002897C3;
+					};
+				};
+			};
+			buildConfigurationList = BB92DE5D265C7ABA002897C3 /* Build configuration list for PBXProject "BoulderingGuide" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BB92DE59265C7ABA002897C3;
+			productRefGroup = BB92DE63265C7ABA002897C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB92DE61265C7ABA002897C3 /* BoulderingGuide */,
+				BB92DE72265C7ABD002897C3 /* BoulderingGuideTests */,
+				BB92DE7D265C7ABD002897C3 /* BoulderingGuideUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB92DE60265C7ABA002897C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB92DFAE265D2735002897C3 /* Hero Roof.png in Resources */,
+				BB92DFCD265D2735002897C3 /* Mommys Boy Right.png in Resources */,
+				BB92DFEA265D2735002897C3 /* Teflon Boulder.png in Resources */,
+				BB92DFB6265D2735002897C3 /* and_the_holy_spirit_amen.png in Resources */,
+				BB92DFE7265D2735002897C3 /* slant_flake.png in Resources */,
+				BB92DFC3265D2735002897C3 /* Sword of Damocles.jpg in Resources */,
+				BB92DFE3265D2735002897C3 /* boot_flake.png in Resources */,
+				BB92DFB5265D2735002897C3 /* Happy Hooker.jpg in Resources */,
+				BB92DFE5265D2735002897C3 /* say_goodnight.png in Resources */,
+				BB92DFBF265D2735002897C3 /* Barndoor Arete.jpg in Resources */,
+				BB92DFCF265D2735002897C3 /* swiss_cheese.jpg in Resources */,
+				BB92DFBB265D2735002897C3 /* rhythym_and_the_heat.png in Resources */,
+				BB92DFA6265D2735002897C3 /* Eriksson Problem.jpg in Resources */,
+				BB92DFCC265D2735002897C3 /* three_pigs.png in Resources */,
+				BB92DFA5265D2735002897C3 /* opposition_movement.png in Resources */,
+				BB92DFDC265D2735002897C3 /* aftershock.png in Resources */,
+				BB92DFD9265D2735002897C3 /* crankin_queenie.png in Resources */,
+				BB92DFD6265D2735002897C3 /* double_helix.png in Resources */,
+				BB92DFE6265D2735002897C3 /* Pocket Traverse.png in Resources */,
+				BB92DFA4265D2735002897C3 /* better_bold_than_old.png in Resources */,
+				BB92DFC7265D2735002897C3 /* pancake.png in Resources */,
+				BB92DFA9265D2735002897C3 /* The Great Curve.jpg in Resources */,
+				BB92DFB1265D2735002897C3 /* Unknown2.jpg in Resources */,
+				BB92DFB2265D2735002897C3 /* y_crack.png in Resources */,
+				BB92DFB4265D2735002897C3 /* Borealis.png in Resources */,
+				BB92DFB0265D2735002897C3 /* The Falcon.jpg in Resources */,
+				BB92DFE2265D2735002897C3 /* unnamed_2.png in Resources */,
+				BB92DFCE265D2735002897C3 /* Boulder Behind Ummagumma.png in Resources */,
+				BB92DFC0265D2735002897C3 /* Yabo Dyno.png in Resources */,
+				BB92DFAF265D2735002897C3 /* Horse Farts.png in Resources */,
+				BB92DFAD265D2735002897C3 /* Mr Ed.png in Resources */,
+				BB92DFAC265D2735002897C3 /* west_face.png in Resources */,
+				BB92DFC4265D2735002897C3 /* boulder_1.png in Resources */,
+				BB92DFD5265D2735002897C3 /* linear_fracture_traverse.png in Resources */,
+				BB92DFF1265D2841002897C3 /* the_jam_crack.png in Resources */,
+				BB92DFA2265D2735002897C3 /* the_prow.png in Resources */,
+				BB92DFD7265D2735002897C3 /* Pile Ups.png in Resources */,
+				BB92DFDA265D2735002897C3 /* Not Teflon President.png in Resources */,
+				BB92DFEB265D2735002897C3 /* Spiral Traverse.png in Resources */,
+				BB92DFBA265D2735002897C3 /* pump_arete.png in Resources */,
+				BB92DFA8265D2735002897C3 /* Mommys Boy Left.png in Resources */,
+				BB92DFDF265D2735002897C3 /* Burning Rubber Necklace.jpg in Resources */,
+				BB92DE6D265C7ABD002897C3 /* Preview Assets.xcassets in Resources */,
+				BB92DFCA265D2735002897C3 /* holy_water_boulder.png in Resources */,
+				BB92DFE9265D2735002897C3 /* easy_face.png in Resources */,
+				BB92DFA7265D2735002897C3 /* arbor_days.png in Resources */,
+				BB92DFBD265D2735002897C3 /* west_arete.png in Resources */,
+				BB92DFB9265D2735002897C3 /* Warm Up.jpg in Resources */,
+				BB92DFAB265D2735002897C3 /* Teflon Arete.png in Resources */,
+				BB92DFB3265D2735002897C3 /* Chouinards Slab.png in Resources */,
+				BB92DFD8265D2735002897C3 /* the_refigerator.png in Resources */,
+				BB92DFE0265D2735002897C3 /* Slap.png in Resources */,
+				BB92DFDE265D2735002897C3 /* tiny_crack.png in Resources */,
+				BB92DFD4265D2735002897C3 /* Unnamed.jpg in Resources */,
+				BB92DFB8265D2735002897C3 /* Spiral Direct.png in Resources */,
+				BB92DFEC265D2735002897C3 /* defroster.png in Resources */,
+				BB92DFE8265D2735002897C3 /* Victor Boulder.jpg in Resources */,
+				BB92DFC9265D2735002897C3 /* Comfort of Home.jpg in Resources */,
+				BB92DFE4265D2735002897C3 /* Mommys Boys.png in Resources */,
+				BB92DFCB265D2735002897C3 /* iron_man_traverse.png in Resources */,
+				BB92DFC1265D2735002897C3 /* golf_boulder.jpg in Resources */,
+				BB92DFDB265D2735002897C3 /* Zacks Roof.jpg in Resources */,
+				BB92DFD1265D2735002897C3 /* adams_rib.png in Resources */,
+				BB92DFAA265D2735002897C3 /* Face Problem.png in Resources */,
+				BB92DFD2265D2735002897C3 /* Ummagumma.png in Resources */,
+				BB92DFA1265D2735002897C3 /* Credit Card Lover.png in Resources */,
+				BB92DFD3265D2735002897C3 /* unnamed_1.png in Resources */,
+				BB92DFBC265D2735002897C3 /* slant_rock.png in Resources */,
+				BB92DFB7265D2735002897C3 /* Thin Crack.jpg in Resources */,
+				BB92DFC2265D2735002897C3 /* hueco_boulder.png in Resources */,
+				BB92DFC6265D2735002897C3 /* slant_rock_face.png in Resources */,
+				BB92DE6A265C7ABD002897C3 /* Assets.xcassets in Resources */,
+				BB92DFC5265D2735002897C3 /* Celestial Trail.jpg in Resources */,
+				BB92DFC8265D2735002897C3 /* pump_rock.png in Resources */,
+				BB92DFA3265D2735002897C3 /* Western Round Up.jpg in Resources */,
+				BB92DFBE265D2735002897C3 /* Mommys Boy Center.png in Resources */,
+				BB92DFDD265D2735002897C3 /* vivarin.png in Resources */,
+				BB92DECD265C7F2B002897C3 /* Areas.json in Resources */,
+				BB92DFD0265D2735002897C3 /* Teflon President.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB92DE71265C7ABD002897C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB92DEC6265C7E9B002897C3 /* Areas.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB92DE7C265C7ABD002897C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB92DE5E265C7ABA002897C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB92DF00265C807C002897C3 /* Route.swift in Sources */,
+				BB92DF40265C8193002897C3 /* ListItemView.swift in Sources */,
+				BB92DEF4265C8075002897C3 /* Areas.swift in Sources */,
+				BB92DEF0265C8072002897C3 /* Area.swift in Sources */,
+				BB92DEFC265C807A002897C3 /* Cluster.swift in Sources */,
+				BB92DF2B265C8134002897C3 /* NavigationPage.swift in Sources */,
+				BB92DF14265C80B1002897C3 /* AreaMapPage.swift in Sources */,
+				BB92DF3B265C8172002897C3 /* RoutePage.swift in Sources */,
+				BB92DF19265C80D1002897C3 /* AreaMapView.swift in Sources */,
+				BB92DEF8265C8077002897C3 /* Boulder.swift in Sources */,
+				BB92DEE6265C805D002897C3 /* TabPage.swift in Sources */,
+				BB92DF50265C81E4002897C3 /* RoutesPage.swift in Sources */,
+				BB92DE68265C7ABA002897C3 /* ContentView.swift in Sources */,
+				BB92DFE1265D2735002897C3 /* TabBarController.swift in Sources */,
+				BB92DF48265C81BE002897C3 /* ListItem.swift in Sources */,
+				BB92DEE2265C805A002897C3 /* AreasView.swift in Sources */,
+				BB92DF33265C8154002897C3 /* NavigationMapView.swift in Sources */,
+				BB92DE66265C7ABA002897C3 /* BoulderingGuideApp.swift in Sources */,
+				BB92DF23265C8105002897C3 /* BoulderPage.swift in Sources */,
+				BB92DF1E265C80EC002897C3 /* ClusterPage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB92DE6F265C7ABD002897C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB92DE94265C7B4D002897C3 /* RouteTest.swift in Sources */,
+				BB92DEB8265C7C8E002897C3 /* AreasTest.swift in Sources */,
+				BB92DEBA265C7C8E002897C3 /* AreaTest.swift in Sources */,
+				BB92DEB9265C7C8E002897C3 /* ClusterTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB92DE7A265C7ABD002897C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB92DE83265C7ABD002897C3 /* BoulderingGuideUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BB92DE75265C7ABD002897C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB92DE61265C7ABA002897C3 /* BoulderingGuide */;
+			targetProxy = BB92DE74265C7ABD002897C3 /* PBXContainerItemProxy */;
+		};
+		BB92DE80265C7ABD002897C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB92DE61265C7ABA002897C3 /* BoulderingGuide */;
+			targetProxy = BB92DE7F265C7ABD002897C3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BB92DE85265C7ABD002897C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BB92DE86265C7ABD002897C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BB92DE88265C7ABD002897C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"BoulderingGuide/Preview Content\"";
+				DEVELOPMENT_TEAM = 3BX7T8F4PB;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = BoulderingGuide/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.blackblocsoft.BoulderingGuide;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BB92DE89265C7ABD002897C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"BoulderingGuide/Preview Content\"";
+				DEVELOPMENT_TEAM = 3BX7T8F4PB;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = BoulderingGuide/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.blackblocsoft.BoulderingGuide;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BB92DE8B265C7ABD002897C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3BX7T8F4PB;
+				INFOPLIST_FILE = BoulderingGuideTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.blackblocsoft.BoulderingGuideTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BoulderingGuide.app/BoulderingGuide";
+			};
+			name = Debug;
+		};
+		BB92DE8C265C7ABD002897C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3BX7T8F4PB;
+				INFOPLIST_FILE = BoulderingGuideTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.blackblocsoft.BoulderingGuideTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BoulderingGuide.app/BoulderingGuide";
+			};
+			name = Release;
+		};
+		BB92DE8E265C7ABD002897C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3BX7T8F4PB;
+				INFOPLIST_FILE = BoulderingGuideUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.blackblocsoft.BoulderingGuideUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BoulderingGuide;
+			};
+			name = Debug;
+		};
+		BB92DE8F265C7ABD002897C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3BX7T8F4PB;
+				INFOPLIST_FILE = BoulderingGuideUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.blackblocsoft.BoulderingGuideUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BoulderingGuide;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB92DE5D265C7ABA002897C3 /* Build configuration list for PBXProject "BoulderingGuide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB92DE85265C7ABD002897C3 /* Debug */,
+				BB92DE86265C7ABD002897C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB92DE87265C7ABD002897C3 /* Build configuration list for PBXNativeTarget "BoulderingGuide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB92DE88265C7ABD002897C3 /* Debug */,
+				BB92DE89265C7ABD002897C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB92DE8A265C7ABD002897C3 /* Build configuration list for PBXNativeTarget "BoulderingGuideTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB92DE8B265C7ABD002897C3 /* Debug */,
+				BB92DE8C265C7ABD002897C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB92DE8D265C7ABD002897C3 /* Build configuration list for PBXNativeTarget "BoulderingGuideUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB92DE8E265C7ABD002897C3 /* Debug */,
+				BB92DE8F265C7ABD002897C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BB92DE5A265C7ABA002897C3 /* Project object */;
+}

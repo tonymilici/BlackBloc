@@ -1003,7 +1003,7 @@
                                 "stars":4,
                                 "location":
                                 {
-                                    "latitude": 34.27049,
+                                    "latitude": 34.27058,
                                     "longitude": -118.60279
                                 }
                             },
@@ -1014,14 +1014,14 @@
                                 "stars":2,
                                 "location":
                                 {
-                                    "latitude": 34.2705,
+                                    "latitude": 34.27058,
                                     "longitude": -118.60276
                                 }
                             }
                         ],
                         "location":
                         {
-                            "latitude": 34.2705,
+                            "latitude": 34.2706,
                             "longitude": -118.60277
                         }
                     },

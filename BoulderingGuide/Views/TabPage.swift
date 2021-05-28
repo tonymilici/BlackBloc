@@ -42,6 +42,7 @@ struct TabPage: View {
                     Label("Navigate", systemImage: "safari")
                 }
                 .tag(Tab.navigate)
+            
             RoutesPage(area: area)
                 .tabItem {
                     Label("Routes", systemImage: "list.bullet")

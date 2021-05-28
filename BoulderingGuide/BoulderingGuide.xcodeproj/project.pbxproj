@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BB0A3EC2266111990039F510 /* stoney_point.json in Resources */ = {isa = PBXBuildFile; fileRef = BB0A3EC1266111990039F510 /* stoney_point.json */; };
+		BB0A3EC3266111990039F510 /* stoney_point.json in Resources */ = {isa = PBXBuildFile; fileRef = BB0A3EC1266111990039F510 /* stoney_point.json */; };
+		BB0A3EC92661166E0039F510 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0A3EC82661166E0039F510 /* SplashScreen.swift */; };
+		BB0A3ECE2661182F0039F510 /* stoney_point.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB0A3ECD2661182F0039F510 /* stoney_point.jpg */; };
 		BB92DE66265C7ABA002897C3 /* BoulderingGuideApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB92DE65265C7ABA002897C3 /* BoulderingGuideApp.swift */; };
 		BB92DE68265C7ABA002897C3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB92DE67265C7ABA002897C3 /* ContentView.swift */; };
 		BB92DE6A265C7ABD002897C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB92DE69265C7ABD002897C3 /* Assets.xcassets */; };
@@ -132,6 +136,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BB0A3EC1266111990039F510 /* stoney_point.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = stoney_point.json; sourceTree = "<group>"; };
+		BB0A3EC82661166E0039F510 /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
+		BB0A3ECD2661182F0039F510 /* stoney_point.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = stoney_point.jpg; sourceTree = "<group>"; };
 		BB92DE62265C7ABA002897C3 /* BoulderingGuide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BoulderingGuide.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB92DE65265C7ABA002897C3 /* BoulderingGuideApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoulderingGuideApp.swift; sourceTree = "<group>"; };
 		BB92DE67265C7ABA002897C3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -350,6 +357,8 @@
 		BB92DEC1265C7DE3002897C3 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				BB0A3ECD2661182F0039F510 /* stoney_point.jpg */,
+				BB0A3EC1266111990039F510 /* stoney_point.json */,
 				BB92DEC5265C7E9B002897C3 /* Areas.json */,
 			);
 			path = Resources;
@@ -369,6 +378,7 @@
 				BB92DF2A265C8134002897C3 /* NavigationPage.swift */,
 				BB92DF3A265C8172002897C3 /* RoutePage.swift */,
 				BB92DEDA265C802D002897C3 /* TabPage.swift */,
+				BB0A3EC82661166E0039F510 /* SplashScreen.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -580,12 +590,14 @@
 				BB92DFD6265D2735002897C3 /* double_helix.png in Resources */,
 				BB92DFE6265D2735002897C3 /* Pocket Traverse.png in Resources */,
 				BB92DFA4265D2735002897C3 /* better_bold_than_old.png in Resources */,
+				BB0A3EC2266111990039F510 /* stoney_point.json in Resources */,
 				BB92DFC7265D2735002897C3 /* pancake.png in Resources */,
 				BB92DFA9265D2735002897C3 /* The Great Curve.jpg in Resources */,
 				BB92DFB1265D2735002897C3 /* Unknown2.jpg in Resources */,
 				BB92DFB2265D2735002897C3 /* y_crack.png in Resources */,
 				BB92DFB4265D2735002897C3 /* Borealis.png in Resources */,
 				BB92DFB0265D2735002897C3 /* The Falcon.jpg in Resources */,
+				BB0A3ECE2661182F0039F510 /* stoney_point.jpg in Resources */,
 				BB92DFE2265D2735002897C3 /* unnamed_2.png in Resources */,
 				BB92DFCE265D2735002897C3 /* Boulder Behind Ummagumma.png in Resources */,
 				BB92DFC0265D2735002897C3 /* Yabo Dyno.png in Resources */,
@@ -646,6 +658,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB0A3EC3266111990039F510 /* stoney_point.json in Resources */,
 				BB92DEC6265C7E9B002897C3 /* Areas.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -673,6 +686,7 @@
 				BB92DF14265C80B1002897C3 /* AreaMapPage.swift in Sources */,
 				BB92DF3B265C8172002897C3 /* RoutePage.swift in Sources */,
 				BB92DF19265C80D1002897C3 /* AreaMapView.swift in Sources */,
+				BB0A3EC92661166E0039F510 /* SplashScreen.swift in Sources */,
 				BB92DEF8265C8077002897C3 /* Boulder.swift in Sources */,
 				BB92DEE6265C805D002897C3 /* TabPage.swift in Sources */,
 				BB92DF50265C81E4002897C3 /* RoutesPage.swift in Sources */,

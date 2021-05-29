@@ -29,20 +29,28 @@ struct ContentView: View {
     
     var areasPage: AreasPage = AreasPage()
     
+    private let dispatchQueue = DispatchQueue(label: "My Dispatch Queue")
+    
     var body: some View {
         ZStack {
             areasPage
             SplashScreen()
                 .opacity(showSplash ? 1 : 0)
                 .onAppear {
-                    DispatchQueue.main.async() {
-                        let area: Area = load("stoney_point.json")
-                        areasPage.areas.areas.append(area)
-                        withAnimation() {
-                            self.showSplash = false
-                        }
-                    }
+                    loadAreas()
                 }
+        }
+    }
+    
+    func loadAreas() {
+        dispatchQueue.async() {
+            let area: Area = load("stoney_point.json")
+            DispatchQueue.main.async() {
+                areasPage.areas.areas.append(area)
+                withAnimation() {
+                    self.showSplash = false
+                }
+            }
         }
     }
 }

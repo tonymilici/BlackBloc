@@ -10,13 +10,13 @@ import SwiftUI
 struct SplashScreen: View {
     var body: some View {
         GeometryReader {geo in
-        Image(uiImage: UIImage(named: "stoney_point.jpg")!)
-            .resizable()
-            .scaledToFill()
-            .frame(
-                width: geo.size.width,
-                height: geo.size.height,
-                alignment: .center).clipped()
+            Image(uiImage: UIImage(named: "stoney_point.jpg")!)
+                .resizable()
+                .scaledToFill()
+                .frame(
+                    width: geo.size.width,
+                    height: geo.size.height,
+                    alignment: .center).clipped()
         }
     }
 }

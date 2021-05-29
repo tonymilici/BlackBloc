@@ -1,8 +1,8 @@
 //
-//  ContentView.swift
+//  Loader.swift
 //  BoulderingGuide
 //
-//  Created by Tony Milici on 5/24/21.
+//  Created by Tony Milici on 5/28/21.
 //
 //Permission is hereby granted, free of charge, to any person obtaining a copy
 //of this software and associated documentation files (the "Software"), to deal
@@ -22,33 +22,26 @@
 //OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 //SOFTWARE.
 
-import SwiftUI
+import Foundation
 
-struct ContentView: View {
-    @State var showSplash = true
+func load<T: Decodable>(_ filename: String) -> T {
+    let data: Data
     
-    var areasPage: AreasPage = AreasPage()
-    
-    var body: some View {
-        ZStack {
-            areasPage
-            SplashScreen()
-                .opacity(showSplash ? 1 : 0)
-                .onAppear {
-                    DispatchQueue.main.async() {
-                        let area: Area = load("stoney_point.json")
-                        areasPage.areas.areas.append(area)
-                        withAnimation() {
-                            self.showSplash = false
-                        }
-                    }
-                }
-        }
+    guard let file = Bundle.main.url(forResource: filename, withExtension: nil)
+    else {
+        fatalError("Couldn't fin \(filename) in main bundle.")
     }
-}
-
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
+    
+    do {
+        data = try Data(contentsOf: file)
+    } catch {
+        fatalError("Coudln't load \(filename) from main bundle:\n\(error)")
+    }
+    
+    do {
+        let decoder = JSONDecoder()
+        return try decoder.decode(T.self, from: data)
+    } catch {
+        fatalError("Couldn't parse \(filename) as \(T.self):\n\(error)")
     }
 }

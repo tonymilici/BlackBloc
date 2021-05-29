@@ -25,11 +25,11 @@
 
 import Foundation
 
-public class Areas {
-     let areas: [Area] = load("Areas.json")
+public class Areas: ObservableObject {
+     @Published var areas: [Area] = []
 }
 
-func load<T: Decodable>(_ filename: String) -> T {
+/*func load<T: Decodable>(_ filename: String) -> T {
     let data: Data
     
     guard let file = Bundle.main.url(forResource: filename, withExtension: nil)
@@ -49,4 +49,4 @@ func load<T: Decodable>(_ filename: String) -> T {
     } catch {
         fatalError("Couldn't parse \(filename) as \(T.self):\n\(error)")
     }
-}
+}*/

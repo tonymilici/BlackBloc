@@ -27,8 +27,7 @@ import SwiftUI
 struct ContentView: View {
     @State var showSplash = true
     
-    var areasPage: AreasPage = AreasPage()
-    
+    private var areasPage: AreasPage = AreasPage()
     private let dispatchQueue = DispatchQueue(label: "My Dispatch Queue")
     
     var body: some View {
@@ -37,16 +36,16 @@ struct ContentView: View {
             SplashScreen()
                 .opacity(showSplash ? 1 : 0)
                 .onAppear {
-                    loadAreas()
+                    initializeApp()
                 }
         }
     }
     
-    func loadAreas() {
+    func initializeApp() {
         dispatchQueue.async() {
-            let area: Area = load("stoney_point.json")
+            let areas: [Area] = loadAreas()
             DispatchQueue.main.async() {
-                areasPage.areas.areas.append(area)
+                areasPage.areas.areas = areas
                 withAnimation() {
                     self.showSplash = false
                 }

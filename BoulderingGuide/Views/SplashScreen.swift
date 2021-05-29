@@ -8,8 +8,12 @@
 import SwiftUI
 
 struct SplashScreen: View {
+    
     var body: some View {
-        GeometryReader {geo in
+        Color("Red")
+        .edgesIgnoringSafeArea(.all)
+        
+      /*  GeometryReader {geo in
             Image(uiImage: UIImage(named: "stoney_point.jpg")!)
                 .resizable()
                 .scaledToFill()
@@ -17,7 +21,7 @@ struct SplashScreen: View {
                     width: geo.size.width,
                     height: geo.size.height,
                     alignment: .center).clipped()
-        }
+        }*/
     }
 }
 

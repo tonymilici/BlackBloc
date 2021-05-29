@@ -24,7 +24,28 @@
 
 import Foundation
 
-func load<T: Decodable>(_ filename: String) -> T {
+public func loadAreas() -> [Area] {
+    guard let docsDir = Bundle.main.resourcePath
+    else {
+        return []
+    }
+    
+    let localFileManager = FileManager()
+
+    let dirEnum = localFileManager.enumerator(atPath: docsDir)
+    
+    var areas: [Area] = []
+
+    while let file = dirEnum?.nextObject() as? String {
+        if file.hasSuffix(".json") {
+            let area: Area = loadArea(file)
+            areas.append(area)
+        }
+    }
+    return areas
+}
+
+func loadArea(_ filename: String) -> Area {
     let data: Data
     
     guard let file = Bundle.main.url(forResource: filename, withExtension: nil)
@@ -40,8 +61,8 @@ func load<T: Decodable>(_ filename: String) -> T {
     
     do {
         let decoder = JSONDecoder()
-        return try decoder.decode(T.self, from: data)
+        return try decoder.decode(Area.self, from: data)
     } catch {
-        fatalError("Couldn't parse \(filename) as \(T.self):\n\(error)")
+        fatalError("Couldn't parse \(filename) as \(Area.self):\n\(error)")
     }
 }

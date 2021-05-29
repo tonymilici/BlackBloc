@@ -38,31 +38,20 @@ public func loadAreas() -> [Area] {
 
     while let file = dirEnum?.nextObject() as? String {
         if file.hasSuffix(".json") {
-            let area: Area = loadArea(file)
-            areas.append(area)
+            if let area: Area = try? loadArea(file) {
+                areas.append(area)
+            }
         }
     }
     return areas
 }
 
-func loadArea(_ filename: String) -> Area {
-    let data: Data
-    
-    guard let file = Bundle.main.url(forResource: filename, withExtension: nil)
-    else {
-        fatalError("Couldn't fin \(filename) in main bundle.")
+func loadArea(_ filename: String) throws -> Area? {
+    if let file = Bundle.main.url(forResource: filename, withExtension: nil) {
+        if let data = try? Data(contentsOf: file) {
+            let decoder = JSONDecoder()
+            return try? decoder.decode(Area.self, from: data)
+        }
     }
-    
-    do {
-        data = try Data(contentsOf: file)
-    } catch {
-        fatalError("Coudln't load \(filename) from main bundle:\n\(error)")
-    }
-    
-    do {
-        let decoder = JSONDecoder()
-        return try decoder.decode(Area.self, from: data)
-    } catch {
-        fatalError("Couldn't parse \(filename) as \(Area.self):\n\(error)")
-    }
+    return nil
 }

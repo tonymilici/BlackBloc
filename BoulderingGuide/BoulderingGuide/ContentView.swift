@@ -25,13 +25,14 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State var showSplash = true
+
+    @EnvironmentObject var areas: Areas
     
     var body: some View {
         ZStack {
             AreasPage()
-        //    SplashScreen()
-        //        .opacity(showSplash ? 1 : 0)
+            SplashScreen()
+                .opacity(areas.areas.count == 0 ? 1 : 0)
         }
     }
     

@@ -26,7 +26,7 @@
 import Foundation
 
 public class Areas: ObservableObject {
-     @Published var areas: [Area] = []
+    @Published var areas: [Area] = []
     
     private let dispatchQueue = DispatchQueue(label: "My Dispatch Queue")
     
@@ -39,9 +39,6 @@ public class Areas: ObservableObject {
             let a: [Area] = self.loadAreas()
             DispatchQueue.main.async() {
                 self.areas = a
-            /*    withAnimation() {
-                    showSplash = false
-                }*/
             }
         }
     }

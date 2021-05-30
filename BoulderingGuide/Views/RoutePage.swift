@@ -47,7 +47,7 @@ struct RoutePage: View {
                 Spacer()
             }
             
-            NavigationLink(destination: NavigationPage(location: route.location, title: route.name), isActive: $isNavigateActive) {
+            NavigationLink(destination: NavigationPage(location: route.location!, title: route.name), isActive: $isNavigateActive) {
                 EmptyView()
             }
         }

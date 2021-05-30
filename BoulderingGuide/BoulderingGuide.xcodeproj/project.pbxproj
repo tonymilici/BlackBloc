@@ -12,6 +12,8 @@
 		BB0A3ECE2661182F0039F510 /* stoney_point.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB0A3ECD2661182F0039F510 /* stoney_point.jpg */; };
 		BB0A3EDE2661D96D0039F510 /* horse_flats.json in Resources */ = {isa = PBXBuildFile; fileRef = BB0A3EDD2661D96D0039F510 /* horse_flats.json */; };
 		BB8FDD0D2661E6DC00275F3B /* mt_rubidoux.json in Resources */ = {isa = PBXBuildFile; fileRef = BB8FDD0C2661E6DC00275F3B /* mt_rubidoux.json */; };
+		BB8FDD3A26641C1300275F3B /* ImageProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8FDD3926641C1300275F3B /* ImageProvider.swift */; };
+		BB8FDD3F26642BC800275F3B /* ImageProviderTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8FDD3E26642BC800275F3B /* ImageProviderTest.swift */; };
 		BB92DE66265C7ABA002897C3 /* BoulderingGuideApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB92DE65265C7ABA002897C3 /* BoulderingGuideApp.swift */; };
 		BB92DE68265C7ABA002897C3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB92DE67265C7ABA002897C3 /* ContentView.swift */; };
 		BB92DE6A265C7ABD002897C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB92DE69265C7ABD002897C3 /* Assets.xcassets */; };
@@ -140,6 +142,8 @@
 		BB0A3ECD2661182F0039F510 /* stoney_point.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = stoney_point.jpg; sourceTree = "<group>"; };
 		BB0A3EDD2661D96D0039F510 /* horse_flats.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = horse_flats.json; sourceTree = "<group>"; };
 		BB8FDD0C2661E6DC00275F3B /* mt_rubidoux.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = mt_rubidoux.json; sourceTree = "<group>"; };
+		BB8FDD3926641C1300275F3B /* ImageProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageProvider.swift; sourceTree = "<group>"; };
+		BB8FDD3E26642BC800275F3B /* ImageProviderTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageProviderTest.swift; sourceTree = "<group>"; };
 		BB92DE62265C7ABA002897C3 /* BoulderingGuide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BoulderingGuide.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB92DE65265C7ABA002897C3 /* BoulderingGuideApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoulderingGuideApp.swift; sourceTree = "<group>"; };
 		BB92DE67265C7ABA002897C3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -328,6 +332,7 @@
 				BB92DEB6265C7C8E002897C3 /* ClusterTest.swift */,
 				BB92DE93265C7B4D002897C3 /* RouteTest.swift */,
 				BB92DE79265C7ABD002897C3 /* Info.plist */,
+				BB8FDD3E26642BC800275F3B /* ImageProviderTest.swift */,
 			);
 			path = BoulderingGuideTests;
 			sourceTree = "<group>";
@@ -350,6 +355,7 @@
 				BB92DEAA265C7BEA002897C3 /* Cluster.swift */,
 				BB92DF47265C81BE002897C3 /* ListItem.swift */,
 				BB92DE9F265C7BB1002897C3 /* Route.swift */,
+				BB8FDD3926641C1300275F3B /* ImageProvider.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -689,6 +695,7 @@
 				BB0A3EC92661166E0039F510 /* SplashScreen.swift in Sources */,
 				BB92DEF8265C8077002897C3 /* Boulder.swift in Sources */,
 				BB92DEE6265C805D002897C3 /* TabPage.swift in Sources */,
+				BB8FDD3A26641C1300275F3B /* ImageProvider.swift in Sources */,
 				BB92DF50265C81E4002897C3 /* RoutesPage.swift in Sources */,
 				BB92DE68265C7ABA002897C3 /* ContentView.swift in Sources */,
 				BB92DFE1265D2735002897C3 /* TabBarController.swift in Sources */,
@@ -708,6 +715,7 @@
 				BB92DE94265C7B4D002897C3 /* RouteTest.swift in Sources */,
 				BB92DEB8265C7C8E002897C3 /* AreasTest.swift in Sources */,
 				BB92DEBA265C7C8E002897C3 /* AreaTest.swift in Sources */,
+				BB8FDD3F26642BC800275F3B /* ImageProviderTest.swift in Sources */,
 				BB92DEB9265C7C8E002897C3 /* ClusterTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

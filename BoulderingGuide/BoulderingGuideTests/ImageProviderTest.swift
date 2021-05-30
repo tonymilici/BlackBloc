@@ -27,7 +27,7 @@ import XCTest
 
 class ImageProviderTest: XCTestCase {
     func testLoad() {
-        let provider = ImageProvider(url: "https://res.cloudinary.com/blackbloc-software/image/upload/c_fit,h_320,w_181/v1622386906/Stoney%20Point/aftershock_omqyny.png")
+        let provider = ImageProvider(image: "aftershock_tkt8py.png")
         
         provider.load()
         

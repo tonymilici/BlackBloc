@@ -28,7 +28,7 @@ struct AsyncImage: View {
     @StateObject var provider:  ImageProvider
     
     init(url: String) {
-        _provider = StateObject(wrappedValue: ImageProvider(url: url))
+        _provider = StateObject(wrappedValue: ImageProvider(image: url))
     }
     
     var body: some View {
@@ -51,6 +51,8 @@ struct AsyncImage: View {
 
 struct AsyncImage_Previews: PreviewProvider {
     static var previews: some View {
-        AsyncImage(url: "https://res.cloudinary.com/blackbloc-software/image/upload/v1622386927/aftershock_tkt8py.png")
+     /*   AsyncImage(url: "https://res.cloudinary.com/blackbloc-software/image/upload/v1622386927/aftershock_tkt8py.png")*/
+        
+        AsyncImage(url: "aftershock_tkt8py.png")
     }
 }

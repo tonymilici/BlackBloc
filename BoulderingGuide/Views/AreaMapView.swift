@@ -71,8 +71,8 @@ struct AreaMapView: UIViewRepresentable {
        
         func mapView(_ mapView: MKMapView, rendererFor overlay: MKOverlay) -> MKOverlayRenderer {
             let circle = MKCircleRenderer(overlay: overlay)
-            circle.fillColor = UIColor.blue
-            circle.strokeColor = UIColor.blue
+            circle.fillColor = UIColor.red
+            circle.strokeColor = UIColor.red
             circle.alpha = 0.3
             circle.lineWidth = 1
             return circle

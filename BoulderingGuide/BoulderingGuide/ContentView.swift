@@ -47,7 +47,7 @@ struct ContentView: View {
             DispatchQueue.main.async() {
                 areasPage.areas.areas = areas
                 withAnimation() {
-                    self.showSplash = false
+                    showSplash = false
                 }
             }
         }

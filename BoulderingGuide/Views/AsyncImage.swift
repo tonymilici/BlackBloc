@@ -53,6 +53,7 @@ struct AsyncImage_Previews: PreviewProvider {
     static var previews: some View {
      /*   AsyncImage(url: "https://res.cloudinary.com/blackbloc-software/image/upload/v1622386927/aftershock_tkt8py.png")*/
         
-        AsyncImage(url: "aftershock_tkt8py.png")
+      //  AsyncImage(url: "aftershock_tkt8py.png")
+        AsyncImage(url: "aftershock.png")
     }
 }

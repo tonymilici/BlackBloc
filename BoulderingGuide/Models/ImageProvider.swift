@@ -37,7 +37,10 @@ class ImageProvider: ObservableObject {
     }
     
     func load() {
-        if let url = URL(string: prefix+imageSource) {
+        if let uiImage = UIImage(named: imageSource) {
+            image = uiImage
+        }
+        else if let url = URL(string: prefix+imageSource) {
             cancellable = URLSession.shared.dataTaskPublisher(for: url)
                 .map {
                     UIImage(data: $0.data)

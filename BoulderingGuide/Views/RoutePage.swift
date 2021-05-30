@@ -39,9 +39,7 @@ struct RoutePage: View {
                 .padding(EdgeInsets(top: 0, leading: 20, bottom: 0, trailing: 20))
             
             if let image = route.image {
-                Image(uiImage: UIImage(named: image)!)
-                    .resizable()
-                    .aspectRatio(contentMode: .fit)
+                AsyncImage(url: image)
                     .padding(EdgeInsets(top: 0, leading: 0, bottom: 20, trailing: 0))
             } else {
                 Spacer()

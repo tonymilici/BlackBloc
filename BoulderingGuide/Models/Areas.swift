@@ -27,26 +27,49 @@ import Foundation
 
 public class Areas: ObservableObject {
      @Published var areas: [Area] = []
-}
+    
+    private let dispatchQueue = DispatchQueue(label: "My Dispatch Queue")
+    
+    init() {
+        loadAreasAsync()
+    }
+    
+    private func loadAreasAsync() {
+        dispatchQueue.async() {
+            let a: [Area] = self.loadAreas()
+            DispatchQueue.main.async() {
+                self.areas = a
+            /*    withAnimation() {
+                    showSplash = false
+                }*/
+            }
+        }
+    }
+    
+    private func loadAreas() -> [Area] {
+        var areas: [Area] = []
+        
+        if let docsDir = Bundle.main.resourcePath {
+            let localFileManager = FileManager()
+            let dirEnum = localFileManager.enumerator(atPath: docsDir)
+            while let file = dirEnum?.nextObject() as? String {
+                if file.hasSuffix(".json") {
+                    if let area: Area = try? loadArea(file) {
+                        areas.append(area)
+                    }
+                }
+            }
+        }
+        return areas
+    }
 
-/*func load<T: Decodable>(_ filename: String) -> T {
-    let data: Data
-    
-    guard let file = Bundle.main.url(forResource: filename, withExtension: nil)
-    else {
-        fatalError("Couldn't fin \(filename) in main bundle.")
+    private func loadArea(_ filename: String) throws -> Area? {
+        if let file = Bundle.main.url(forResource: filename, withExtension: nil) {
+            if let data = try? Data(contentsOf: file) {
+                let decoder = JSONDecoder()
+                return try? decoder.decode(Area.self, from: data)
+            }
+        }
+        return nil
     }
-    
-    do {
-        data = try Data(contentsOf: file)
-    } catch {
-        fatalError("Coudln't load \(filename) from main bundle:\n\(error)")
-    }
-    
-    do {
-        let decoder = JSONDecoder()
-        return try decoder.decode(T.self, from: data)
-    } catch {
-        fatalError("Couldn't parse \(filename) as \(T.self):\n\(error)")
-    }
-}*/
+}

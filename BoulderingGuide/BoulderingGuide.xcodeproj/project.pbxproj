@@ -8,10 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		BB0A3EC2266111990039F510 /* stoney_point.json in Resources */ = {isa = PBXBuildFile; fileRef = BB0A3EC1266111990039F510 /* stoney_point.json */; };
-		BB0A3EC3266111990039F510 /* stoney_point.json in Resources */ = {isa = PBXBuildFile; fileRef = BB0A3EC1266111990039F510 /* stoney_point.json */; };
 		BB0A3EC92661166E0039F510 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0A3EC82661166E0039F510 /* SplashScreen.swift */; };
 		BB0A3ECE2661182F0039F510 /* stoney_point.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB0A3ECD2661182F0039F510 /* stoney_point.jpg */; };
-		BB0A3ED32661C3E30039F510 /* Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0A3ED22661C3E30039F510 /* Loader.swift */; };
 		BB0A3EDE2661D96D0039F510 /* horse_flats.json in Resources */ = {isa = PBXBuildFile; fileRef = BB0A3EDD2661D96D0039F510 /* horse_flats.json */; };
 		BB8FDD0D2661E6DC00275F3B /* mt_rubidoux.json in Resources */ = {isa = PBXBuildFile; fileRef = BB8FDD0C2661E6DC00275F3B /* mt_rubidoux.json */; };
 		BB92DE66265C7ABA002897C3 /* BoulderingGuideApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB92DE65265C7ABA002897C3 /* BoulderingGuideApp.swift */; };
@@ -140,7 +138,6 @@
 		BB0A3EC1266111990039F510 /* stoney_point.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = stoney_point.json; sourceTree = "<group>"; };
 		BB0A3EC82661166E0039F510 /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
 		BB0A3ECD2661182F0039F510 /* stoney_point.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = stoney_point.jpg; sourceTree = "<group>"; };
-		BB0A3ED22661C3E30039F510 /* Loader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loader.swift; sourceTree = "<group>"; };
 		BB0A3EDD2661D96D0039F510 /* horse_flats.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = horse_flats.json; sourceTree = "<group>"; };
 		BB8FDD0C2661E6DC00275F3B /* mt_rubidoux.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = mt_rubidoux.json; sourceTree = "<group>"; };
 		BB92DE62265C7ABA002897C3 /* BoulderingGuide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BoulderingGuide.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -311,7 +308,6 @@
 				BB92DE69265C7ABD002897C3 /* Assets.xcassets */,
 				BB92DE6E265C7ABD002897C3 /* Info.plist */,
 				BB92DE6B265C7ABD002897C3 /* Preview Content */,
-				BB0A3ED22661C3E30039F510 /* Loader.swift */,
 			);
 			path = BoulderingGuide;
 			sourceTree = "<group>";
@@ -664,7 +660,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB0A3EC3266111990039F510 /* stoney_point.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -690,7 +685,6 @@
 				BB92DF2B265C8134002897C3 /* NavigationPage.swift in Sources */,
 				BB92DF14265C80B1002897C3 /* AreaMapPage.swift in Sources */,
 				BB92DF3B265C8172002897C3 /* RoutePage.swift in Sources */,
-				BB0A3ED32661C3E30039F510 /* Loader.swift in Sources */,
 				BB92DF19265C80D1002897C3 /* AreaMapView.swift in Sources */,
 				BB0A3EC92661166E0039F510 /* SplashScreen.swift in Sources */,
 				BB92DEF8265C8077002897C3 /* Boulder.swift in Sources */,

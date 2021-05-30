@@ -27,31 +27,15 @@ import SwiftUI
 struct ContentView: View {
     @State var showSplash = true
     
-    private var areasPage: AreasPage = AreasPage()
-    private let dispatchQueue = DispatchQueue(label: "My Dispatch Queue")
-    
     var body: some View {
         ZStack {
-            areasPage
-            SplashScreen()
-                .opacity(showSplash ? 1 : 0)
-                .onAppear {
-                    initializeApp()
-                }
+            AreasPage()
+        //    SplashScreen()
+        //        .opacity(showSplash ? 1 : 0)
         }
     }
     
-    func initializeApp() {
-        dispatchQueue.async() {
-            let areas: [Area] = loadAreas()
-            DispatchQueue.main.async() {
-                areasPage.areas.areas = areas
-                withAnimation() {
-                    showSplash = false
-                }
-            }
-        }
-    }
+   
 }
 
 struct ContentView_Previews: PreviewProvider {

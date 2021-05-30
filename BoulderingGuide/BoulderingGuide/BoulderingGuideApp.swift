@@ -26,9 +26,14 @@ import SwiftUI
 
 @main
 struct BoulderingGuideApp: App {
+    @StateObject var areas = Areas()
+
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(areas)
         }
     }
+    
+ 
 }

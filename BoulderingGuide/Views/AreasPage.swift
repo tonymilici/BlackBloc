@@ -20,7 +20,7 @@
 import SwiftUI
 
 struct AreasPage: View {
-    let areas = Areas()
+    @EnvironmentObject var areas: Areas
     
     var body: some View {
         NavigationView {

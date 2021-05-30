@@ -25,21 +25,16 @@
 import Foundation
 
 public func loadAreas() -> [Area] {
-    guard let docsDir = Bundle.main.resourcePath
-    else {
-        return []
-    }
-    
-    let localFileManager = FileManager()
-
-    let dirEnum = localFileManager.enumerator(atPath: docsDir)
-    
     var areas: [Area] = []
-
-    while let file = dirEnum?.nextObject() as? String {
-        if file.hasSuffix(".json") {
-            if let area: Area = try? loadArea(file) {
-                areas.append(area)
+    
+    if let docsDir = Bundle.main.resourcePath {
+        let localFileManager = FileManager()
+        let dirEnum = localFileManager.enumerator(atPath: docsDir)
+        while let file = dirEnum?.nextObject() as? String {
+            if file.hasSuffix(".json") {
+                if let area: Area = try? loadArea(file) {
+                    areas.append(area)
+                }
             }
         }
     }

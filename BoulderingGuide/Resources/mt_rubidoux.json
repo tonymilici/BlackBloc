@@ -1,0 +1,1108 @@
+{
+    "name":"Mount Rubidoux",
+    "location":
+    {
+        "latitude": 33.984,
+        "longitude": -117.392
+    },
+    "size": 1.0,
+    "clusters":
+    [
+        {
+            "name":"Island Area",
+            "location":
+            {
+                "latitude": 33.9818,
+                "longitude": -117.3939
+            },
+            "radius":40,
+            "boulders":
+            [
+                {
+                    "name":"Dynamite Boulder",
+                    "description":"This boulder lies directly next to the road on the west side of the area.",
+                    "routes":
+                    [
+                        {
+                            "name":"Dynamite Flake",
+                            "description":"Sit start, and pull on and up to gain the flake and crack. Follow the crack to the top to a great finishing hold.",
+                            "rating":"VB",
+                            "stars":2
+                        },
+                        {
+                            "name":"Dynamite Face",
+                            "description":"Start crouching on good holds then move up to a good flat hold at the bottom of the smooth face. Make a long move up and then gain the undercut for the right. From here commit to the moves up to the finish.",
+                            "rating":"V0",
+                            "stars":2
+                        },
+                        {
+                            "name":"Dynamite Crack",
+                            "description":"Sit start on the sloping bench. Pull into the crack which is followed all the way to the top of the boulder.",
+                            "rating":"V0-",
+                            "stars":3
+                        }
+                    ],
+                    "location":
+                    {
+                        "latitude":33.98195,
+                        "longitude":-117.39405
+                    }
+                },
+                {
+                    "name":"Tombstone Rock",
+                    "description":"This is a small area up past Peppertree Boulder, and behind the Dynamite Boulder.",
+                    "routes":
+                    [
+                        {
+                            "name":"Tombstone (aka Six Ton Weenie)",
+                            "description":"Sit start and climb the short narrow face using tiny crimps.",
+                            "rating":"VB",
+                            "stars":2
+                        },
+                        {
+                            "name":"Tombstone Mantle",
+                            "description":"On the wall behind Tombstone, start with a long reach (or jump) to the good right facing flake. Follow this and mantle onto the ledge which is followed to its left end.",
+                            "rating":"VB",
+                            "stars":1
+                        }
+                    ],
+                    "location":
+                    {
+                        "latitude":33.98195,
+                        "longitude":-117.394
+                    }
+                },
+                {
+                    "name":"Inscription Alcove",
+                    "description":"This small shallow alcove hosts one recorded problem, and a large inscriptions carved into the left side.",
+                    "routes":
+                    [
+                        {
+                            "name":"Inscription Mantle",
+                            "description":"Start on the right side of the wall at the good incut hand holds. Mantle up onto these holds and follow a faint seem of rock up and left with delicate, yet powerful movement, until the good ledge at mid height can be reached. Mantle up onto this ledge, and either escape of left and downclimb or continue directly up the dirty crack and groove above.",
+                            "rating":"V3 PG13",
+                            "stars":3
+                        }
+                    ],
+                    "location":
+                    {
+                        "latitude":33.98201,
+                        "longitude":-117.3939
+                    }
+                },
+                {
+                    "name":"Peppertree Boulder",
+                    "description":"This slabby wall has 3 problems, all with good moves on good rock, and generally good landings, although careful pad management helps.",
+                    "routes":
+                    [
+                        {
+                            "name":"Peppertree Crack",
+                            "description":"Make a couple of thin moves with polished feet to gain the right sloping crack. Follow this crack up until possible to mantle up on top.",
+                            "rating":"V0-",
+                            "stars":2
+                        },
+                        {
+                            "name":"Peppertree Crank",
+                            "description":"Start to the right of the crack. Move up and rightwards to gain a good sidepull. From here crank hard on micro crimps to reach the top.",
+                            "rating":"V3",
+                            "stars":2
+                        },
+                        {
+                            "name":"Peppertree Problem",
+                            "description":"Start with a poor left crimp and a good right crimp up high. Pull on and rock up onto a good edge, finish more easily straight up.",
+                            "rating":"V2",
+                            "stars":2
+                        }
+                    ],
+                    "location":
+                    {
+                        "latitude":33.98201,
+                        "longitude":-117.39395
+                    }
+                },
+                {
+                    "name":"Hueco Boulder",
+                    "description":"This very distinctive boulder has a very featured east face with numerous huecos of all shapes and sizes.",
+                    "routes":
+                    [
+                        {
+                            "name":"Route A",
+                            "description":"Climb the left side of the boulder using huecos and jugs.",
+                            "rating":"VB R",
+                            "stars":2
+                        },
+                        {
+                            "name":"Tiny Crack",
+                            "description":"Five feet left of the start of Linear Fracture Traverse climb the blunt arete using micro-crimps, the very tiny crack, and tenuous smearing.",
+                            "rating":"V3",
+                            "stars":2,
+                            "image":"tiny_crack.png"
+                        },
+                        {
+                            "name":"Linear Fracture Traverse",
+                            "description":" Begin on the right side of the tallest face of the boulder. A tricky deadpoint or dyno gains the 'linear fracture' (i.e., shallow horizontal crack) which is traversed left and slightly upwards to jugs.",
+                            "rating":"V2",
+                            "stars":3,
+                            "image":"linear_fracture_traverse.png"
+                        }
+                    ],
+                    "location":
+                    {
+                        "latitude":33.98205,
+                        "longitude":-117.39387
+                    },
+                    "image":"hueco_boulder.png"
+                },
+                {
+                    "name":"Island Wall",
+                    "description":"The tall south-facing wall.",
+                    "routes":
+                    [
+                        {
+                            "name":"Bootleg Crack",
+                            "description":"A wide crescent-shaped crack to the left of the main wall.",
+                            "rating":"VB PG13",
+                            "stars":2
+                        },
+                        {
+                            "name":"Middle of the Road Madness",
+                            "description":"A very hard highstep off of sharp crimps on the left side of the main wall.",
+                            "rating":"V7",
+                            "stars":3
+                        },
+                        {
+                            "name":"Ashtar Roof",
+                            "description":"Left of Teflon is an obvious seam leading to a roof. Technical moves on smooth rock lead up the seam to a crux move gaining the sloping ledge below the roof. Surmounting the roof is not as hard as it may appear.",
+                            "rating":"5.10",
+                            "stars":2
+                        },
+                        {
+                            "name":"Teflon",
+                            "description":"Fifteen feet left of Five Niner, climb the improbable face on dark, slick rock.",
+                            "rating":"V4-5",
+                            "stars":3
+                        },
+                        {
+                            "name":"In the Picture",
+                            "description":"Begin at the start of Five Niner and go left with the arch using poor, painted-over footholds and mostly-shallow underclings and sidepulls until it is possible to gain the jugs up and right from the arch. Follow these good holds to the OTD top-out.",
+                            "rating":"V4",
+                            "stars":4
+                        },
+                        {
+                            "name":"Overexposed",
+                            "description":"Begin just under where the arching crack forms an L and proceed straight up with poor starting footholds and some cranky edges up the vertical face.",
+                            "rating": "V5 R",
+                            "stars":4
+                        },
+                        {
+                            "name":"Five Niner",
+                            "description":"A tricky move or two in a slightly-overhanging seam lead to a good flat edge. Move from this edge to better holds up higher.",
+                            "rating":"V1-2",
+                            "stars":3
+                        },
+                        {
+                            "name":"Island Crack",
+                            "description":"Start with big holds and climb to and up a crack.",
+                            "rating":"VB",
+                            "stars":2
+                        },
+                        {
+                            "name":"The Entertainer",
+                            "description":"Above the main wall of the Island is a headwall with two lieback cracks coming together at a steep roof. Following the right crack, make cool lieback and stemming moves to gain the roof, which is surmounted via large holds.",
+                            "rating":"V0-",
+                            "stars":3
+                        },
+                        {
+                            "name":"Hugs and Pinches",
+                            "description":"Above the main wall, bear-hug up the bulging face, primarily using the grippy arete on the right, to a somewhat-cruxy mantle.",
+                            "rating":"V1",
+                            "stars":2
+                        }
+                    ],
+                    "location":
+                    {
+                        "latitude":33.9817,
+                        "longitude":-117.39366
+                    }
+                },
+                {
+                    "name":"Presto Digitator",
+                    "description":"Varied boulder problems on the southwest side of the Island Area. From the top of the Island Area (Hugs and Pinches), head southwest. Turn right at a large boulder with a narrow but high southwest face.",
+                    "routes":
+                    [
+                        {
+                            "name":"His Face",
+                            "description":"Scamble onto the initial slab to reach holds the lead over the bulge to alligator skin consisting of coarse knobs and flakes. Take care with the hollow sounding cap block/flake at the top.",
+                            "rating":"V0",
+                            "stars":2
+                        },
+                        {
+                            "name":"Her Crack",
+                            "description":"The slightly overhanging bombay chimney to the left of Problem A and the aid seam.",
+                            "rating":"V0",
+                            "stars":3
+                        },
+                        {
+                            "name":"Problem A",
+                            "description":"A steep crank with excellent edges over a bad landing, right of Her Crack and the old aid seam.",
+                            "rating":"V2 PG13",
+                            "stars":3
+                        }
+                    ],
+                    "location":
+                    {
+                        "latitude":33.9817,
+                        "longitude":-117.394
+                    }
+                },
+                {
+                    "name":"Island Wall Boulder",
+                    "description":"Lying just down slope from Island Wall this boulder has an impressive slabby face.",
+                    "routes":
+                    [
+                        {
+                            "name":"Spencer",
+                            "description":"Start with your left hand on the sloping rail and the right on a high sidepull. Make a strenuous sequence of moves to gain a standing position on the hanging slab, and better holds for the hands.",
+                            "rating":"V4",
+                            "stars":3
+                        },
+                        {
+                            "name":"Matt",
+                            "description":"Climbs the middle of the slabby face. From a standing start just on the left of the middle of the face (3' right of Spencer), pull onto the slab and gain a standing position on two good slopping edges. Now climb directly up the slab on reasonable holds to some nice finishing finger jugs.",
+                            "rating":"V4 PG13",
+                            "stars":2
+                        },
+                        {
+                            "name":"Dutzi",
+                            "description":"Begin at a good in-cut crimp and make a tricky move up and right with poor, painted-over footholds.",
+                            "rating":"V0-",
+                            "stars":2
+                        }
+                    ],
+                    "location":
+                    {
+                        "latitude":33.9817,
+                        "longitude":-117.3936
+                    }
+                },
+                {
+                    "name":"Street Boulder",
+                    "description":"This boulder is downhill from the Island Wall, and has a fine front face with a flat, though narrow, landing area.",
+                    "routes":
+                    [
+                        {
+                            "name":"Street Mantle",
+                            "description":"Start below the large boss like feature. Grab the boss hold and mantle up onto it, then reach up to the large finishing holds.",
+                            "rating":"V2",
+                            "stars":1
+                        },
+                        {
+                            "name":"Problem B",
+                            "description":"Climb the plated wall left of the crack as direct as possible.",
+                            "rating":"V0",
+                            "stars":1
+                        },
+                        {
+                            "name":"Problem A",
+                            "description":"Climb the obvious slanting crack that runs all the way through the boulder to the backside.",
+                            "rating":"VB",
+                            "stars":2
+                        },
+                        {
+                            "name":"Crosswalk",
+                            "description":"Climb directly up to the good undercut flake and its widest part. From here make a committing sequence of moves to gain good but small crimps high up on the face.",
+                            "rating":"V3",
+                            "stars":3
+                        },
+                        {
+                            "name":"Franklin Street",
+                            "description":"From the start of One Way Street, proceed straight up on sidepulls and small crimps to a committing top-out.",
+                            "rating":"V2+",
+                            "stars":2
+                        },
+                        {
+                            "name":"One Way Street",
+                            "description":"Traverse the obvious hand crack/under-cling from right to left.",
+                            "rating":"V1",
+                            "stars":2
+                        }
+                    ],
+                    "location":
+                    {
+                        "latitude":33.9817,
+                        "longitude":-117.3934
+                    }
+                }
+            ]
+        },
+        {
+            "name":"Joe Brown and Half Dome Area",
+            "location":
+            {
+                "latitude": 33.9818,
+                "longitude": -117.3933
+            },
+            "radius":30,
+            "boulders":
+            [
+                {
+                    "name":"Half Dome Boulder",
+                    "description":"Located just below Joe Brown, the northwest face of the larger Half Dome boulder receives a lot of shade and is most popular for its two moderate, quality crack climbs. These routes are commonly toproped.",
+                    "routes":
+                    [
+                        {
+                            "name":"Direct Northwest Face (aka Left Half Dome Crack",
+                            "description":"The left crack of the two cracks on the north face of the Half Dome boulder.",
+                            "rating":"V0 PG13",
+                            "stars":2
+                        },
+                        {
+                            "name":"Tissiack",
+                            "description":"The right crack of the two prominent cracks on the north face.",
+                            "rating":"V0 PG13",
+                            "stars":2
+                        },
+                        {
+                            "name":"Zenith",
+                            "description":"Climb the face to the right of Tissiack.",
+                            "rating":"VB PG13",
+                            "stars":2
+                        },
+                        {
+                            "name":"Cable Route",
+                            "description":"Very easy face around the corner to the right of the cracks.",
+                            "rating":"VB",
+                            "stars":2
+                        },
+                        {
+                            "name":"Steck-Salathe",
+                            "description":"Climb the iface to the right of the Cable Route.",
+                            "rating":"V0- R",
+                            "stars":2
+                        },
+                        {
+                            "name":"Trapeze",
+                            "description":"On the southwest side of the Half Dome boulder, climb up the vertical face on excellent rock. Use sidebulls, an undercling, and incut flakes near the top.",
+                            "rating":"V0",
+                            "stars":3
+                        },
+                        {
+                            "name":"Harrison's Peanut",
+                            "description":"Start to the left of Brainiac, on the edges above the red spot.",
+                            "rating":"V1",
+                            "stars":2
+                        },
+                        {
+                            "name":"Brainiac",
+                            "description":"2 moves over good edges on the right side of the south face of Half Dome. Start to the right of the big red spot on the face.",
+                            "rating":"V0",
+                            "stars":2
+                        }
+                    ],
+                    "location":
+                    {
+                        "latitude":33.9828,
+                        "longitude":-117.3935
+                    }
+                },
+                {
+                    "name":"Helix Boulder",
+                    "description":"Located below Joe Brown this boulder is perched above a large slab of rock which gives it an intimidating feel.",
+                    "routes":
+                    [
+                        {
+                            "name":"Double Helix",
+                            "description":"Climb the right-slanting rail to a sloping topout over a cliff. Very sketchy without a good spot.",
+                            "rating":"VB",
+                            "stars":3,
+                            "image":"double_helix.png"
+                        },
+                        {
+                            "name":"Free Feels",
+                            "description":"Start precariously with hands on the lip of the overhang. Pull on and make an exposed mantle up to the featured slab above.",
+                            "rating":"VB",
+                            "stars":2
+                        }
+                    ],
+                    "location":
+                    {
+                        "latitude":33.98301,
+                        "longitude":-117.39343
+                    }
+                },
+                {
+                    "name":"Joe Brown",
+                    "description":"A nice section of rock facing North West.",
+                    "routes":
+                    [
+                    ],
+                    "location":
+                    {
+                        "latitude":33.9831,
+                        "longitude":-117.3933
+                    }
+                }
+            ]
+        },
+        {
+            "name":"Borson's Area",
+            "location":
+            {
+                "latitude": 33.9829,
+                "longitude": -117.3927
+            },
+            "radius":20,
+            "boulders":
+            [
+                {
+                    "name":"Borson's Wall",
+                    "description":"This small wall is right next to the road and features a few good problems.",
+                    "routes":
+                    [
+                        {
+                            "name":"Borson's Leftside",
+                            "description":"Climb the left side of the wall via underclings, crimps and pinches.",
+                            "rating":"V1",
+                            "stars":2
+                        },
+                        {
+                            "name":"Masterlock",
+                            "description":"Unique problem beginning with a steep sidepull move to the masterlock--crank your tips in the obvious gash.",
+                            "rating":"V3",
+                            "stars":3
+                        },
+                        {
+                            "name":"Black Pinch",
+                            "description":"Climb directly up the middle of the wall.",
+                            "rating":"V1+",
+                            "stars":2
+                        },
+                        {
+                            "name":"Borson's Lieback",
+                            "description":"The obvious shallow corner at the right side of Borson's Wall. Climb the fairly straightforward groove.",
+                            "rating":"VB",
+                            "stars":2
+                        },
+                        {
+                            "name":"Borson's Mantle",
+                            "description":"Mantle the sloping shelf.",
+                            "rating":"V3+",
+                            "stars":2
+                        },
+                        {
+                            "name":"Probelm A",
+                            "description":"Sit start then climb easily up the shattered break up onto the slab.",
+                            "rating":"VB",
+                            "stars":1
+                        },
+                        {
+                            "name":"Problem B",
+                            "description":"Sit start at a wide crack. Climb directly up onto the slab using flakes and crimps.",
+                            "rating":"VB",
+                            "stars":1
+                        },
+                        {
+                            "name":"Problem C",
+                            "description":"Sit start down in the dirt.From the good incut hold make a long reach out to the lip of the overhang to a smallish jug. From here move up directly passing a good incut flake crack.",
+                            "rating":"V0-",
+                            "stars":1
+                        }
+                    ],
+                    "location":
+                    {
+                        "latitude":33.9829,
+                        "longitude":-117.3927
+                    }
+                },
+                {
+                    "name":"The Ex Wall",
+                    "description":"Short wall right above Borson's Wall",
+                    "routes":
+                    [
+                        {
+                            "name":"The Ex",
+                            "description":"Start on the arete and move left to the face.",
+                            "rating":"V4",
+                            "stars":3
+                        }
+                    ],
+                    "location":
+                    {
+                        "latitude":33.9829,
+                        "longitude":-117.3928
+                    }
+                },
+                {
+                    "name":"Auto Pilot Boulder",
+                    "description":"The Auto Pilot boulder is located to the right of Borson's Wall about 20 feet above the road.",
+                    "routes":
+                    [
+                        {
+                            "name":"Auto Pilot",
+                            "description":"Ascend through a steep bulge and into a shallow corner.",
+                            "rating":"V4 R",
+                            "stars":4
+                        }
+                    ],
+                    "location":
+                    {
+                        "latitude":33.98299,
+                        "longitude":-117.39276
+                    }
+                }
+            ]
+        },
+        {
+            "name":"Beehive Wall Area",
+            "location":
+            {
+                "latitude": 33.98487,
+                "longitude": -117.39145
+            },
+            "radius":15,
+            "boulders":
+            [
+                {
+                    "name":"Beehive Wall",
+                    "description":"A nice wall located just below the Peace Bridge and the road contains lots of problems.",
+                    "routes":
+                    [
+                        {
+                            "name":"Flight of the Bumblebee",
+                            "description":"Traverse the wall starting at the far left end and traverse to Bumblebee, and finsih up that route.",
+                            "rating":"V4",
+                            "stars":3
+                        },
+                        {
+                            "name":"Honeycombs Left",
+                            "description":"Sit start. Make one pull up onto the wall then follow easy flake holds directly up the wall.",
+                            "rating":"VB",
+                            "stars":1
+                        },
+                        {
+                            "name":"Honeycombs Eliminate",
+                            "description":"Sit start with hand on the good flake. Pull up on to the slab and climb it directly, using sidepulls and crimps.",
+                            "rating":"VB",
+                            "stars":1
+                        },
+                        {
+                            "name":"Honeycombs",
+                            "description":"Sit start to the left of Beehive Crack. Move directly up the wall on good sharp side pulls and crimps",
+                            "rating":"VB",
+                            "stars":1
+                        },
+                        {
+                            "name":"B Movie",
+                            "description":"Climb the wall just to the left of Beehive Crack, without using the crack.",
+                            "rating":"V1+",
+                            "stars":2
+                        },
+                        {
+                            "name":"Beehive Crack",
+                            "description":"The obvious crack left of the center of the wall.",
+                            "rating":"VB",
+                            "stars":2
+                        },
+                        {
+                            "name":"King Bee",
+                            "description":"The first problem right of the crack. Start on in-cut crimps and mantle or pimp on small crystal to gain better holds higher up.",
+                            "rating":"V1",
+                            "stars":2
+                        },
+                        {
+                            "name":"King Bee Dyno",
+                            "description":"Dyno matched on the start hold of King Bee to the ledge 6 to 7 feet up.",
+                            "rating":"V2+",
+                            "stars":3
+                        },
+                        {
+                            "name":"Killer Bees",
+                            "description":"This problem is just right of King Bee. Lock off holds at waist to get established, and decide how to proceed upwards without any good holds at all. Some use the left-facing gaston hold up high, while others do a kind of jump move.",
+                            "rating":"V3+",
+                            "stars":2
+                        },
+                        {
+                            "name":"Bumble Bee",
+                            "description":"This problem shares the start of Killer Bees but moves right and then up using an interesting pinch and requiring good balance and footwork, ending at approximately the same place as the Beehive Mantle.",
+                            "rating":"V2+",
+                            "stars":3
+                        },
+                        {
+                            "name":"Beehive Mantle",
+                            "description":"Near the far right side of the wall exists an obvious, four-inch shelf about eight or nine feet off the ground. Use sharp holds to gain the shelf, or simply jump to it. Then perform a textbook mantle.",
+                            "rating":"V1",
+                            "stars":2
+                        },
+                        {
+                            "name":"Beehive Lieback",
+                            "description":"Lieback the obvious flake on the very right side of the wall.",
+                            "rating":"VB",
+                            "stars":1
+                        }
+                    ],
+                    "location":
+                    {
+                        "latitude":33.98487,
+                        "longitude":-117.39145
+                    }
+                }
+            ]
+        },
+        {
+            "name":"Lower Accomazzo boulders",
+            "location":
+            {
+                "latitude": 33.9849,
+                "longitude": -117.3895
+            },
+            "radius":20,
+            "boulders":
+            [
+                {
+                    "name":"Lower Accomazzo Boulder 1",
+                    "description":"The left boulder",
+                    "routes":
+                    [
+                        {
+                            "name":"Over Your Head",
+                            "description":"Climb the wall to the left of the crack.",
+                            "rating":"V3 PG13",
+                            "stars":2
+                        },
+                        {
+                            "name":"High Water",
+                            "description":"Climb the obvious offwidth crack.",
+                            "rating":"V0",
+                            "stars":2
+                        },
+                        {
+                            "name":"Run for It",
+                            "description":"Climb the wall to the right of the crack with a tricky sequence to reach the good flakes. From the flakes continue up and slightly right.",
+                            "rating":"V2+",
+                            "stars":2
+                        }
+                    ],
+                    "location":
+                    {
+                        "latitude":33.98487,
+                        "longitude":-117.38949
+                    }
+                },
+                {
+                    "name":"Lower Accomazzo Boulder 2",
+                    "description":"This is the boulder on the right facing uphill.",
+                    "routes":
+                    [
+                        {
+                            "name":"The Hand That Takes",
+                            "description":"Climb the leftside of the wall (without resorting to the left edge) on poor holds.",
+                            "rating":"V4-",
+                            "stars":1
+                        },
+                        {
+                            "name":"Face Lift",
+                            "description":"Start in the center of the wall.Using side-pulls and small footholds get established on the wall. Work your feet as high as they can go, and then continue with extreme difficulty to the top of the wall.",
+                            "rating":"V7",
+                            "stars":2
+                        },
+                        {
+                            "name":"Street Corner",
+                            "description":"Face climb/Layback up Arete on left side.",
+                            "rating":"V1",
+                            "stars":3
+                        },
+                        {
+                            "name":"The Bum",
+                            "description":"Climb the overhanging face and arete.",
+                            "rating":"V2",
+                            "stars":3
+                        },
+                        {
+                            "name":"Back Alley",
+                            "description":"Climb the slabby wall to the right of the arete with an elegant high left step which allows better holds to be reached.",
+                            "rating":"V1",
+                            "stars":3
+                        }
+                    ],
+                    "location":
+                    {
+                        "latitude":33.98488,
+                        "longitude":-117.38942
+                    }
+                }
+            ]
+        },
+        {
+            "name":"Beach Area",
+            "location":
+            {
+                "latitude": 33.9853,
+                "longitude": -117.392
+            },
+            "radius":45,
+            "boulders":
+            [
+                {
+                    "name":"Superstar Slab",
+                    "description":"The big slabby formation downhill from the road.",
+                    "routes":
+                    [
+                        {
+                            "name":"Frosty Cone",
+                            "description":"Just right of the rounded arête. Bolts on top.",
+                            "rating":"5.11a",
+                            "stars":3
+                        },
+                        {
+                            "name":"Superstar",
+                            "description":"Climbi onto a large flake and ascend the smooth polished face past a bolt.",
+                            "rating":"5.10a",
+                            "stars":2
+                        },
+                        {
+                            "name":"Flabob",
+                            "description":"Climb desperate dime edges a few feet left of the black streak.",
+                            "rating":"V6",
+                            "stars":4
+                        },
+                        {
+                            "name":"Side of Fries",
+                            "description":"Start at the base of the right leaning seam. Climb up the face and make a rising leftwards traverse until possible to top out as per Superstar.",
+                            "rating":"5.11b",
+                            "stars":2
+                        }
+                    ],
+                    "location":
+                    {
+                        "latitude":33.9855,
+                        "longitude":-117.39195
+                    }
+                },
+                {
+                    "name":"Beach Boulder",
+                    "description":"The obvious wall right next to the road.",
+                    "routes":
+                    [
+                        {
+                            "name":"Muir Woods",
+                            "description":"Start on the left of the steep wall, and climb up into the left leaning groove. Romp up the groove to the finish.",
+                            "rating":"VB",
+                            "stars":2
+                        },
+                        {
+                            "name":"Circle of Life Down on the Beach",
+                            "description":"Start up Muir Woods and when possible to reach out right onto the lip of the wall. Follow the lip of the slab rightwards until on the arete of the Beach Problem. From here step up onto the slab then up to the crease which is followed back left. Finally climb down the crack taken by Muir Woods.",
+                            "rating":"V1 PG13",
+                            "stars":2
+                        },
+                        {
+                            "name":"Muir Trail",
+                            "description":"Climb the wall directly to the holds on the lip of the slab. Make a hard sequence to get established on the slab above then carefully climb directly to the traverse line and exit.",
+                            "rating":"V2 PG13",
+                            "stars":3
+                        },
+                        {
+                            "name":"Haney Wall",
+                            "description":"Sit start, then climb up the wall for a committing high step up onto the slab above. Once on the slab follow it directly to the traverse line to exit left.",
+                            "rating":"V1 PG13",
+                            "stars":2
+                        },
+                        {
+                            "name":"Haney Overhang",
+                            "description":"Climb the Haney Wall or other varation to the thin crack above. Crux is the first few moves onto the upper wall with the crack.",
+                            "rating":"5.10d",
+                            "stars":3
+                        },
+                        {
+                            "name":"Slab and Tickle",
+                            "description":"Start on the left and move up the wall rightwards to gain the lip of the slab at a good undercling. Using the undercling balance up onto the slab which is followed direct to the exit traverse left.",
+                            "rating":"V1- PG13",
+                            "stars":2
+                        },
+                        {
+                            "name":"Beach Problem",
+                            "description":"Sit start with hands on two good incut holds. Make a move out to the lip and hand traverse the lip rightwards until a long move gets a good slot hold on the arete. Heel hook, work the hands up the arete and rock over, and enjoy the change in scene. Make a couple of balancy moves up the arete until possible to lean right to a good edge which is used to move up to the top of the slab. From here scuttle of right towards the gully.",
+                            "rating":"V2+ PG13",
+                            "stars":4
+                        }
+                    ],
+                    "location":
+                    {
+                        "latitude":33.9852,
+                        "longitude":-117.39176
+                    }
+                },
+                {
+                    "name":"Traingle boulders",
+                    "description":"These high-quality boulders face north and have a few quality boulder problems or topropes on impeccable rock. They are located directly below the road in the vicinity of the upper parking lot, on the north side of the hill.",
+                    "routes":
+                    [
+                        {
+                            "name":"Side Problem",
+                            "description":"Climb the short face vial a right-slanting crack.",
+                            "rating":"VB",
+                            "stars":1
+                        },
+                        {
+                            "name":"Problem D",
+                            "description":"Climb up and grab the left arete and then romp all the way to the top of the slab.",
+                            "rating":"VB",
+                            "stars":2
+                        },
+                        {
+                            "name":"Low Level Girdle",
+                            "description":"Start at Problem D on the left and make a fingery traverse across Triangle Face, and then into the wide crack and around the nose of Isosceles. Continue rightwards to a final tricky section to reach the arete on the right of Triangulation.",
+                            "rating":"V1+",
+                            "stars":2
+                        },
+                        {
+                            "name":"Triangle Face",
+                            "description":"Climb the tall face to the apex of the boulder.",
+                            "rating":"V1 PG13",
+                            "stars":3
+                        },
+                        {
+                            "name":"Problem C",
+                            "description":"Climb the right arete of the slab until 2/3 height when an exciting lieback gains the top.",
+                            "rating":"VB PG13",
+                            "stars":2
+                        },
+                        {
+                            "name":"Isosceles",
+                            "description":"Start up the slabby arete, until the ledge at 2/3 height is reached. From the ledge make very committing moves up the arete.",
+                            "rating":"V1+ X",
+                            "stars":2
+                        },
+                        {
+                            "name":"Problem B",
+                            "description":"Climb the left arete of the slab up and right as it nears the apex of the slab.",
+                            "rating":"VB",
+                            "stars":2
+                        },
+                        {
+                            "name":"Problem A",
+                            "description":"Climb up the left of the slab directly with good positive holds",
+                            "rating":"V0-",
+                            "stars":1
+                        },
+                        {
+                            "name":"Triangulation",
+                            "description":"Climb the right-hand face of the right-hand boulder.",
+                            "rating":"V0+",
+                            "stars":2
+                        },
+                        {
+                            "name":"Soft Grit",
+                            "description":"On the boulder to the right of Triangulation, start with your right hand on a good, but sharp, shallow pocket, left hand high on a crimp. Pull on step up high and slap for the gritty sloper, match then mantle on up.",
+                            "rating":"V3-",
+                            "stars":1
+                        }
+                    ],
+                    "location":
+                    {
+                        "latitude":33.98495,
+                        "longitude":-117.3922
+                    }
+                }
+            ]
+        },
+        {
+            "name":"Half Moon Area",
+            "location":
+            {
+                "latitude": 33.9841,
+                "longitude": -117.395
+            },
+            "radius":50,
+            "boulders":
+            [
+                {
+                    "name":"Harrison Boulder",
+                    "description":"The obvious U-shaped boulder down the hill from the Island area.",
+                    "routes":
+                    [
+                        {
+                            "name":"Problem A",
+                            "description":"Pull up and mantle onto the ledge then follow the slab up to the top of the boulder.",
+                            "rating":"VB",
+                            "stars":1
+                        },
+                        {
+                            "name":"The Mug",
+                            "description":"On the east side of the boulder is this short- but-sweet (and steep) problem.",
+                            "rating":"V5",
+                            "stars":3
+                        },
+                        {
+                            "name":"The Handle",
+                            "description":"Right of The Mug, start with left hand on clear edge around the corner and right hand on sloper to the right. Throw right hand up to a pretty solid hold and a left throw directly above you to a solid jug.",
+                            "rating":"V0",
+                            "stars":2
+                        },
+                        {
+                            "name":"Problem B",
+                            "description":"Climb the northwest arete of the boulder.",
+                            "rating":"V0",
+                            "stars":1
+                        },
+                        {
+                            "name":"Crank Like a Cancer",
+                            "description":"On the left side of the downhill face, start up on good edges until possible to traverse left 4'. From here make a delicate sequence up to the overhang which is passed on the left.",
+                            "rating":"V1+ PG13",
+                            "stars":3
+                        },
+                        {
+                            "name":"Thumbelina",
+                            "description":"Just left of center on the boulder's northwest face, steepish moves on good holds at the start lead to a very large hold, which is used to gain entry into a somewhat-committing corner. A little balancey at top. Most choose to toprope.",
+                            "rating":"V0 R",
+                            "stars":2
+                        },
+                        {
+                            "name":"Cherry Dip Scoop",
+                            "description":"In-cut holds on a slightly overhanging face lead to a tricky and committing move onto a slab.",
+                            "rating":"V1 PG13",
+                            "stars":2
+                        }
+                    ],
+                    "location":
+                    {
+                        "latitude":33.98295,
+                        "longitude":-117.3942
+                    }
+                },
+                {
+                    "name":"Turtle Dome",
+                    "description":"North of the bridge on the hill's northwest side, walk down in the vicinity of a small dirt pull-out towards the split, round boulder.",
+                    "routes":
+                    [
+                        {
+                            "name":"Turtle Dome Crack",
+                            "description":"Tight hands lead to one or two perfect jams and then the crack becomes wider than you'd like far too quickly.",
+                            "rating":"V1",
+                            "stars":3
+                        }
+                    ],
+                    "location":
+                    {
+                        "latitude":33.9841,
+                        "longitude":-117.39446
+                    }
+                },
+                {
+                    "name":"Half Moon Boulder - Center",
+                    "description":"A big boulder downhill from the Turtle Dome",
+                    "routes":
+                    [
+                        {
+                            "name":"Half Moon Crack",
+                            "description":"An awesome, burly, wide hands crack.",
+                            "rating":"V2",
+                            "stars":3
+                        },
+                        {
+                            "name":"Full Moon",
+                            "description":"Make a delicate fingery sequence of moves to gain the bottom of the water chute. From here, continue to make balancy moves up the chute until better holds appear for the left hand. Stay cool, and continue up the scoop, finishing up the rough cracks at the top of the boulder.",
+                            "rating":"V2+ R",
+                            "stars":1
+                        }
+                    ],
+                    "location":
+                    {
+                        "latitude":33.9842,
+                        "longitude":-117.395
+                    }
+                }
+            ]
+        },
+        {
+            "name":"Hardy Boy Area",
+            "location":
+            {
+                "latitude": 33.9873,
+                "longitude": -117.3899
+            },
+            "radius":45,
+            "boulders":
+            [
+                {
+                    "name":"Peppertree Arete Wall",
+                    "description":"A small wall is situated along the access road.",
+                    "routes":
+                    [
+                        {
+                            "name":"Peppertree Left",
+                            "description":"Start on the left and climb up passing a black notch to gain the slabby finish.",
+                            "rating":"V0",
+                            "stars":1
+                        },
+                        {
+                            "name":"Peppertree Arete",
+                            "description":"Start with a balancy sequence of moves up below the blunt arete. Gain the thin left hand hold then reach / stretch up to a good sharp flake for the right. Pull on, then continue up more easily to the top.",
+                            "rating":"V2+",
+                            "stars":2
+                        },
+                        {
+                            "name":"Peppertree Right",
+                            "description":"Start below the arete and move up and right via a good sidepull. Make a couple of hard pulls to get established on the slab above then finish direct.",
+                            "rating":"V5",
+                            "stars":3
+                        }
+                    ],
+                    "location":
+                    {
+                        "latitude":33.9873,
+                        "longitude":-117.3891
+                    }
+                },
+                {
+                    "name":"John Long Boulder",
+                    "description":"This huge boulder is perched on a steep hillside just downslope from the Hardy Boy Boulder.",
+                    "routes":
+                    [
+                        {
+                            "name":"Stinky Rabbit Crankin's For Kids",
+                            "description":"On the far left side of the boulder, start low off a left hand undercling and right hand crimp.",
+                            "rating":"V4",
+                            "stars":2
+                        },
+                        {
+                            "name":"The Runaway",
+                            "description":"Start on the left and climb the slabby face.",
+                            "rating":"V2-3",
+                            "stars":1
+                        },
+                        {
+                            "name":"J. Elvis",
+                            "description":"Climb the right side of the slabby wall more or less direct.",
+                            "rating":"V4- PG13",
+                            "stars":3
+                        },
+                        {
+                            "name":"Momma's in New York",
+                            "description":"Start below the square cut arete with difficulty. Force a couple of moves up the arete, and when the good holds are reached call it done and wander to the top.",
+                            "rating":"V2",
+                            "stars":3
+                        },
+                        {
+                            "name":"The Big Guy",
+                            "description":"Start in the middle of the face and gain a good notch hold. From here traverse delicately left to a couple of good, but small, holds. Once these holds are reached continue straight up to the top.",
+                            "rating":"V1",
+                            "stars":1
+                        },
+                        {
+                            "name":"The Arete",
+                            "description":"Start below the arete on the left. Pull on and jump the feet up, the follow the arete directly on good holds.",
+                            "rating":"V0-",
+                            "stars":1
+                        }
+                    ],
+                    "location":
+                    {
+                        "latitude":33.98705,
+                        "longitude":-117.39005
+                    }
+                }
+            ]
+        }
+    ]
+}

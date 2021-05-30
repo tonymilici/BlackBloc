@@ -117,7 +117,8 @@
                             {
                                 "latitude": 34.26998,
                                 "longitude": -118.60557
-                            }
+                            },
+                            "image":"pump_rock.png"
                         },
                         {
                             "name": "Pump Arete",
@@ -1138,6 +1139,17 @@
                                    "latitude": 34.27034,
                                    "longitude":-118.60307,
                                }
+                           },
+                           {
+                               "name":"Unnamed",
+                               "description":"Sit start with hands matched at a large jug/undercling. Move up and left to a diagonal rail, then up to and over the lip.",
+                               "rating":"V0",
+                               "stars":1,
+                               "location":
+                               {
+                                   "latitude": 34.27038,
+                                   "longitude":-118.60305,
+                               }
                            }
                       ]
                  },
@@ -1147,16 +1159,21 @@
                      "image":"Chouinards Slab.png",
                      "location":
                      {
-                        "latitude": 34.270319,
-                        "longitude":-118.603123,
+                        "latitude": 34.27036,
+                        "longitude":-118.60315,
                      },
                      "routes":
                      [
                          {
                              "name":"Chouinard's Slab",
                              "description":"Climb the easy slab.",
-                             "rating":"VB",
-                             "stars":2
+                             "rating":"V0-",
+                             "stars":2,
+                             "location":
+                             {
+                                "latitude": 34.27036,
+                                "longitude":-118.60315,
+                             }
                           }
                      ]
                   },
@@ -1166,8 +1183,8 @@
                       "image":"Slap.png",
                       "location":
                       {
-                        "latitude": 34.270384,
-                        "longitude":-118.603140,
+                        "latitude": 34.27043,
+                        "longitude":-118.60308,
                       },
                       "routes":
                       [
@@ -1175,7 +1192,12 @@
                                "name":"Slap",
                                "description":"Climb the lowball face.",
                                "rating":"V2",
-                               "stars":1
+                               "stars":1,
+                               "location":
+                               {
+                                 "latitude": 34.27043,
+                                 "longitude":-118.60308,
+                               }
                           }
                       ]
                   }
@@ -1200,7 +1222,12 @@
                             "name":"Potholes Traverse",
                             "description":"Traverse the wall between the cracks on crimps and gastons. Can be done in either direction.",
                             "rating":"V1",
-                            "stars":3
+                            "stars":3,
+                            "location":
+                            {
+                                "latitude": 34.2709,
+                                "longitude":-118.6032,
+                            }
                         }
                     ],
                     "location":
@@ -1218,7 +1245,7 @@
                 "latitude": 34.2715,
                 "longitude":-118.6033,
             },
-            "radius":20,
+            "radius":30,
             "boulders":
             [
                 {
@@ -1230,7 +1257,12 @@
                             "name":"Scrambled Eggs",
                             "description":"Start on good two-hand ledge. Moves up left to a horizontal band of worsening holds to a very good bird hole. High step and finish up and left.",
                             "rating":"V3",
-                            "stars":3
+                            "stars":3,
+                            "location":
+                            {
+                                "latitude": 34.27135,
+                                "longitude":-118.60334,
+                            }
                         }
                     ],
                     "location":
@@ -1249,7 +1281,12 @@
                             "description":"Sit start up to diagonal rail, then mantle.",
                             "rating":"V2-3",
                             "stars":3,
-                            "image":"pancake.png"
+                            "image":"pancake.png",
+                            "location":
+                            {
+                                "latitude": 34.2714,
+                                "longitude":-118.60327,
+                            }
                         }
                     ],
                     "location":
@@ -1260,7 +1297,7 @@
                 },
                 {
                     "name":"Font Boulder",
-                    "Descrition":"This boulder lies just north of the Pancake boulder and forms the west wall of a narrow corridor.",
+                    "description":"This boulder lies just north of the Pancake boulder and forms the west wall of a narrow corridor.",
                     "routes":
                     [
                         {
@@ -1284,7 +1321,7 @@
                     ],
                     "location":
                     {
-                        "latitude": 34.27145,
+                        "latitude": 34.27147,
                         "longitude":-118.60327,
                     }
                 },
@@ -1337,8 +1374,8 @@
                     "image":"Mommys Boys.png",
                     "location":
                     {
-                        "latitude": 34.270621,
-                        "longitude":-118.604111,
+                        "latitude": 34.2706,
+                        "longitude":-118.6041,
                     },
                     "routes":
                     [
@@ -1347,7 +1384,12 @@
                             "description":"Climb the left side of the face via a flake, move right and top out.",
                             "rating":"VB",
                             "stars":2,
-                            "image":"Mommys Boy Left.png"
+                            "image":"Mommys Boy Left.png",
+                            "location":
+                            {
+                                "latitude": 34.2706,
+                                "longitude":-118.6041,
+                            },
                         },
                         {
                             "name":"Mommy's Boy Center",

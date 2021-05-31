@@ -21,7 +21,6 @@
 		BB92DE6D265C7ABD002897C3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB92DE6C265C7ABD002897C3 /* Preview Assets.xcassets */; };
 		BB92DE83265C7ABD002897C3 /* BoulderingGuideUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB92DE82265C7ABD002897C3 /* BoulderingGuideUITests.swift */; };
 		BB92DE94265C7B4D002897C3 /* RouteTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB92DE93265C7B4D002897C3 /* RouteTest.swift */; };
-		BB92DEB8265C7C8E002897C3 /* AreasTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB92DEB5265C7C8E002897C3 /* AreasTest.swift */; };
 		BB92DEB9265C7C8E002897C3 /* ClusterTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB92DEB6265C7C8E002897C3 /* ClusterTest.swift */; };
 		BB92DEBA265C7C8E002897C3 /* AreaTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB92DEB7265C7C8E002897C3 /* AreaTest.swift */; };
 		BB92DEE2265C805A002897C3 /* AreasPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB92DED2265C7FCF002897C3 /* AreasPage.swift */; };
@@ -163,7 +162,6 @@
 		BB92DEA8265C7BEA002897C3 /* Area.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Area.swift; sourceTree = "<group>"; };
 		BB92DEA9265C7BEA002897C3 /* Areas.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Areas.swift; sourceTree = "<group>"; };
 		BB92DEAA265C7BEA002897C3 /* Cluster.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cluster.swift; sourceTree = "<group>"; };
-		BB92DEB5265C7C8E002897C3 /* AreasTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AreasTest.swift; sourceTree = "<group>"; };
 		BB92DEB6265C7C8E002897C3 /* ClusterTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClusterTest.swift; sourceTree = "<group>"; };
 		BB92DEB7265C7C8E002897C3 /* AreaTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AreaTest.swift; sourceTree = "<group>"; };
 		BB92DED2265C7FCF002897C3 /* AreasPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AreasPage.swift; sourceTree = "<group>"; };
@@ -282,9 +280,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BB49551E2665859A00E20571 /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				BB92DEA9265C7BEA002897C3 /* Areas.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
 		BB92DE59265C7ABA002897C3 = {
 			isa = PBXGroup;
 			children = (
+				BB49551E2665859A00E20571 /* View Models */,
 				BB92DF54265D26FC002897C3 /* Photos */,
 				BB92DED1265C7F77002897C3 /* Views */,
 				BB92DEC1265C7DE3002897C3 /* Resources */,
@@ -328,7 +335,6 @@
 		BB92DE76265C7ABD002897C3 /* BoulderingGuideTests */ = {
 			isa = PBXGroup;
 			children = (
-				BB92DEB5265C7C8E002897C3 /* AreasTest.swift */,
 				BB92DEB7265C7C8E002897C3 /* AreaTest.swift */,
 				BB92DEB6265C7C8E002897C3 /* ClusterTest.swift */,
 				BB92DE93265C7B4D002897C3 /* RouteTest.swift */,
@@ -351,7 +357,6 @@
 			isa = PBXGroup;
 			children = (
 				BB92DEA8265C7BEA002897C3 /* Area.swift */,
-				BB92DEA9265C7BEA002897C3 /* Areas.swift */,
 				BB92DEA7265C7BEA002897C3 /* Boulder.swift */,
 				BB92DEAA265C7BEA002897C3 /* Cluster.swift */,
 				BB92DF47265C81BE002897C3 /* ListItem.swift */,
@@ -717,7 +722,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				BB92DE94265C7B4D002897C3 /* RouteTest.swift in Sources */,
-				BB92DEB8265C7C8E002897C3 /* AreasTest.swift in Sources */,
 				BB92DEBA265C7C8E002897C3 /* AreaTest.swift in Sources */,
 				BB8FDD3F26642BC800275F3B /* ImageProviderTest.swift in Sources */,
 				BB92DEB9265C7C8E002897C3 /* ClusterTest.swift in Sources */,

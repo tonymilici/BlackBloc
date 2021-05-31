@@ -1,9 +1,8 @@
 //
-//  RoutesPage.swift
-//  BoulderingGuides
+//  AreaViewModel.swift
+//  BoulderingGuide
 //
-//  Created by Tony Milici on 5/17/21.
-//  Copyright © 2021 BlackBloc Software. All rights reserved.
+//  Created by Tony Milici on 5/31/21.
 //
 //Permission is hereby granted, free of charge, to any person obtaining a copy
 //of this software and associated documentation files (the "Software"), to deal
@@ -21,34 +20,19 @@
 //AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 //LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 //OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-//SOFTWARE./
+//SOFTWARE.
 
-import SwiftUI
+import Foundation
 
-struct RoutesPage: View {
-    @EnvironmentObject var areaVM: AreaViewModel
+class AreaViewModel: ObservableObject, Identifiable {
+    public let id = UUID()
+    public let area: Area
     
-    var body: some View {
-        List {
-            ForEach(areaVM.area.routes) {route in
-                NavigationLink(destination: RoutePage(route: route)) {
-                    ListItemView(
-                        item: ListItem(
-                            label: route.name,
-                            detail: "\(route.rating)  \(route.getStars)"))
-                }
-            }
-        }
-        .navigationTitle(areaVM.name)
-        .navigationBarTitleDisplayMode(.inline)
+    init(_ area: Area) {
+        self.area = area
     }
-}
-
-struct RoutesPage_Previews: PreviewProvider {
-    static var previews: some View {
-        if let area = try? Areas.loadArea("stoney_point.json") {
-            RoutesPage()
-                .environmentObject(AreaViewModel(area))
-        }
+    
+    public var name: String {
+        area.name
     }
 }

@@ -26,9 +26,8 @@
 import SwiftUI
 
 struct TabPage: View {
+    @EnvironmentObject var area: AreaViewModel
     @State private var selection: Tab = .navigate
-    
-    let area: Area
     
     enum Tab {
         case navigate
@@ -37,13 +36,13 @@ struct TabPage: View {
     
     var body: some View {
         TabView(selection: $selection) {
-            AreaMapPage(area: area)
+            AreaMapPage()
                 .tabItem {
                     Label("Navigate", systemImage: "safari")
                 }
                 .tag(Tab.navigate)
             
-            RoutesPage(area: area)
+            RoutesPage()
                 .tabItem {
                     Label("Routes", systemImage: "list.bullet")
                 }
@@ -57,7 +56,8 @@ struct TabPage: View {
 struct TabPage_Previews: PreviewProvider {
     static var previews: some View {
         if let area = try? Areas.loadArea("stoney_point.json") {
-            TabPage(area: area)
+            TabPage()
+                .environmentObject(AreaViewModel(area))
         }
     }
 }

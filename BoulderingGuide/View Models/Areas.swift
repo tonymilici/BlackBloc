@@ -26,7 +26,7 @@
 import Foundation
 
 public class Areas: ObservableObject {
-    @Published var areas: [Area] = []
+    @Published var areas: [AreaViewModel] = []
     
     private let dispatchQueue = DispatchQueue(label: "My Dispatch Queue")
     
@@ -38,7 +38,9 @@ public class Areas: ObservableObject {
         dispatchQueue.async() {
             let a: [Area] = Areas.loadAreas()
             DispatchQueue.main.async() {
-                self.areas = a
+                self.areas = a.map {
+                    AreaViewModel($0)
+                }
             }
         }
     }

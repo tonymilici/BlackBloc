@@ -29,6 +29,7 @@ struct BoulderPage: View {
     let boulder: Boulder
     
     @State var isNavigateActive = false
+    @EnvironmentObject var area: AreaViewModel
     
     var body: some View {
         VStack(alignment: .center, spacing: 16) {

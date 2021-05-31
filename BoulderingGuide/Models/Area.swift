@@ -30,8 +30,7 @@ public struct Location: Decodable {
     public let longitude: Double
 }
 
-public struct Area: Decodable, Identifiable {
-    public let id = UUID()
+public struct Area: Decodable {
     public let name: String
     public let location: Location
     public let size: Double
@@ -48,12 +47,5 @@ public struct Area: Decodable, Identifiable {
             }
         }
         return routes
-    }
-    
-    enum CodingKeys: String, CodingKey {
-        case name
-        case location
-        case size
-        case clusters
     }
 }

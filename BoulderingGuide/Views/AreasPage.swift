@@ -26,7 +26,7 @@ struct AreasPage: View {
         NavigationView {
             List {
                 ForEach(areas.areas) { area in
-                    NavigationLink(destination: TabPage(area: area)) {
+                    NavigationLink(destination: TabPage().environmentObject(area)) {
                         Text(area.name)
                     }
                 }

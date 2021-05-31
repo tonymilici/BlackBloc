@@ -19,19 +19,18 @@
 import SwiftUI
 
 struct AreaMapPage: View {
-    let area: Area
-    
+    @EnvironmentObject var areaVM: AreaViewModel
     @State private var selectedCluster: Int?
     
     var body: some View {
         ZStack {
-            AreaMapView(area: area) { index in
+            AreaMapView(area: areaVM.area) { index in
                 selectedCluster = index
             }
             
-            ForEach (0 ..< area.clusters.count) { index in
+            ForEach (0 ..< areaVM.area.clusters.count) { index in
                 NavigationLink(
-                    destination: ClusterPage(cluster: area.clusters[index]),
+                    destination: ClusterPage(cluster: areaVM.area.clusters[index]),
                     tag: index,
                     selection: $selectedCluster) {
                     EmptyView()
@@ -44,7 +43,8 @@ struct AreaMapPage: View {
 struct AreaMapPage_Previews: PreviewProvider {
     static var previews: some View {
         if let area = try? Areas.loadArea("stoney_point.json") {
-            AreaMapPage(area: area)
+            AreaMapPage()
+                .environmentObject(AreaViewModel(area))
         }
     }
 }

@@ -310,7 +310,6 @@
 			isa = PBXGroup;
 			children = (
 				BB92DE65265C7ABA002897C3 /* BoulderingGuideApp.swift */,
-				BB92DE67265C7ABA002897C3 /* ContentView.swift */,
 				BB92DE69265C7ABD002897C3 /* Assets.xcassets */,
 				BB92DE6E265C7ABD002897C3 /* Info.plist */,
 				BB92DE6B265C7ABD002897C3 /* Preview Content */,
@@ -376,19 +375,20 @@
 		BB92DED1265C7F77002897C3 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				BB92DF4F265C81E4002897C3 /* RoutesPage.swift */,
+				BB8FDD43266431E800275F3B /* AsyncImage.swift */,
 				BB92DF13265C80B1002897C3 /* AreaMapPage.swift */,
 				BB92DF18265C80D1002897C3 /* AreaMapView.swift */,
 				BB92DED2265C7FCF002897C3 /* AreasPage.swift */,
 				BB92DF22265C8105002897C3 /* BoulderPage.swift */,
+				BB92DE67265C7ABA002897C3 /* ContentView.swift */,
 				BB92DF1D265C80EC002897C3 /* ClusterPage.swift */,
 				BB92DF3F265C8193002897C3 /* ListItemView.swift */,
 				BB92DF32265C8153002897C3 /* NavigationMapView.swift */,
 				BB92DF2A265C8134002897C3 /* NavigationPage.swift */,
 				BB92DF3A265C8172002897C3 /* RoutePage.swift */,
-				BB92DEDA265C802D002897C3 /* TabPage.swift */,
+				BB92DF4F265C81E4002897C3 /* RoutesPage.swift */,
 				BB0A3EC82661166E0039F510 /* SplashScreen.swift */,
-				BB8FDD43266431E800275F3B /* AsyncImage.swift */,
+				BB92DEDA265C802D002897C3 /* TabPage.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";

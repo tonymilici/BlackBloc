@@ -27,8 +27,8 @@ import SwiftUI
 struct AsyncImage: View {
     @StateObject var provider:  ImageProvider
     
-    init(url: String) {
-        _provider = StateObject(wrappedValue: ImageProvider(image: url))
+    init(source: String) {
+        _provider = StateObject(wrappedValue: ImageProvider(image: source))
     }
     
     var body: some View {
@@ -51,9 +51,9 @@ struct AsyncImage: View {
 
 struct AsyncImage_Previews: PreviewProvider {
     static var previews: some View {
-     /*   AsyncImage(url: "https://res.cloudinary.com/blackbloc-software/image/upload/v1622386927/aftershock_tkt8py.png")*/
-        
-      //  AsyncImage(url: "aftershock_tkt8py.png")
-        AsyncImage(url: "aftershock.png")
+        Group {
+         //   AsyncImage(source: "aftershock_tkt8py.png")
+            AsyncImage(source: "say_goodnight.png")
+        }
     }
 }

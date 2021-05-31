@@ -62,6 +62,8 @@ struct RoutePage: View {
 
 struct RoutePage_Previews: PreviewProvider {
     static var previews: some View {
-        RoutePage(route: Areas().areas[0].routes[2])
+        if let area = try? Areas.loadArea("stoney_point.json") {
+            RoutePage(route: area.routes[2])
+        }
     }
 }

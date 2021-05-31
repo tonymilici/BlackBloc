@@ -28,6 +28,8 @@ struct NavigationPage: View {
 
 struct NavigationPage_Previews: PreviewProvider {
     static var previews: some View {
-        NavigationPage(location: Areas().areas[0].clusters[0].boulders[0].location!, title: "whateve")
+        if let area = try? Areas.loadArea("stoney_point.json") {
+            NavigationPage(location: area.clusters[0].boulders[0].location!, title: "whateve")
+        }
     }
 }

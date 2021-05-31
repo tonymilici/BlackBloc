@@ -82,6 +82,8 @@ struct BoulderPage: View {
 
 struct BoulderPage_Previews: PreviewProvider {
     static var previews: some View {
-        BoulderPage(boulder: Areas().areas[0].clusters[0].boulders[0])
+        if let area = try? Areas.loadArea("stoney_point.json") {
+            BoulderPage(boulder: area.clusters[0].boulders[0])
+        }
     }
 }

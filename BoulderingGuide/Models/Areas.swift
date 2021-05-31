@@ -36,14 +36,14 @@ public class Areas: ObservableObject {
     
     private func loadAreasAsync() {
         dispatchQueue.async() {
-            let a: [Area] = self.loadAreas()
+            let a: [Area] = Areas.loadAreas()
             DispatchQueue.main.async() {
                 self.areas = a
             }
         }
     }
     
-    private func loadAreas() -> [Area] {
+    public class func loadAreas() -> [Area] {
         var areas: [Area] = []
         
         if let docsDir = Bundle.main.resourcePath {
@@ -60,7 +60,7 @@ public class Areas: ObservableObject {
         return areas
     }
 
-    private func loadArea(_ filename: String) throws -> Area? {
+    public class func loadArea(_ filename: String) throws -> Area? {
         if let file = Bundle.main.url(forResource: filename, withExtension: nil) {
             if let data = try? Data(contentsOf: file) {
                 let decoder = JSONDecoder()

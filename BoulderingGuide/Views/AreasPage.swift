@@ -40,5 +40,6 @@ struct AreasPage: View {
 struct AreasView_Previews: PreviewProvider {
     static var previews: some View {
         AreasPage()
+            .environmentObject(Areas())
     }
 }

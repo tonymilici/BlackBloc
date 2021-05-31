@@ -43,6 +43,8 @@ struct AreaMapPage: View {
 
 struct AreaMapPage_Previews: PreviewProvider {
     static var previews: some View {
-        AreaMapPage(area: Areas().areas[0])
+        if let area = try? Areas.loadArea("stoney_point.json") {
+            AreaMapPage(area: area)
+        }
     }
 }

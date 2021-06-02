@@ -54,16 +54,16 @@ struct BoulderPage: View {
             }
             
             if let image = boulder.image {
-                GeometryReader {geo in
-                    Image(uiImage: UIImage(named: image)!)
-                        .resizable()
+                GeometryReader {
+                    AsyncImage(source: image)
                         .scaledToFill()
                         .frame(
-                            width: geo.size.width,
-                            height: geo.size.height,
-                            alignment: .center).clipped()
-                    }
+                            width: $0.size.width,
+                            height: $0.size.height,
+                            alignment: .center)
+                        .clipped()
                 }
+            }
             
             NavigationLink(destination: NavigationPage(location: boulder.location!, title: boulder.name), isActive: $isNavigateActive) {
                 EmptyView()

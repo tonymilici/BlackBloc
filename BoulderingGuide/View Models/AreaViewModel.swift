@@ -25,8 +25,8 @@
 import Foundation
 
 class AreaViewModel: ObservableObject, Identifiable {
-    public let id = UUID()
-    public let area: Area
+    let id = UUID()
+    let area: Area
     
     init(_ area: Area) {
         self.area = area

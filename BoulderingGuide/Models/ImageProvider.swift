@@ -28,19 +28,21 @@ import Combine
 class ImageProvider: ObservableObject {
     @Published var image: UIImage?
     
-    private let imageSource: String
+    private let imageName: String
+    private let urlBuilder: UrlBuilder
     private var cancellable: AnyCancellable?
     private let prefix = "https://res.cloudinary.com/blackbloc-software/image/upload/v1622386927/"
     
-    init(image: String) {
-        self.imageSource = image
+    init(imageName: String, urlBuilder: UrlBuilder) {
+        self.imageName = imageName
+        self.urlBuilder = urlBuilder
     }
     
     func load() {
-        if let uiImage = UIImage(named: imageSource) {
+        if let uiImage = UIImage(named: imageName) {
             image = uiImage
         }
-        else if let url = URL(string: prefix+imageSource) {
+        else if let url = URL(string: urlBuilder.build(image: imageName)) {
             cancellable = URLSession.shared.dataTaskPublisher(for: url)
                 .map {
                     UIImage(data: $0.data)

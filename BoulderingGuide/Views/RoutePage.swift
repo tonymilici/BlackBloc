@@ -28,7 +28,8 @@ import SwiftUI
 struct RoutePage: View {
     var route: Route
     
-    @State var isNavigateActive = false
+    @EnvironmentObject private var areaVM: AreaViewModel
+    @State private var isNavigateActive = false
     
     var body: some View {
         VStack(alignment: .center, spacing: 20) {
@@ -39,7 +40,7 @@ struct RoutePage: View {
                 .padding(EdgeInsets(top: 0, leading: 20, bottom: 0, trailing: 20))
             
             if let image = route.image {
-                AsyncImage(source: image)
+                AsyncImage(source: image, urlBuilder: UrlBuilder(areaName: areaVM.name))
                     .aspectRatio(contentMode: .fit)
                     .padding(EdgeInsets(top: 0, leading: 0, bottom: 20, trailing: 0))
             } else {

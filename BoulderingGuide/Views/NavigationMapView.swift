@@ -17,7 +17,7 @@ import SwiftUI
 import MapKit
 
 struct NavigationMapView: UIViewRepresentable {
-    let mapView = MKMapView()
+    private let mapView = MKMapView()
     let location: Location
     
     func makeUIView(context: Context) -> UIView {

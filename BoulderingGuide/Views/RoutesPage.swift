@@ -26,7 +26,7 @@
 import SwiftUI
 
 struct RoutesPage: View {
-    @EnvironmentObject var areaVM: AreaViewModel
+    @EnvironmentObject private var areaVM: AreaViewModel
     
     var body: some View {
         List {

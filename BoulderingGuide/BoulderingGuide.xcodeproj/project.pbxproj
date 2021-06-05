@@ -118,6 +118,7 @@
 		BB92DFEB265D2735002897C3 /* Spiral Traverse.png in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF9F265D2735002897C3 /* Spiral Traverse.png */; };
 		BB92DFEC265D2735002897C3 /* defroster.png in Resources */ = {isa = PBXBuildFile; fileRef = BB92DFA0265D2735002897C3 /* defroster.png */; };
 		BB92DFF1265D2841002897C3 /* the_jam_crack.png in Resources */ = {isa = PBXBuildFile; fileRef = BB92DFF0265D2841002897C3 /* the_jam_crack.png */; };
+		BBB2FE2A2667B51700FF60FA /* UrlBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB2FE292667B51700FF60FA /* UrlBuilder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -255,6 +256,7 @@
 		BB92DF9F265D2735002897C3 /* Spiral Traverse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Spiral Traverse.png"; sourceTree = "<group>"; };
 		BB92DFA0265D2735002897C3 /* defroster.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = defroster.png; sourceTree = "<group>"; };
 		BB92DFF0265D2841002897C3 /* the_jam_crack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = the_jam_crack.png; sourceTree = "<group>"; };
+		BBB2FE292667B51700FF60FA /* UrlBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrlBuilder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -365,6 +367,7 @@
 				BB92DF47265C81BE002897C3 /* ListItem.swift */,
 				BB92DE9F265C7BB1002897C3 /* Route.swift */,
 				BB8FDD3926641C1300275F3B /* ImageProvider.swift */,
+				BBB2FE292667B51700FF60FA /* UrlBuilder.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -704,6 +707,7 @@
 				BB92DF2B265C8134002897C3 /* NavigationPage.swift in Sources */,
 				BB92DF14265C80B1002897C3 /* AreaMapPage.swift in Sources */,
 				BB92DF3B265C8172002897C3 /* RoutePage.swift in Sources */,
+				BBB2FE2A2667B51700FF60FA /* UrlBuilder.swift in Sources */,
 				BB92DF19265C80D1002897C3 /* AreaMapView.swift in Sources */,
 				BB0A3EC92661166E0039F510 /* SplashScreen.swift in Sources */,
 				BB92DEF8265C8077002897C3 /* Boulder.swift in Sources */,

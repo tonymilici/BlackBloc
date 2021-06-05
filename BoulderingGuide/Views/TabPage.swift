@@ -26,10 +26,10 @@
 import SwiftUI
 
 struct TabPage: View {
-    @EnvironmentObject var area: AreaViewModel
+    @EnvironmentObject private var area: AreaViewModel
     @State private var selection: Tab = .navigate
     
-    enum Tab {
+    private enum Tab {
         case navigate
         case routes
     }

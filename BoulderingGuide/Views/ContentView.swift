@@ -26,7 +26,7 @@ import SwiftUI
 
 struct ContentView: View {
 
-    @EnvironmentObject var areas: Areas
+    @EnvironmentObject private var areas: Areas
     
     var body: some View {
         ZStack {

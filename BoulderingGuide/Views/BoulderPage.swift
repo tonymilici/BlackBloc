@@ -28,8 +28,8 @@ import SwiftUI
 struct BoulderPage: View {
     let boulder: Boulder
     
-    @State var isNavigateActive = false
-    @EnvironmentObject var area: AreaViewModel
+    @State private var isNavigateActive = false
+    @EnvironmentObject private var areaVM: AreaViewModel
     
     var body: some View {
         VStack(alignment: .center, spacing: 16) {
@@ -55,7 +55,7 @@ struct BoulderPage: View {
             
             if let image = boulder.image {
                 GeometryReader {
-                    AsyncImage(source: image)
+                    AsyncImage(source: image, urlBuilder: UrlBuilder(areaName: areaVM.name))
                         .scaledToFill()
                         .frame(
                             width: $0.size.width,
@@ -85,6 +85,7 @@ struct BoulderPage_Previews: PreviewProvider {
     static var previews: some View {
         if let area = try? Areas.loadArea("stoney_point.json") {
             BoulderPage(boulder: area.clusters[0].boulders[0])
+                .environmentObject(AreaViewModel(area))
         }
     }
 }

@@ -19,7 +19,7 @@
 import SwiftUI
 
 struct AreaMapPage: View {
-    @EnvironmentObject var areaVM: AreaViewModel
+    @EnvironmentObject private var areaVM: AreaViewModel
     @State private var selectedCluster: Int?
     
     var body: some View {

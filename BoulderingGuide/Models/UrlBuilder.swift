@@ -1,8 +1,8 @@
 //
-//  ImageProviderTest.swift
-//  BoulderingGuideTests
+//  UrlBuilder.swift
+//  BoulderingGuide
 //
-//  Created by Tony Milici on 5/30/21.
+//  Created by Tony Milici on 6/2/21.
 //
 //Permission is hereby granted, free of charge, to any person obtaining a copy
 //of this software and associated documentation files (the "Software"), to deal
@@ -22,27 +22,17 @@
 //OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 //SOFTWARE./
 
-import XCTest
-@testable import BoulderingGuide
+import Foundation
 
-class ImageProviderTest: XCTestCase {
-    func testLoad() {
-        let area = Area(
-            name: "Stoney Point",
-            location: Location(latitude: 33.9873, longitude: -117.3899),
-            size: 10,
-            clusters: [])
-        
-        let provider = ImageProvider(
-            imageName: "aftershock_omqyny.png",
-            urlBuilder: UrlBuilder(area: area))
-        
-        provider.load()
-        
-        while provider.image == nil {
-            RunLoop.main.run(mode: .default, before: .distantFuture)
+struct UrlBuilder {
+    let areaName: String
+    private let prefix = "https://res.cloudinary.com/blackbloc-software/image/upload/" 
+    
+    public func build(image: String) -> String {
+        let str = "\(prefix)\(areaName)/\(image)"
+        if let result = str.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed) {
+            return result;
         }
-        
-        XCTAssertNotNil(provider.image)
+        return ""
     }
 }

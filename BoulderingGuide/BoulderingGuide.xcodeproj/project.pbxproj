@@ -82,14 +82,12 @@
 		BB92DFC7265D2735002897C3 /* pancake.png in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF7B265D2734002897C3 /* pancake.png */; };
 		BB92DFC8265D2735002897C3 /* pump_rock.png in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF7C265D2734002897C3 /* pump_rock.png */; };
 		BB92DFC9265D2735002897C3 /* Comfort of Home.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF7D265D2734002897C3 /* Comfort of Home.jpg */; };
-		BB92DFCA265D2735002897C3 /* holy_water_boulder.png in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF7E265D2734002897C3 /* holy_water_boulder.png */; };
 		BB92DFCB265D2735002897C3 /* iron_man_traverse.png in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF7F265D2734002897C3 /* iron_man_traverse.png */; };
 		BB92DFCC265D2735002897C3 /* three_pigs.png in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF80265D2734002897C3 /* three_pigs.png */; };
 		BB92DFCD265D2735002897C3 /* Mommys Boy Right.png in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF81265D2734002897C3 /* Mommys Boy Right.png */; };
 		BB92DFCE265D2735002897C3 /* Boulder Behind Ummagumma.png in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF82265D2734002897C3 /* Boulder Behind Ummagumma.png */; };
 		BB92DFCF265D2735002897C3 /* swiss_cheese.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF83265D2734002897C3 /* swiss_cheese.jpg */; };
 		BB92DFD0265D2735002897C3 /* Teflon President.png in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF84265D2734002897C3 /* Teflon President.png */; };
-		BB92DFD1265D2735002897C3 /* adams_rib.png in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF85265D2734002897C3 /* adams_rib.png */; };
 		BB92DFD2265D2735002897C3 /* Ummagumma.png in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF86265D2734002897C3 /* Ummagumma.png */; };
 		BB92DFD3265D2735002897C3 /* unnamed_1.png in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF87265D2734002897C3 /* unnamed_1.png */; };
 		BB92DFD4265D2735002897C3 /* Unnamed.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF88265D2734002897C3 /* Unnamed.jpg */; };
@@ -100,7 +98,6 @@
 		BB92DFD9265D2735002897C3 /* crankin_queenie.png in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF8D265D2734002897C3 /* crankin_queenie.png */; };
 		BB92DFDA265D2735002897C3 /* Not Teflon President.png in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF8E265D2734002897C3 /* Not Teflon President.png */; };
 		BB92DFDB265D2735002897C3 /* Zacks Roof.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF8F265D2734002897C3 /* Zacks Roof.jpg */; };
-		BB92DFDC265D2735002897C3 /* aftershock.png in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF90265D2734002897C3 /* aftershock.png */; };
 		BB92DFDD265D2735002897C3 /* vivarin.png in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF91265D2734002897C3 /* vivarin.png */; };
 		BB92DFDE265D2735002897C3 /* tiny_crack.png in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF92265D2735002897C3 /* tiny_crack.png */; };
 		BB92DFDF265D2735002897C3 /* Burning Rubber Necklace.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF93265D2735002897C3 /* Burning Rubber Necklace.jpg */; };
@@ -220,14 +217,12 @@
 		BB92DF7B265D2734002897C3 /* pancake.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pancake.png; sourceTree = "<group>"; };
 		BB92DF7C265D2734002897C3 /* pump_rock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pump_rock.png; sourceTree = "<group>"; };
 		BB92DF7D265D2734002897C3 /* Comfort of Home.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Comfort of Home.jpg"; sourceTree = "<group>"; };
-		BB92DF7E265D2734002897C3 /* holy_water_boulder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = holy_water_boulder.png; sourceTree = "<group>"; };
 		BB92DF7F265D2734002897C3 /* iron_man_traverse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iron_man_traverse.png; sourceTree = "<group>"; };
 		BB92DF80265D2734002897C3 /* three_pigs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = three_pigs.png; sourceTree = "<group>"; };
 		BB92DF81265D2734002897C3 /* Mommys Boy Right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Mommys Boy Right.png"; sourceTree = "<group>"; };
 		BB92DF82265D2734002897C3 /* Boulder Behind Ummagumma.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Boulder Behind Ummagumma.png"; sourceTree = "<group>"; };
 		BB92DF83265D2734002897C3 /* swiss_cheese.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = swiss_cheese.jpg; sourceTree = "<group>"; };
 		BB92DF84265D2734002897C3 /* Teflon President.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Teflon President.png"; sourceTree = "<group>"; };
-		BB92DF85265D2734002897C3 /* adams_rib.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = adams_rib.png; sourceTree = "<group>"; };
 		BB92DF86265D2734002897C3 /* Ummagumma.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ummagumma.png; sourceTree = "<group>"; };
 		BB92DF87265D2734002897C3 /* unnamed_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unnamed_1.png; sourceTree = "<group>"; };
 		BB92DF88265D2734002897C3 /* Unnamed.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Unnamed.jpg; sourceTree = "<group>"; };
@@ -238,7 +233,6 @@
 		BB92DF8D265D2734002897C3 /* crankin_queenie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = crankin_queenie.png; sourceTree = "<group>"; };
 		BB92DF8E265D2734002897C3 /* Not Teflon President.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Not Teflon President.png"; sourceTree = "<group>"; };
 		BB92DF8F265D2734002897C3 /* Zacks Roof.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Zacks Roof.jpg"; sourceTree = "<group>"; };
-		BB92DF90265D2734002897C3 /* aftershock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aftershock.png; sourceTree = "<group>"; };
 		BB92DF91265D2734002897C3 /* vivarin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vivarin.png; sourceTree = "<group>"; };
 		BB92DF92265D2735002897C3 /* tiny_crack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tiny_crack.png; sourceTree = "<group>"; };
 		BB92DF93265D2735002897C3 /* Burning Rubber Necklace.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Burning Rubber Necklace.jpg"; sourceTree = "<group>"; };
@@ -408,8 +402,6 @@
 			isa = PBXGroup;
 			children = (
 				BB92DFF0265D2841002897C3 /* the_jam_crack.png */,
-				BB92DF85265D2734002897C3 /* adams_rib.png */,
-				BB92DF90265D2734002897C3 /* aftershock.png */,
 				BB92DF6A265D2733002897C3 /* and_the_holy_spirit_amen.png */,
 				BB92DF5B265D2733002897C3 /* arbor_days.png */,
 				BB92DF73265D2733002897C3 /* Barndoor Arete.jpg */,
@@ -432,7 +424,6 @@
 				BB92DF75265D2733002897C3 /* golf_boulder.jpg */,
 				BB92DF69265D2733002897C3 /* Happy Hooker.jpg */,
 				BB92DF62265D2733002897C3 /* Hero Roof.png */,
-				BB92DF7E265D2734002897C3 /* holy_water_boulder.png */,
 				BB92DF63265D2733002897C3 /* Horse Farts.png */,
 				BB92DF76265D2734002897C3 /* hueco_boulder.png */,
 				BB92DF7F265D2734002897C3 /* iron_man_traverse.png */,
@@ -606,7 +597,6 @@
 				BB92DFA6265D2735002897C3 /* Eriksson Problem.jpg in Resources */,
 				BB92DFCC265D2735002897C3 /* three_pigs.png in Resources */,
 				BB92DFA5265D2735002897C3 /* opposition_movement.png in Resources */,
-				BB92DFDC265D2735002897C3 /* aftershock.png in Resources */,
 				BB92DFD9265D2735002897C3 /* crankin_queenie.png in Resources */,
 				BB92DFD6265D2735002897C3 /* double_helix.png in Resources */,
 				BB92DFE6265D2735002897C3 /* Pocket Traverse.png in Resources */,
@@ -636,7 +626,6 @@
 				BB92DFA8265D2735002897C3 /* Mommys Boy Left.png in Resources */,
 				BB92DFDF265D2735002897C3 /* Burning Rubber Necklace.jpg in Resources */,
 				BB92DE6D265C7ABD002897C3 /* Preview Assets.xcassets in Resources */,
-				BB92DFCA265D2735002897C3 /* holy_water_boulder.png in Resources */,
 				BB92DFE9265D2735002897C3 /* easy_face.png in Resources */,
 				BB92DFA7265D2735002897C3 /* arbor_days.png in Resources */,
 				BB92DFBD265D2735002897C3 /* west_arete.png in Resources */,
@@ -657,7 +646,6 @@
 				BB92DFCB265D2735002897C3 /* iron_man_traverse.png in Resources */,
 				BB92DFC1265D2735002897C3 /* golf_boulder.jpg in Resources */,
 				BB92DFDB265D2735002897C3 /* Zacks Roof.jpg in Resources */,
-				BB92DFD1265D2735002897C3 /* adams_rib.png in Resources */,
 				BB92DFAA265D2735002897C3 /* Face Problem.png in Resources */,
 				BB92DFD2265D2735002897C3 /* Ummagumma.png in Resources */,
 				BB92DFA1265D2735002897C3 /* Credit Card Lover.png in Resources */,

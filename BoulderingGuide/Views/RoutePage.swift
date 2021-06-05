@@ -41,10 +41,20 @@ struct RoutePage: View {
             
             if let image = route.image {
                 Spacer()
-                AsyncImage(source: image, urlBuilder: UrlBuilder(areaName: areaVM.name))
-                    .aspectRatio(contentMode: .fit)
-                    .padding(EdgeInsets(top: 0, leading: 0, bottom: 20, trailing: 0))
-                Spacer()
+                GeometryReader {
+                    AsyncImage(source: image, urlBuilder: UrlBuilder(areaName: areaVM.name))
+                        .aspectRatio(contentMode: .fit)
+                        .frame(
+                            width: $0.size.width,
+                            height: $0.size.height,
+                            alignment: .center)
+                        .clipped()
+                }
+         /*       GeometryReader {
+                    AsyncImage(source: image, urlBuilder: UrlBuilder(areaName: areaVM.name))
+                        .aspectRatio(contentMode: .fit)
+                        .padding(EdgeInsets(top: 0, leading: 0, bottom: 20, trailing: 0))
+                }*/
             } else {
                 Spacer()
             }

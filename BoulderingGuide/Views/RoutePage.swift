@@ -40,9 +40,11 @@ struct RoutePage: View {
                 .padding(EdgeInsets(top: 0, leading: 20, bottom: 0, trailing: 20))
             
             if let image = route.image {
+                Spacer()
                 AsyncImage(source: image, urlBuilder: UrlBuilder(areaName: areaVM.name))
                     .aspectRatio(contentMode: .fit)
                     .padding(EdgeInsets(top: 0, leading: 0, bottom: 20, trailing: 0))
+                Spacer()
             } else {
                 Spacer()
             }

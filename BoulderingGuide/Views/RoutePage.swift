@@ -26,7 +26,7 @@
 import SwiftUI
 
 struct RoutePage: View {
-    var route: Route
+    let route: Route
     
     @EnvironmentObject private var areaVM: AreaViewModel
     @State private var isNavigateActive = false
@@ -35,14 +35,18 @@ struct RoutePage: View {
         VStack(alignment: .center, spacing: 20) {
             Text(route.name)
                 .font(.headline)
-            Text("\(route.rating)  \(route.getStars)\n\n\(route.description!)")
-                .font(.system(size: 14))
-                .padding(EdgeInsets(top: 0, leading: 20, bottom: 0, trailing: 20))
+                .padding(EdgeInsets(top: 8, leading: 0, bottom: 0, trailing: 0))
+            
+            GeometryReader {
+                Text("\(route.rating)  \(route.getStars)\n\n\(route.description!)")
+                    .font(.system(size: 14))
+                    .frame(width: $0.size.width, alignment: .leading)
+            }
+            
+            Spacer()
             
             if let image = route.image {
                 AsyncImage(source: image, urlBuilder: UrlBuilder(areaName: areaVM.name))
-            } else {
-                Spacer()
             }
             
             NavigationLink(destination: NavigationPage(location: route.location!, title: route.name), isActive: $isNavigateActive) {

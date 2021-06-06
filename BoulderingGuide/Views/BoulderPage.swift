@@ -35,6 +35,7 @@ struct BoulderPage: View {
         VStack(alignment: .center, spacing: 16) {
             Text(boulder.name)
                 .font(.headline)
+                .padding(EdgeInsets(top: 8, leading: 0, bottom: 0, trailing: 0))
             
             Text(boulder.description!)
                 .font(.system(size: 14))

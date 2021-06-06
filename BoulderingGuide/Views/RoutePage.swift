@@ -37,13 +37,8 @@ struct RoutePage: View {
                 .font(.headline)
                 .padding(EdgeInsets(top: 8, leading: 0, bottom: 0, trailing: 0))
             
-            GeometryReader {
-                Text("\(route.rating)  \(route.getStars)\n\n\(route.description!)")
-                    .font(.system(size: 14))
-                    .frame(width: $0.size.width, alignment: .leading)
-            }
-            
-            Spacer()
+            Text("\(route.rating)  \(route.getStars)\n\n\(route.description!)")
+                .font(.system(size: 14))
             
             if let image = route.image {
                 AsyncImage(source: image, urlBuilder: UrlBuilder(areaName: areaVM.name))

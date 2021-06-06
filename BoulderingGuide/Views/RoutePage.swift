@@ -43,10 +43,7 @@ struct RoutePage: View {
                 Spacer()
                 GeometryReader {
                     AsyncImage(source: image, urlBuilder: UrlBuilder(areaName: areaVM.name))
-                        .frame(
-                            width: $0.size.width,
-                            height: $0.size.height,
-                            alignment: .center)
+                        .frame(width: $0.size.width)
                 }
             } else {
                 Spacer()
@@ -56,11 +53,10 @@ struct RoutePage: View {
                 EmptyView()
             }
         }
-        .padding(.top)
+        .padding(8)
         .toolbar {
             Button(action: { isNavigateActive = true }) {
                 Image(systemName: "safari")
-                    .accessibilityLabel("user Profile")
             }
             .disabled(route.location == nil)
         }

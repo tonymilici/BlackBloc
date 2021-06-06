@@ -56,10 +56,7 @@ struct BoulderPage: View {
             if let image = boulder.image {
                 GeometryReader {
                     AsyncImage(source: image, urlBuilder: UrlBuilder(areaName: areaVM.name))
-                        .frame(
-                            width: $0.size.width,
-                            height: $0.size.height,
-                            alignment: .top)
+                        .frame(width: $0.size.width)
                 }
             }
             
@@ -67,13 +64,12 @@ struct BoulderPage: View {
                 EmptyView()
             }
         }
-        .padding(EdgeInsets(top: 8, leading: 0, bottom: 8, trailing: 0))
+        .padding(8)
         .navigationTitle("Boulder")
         .navigationBarTitleDisplayMode(.inline)
         .toolbar {
             Button(action: { isNavigateActive = true }) {
                 Image(systemName: "safari")
-                    .accessibilityLabel("user Profile")
             }
         }
     }

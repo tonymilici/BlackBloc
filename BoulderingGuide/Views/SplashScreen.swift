@@ -29,16 +29,6 @@ struct SplashScreen: View {
     var body: some View {
         Color("Red")
         .edgesIgnoringSafeArea(.all)
-        
-      /*  GeometryReader {geo in
-            Image(uiImage: UIImage(named: "stoney_point.jpg")!)
-                .resizable()
-                .scaledToFill()
-                .frame(
-                    width: geo.size.width,
-                    height: geo.size.height,
-                    alignment: .center).clipped()
-        }*/
     }
 }
 

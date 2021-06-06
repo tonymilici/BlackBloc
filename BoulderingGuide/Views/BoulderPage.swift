@@ -71,6 +71,7 @@ struct BoulderPage: View {
             Button(action: { isNavigateActive = true }) {
                 Image(systemName: "safari")
             }
+            .disabled(boulder.location == nil)
         }
     }
 }

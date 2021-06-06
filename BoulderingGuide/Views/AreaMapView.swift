@@ -22,8 +22,8 @@ import MapKit
 
 struct AreaMapView: UIViewRepresentable {
     let area: Area
-    let mapView = MKMapView()
     var tapCallback: ((Int) -> Void)
+    private let mapView = MKMapView()
    
     func makeUIView(context: Context) -> UIView {
         mapView.mapType = .satellite

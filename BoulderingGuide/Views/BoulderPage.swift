@@ -56,12 +56,10 @@ struct BoulderPage: View {
             if let image = boulder.image {
                 GeometryReader {
                     AsyncImage(source: image, urlBuilder: UrlBuilder(areaName: areaVM.name))
-                        .scaledToFill()
                         .frame(
                             width: $0.size.width,
                             height: $0.size.height,
-                            alignment: .center)
-                        .clipped()
+                            alignment: .top)
                 }
             }
             

@@ -41,6 +41,8 @@ struct AsyncImage: View {
             if provider.image != nil {
                 Image(uiImage: provider.image!)
                     .resizable()
+                    .aspectRatio(contentMode: .fit)
+                    .clipped()
             } else {
                 Text("Loading...")
             }

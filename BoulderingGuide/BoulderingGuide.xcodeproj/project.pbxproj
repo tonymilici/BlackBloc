@@ -47,7 +47,6 @@
 		BB92DFA4265D2735002897C3 /* better_bold_than_old.png in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF58265D2732002897C3 /* better_bold_than_old.png */; };
 		BB92DFA5265D2735002897C3 /* opposition_movement.png in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF59265D2732002897C3 /* opposition_movement.png */; };
 		BB92DFA6265D2735002897C3 /* Eriksson Problem.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF5A265D2733002897C3 /* Eriksson Problem.jpg */; };
-		BB92DFA7265D2735002897C3 /* arbor_days.png in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF5B265D2733002897C3 /* arbor_days.png */; };
 		BB92DFA8265D2735002897C3 /* Mommys Boy Left.png in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF5C265D2733002897C3 /* Mommys Boy Left.png */; };
 		BB92DFA9265D2735002897C3 /* The Great Curve.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF5D265D2733002897C3 /* The Great Curve.jpg */; };
 		BB92DFAA265D2735002897C3 /* Face Problem.png in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF5E265D2733002897C3 /* Face Problem.png */; };
@@ -62,7 +61,6 @@
 		BB92DFB3265D2735002897C3 /* Chouinards Slab.png in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF67265D2733002897C3 /* Chouinards Slab.png */; };
 		BB92DFB4265D2735002897C3 /* Borealis.png in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF68265D2733002897C3 /* Borealis.png */; };
 		BB92DFB5265D2735002897C3 /* Happy Hooker.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF69265D2733002897C3 /* Happy Hooker.jpg */; };
-		BB92DFB6265D2735002897C3 /* and_the_holy_spirit_amen.png in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF6A265D2733002897C3 /* and_the_holy_spirit_amen.png */; };
 		BB92DFB7265D2735002897C3 /* Thin Crack.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF6B265D2733002897C3 /* Thin Crack.jpg */; };
 		BB92DFB8265D2735002897C3 /* Spiral Direct.png in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF6C265D2733002897C3 /* Spiral Direct.png */; };
 		BB92DFB9265D2735002897C3 /* Warm Up.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF6D265D2733002897C3 /* Warm Up.jpg */; };
@@ -95,7 +93,6 @@
 		BB92DFD6265D2735002897C3 /* double_helix.png in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF8A265D2734002897C3 /* double_helix.png */; };
 		BB92DFD7265D2735002897C3 /* Pile Ups.png in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF8B265D2734002897C3 /* Pile Ups.png */; };
 		BB92DFD8265D2735002897C3 /* the_refigerator.png in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF8C265D2734002897C3 /* the_refigerator.png */; };
-		BB92DFD9265D2735002897C3 /* crankin_queenie.png in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF8D265D2734002897C3 /* crankin_queenie.png */; };
 		BB92DFDA265D2735002897C3 /* Not Teflon President.png in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF8E265D2734002897C3 /* Not Teflon President.png */; };
 		BB92DFDB265D2735002897C3 /* Zacks Roof.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF8F265D2734002897C3 /* Zacks Roof.jpg */; };
 		BB92DFDD265D2735002897C3 /* vivarin.png in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF91265D2734002897C3 /* vivarin.png */; };
@@ -106,7 +103,6 @@
 		BB92DFE2265D2735002897C3 /* unnamed_2.png in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF96265D2735002897C3 /* unnamed_2.png */; };
 		BB92DFE3265D2735002897C3 /* boot_flake.png in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF97265D2735002897C3 /* boot_flake.png */; };
 		BB92DFE4265D2735002897C3 /* Mommys Boys.png in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF98265D2735002897C3 /* Mommys Boys.png */; };
-		BB92DFE5265D2735002897C3 /* say_goodnight.png in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF99265D2735002897C3 /* say_goodnight.png */; };
 		BB92DFE6265D2735002897C3 /* Pocket Traverse.png in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF9A265D2735002897C3 /* Pocket Traverse.png */; };
 		BB92DFE7265D2735002897C3 /* slant_flake.png in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF9B265D2735002897C3 /* slant_flake.png */; };
 		BB92DFE8265D2735002897C3 /* Victor Boulder.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF9C265D2735002897C3 /* Victor Boulder.jpg */; };
@@ -114,7 +110,6 @@
 		BB92DFEA265D2735002897C3 /* Teflon Boulder.png in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF9E265D2735002897C3 /* Teflon Boulder.png */; };
 		BB92DFEB265D2735002897C3 /* Spiral Traverse.png in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF9F265D2735002897C3 /* Spiral Traverse.png */; };
 		BB92DFEC265D2735002897C3 /* defroster.png in Resources */ = {isa = PBXBuildFile; fileRef = BB92DFA0265D2735002897C3 /* defroster.png */; };
-		BB92DFF1265D2841002897C3 /* the_jam_crack.png in Resources */ = {isa = PBXBuildFile; fileRef = BB92DFF0265D2841002897C3 /* the_jam_crack.png */; };
 		BBB2FE2A2667B51700FF60FA /* UrlBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB2FE292667B51700FF60FA /* UrlBuilder.swift */; };
 /* End PBXBuildFile section */
 
@@ -182,7 +177,6 @@
 		BB92DF58265D2732002897C3 /* better_bold_than_old.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = better_bold_than_old.png; sourceTree = "<group>"; };
 		BB92DF59265D2732002897C3 /* opposition_movement.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = opposition_movement.png; sourceTree = "<group>"; };
 		BB92DF5A265D2733002897C3 /* Eriksson Problem.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Eriksson Problem.jpg"; sourceTree = "<group>"; };
-		BB92DF5B265D2733002897C3 /* arbor_days.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arbor_days.png; sourceTree = "<group>"; };
 		BB92DF5C265D2733002897C3 /* Mommys Boy Left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Mommys Boy Left.png"; sourceTree = "<group>"; };
 		BB92DF5D265D2733002897C3 /* The Great Curve.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "The Great Curve.jpg"; sourceTree = "<group>"; };
 		BB92DF5E265D2733002897C3 /* Face Problem.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Face Problem.png"; sourceTree = "<group>"; };
@@ -197,7 +191,6 @@
 		BB92DF67265D2733002897C3 /* Chouinards Slab.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Chouinards Slab.png"; sourceTree = "<group>"; };
 		BB92DF68265D2733002897C3 /* Borealis.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Borealis.png; sourceTree = "<group>"; };
 		BB92DF69265D2733002897C3 /* Happy Hooker.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Happy Hooker.jpg"; sourceTree = "<group>"; };
-		BB92DF6A265D2733002897C3 /* and_the_holy_spirit_amen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = and_the_holy_spirit_amen.png; sourceTree = "<group>"; };
 		BB92DF6B265D2733002897C3 /* Thin Crack.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Thin Crack.jpg"; sourceTree = "<group>"; };
 		BB92DF6C265D2733002897C3 /* Spiral Direct.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Spiral Direct.png"; sourceTree = "<group>"; };
 		BB92DF6D265D2733002897C3 /* Warm Up.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Warm Up.jpg"; sourceTree = "<group>"; };
@@ -230,7 +223,6 @@
 		BB92DF8A265D2734002897C3 /* double_helix.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = double_helix.png; sourceTree = "<group>"; };
 		BB92DF8B265D2734002897C3 /* Pile Ups.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pile Ups.png"; sourceTree = "<group>"; };
 		BB92DF8C265D2734002897C3 /* the_refigerator.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = the_refigerator.png; sourceTree = "<group>"; };
-		BB92DF8D265D2734002897C3 /* crankin_queenie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = crankin_queenie.png; sourceTree = "<group>"; };
 		BB92DF8E265D2734002897C3 /* Not Teflon President.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Not Teflon President.png"; sourceTree = "<group>"; };
 		BB92DF8F265D2734002897C3 /* Zacks Roof.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Zacks Roof.jpg"; sourceTree = "<group>"; };
 		BB92DF91265D2734002897C3 /* vivarin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vivarin.png; sourceTree = "<group>"; };
@@ -241,7 +233,6 @@
 		BB92DF96265D2735002897C3 /* unnamed_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unnamed_2.png; sourceTree = "<group>"; };
 		BB92DF97265D2735002897C3 /* boot_flake.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = boot_flake.png; sourceTree = "<group>"; };
 		BB92DF98265D2735002897C3 /* Mommys Boys.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Mommys Boys.png"; sourceTree = "<group>"; };
-		BB92DF99265D2735002897C3 /* say_goodnight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = say_goodnight.png; sourceTree = "<group>"; };
 		BB92DF9A265D2735002897C3 /* Pocket Traverse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pocket Traverse.png"; sourceTree = "<group>"; };
 		BB92DF9B265D2735002897C3 /* slant_flake.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slant_flake.png; sourceTree = "<group>"; };
 		BB92DF9C265D2735002897C3 /* Victor Boulder.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Victor Boulder.jpg"; sourceTree = "<group>"; };
@@ -249,7 +240,6 @@
 		BB92DF9E265D2735002897C3 /* Teflon Boulder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Teflon Boulder.png"; sourceTree = "<group>"; };
 		BB92DF9F265D2735002897C3 /* Spiral Traverse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Spiral Traverse.png"; sourceTree = "<group>"; };
 		BB92DFA0265D2735002897C3 /* defroster.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = defroster.png; sourceTree = "<group>"; };
-		BB92DFF0265D2841002897C3 /* the_jam_crack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = the_jam_crack.png; sourceTree = "<group>"; };
 		BBB2FE292667B51700FF60FA /* UrlBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrlBuilder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -401,9 +391,6 @@
 		BB92DF54265D26FC002897C3 /* Photos */ = {
 			isa = PBXGroup;
 			children = (
-				BB92DFF0265D2841002897C3 /* the_jam_crack.png */,
-				BB92DF6A265D2733002897C3 /* and_the_holy_spirit_amen.png */,
-				BB92DF5B265D2733002897C3 /* arbor_days.png */,
 				BB92DF73265D2733002897C3 /* Barndoor Arete.jpg */,
 				BB92DF58265D2732002897C3 /* better_bold_than_old.png */,
 				BB92DF97265D2735002897C3 /* boot_flake.png */,
@@ -414,7 +401,6 @@
 				BB92DF79265D2734002897C3 /* Celestial Trail.jpg */,
 				BB92DF67265D2733002897C3 /* Chouinards Slab.png */,
 				BB92DF7D265D2734002897C3 /* Comfort of Home.jpg */,
-				BB92DF8D265D2734002897C3 /* crankin_queenie.png */,
 				BB92DF55265D2732002897C3 /* Credit Card Lover.png */,
 				BB92DFA0265D2735002897C3 /* defroster.png */,
 				BB92DF8A265D2734002897C3 /* double_helix.png */,
@@ -441,7 +427,6 @@
 				BB92DF6E265D2733002897C3 /* pump_arete.png */,
 				BB92DF7C265D2734002897C3 /* pump_rock.png */,
 				BB92DF6F265D2733002897C3 /* rhythym_and_the_heat.png */,
-				BB92DF99265D2735002897C3 /* say_goodnight.png */,
 				BB92DF9B265D2735002897C3 /* slant_flake.png */,
 				BB92DF7A265D2734002897C3 /* slant_rock_face.png */,
 				BB92DF70265D2733002897C3 /* slant_rock.png */,
@@ -585,19 +570,16 @@
 				BB92DFAE265D2735002897C3 /* Hero Roof.png in Resources */,
 				BB92DFCD265D2735002897C3 /* Mommys Boy Right.png in Resources */,
 				BB92DFEA265D2735002897C3 /* Teflon Boulder.png in Resources */,
-				BB92DFB6265D2735002897C3 /* and_the_holy_spirit_amen.png in Resources */,
 				BB92DFE7265D2735002897C3 /* slant_flake.png in Resources */,
 				BB92DFC3265D2735002897C3 /* Sword of Damocles.jpg in Resources */,
 				BB92DFE3265D2735002897C3 /* boot_flake.png in Resources */,
 				BB92DFB5265D2735002897C3 /* Happy Hooker.jpg in Resources */,
-				BB92DFE5265D2735002897C3 /* say_goodnight.png in Resources */,
 				BB92DFBF265D2735002897C3 /* Barndoor Arete.jpg in Resources */,
 				BB92DFCF265D2735002897C3 /* swiss_cheese.jpg in Resources */,
 				BB92DFBB265D2735002897C3 /* rhythym_and_the_heat.png in Resources */,
 				BB92DFA6265D2735002897C3 /* Eriksson Problem.jpg in Resources */,
 				BB92DFCC265D2735002897C3 /* three_pigs.png in Resources */,
 				BB92DFA5265D2735002897C3 /* opposition_movement.png in Resources */,
-				BB92DFD9265D2735002897C3 /* crankin_queenie.png in Resources */,
 				BB92DFD6265D2735002897C3 /* double_helix.png in Resources */,
 				BB92DFE6265D2735002897C3 /* Pocket Traverse.png in Resources */,
 				BB92DFA4265D2735002897C3 /* better_bold_than_old.png in Resources */,
@@ -617,7 +599,6 @@
 				BB92DFAC265D2735002897C3 /* west_face.png in Resources */,
 				BB92DFC4265D2735002897C3 /* boulder_1.png in Resources */,
 				BB92DFD5265D2735002897C3 /* linear_fracture_traverse.png in Resources */,
-				BB92DFF1265D2841002897C3 /* the_jam_crack.png in Resources */,
 				BB92DFA2265D2735002897C3 /* the_prow.png in Resources */,
 				BB92DFD7265D2735002897C3 /* Pile Ups.png in Resources */,
 				BB92DFDA265D2735002897C3 /* Not Teflon President.png in Resources */,
@@ -627,7 +608,6 @@
 				BB92DFDF265D2735002897C3 /* Burning Rubber Necklace.jpg in Resources */,
 				BB92DE6D265C7ABD002897C3 /* Preview Assets.xcassets in Resources */,
 				BB92DFE9265D2735002897C3 /* easy_face.png in Resources */,
-				BB92DFA7265D2735002897C3 /* arbor_days.png in Resources */,
 				BB92DFBD265D2735002897C3 /* west_arete.png in Resources */,
 				BB92DFB9265D2735002897C3 /* Warm Up.jpg in Resources */,
 				BB92DFAB265D2735002897C3 /* Teflon Arete.png in Resources */,

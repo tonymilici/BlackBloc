@@ -31,7 +31,6 @@ class ImageProvider: ObservableObject {
     private let imageName: String
     private let urlBuilder: UrlBuilder
     private var cancellable: AnyCancellable?
-    private let prefix = "https://res.cloudinary.com/blackbloc-software/image/upload/v1622386927/"
     
     init(imageName: String, urlBuilder: UrlBuilder) {
         self.imageName = imageName

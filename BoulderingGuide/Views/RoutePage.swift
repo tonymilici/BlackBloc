@@ -40,11 +40,7 @@ struct RoutePage: View {
                 .padding(EdgeInsets(top: 0, leading: 20, bottom: 0, trailing: 20))
             
             if let image = route.image {
-                Spacer()
-                GeometryReader {
-                    AsyncImage(source: image, urlBuilder: UrlBuilder(areaName: areaVM.name))
-                        .frame(width: $0.size.width)
-                }
+                AsyncImage(source: image, urlBuilder: UrlBuilder(areaName: areaVM.name))
             } else {
                 Spacer()
             }

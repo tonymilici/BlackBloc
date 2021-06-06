@@ -54,10 +54,7 @@ struct BoulderPage: View {
             }
             
             if let image = boulder.image {
-                GeometryReader {
-                    AsyncImage(source: image, urlBuilder: UrlBuilder(areaName: areaVM.name))
-                        .frame(width: $0.size.width)
-                }
+                AsyncImage(source: image, urlBuilder: UrlBuilder(areaName: areaVM.name))
             }
             
             NavigationLink(destination: NavigationPage(location: boulder.location!, title: boulder.name), isActive: $isNavigateActive) {

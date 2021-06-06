@@ -25,7 +25,7 @@
 import SwiftUI
 
 struct AsyncImage: View {
-    @StateObject private var provider:  ImageProvider
+    @StateObject private var provider: ImageProvider
     
     init(source: String, urlBuilder: UrlBuilder) {
         _provider = StateObject(wrappedValue: ImageProvider(imageName: source, urlBuilder: urlBuilder))
@@ -44,7 +44,13 @@ struct AsyncImage: View {
                     .aspectRatio(contentMode: .fit)
                     .clipped()
             } else {
-                Text("Loading...")
+                GeometryReader {
+                    Text("Loading...")
+                        .frame(
+                            width: $0.size.width,
+                            height: $0.size.height,
+                            alignment: .center)
+                }
             }
         }
     }

@@ -39,6 +39,7 @@ struct BoulderPage: View {
             
             Text(boulder.description!)
                 .font(.system(size: 14))
+                .frame(maxWidth: .infinity, alignment: .leading)
                 .padding(EdgeInsets(top: 0, leading: 8, bottom: 0, trailing: 8))
             
             List {

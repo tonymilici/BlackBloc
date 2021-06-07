@@ -32,13 +32,17 @@ struct RoutePage: View {
     @State private var isNavigateActive = false
     
     var body: some View {
-        VStack(alignment: .center, spacing: 20) {
+        VStack(alignment: .center) {
             Text(route.name)
                 .font(.headline)
                 .padding(EdgeInsets(top: 8, leading: 0, bottom: 0, trailing: 0))
             
             Text("\(route.rating)  \(route.getStars)\n\n\(route.description!)")
                 .font(.system(size: 14))
+                .frame(maxWidth: .infinity, alignment: .leading)
+                .padding(EdgeInsets(top: 8, leading: 0, bottom: 0, trailing: 0))
+            
+            Spacer()
             
             if let image = route.image {
                 AsyncImage(source: image, urlBuilder: UrlBuilder(areaName: areaVM.name))

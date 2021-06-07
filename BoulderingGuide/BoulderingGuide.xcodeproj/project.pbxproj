@@ -97,9 +97,9 @@
 		BB92DFE9265D2735002897C3 /* easy_face.png in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF9D265D2735002897C3 /* easy_face.png */; };
 		BB92DFEA265D2735002897C3 /* Teflon Boulder.png in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF9E265D2735002897C3 /* Teflon Boulder.png */; };
 		BB92DFEB265D2735002897C3 /* Spiral Traverse.png in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF9F265D2735002897C3 /* Spiral Traverse.png */; };
-		BB92DFEC265D2735002897C3 /* defroster.png in Resources */ = {isa = PBXBuildFile; fileRef = BB92DFA0265D2735002897C3 /* defroster.png */; };
 		BBB2FE2A2667B51700FF60FA /* UrlBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB2FE292667B51700FF60FA /* UrlBuilder.swift */; };
 		BBFAB9E3266D189D009A261E /* arroyo_seco_boulders.json in Resources */ = {isa = PBXBuildFile; fileRef = BBFAB9E2266D189D009A261E /* arroyo_seco_boulders.json */; };
+		BBFAB9F1266D452D009A261E /* mt_rubidoux.json in Resources */ = {isa = PBXBuildFile; fileRef = BBFAB9F0266D452D009A261E /* mt_rubidoux.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -216,9 +216,9 @@
 		BB92DF9D265D2735002897C3 /* easy_face.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = easy_face.png; sourceTree = "<group>"; };
 		BB92DF9E265D2735002897C3 /* Teflon Boulder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Teflon Boulder.png"; sourceTree = "<group>"; };
 		BB92DF9F265D2735002897C3 /* Spiral Traverse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Spiral Traverse.png"; sourceTree = "<group>"; };
-		BB92DFA0265D2735002897C3 /* defroster.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = defroster.png; sourceTree = "<group>"; };
 		BBB2FE292667B51700FF60FA /* UrlBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrlBuilder.swift; sourceTree = "<group>"; };
 		BBFAB9E2266D189D009A261E /* arroyo_seco_boulders.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = arroyo_seco_boulders.json; sourceTree = "<group>"; };
+		BBFAB9F0266D452D009A261E /* mt_rubidoux.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = mt_rubidoux.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -337,9 +337,10 @@
 		BB92DEC1265C7DE3002897C3 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				BBFAB9E2266D189D009A261E /* arroyo_seco_boulders.json */,
-				BB0A3EDD2661D96D0039F510 /* horse_flats.json */,
 				BB0A3ECD2661182F0039F510 /* stoney_point.jpg */,
+				BB0A3EDD2661D96D0039F510 /* horse_flats.json */,
+				BBFAB9F0266D452D009A261E /* mt_rubidoux.json */,
+				BBFAB9E2266D189D009A261E /* arroyo_seco_boulders.json */,
 				BB0A3EC1266111990039F510 /* stoney_point.json */,
 			);
 			path = Resources;
@@ -369,7 +370,6 @@
 		BB92DF54265D26FC002897C3 /* Photos */ = {
 			isa = PBXGroup;
 			children = (
-				BB92DFA0265D2735002897C3 /* defroster.png */,
 				BB92DF8A265D2734002897C3 /* double_helix.png */,
 				BB92DF9D265D2735002897C3 /* easy_face.png */,
 				BB92DF5A265D2733002897C3 /* Eriksson Problem.jpg */,
@@ -537,6 +537,7 @@
 				BB92DFAE265D2735002897C3 /* Hero Roof.png in Resources */,
 				BB92DFCD265D2735002897C3 /* Mommys Boy Right.png in Resources */,
 				BBFAB9E3266D189D009A261E /* arroyo_seco_boulders.json in Resources */,
+				BBFAB9F1266D452D009A261E /* mt_rubidoux.json in Resources */,
 				BB92DFEA265D2735002897C3 /* Teflon Boulder.png in Resources */,
 				BB92DFE7265D2735002897C3 /* slant_flake.png in Resources */,
 				BB92DFC3265D2735002897C3 /* Sword of Damocles.jpg in Resources */,
@@ -578,7 +579,6 @@
 				BB92DFDE265D2735002897C3 /* tiny_crack.png in Resources */,
 				BB92DFD4265D2735002897C3 /* Unnamed.jpg in Resources */,
 				BB92DFB8265D2735002897C3 /* Spiral Direct.png in Resources */,
-				BB92DFEC265D2735002897C3 /* defroster.png in Resources */,
 				BB92DFE8265D2735002897C3 /* Victor Boulder.jpg in Resources */,
 				BB92DFE4265D2735002897C3 /* Mommys Boys.png in Resources */,
 				BB92DFCB265D2735002897C3 /* iron_man_traverse.png in Resources */,

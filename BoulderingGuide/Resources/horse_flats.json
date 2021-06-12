@@ -84,7 +84,7 @@
                             "description": "Climb the left arete.",
                             "rating": "V1",
                             "stars": 2,
-                            "image":"Not Teflon President.png",
+                            "image":"not_teflon_president_se5r1q.jpg",
                             "location":
                             {
                                 "latitude": 34.342622,
@@ -138,7 +138,12 @@
              {
                 "name": "Mr Ed. Boulder",
                 "description": "A large clump of boulders about 30 yards south of the trail. You see an obvoius crack/chute when approaching it.",
-                "image":"Mr Ed.png",
+                "image":"mr_ed_ul7auj.jpg",
+                "location":
+                {
+                    "latitude": 34.33902,
+                    "longitude": -118.01285
+                },
                 "routes":
                 [
                     {
@@ -157,7 +162,13 @@
                         "name": "Mr. Ed",
                         "description": "Climb the lieback crack on the north face. Often toproped.",
                         "rating": "VB",
-                        "stars": 2
+                        "stars": 2,
+                        "image":"mr_ed_ul7auj.jpg",
+                        "location":
+                        {
+                            "latitude": 34.33905,
+                            "longitude": -118.01287
+                        }
                     },
                     {
                         "name":"Ionizer",
@@ -176,7 +187,7 @@
              {
                 "name":"Credit Card Lover Boulder",
                 "description":"The Boulder left of Mr. Ed boulder with a left-facing flake on it, usually toproped",
-                "image":"Credit Card Lover.png",
+                "image":"credit_card_lover_xmvmix.jpg",
                 "routes":
                 [
                     {
@@ -184,20 +195,36 @@
                         "description":"Climb the left side of the slabby face, often toproped.",
                         "rating":"VB",
                         "stars":1,
-                        "image":"Horse Farts.png"
+                        "image":"horse_farts_picsip.jpg",
+                        "location":
+                        {
+                            "latitude": 34.33906,
+                            "longitude": -118.01275
+                        }
                     },
                     {
                         "name":"Horse Farts",
                         "description":"Slabby face left of Credit Card Lover, often toproped",
                         "rating":"V2",
                         "stars":1,
-                        "image":"Horse Farts.png"
+                        "image":"horse_farts_picsip.jpg",
+                        "location":
+                        {
+                            "latitude": 34.33907,
+                            "longitude": -118.01276
+                        }
                     },
                     {
                         "name":"Credit Card Lover",
                         "description":"Climb the left-facing flake.",
                         "rating":"V1",
-                        "stars":1
+                        "stars":1,
+                        "image":"credit_card_lover_xmvmix.jpg",
+                        "location":
+                        {
+                            "latitude": 34.33908,
+                            "longitude": -118.01278
+                        }
                     },
                     {
                         "name":"Do Me",
@@ -211,7 +238,12 @@
                         "rating":"VB",
                         "stars":1
                     }
-                ]
+                ],
+                "location":
+                {
+                    "latitude": 34.33906,
+                    "longitude": -118.01278
+                }
              }
             ]
         },
@@ -304,33 +336,33 @@
                     [
                         {
                             "name": "Better Bold than Old",
-                            "description": "Start sitting, on the lowest holds possible with a good left foot and go up and slightly left at first then straight up finishing with good holds and the lip. Amazing rock quality and good movement.",
-                            "rating": "V3",
+                            "description": "Start sitting, on the lowest holds possible and climb good holds to the lip. Bad landing",
+                            "rating": "V2",
                             "stars": 3,
                             "location":
                             {
-                                "latitude": 34.3402,
-                                "longitude": -118.016043
+                                "latitude": 34.34026,
+                                "longitude": -118.0157
                             },
-                            "image":"better_bold_than_old.png"
+                            "image":"better_bold_than_old_ws9hng.jpg"
                         },
                         {
                             "name": "Arbor Days",
-                            "description": "Start on the obvious holds at face height and go up and slightly left on good crimps.",
+                            "description": "Stand start on the obvious holds and make a big move up and left and finish on good crimps.",
                             "rating": "V5",
                             "stars": 3,
                             "image":"arbor_days_lodtlq.jpg",
                             "location":
                             {
-                                "latitude": 34.340188,
-                                "longitude": -118.015995
+                                "latitude": 34.34025,
+                                "longitude": -118.01568
                             }
                         }
                     ],
                     "location":
                     {
-                        "latitude": 34.340188,
-                        "longitude": -118.015995
+                        "latitude": 34.34026,
+                        "longitude": -118.01567
                     },
                     "image":"arbor_days_lodtlq.jpg"
                 },
@@ -417,14 +449,19 @@
                             "description": "Climb crystals and tiny crimps up the tallish face facing Sword of Damocles.",
                             "rating": "V6",
                             "stars": 3,
-                            "image": "Eriksson Problem.jpg"
+                            "image": "eriksson_problem_wzyuoj.jpg",
+                            "location":
+                            {
+                                "latitude": 34.34045,
+                                "longitude": -118.01557
+                            }
                         }
                     ],
-                    "image": "Eriksson Problem.jpg",
+                    "image": "eriksson_problem_wzyuoj.jpg",
                     "location":
                     {
-                        "latitude": 34.34048,
-                        "longitude": -118.01556
+                        "latitude": 34.34046,
+                        "longitude": -118.01555
                     }
                 },
                 {
@@ -584,18 +621,33 @@
                         {
                             "name": "Barndoor Arete",
                             "description": "Ascend the obvious technical arete to better holds",
-                            "rating": "V3",
+                            "rating": "V2",
                             "stars": 3,
-                            "image": "https://res.cloudinary.com/blackbloc-software/image/upload/v1621701715/Barndoor_Arete_jdokx3.jpg"
+                            "image": "barndoor_arete_hsfgcn.jpg",
+                            "location":
+                            {
+                                "latitude": 34.34074,
+                                "longitude": -118.01659
+                            }
                         },
                         {
                             "name": "Unnamed",
                             "description": "Easy short crack left of Barndoor arete.",
                             "rating": "5.8",
-                            "stars": 1
+                            "stars": 1,
+                            "location":
+                            {
+                                "latitude": 34.34074,
+                                "longitude": -118.01659
+                            }
                         }
                     ],
-                    "image": "Barndoor Arete.jpg"
+                    "image": "barndoor_arete_hsfgcn.jpg",
+                    "location":
+                    {
+                        "latitude": 34.34074,
+                        "longitude": -118.01659
+                    }
                 },
                 {
                     "name": "Sword of Damocles Boulder",
@@ -621,13 +673,25 @@
                             "name": "Unnamed",
                             "description": "Climb the arete on sharp holds.",
                             "rating": "V1",
-                            "stars": 2
+                            "stars": 2,
+                            "image":"golf_boulder_ktsb7h.jpg",
+                            "location":
+                            {
+                                "latitude": 34.34052,
+                                "longitude": -118.01574
+                            }
                         },
                         {
                             "name": "The Hotel",
                             "description": "Start with both hands matched on the underclings, make some moves up and right to crimps and slopes.",
                             "rating": "V1",
-                            "stars": 2
+                            "stars": 2,
+                            "image":"golf_boulder_ktsb7h.jpg",
+                            "location":
+                            {
+                                "latitude": 34.34052,
+                                "longitude": -118.01574
+                            }
                         }
                     ],
                     "location":
@@ -635,7 +699,7 @@
                         "latitude": 34.34053,
                         "longitude": -118.01575
                     },
-                    "image":"golf_boulder.jpg"
+                    "image":"golf_boulder_ktsb7h.jpg"
                 },
                 {
                     "name": "The Fang Boulder",
@@ -877,6 +941,7 @@
                             "description": "Sit down start with a nice low right side pull and a good left.",
                             "rating": "V2",
                             "stars": 3,
+                            "image": "defroster_mj7g01.jpg",
                             "location":
                             {
                                 "latitude": 34.34053,
@@ -892,7 +957,7 @@
                         },
                         {
                             "name": "Opposition Movement",
-                            "description": "Climb the seam in the corridor behing the Refigerator.",
+                            "description": "Climb the seam in the corridor behind The Refigerator.",
                             "rating": "V5",
                             "stars": 3,
                             "location":
@@ -900,7 +965,7 @@
                                 "latitude": 34.340212,
                                 "longitude": -118.016996
                             },
-                            "image":"opposition_movement.png"
+                            "image":"opposition_movement_k8w6v8.jpg"
                         },
                         {
                             "name": "Unnamed",

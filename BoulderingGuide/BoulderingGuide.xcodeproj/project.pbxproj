@@ -42,63 +42,38 @@
 		BB92DF50265C81E4002897C3 /* RoutesPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB92DF4F265C81E4002897C3 /* RoutesPage.swift */; };
 		BB92DFA2265D2735002897C3 /* the_prow.png in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF56265D2732002897C3 /* the_prow.png */; };
 		BB92DFA3265D2735002897C3 /* Western Round Up.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF57265D2732002897C3 /* Western Round Up.jpg */; };
-		BB92DFA5265D2735002897C3 /* opposition_movement.png in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF59265D2732002897C3 /* opposition_movement.png */; };
-		BB92DFA6265D2735002897C3 /* Eriksson Problem.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF5A265D2733002897C3 /* Eriksson Problem.jpg */; };
-		BB92DFA8265D2735002897C3 /* Mommys Boy Left.png in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF5C265D2733002897C3 /* Mommys Boy Left.png */; };
 		BB92DFA9265D2735002897C3 /* The Great Curve.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF5D265D2733002897C3 /* The Great Curve.jpg */; };
-		BB92DFAA265D2735002897C3 /* Face Problem.png in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF5E265D2733002897C3 /* Face Problem.png */; };
 		BB92DFAB265D2735002897C3 /* Teflon Arete.png in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF5F265D2733002897C3 /* Teflon Arete.png */; };
 		BB92DFAC265D2735002897C3 /* west_face.png in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF60265D2733002897C3 /* west_face.png */; };
-		BB92DFAD265D2735002897C3 /* Mr Ed.png in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF61265D2733002897C3 /* Mr Ed.png */; };
-		BB92DFAE265D2735002897C3 /* Hero Roof.png in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF62265D2733002897C3 /* Hero Roof.png */; };
-		BB92DFAF265D2735002897C3 /* Horse Farts.png in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF63265D2733002897C3 /* Horse Farts.png */; };
 		BB92DFB0265D2735002897C3 /* The Falcon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF64265D2733002897C3 /* The Falcon.jpg */; };
 		BB92DFB1265D2735002897C3 /* Unknown2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF65265D2733002897C3 /* Unknown2.jpg */; };
 		BB92DFB2265D2735002897C3 /* y_crack.png in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF66265D2733002897C3 /* y_crack.png */; };
-		BB92DFB5265D2735002897C3 /* Happy Hooker.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF69265D2733002897C3 /* Happy Hooker.jpg */; };
 		BB92DFB7265D2735002897C3 /* Thin Crack.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF6B265D2733002897C3 /* Thin Crack.jpg */; };
 		BB92DFB8265D2735002897C3 /* Spiral Direct.png in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF6C265D2733002897C3 /* Spiral Direct.png */; };
 		BB92DFB9265D2735002897C3 /* Warm Up.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF6D265D2733002897C3 /* Warm Up.jpg */; };
-		BB92DFBA265D2735002897C3 /* pump_arete.png in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF6E265D2733002897C3 /* pump_arete.png */; };
 		BB92DFBB265D2735002897C3 /* rhythym_and_the_heat.png in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF6F265D2733002897C3 /* rhythym_and_the_heat.png */; };
 		BB92DFBC265D2735002897C3 /* slant_rock.png in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF70265D2733002897C3 /* slant_rock.png */; };
 		BB92DFBD265D2735002897C3 /* west_arete.png in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF71265D2733002897C3 /* west_arete.png */; };
-		BB92DFBE265D2735002897C3 /* Mommys Boy Center.png in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF72265D2733002897C3 /* Mommys Boy Center.png */; };
 		BB92DFC0265D2735002897C3 /* Yabo Dyno.png in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF74265D2733002897C3 /* Yabo Dyno.png */; };
-		BB92DFC1265D2735002897C3 /* golf_boulder.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF75265D2733002897C3 /* golf_boulder.jpg */; };
-		BB92DFC2265D2735002897C3 /* hueco_boulder.png in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF76265D2734002897C3 /* hueco_boulder.png */; };
 		BB92DFC3265D2735002897C3 /* Sword of Damocles.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF77265D2734002897C3 /* Sword of Damocles.jpg */; };
 		BB92DFC6265D2735002897C3 /* slant_rock_face.png in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF7A265D2734002897C3 /* slant_rock_face.png */; };
-		BB92DFC7265D2735002897C3 /* pancake.png in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF7B265D2734002897C3 /* pancake.png */; };
-		BB92DFC8265D2735002897C3 /* pump_rock.png in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF7C265D2734002897C3 /* pump_rock.png */; };
-		BB92DFCB265D2735002897C3 /* iron_man_traverse.png in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF7F265D2734002897C3 /* iron_man_traverse.png */; };
 		BB92DFCC265D2735002897C3 /* three_pigs.png in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF80265D2734002897C3 /* three_pigs.png */; };
-		BB92DFCD265D2735002897C3 /* Mommys Boy Right.png in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF81265D2734002897C3 /* Mommys Boy Right.png */; };
 		BB92DFCF265D2735002897C3 /* swiss_cheese.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF83265D2734002897C3 /* swiss_cheese.jpg */; };
 		BB92DFD0265D2735002897C3 /* Teflon President.png in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF84265D2734002897C3 /* Teflon President.png */; };
 		BB92DFD2265D2735002897C3 /* Ummagumma.png in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF86265D2734002897C3 /* Ummagumma.png */; };
 		BB92DFD3265D2735002897C3 /* unnamed_1.png in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF87265D2734002897C3 /* unnamed_1.png */; };
 		BB92DFD4265D2735002897C3 /* Unnamed.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF88265D2734002897C3 /* Unnamed.jpg */; };
-		BB92DFD5265D2735002897C3 /* linear_fracture_traverse.png in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF89265D2734002897C3 /* linear_fracture_traverse.png */; };
-		BB92DFD6265D2735002897C3 /* double_helix.png in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF8A265D2734002897C3 /* double_helix.png */; };
-		BB92DFD7265D2735002897C3 /* Pile Ups.png in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF8B265D2734002897C3 /* Pile Ups.png */; };
 		BB92DFD8265D2735002897C3 /* the_refigerator.png in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF8C265D2734002897C3 /* the_refigerator.png */; };
-		BB92DFDA265D2735002897C3 /* Not Teflon President.png in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF8E265D2734002897C3 /* Not Teflon President.png */; };
 		BB92DFDB265D2735002897C3 /* Zacks Roof.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF8F265D2734002897C3 /* Zacks Roof.jpg */; };
 		BB92DFDD265D2735002897C3 /* vivarin.png in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF91265D2734002897C3 /* vivarin.png */; };
 		BB92DFDE265D2735002897C3 /* tiny_crack.png in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF92265D2735002897C3 /* tiny_crack.png */; };
 		BB92DFE0265D2735002897C3 /* Slap.png in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF94265D2735002897C3 /* Slap.png */; };
-		BB92DFE1265D2735002897C3 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB92DF95265D2735002897C3 /* TabBarController.swift */; };
 		BB92DFE2265D2735002897C3 /* unnamed_2.png in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF96265D2735002897C3 /* unnamed_2.png */; };
-		BB92DFE4265D2735002897C3 /* Mommys Boys.png in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF98265D2735002897C3 /* Mommys Boys.png */; };
-		BB92DFE6265D2735002897C3 /* Pocket Traverse.png in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF9A265D2735002897C3 /* Pocket Traverse.png */; };
 		BB92DFE7265D2735002897C3 /* slant_flake.png in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF9B265D2735002897C3 /* slant_flake.png */; };
 		BB92DFE8265D2735002897C3 /* Victor Boulder.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF9C265D2735002897C3 /* Victor Boulder.jpg */; };
-		BB92DFE9265D2735002897C3 /* easy_face.png in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF9D265D2735002897C3 /* easy_face.png */; };
 		BB92DFEA265D2735002897C3 /* Teflon Boulder.png in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF9E265D2735002897C3 /* Teflon Boulder.png */; };
 		BB92DFEB265D2735002897C3 /* Spiral Traverse.png in Resources */ = {isa = PBXBuildFile; fileRef = BB92DF9F265D2735002897C3 /* Spiral Traverse.png */; };
 		BBB2FE2A2667B51700FF60FA /* UrlBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB2FE292667B51700FF60FA /* UrlBuilder.swift */; };
-		BBFAB9E3266D189D009A261E /* arroyo_seco_boulders.json in Resources */ = {isa = PBXBuildFile; fileRef = BBFAB9E2266D189D009A261E /* arroyo_seco_boulders.json */; };
 		BBFAB9F1266D452D009A261E /* mt_rubidoux.json in Resources */ = {isa = PBXBuildFile; fileRef = BBFAB9F0266D452D009A261E /* mt_rubidoux.json */; };
 /* End PBXBuildFile section */
 
@@ -161,63 +136,38 @@
 		BB92DF4F265C81E4002897C3 /* RoutesPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoutesPage.swift; sourceTree = "<group>"; };
 		BB92DF56265D2732002897C3 /* the_prow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = the_prow.png; sourceTree = "<group>"; };
 		BB92DF57265D2732002897C3 /* Western Round Up.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Western Round Up.jpg"; sourceTree = "<group>"; };
-		BB92DF59265D2732002897C3 /* opposition_movement.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = opposition_movement.png; sourceTree = "<group>"; };
-		BB92DF5A265D2733002897C3 /* Eriksson Problem.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Eriksson Problem.jpg"; sourceTree = "<group>"; };
-		BB92DF5C265D2733002897C3 /* Mommys Boy Left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Mommys Boy Left.png"; sourceTree = "<group>"; };
 		BB92DF5D265D2733002897C3 /* The Great Curve.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "The Great Curve.jpg"; sourceTree = "<group>"; };
-		BB92DF5E265D2733002897C3 /* Face Problem.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Face Problem.png"; sourceTree = "<group>"; };
 		BB92DF5F265D2733002897C3 /* Teflon Arete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Teflon Arete.png"; sourceTree = "<group>"; };
 		BB92DF60265D2733002897C3 /* west_face.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = west_face.png; sourceTree = "<group>"; };
-		BB92DF61265D2733002897C3 /* Mr Ed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Mr Ed.png"; sourceTree = "<group>"; };
-		BB92DF62265D2733002897C3 /* Hero Roof.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Hero Roof.png"; sourceTree = "<group>"; };
-		BB92DF63265D2733002897C3 /* Horse Farts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Horse Farts.png"; sourceTree = "<group>"; };
 		BB92DF64265D2733002897C3 /* The Falcon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "The Falcon.jpg"; sourceTree = "<group>"; };
 		BB92DF65265D2733002897C3 /* Unknown2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Unknown2.jpg; sourceTree = "<group>"; };
 		BB92DF66265D2733002897C3 /* y_crack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = y_crack.png; sourceTree = "<group>"; };
-		BB92DF69265D2733002897C3 /* Happy Hooker.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Happy Hooker.jpg"; sourceTree = "<group>"; };
 		BB92DF6B265D2733002897C3 /* Thin Crack.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Thin Crack.jpg"; sourceTree = "<group>"; };
 		BB92DF6C265D2733002897C3 /* Spiral Direct.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Spiral Direct.png"; sourceTree = "<group>"; };
 		BB92DF6D265D2733002897C3 /* Warm Up.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Warm Up.jpg"; sourceTree = "<group>"; };
-		BB92DF6E265D2733002897C3 /* pump_arete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pump_arete.png; sourceTree = "<group>"; };
 		BB92DF6F265D2733002897C3 /* rhythym_and_the_heat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rhythym_and_the_heat.png; sourceTree = "<group>"; };
 		BB92DF70265D2733002897C3 /* slant_rock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slant_rock.png; sourceTree = "<group>"; };
 		BB92DF71265D2733002897C3 /* west_arete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = west_arete.png; sourceTree = "<group>"; };
-		BB92DF72265D2733002897C3 /* Mommys Boy Center.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Mommys Boy Center.png"; sourceTree = "<group>"; };
 		BB92DF74265D2733002897C3 /* Yabo Dyno.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Yabo Dyno.png"; sourceTree = "<group>"; };
-		BB92DF75265D2733002897C3 /* golf_boulder.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = golf_boulder.jpg; sourceTree = "<group>"; };
-		BB92DF76265D2734002897C3 /* hueco_boulder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hueco_boulder.png; sourceTree = "<group>"; };
 		BB92DF77265D2734002897C3 /* Sword of Damocles.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Sword of Damocles.jpg"; sourceTree = "<group>"; };
 		BB92DF7A265D2734002897C3 /* slant_rock_face.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slant_rock_face.png; sourceTree = "<group>"; };
-		BB92DF7B265D2734002897C3 /* pancake.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pancake.png; sourceTree = "<group>"; };
-		BB92DF7C265D2734002897C3 /* pump_rock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pump_rock.png; sourceTree = "<group>"; };
-		BB92DF7F265D2734002897C3 /* iron_man_traverse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iron_man_traverse.png; sourceTree = "<group>"; };
 		BB92DF80265D2734002897C3 /* three_pigs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = three_pigs.png; sourceTree = "<group>"; };
-		BB92DF81265D2734002897C3 /* Mommys Boy Right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Mommys Boy Right.png"; sourceTree = "<group>"; };
 		BB92DF83265D2734002897C3 /* swiss_cheese.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = swiss_cheese.jpg; sourceTree = "<group>"; };
 		BB92DF84265D2734002897C3 /* Teflon President.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Teflon President.png"; sourceTree = "<group>"; };
 		BB92DF86265D2734002897C3 /* Ummagumma.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ummagumma.png; sourceTree = "<group>"; };
 		BB92DF87265D2734002897C3 /* unnamed_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unnamed_1.png; sourceTree = "<group>"; };
 		BB92DF88265D2734002897C3 /* Unnamed.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Unnamed.jpg; sourceTree = "<group>"; };
-		BB92DF89265D2734002897C3 /* linear_fracture_traverse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = linear_fracture_traverse.png; sourceTree = "<group>"; };
-		BB92DF8A265D2734002897C3 /* double_helix.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = double_helix.png; sourceTree = "<group>"; };
-		BB92DF8B265D2734002897C3 /* Pile Ups.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pile Ups.png"; sourceTree = "<group>"; };
 		BB92DF8C265D2734002897C3 /* the_refigerator.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = the_refigerator.png; sourceTree = "<group>"; };
-		BB92DF8E265D2734002897C3 /* Not Teflon President.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Not Teflon President.png"; sourceTree = "<group>"; };
 		BB92DF8F265D2734002897C3 /* Zacks Roof.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Zacks Roof.jpg"; sourceTree = "<group>"; };
 		BB92DF91265D2734002897C3 /* vivarin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vivarin.png; sourceTree = "<group>"; };
 		BB92DF92265D2735002897C3 /* tiny_crack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tiny_crack.png; sourceTree = "<group>"; };
 		BB92DF94265D2735002897C3 /* Slap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Slap.png; sourceTree = "<group>"; };
-		BB92DF95265D2735002897C3 /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		BB92DF96265D2735002897C3 /* unnamed_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unnamed_2.png; sourceTree = "<group>"; };
-		BB92DF98265D2735002897C3 /* Mommys Boys.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Mommys Boys.png"; sourceTree = "<group>"; };
-		BB92DF9A265D2735002897C3 /* Pocket Traverse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pocket Traverse.png"; sourceTree = "<group>"; };
 		BB92DF9B265D2735002897C3 /* slant_flake.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slant_flake.png; sourceTree = "<group>"; };
 		BB92DF9C265D2735002897C3 /* Victor Boulder.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Victor Boulder.jpg"; sourceTree = "<group>"; };
-		BB92DF9D265D2735002897C3 /* easy_face.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = easy_face.png; sourceTree = "<group>"; };
 		BB92DF9E265D2735002897C3 /* Teflon Boulder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Teflon Boulder.png"; sourceTree = "<group>"; };
 		BB92DF9F265D2735002897C3 /* Spiral Traverse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Spiral Traverse.png"; sourceTree = "<group>"; };
 		BBB2FE292667B51700FF60FA /* UrlBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrlBuilder.swift; sourceTree = "<group>"; };
-		BBFAB9E2266D189D009A261E /* arroyo_seco_boulders.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = arroyo_seco_boulders.json; sourceTree = "<group>"; };
 		BBFAB9F0266D452D009A261E /* mt_rubidoux.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = mt_rubidoux.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -340,7 +290,6 @@
 				BB0A3ECD2661182F0039F510 /* stoney_point.jpg */,
 				BB0A3EDD2661D96D0039F510 /* horse_flats.json */,
 				BBFAB9F0266D452D009A261E /* mt_rubidoux.json */,
-				BBFAB9E2266D189D009A261E /* arroyo_seco_boulders.json */,
 				BB0A3EC1266111990039F510 /* stoney_point.json */,
 			);
 			path = Resources;
@@ -370,29 +319,6 @@
 		BB92DF54265D26FC002897C3 /* Photos */ = {
 			isa = PBXGroup;
 			children = (
-				BB92DF8A265D2734002897C3 /* double_helix.png */,
-				BB92DF9D265D2735002897C3 /* easy_face.png */,
-				BB92DF5A265D2733002897C3 /* Eriksson Problem.jpg */,
-				BB92DF5E265D2733002897C3 /* Face Problem.png */,
-				BB92DF75265D2733002897C3 /* golf_boulder.jpg */,
-				BB92DF69265D2733002897C3 /* Happy Hooker.jpg */,
-				BB92DF62265D2733002897C3 /* Hero Roof.png */,
-				BB92DF63265D2733002897C3 /* Horse Farts.png */,
-				BB92DF76265D2734002897C3 /* hueco_boulder.png */,
-				BB92DF7F265D2734002897C3 /* iron_man_traverse.png */,
-				BB92DF89265D2734002897C3 /* linear_fracture_traverse.png */,
-				BB92DF72265D2733002897C3 /* Mommys Boy Center.png */,
-				BB92DF5C265D2733002897C3 /* Mommys Boy Left.png */,
-				BB92DF81265D2734002897C3 /* Mommys Boy Right.png */,
-				BB92DF98265D2735002897C3 /* Mommys Boys.png */,
-				BB92DF61265D2733002897C3 /* Mr Ed.png */,
-				BB92DF8E265D2734002897C3 /* Not Teflon President.png */,
-				BB92DF59265D2732002897C3 /* opposition_movement.png */,
-				BB92DF7B265D2734002897C3 /* pancake.png */,
-				BB92DF8B265D2734002897C3 /* Pile Ups.png */,
-				BB92DF9A265D2735002897C3 /* Pocket Traverse.png */,
-				BB92DF6E265D2733002897C3 /* pump_arete.png */,
-				BB92DF7C265D2734002897C3 /* pump_rock.png */,
 				BB92DF6F265D2733002897C3 /* rhythym_and_the_heat.png */,
 				BB92DF9B265D2735002897C3 /* slant_flake.png */,
 				BB92DF7A265D2734002897C3 /* slant_rock_face.png */,
@@ -402,7 +328,6 @@
 				BB92DF9F265D2735002897C3 /* Spiral Traverse.png */,
 				BB92DF83265D2734002897C3 /* swiss_cheese.jpg */,
 				BB92DF77265D2734002897C3 /* Sword of Damocles.jpg */,
-				BB92DF95265D2735002897C3 /* TabBarController.swift */,
 				BB92DF5F265D2733002897C3 /* Teflon Arete.png */,
 				BB92DF9E265D2735002897C3 /* Teflon Boulder.png */,
 				BB92DF84265D2734002897C3 /* Teflon President.png */,
@@ -534,23 +459,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB92DFAE265D2735002897C3 /* Hero Roof.png in Resources */,
-				BB92DFCD265D2735002897C3 /* Mommys Boy Right.png in Resources */,
-				BBFAB9E3266D189D009A261E /* arroyo_seco_boulders.json in Resources */,
 				BBFAB9F1266D452D009A261E /* mt_rubidoux.json in Resources */,
 				BB92DFEA265D2735002897C3 /* Teflon Boulder.png in Resources */,
 				BB92DFE7265D2735002897C3 /* slant_flake.png in Resources */,
 				BB92DFC3265D2735002897C3 /* Sword of Damocles.jpg in Resources */,
-				BB92DFB5265D2735002897C3 /* Happy Hooker.jpg in Resources */,
 				BB92DFCF265D2735002897C3 /* swiss_cheese.jpg in Resources */,
 				BB92DFBB265D2735002897C3 /* rhythym_and_the_heat.png in Resources */,
-				BB92DFA6265D2735002897C3 /* Eriksson Problem.jpg in Resources */,
 				BB92DFCC265D2735002897C3 /* three_pigs.png in Resources */,
-				BB92DFA5265D2735002897C3 /* opposition_movement.png in Resources */,
-				BB92DFD6265D2735002897C3 /* double_helix.png in Resources */,
-				BB92DFE6265D2735002897C3 /* Pocket Traverse.png in Resources */,
 				BB0A3EC2266111990039F510 /* stoney_point.json in Resources */,
-				BB92DFC7265D2735002897C3 /* pancake.png in Resources */,
 				BB92DFA9265D2735002897C3 /* The Great Curve.jpg in Resources */,
 				BB92DFB1265D2735002897C3 /* Unknown2.jpg in Resources */,
 				BB92DFB2265D2735002897C3 /* y_crack.png in Resources */,
@@ -558,18 +474,10 @@
 				BB0A3ECE2661182F0039F510 /* stoney_point.jpg in Resources */,
 				BB92DFE2265D2735002897C3 /* unnamed_2.png in Resources */,
 				BB92DFC0265D2735002897C3 /* Yabo Dyno.png in Resources */,
-				BB92DFAF265D2735002897C3 /* Horse Farts.png in Resources */,
-				BB92DFAD265D2735002897C3 /* Mr Ed.png in Resources */,
 				BB92DFAC265D2735002897C3 /* west_face.png in Resources */,
-				BB92DFD5265D2735002897C3 /* linear_fracture_traverse.png in Resources */,
 				BB92DFA2265D2735002897C3 /* the_prow.png in Resources */,
-				BB92DFD7265D2735002897C3 /* Pile Ups.png in Resources */,
-				BB92DFDA265D2735002897C3 /* Not Teflon President.png in Resources */,
 				BB92DFEB265D2735002897C3 /* Spiral Traverse.png in Resources */,
-				BB92DFBA265D2735002897C3 /* pump_arete.png in Resources */,
-				BB92DFA8265D2735002897C3 /* Mommys Boy Left.png in Resources */,
 				BB92DE6D265C7ABD002897C3 /* Preview Assets.xcassets in Resources */,
-				BB92DFE9265D2735002897C3 /* easy_face.png in Resources */,
 				BB92DFBD265D2735002897C3 /* west_arete.png in Resources */,
 				BB92DFB9265D2735002897C3 /* Warm Up.jpg in Resources */,
 				BB92DFAB265D2735002897C3 /* Teflon Arete.png in Resources */,
@@ -580,21 +488,14 @@
 				BB92DFD4265D2735002897C3 /* Unnamed.jpg in Resources */,
 				BB92DFB8265D2735002897C3 /* Spiral Direct.png in Resources */,
 				BB92DFE8265D2735002897C3 /* Victor Boulder.jpg in Resources */,
-				BB92DFE4265D2735002897C3 /* Mommys Boys.png in Resources */,
-				BB92DFCB265D2735002897C3 /* iron_man_traverse.png in Resources */,
-				BB92DFC1265D2735002897C3 /* golf_boulder.jpg in Resources */,
 				BB92DFDB265D2735002897C3 /* Zacks Roof.jpg in Resources */,
-				BB92DFAA265D2735002897C3 /* Face Problem.png in Resources */,
 				BB92DFD2265D2735002897C3 /* Ummagumma.png in Resources */,
 				BB92DFD3265D2735002897C3 /* unnamed_1.png in Resources */,
 				BB92DFBC265D2735002897C3 /* slant_rock.png in Resources */,
 				BB92DFB7265D2735002897C3 /* Thin Crack.jpg in Resources */,
-				BB92DFC2265D2735002897C3 /* hueco_boulder.png in Resources */,
 				BB92DFC6265D2735002897C3 /* slant_rock_face.png in Resources */,
 				BB92DE6A265C7ABD002897C3 /* Assets.xcassets in Resources */,
-				BB92DFC8265D2735002897C3 /* pump_rock.png in Resources */,
 				BB92DFA3265D2735002897C3 /* Western Round Up.jpg in Resources */,
-				BB92DFBE265D2735002897C3 /* Mommys Boy Center.png in Resources */,
 				BB92DFDD265D2735002897C3 /* vivarin.png in Resources */,
 				BB92DFD0265D2735002897C3 /* Teflon President.png in Resources */,
 			);
@@ -639,7 +540,6 @@
 				BB8FDD3A26641C1300275F3B /* ImageProvider.swift in Sources */,
 				BB92DF50265C81E4002897C3 /* RoutesPage.swift in Sources */,
 				BB92DE68265C7ABA002897C3 /* ContentView.swift in Sources */,
-				BB92DFE1265D2735002897C3 /* TabBarController.swift in Sources */,
 				BB92DF48265C81BE002897C3 /* ListItem.swift in Sources */,
 				BB92DEE2265C805A002897C3 /* AreasPage.swift in Sources */,
 				BB92DF33265C8154002897C3 /* NavigationMapView.swift in Sources */,

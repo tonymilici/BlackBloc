@@ -129,7 +129,8 @@
                             "name":"Route A",
                             "description":"Climb the left side of the boulder using huecos and jugs.",
                             "rating":"VB R",
-                            "stars":2
+                            "stars":2,
+                            "image":"hueco_boulder_myjsjr.jpg"
                         },
                         {
                             "name":"Tiny Crack",
@@ -143,7 +144,7 @@
                             "description":" Begin on the right side of the tallest face of the boulder. A tricky deadpoint or dyno gains the 'linear fracture' (i.e., shallow horizontal crack) which is traversed left and slightly upwards to jugs.",
                             "rating":"V2",
                             "stars":3,
-                            "image":"linear_fracture_traverse.png"
+                            "image":"linear_fracture_rgtwhl.jpg"
                         }
                     ],
                     "location":
@@ -151,7 +152,7 @@
                         "latitude":33.98205,
                         "longitude":-117.39387
                     },
-                    "image":"hueco_boulder.png"
+                    "image":"hueco_boulder_myjsjr.jpg"
                 },
                 {
                     "name":"Island Wall",
@@ -415,19 +416,29 @@
                             "description":"Climb the right-slanting rail to a sloping topout over a cliff. Very sketchy without a good spot.",
                             "rating":"VB",
                             "stars":3,
-                            "image":"double_helix.png"
+                            "image":"double_helix_ea9pk5.jpg",
+                            "location":
+                            {
+                                "latitude":33.98304,
+                                "longitude":-117.3935
+                            }
                         },
                         {
                             "name":"Free Feels",
                             "description":"Start precariously with hands on the lip of the overhang. Pull on and make an exposed mantle up to the featured slab above.",
                             "rating":"VB",
-                            "stars":2
+                            "stars":2,
+                            "location":
+                            {
+                                "latitude":33.98302,
+                                "longitude":-117.39353
+                            }
                         }
                     ],
                     "location":
                     {
-                        "latitude":33.98301,
-                        "longitude":-117.39343
+                        "latitude":33.98302,
+                        "longitude":-117.3935
                     }
                 },
                 {

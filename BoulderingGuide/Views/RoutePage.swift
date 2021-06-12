@@ -48,8 +48,10 @@ struct RoutePage: View {
                 AsyncImage(source: image, urlBuilder: UrlBuilder(areaName: areaVM.name))
             }
             
-            NavigationLink(destination: NavigationPage(location: route.location!, title: route.name), isActive: $isNavigateActive) {
-                EmptyView()
+            if let location = route.location {
+                NavigationLink(destination: NavigationPage(location: location, title: route.name), isActive: $isNavigateActive) {
+                    EmptyView()
+                }
             }
         }
         .padding(8)

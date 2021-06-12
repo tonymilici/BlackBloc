@@ -59,8 +59,10 @@ struct BoulderPage: View {
                 AsyncImage(source: image, urlBuilder: UrlBuilder(areaName: areaVM.name))
             }
             
-            NavigationLink(destination: NavigationPage(location: boulder.location!, title: boulder.name), isActive: $isNavigateActive) {
-                EmptyView()
+            if let location = boulder.location {
+                    NavigationLink(destination: NavigationPage(location: location, title: boulder.name), isActive: $isNavigateActive) {
+                    EmptyView()
+                }
             }
         }
         .padding(8)

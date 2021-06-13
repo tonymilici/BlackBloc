@@ -27,15 +27,9 @@ import XCTest
 
 class ImageProviderTest: XCTestCase {
     func testLoad() {
-        let area = Area(
-            name: "Stoney Point",
-            location: Location(latitude: 33.9873, longitude: -117.3899),
-            size: 10,
-            clusters: [])
-        
         let provider = ImageProvider(
-            imageName: "aftershock_omqyny.png",
-            urlBuilder: UrlBuilder(area: area))
+            imageName: "aftershock_qxdmru.jpg",
+            urlBuilder: UrlBuilder(areaName: "Stoney Point"))
         
         provider.load()
         

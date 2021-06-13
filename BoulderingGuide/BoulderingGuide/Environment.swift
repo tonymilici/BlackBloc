@@ -28,9 +28,18 @@ struct ImageCacheKey: EnvironmentKey {
     static let defaultValue: ImageCache = ImageCache()
 }
 
+struct AreaKey: EnvironmentKey {
+    static let defaultValue: String = ""
+}
+
 extension EnvironmentValues {
     var imageCache: ImageCache {
         get { self[ImageCacheKey.self] }
         set { self[ImageCacheKey.self] = newValue }
+    }
+    
+    var areaName: String {
+        get { self[AreaKey.self] }
+        set { self[AreaKey.self] = newValue }
     }
 }

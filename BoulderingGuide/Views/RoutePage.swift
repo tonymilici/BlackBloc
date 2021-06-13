@@ -28,7 +28,7 @@ import SwiftUI
 struct RoutePage: View {
     let route: Route
     
-    @EnvironmentObject private var areaVM: AreaViewModel
+    @Environment(\.areaName) private var areaName: String
     @State private var isNavigateActive = false
     
     var body: some View {
@@ -45,7 +45,7 @@ struct RoutePage: View {
             Spacer()
             
             if let image = route.image {
-                AsyncImage(source: image, urlBuilder: UrlBuilder(areaName: areaVM.name))
+                AsyncImage(source: image, urlBuilder: UrlBuilder(areaName: areaName))
             }
             
             if let location = route.location {

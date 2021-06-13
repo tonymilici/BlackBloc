@@ -37,7 +37,8 @@ struct ClusterPage: View {
                 Section(header: Text(cluster.name)) {
                     ForEach(cluster.boulders) {boulder in
                         //I think becase areaVM wasn't set in a NavigationView we have to set it again here
-                        NavigationLink(destination: BoulderPage(boulder: boulder).environmentObject(areaVM)) {
+                        NavigationLink(destination: BoulderPage(boulder: boulder)
+                                        .environment(\.areaName, areaVM.name)) {
                             ListItemView(
                                 item: ListItem(
                                     label: boulder.name,

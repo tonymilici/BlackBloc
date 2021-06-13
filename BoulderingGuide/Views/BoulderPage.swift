@@ -29,7 +29,7 @@ struct BoulderPage: View {
     let boulder: Boulder
     
     @State private var isNavigateActive = false
-    @EnvironmentObject private var areaVM: AreaViewModel
+    @Environment(\.areaName) private var areaName: String
     
     var body: some View {
         VStack(alignment: .center, spacing: 16) {
@@ -56,7 +56,7 @@ struct BoulderPage: View {
             }
             
             if let image = boulder.image {
-                AsyncImage(source: image, urlBuilder: UrlBuilder(areaName: areaVM.name))
+                AsyncImage(source: image, urlBuilder: UrlBuilder(areaName: areaName))
             }
             
             if let location = boulder.location {

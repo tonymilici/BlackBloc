@@ -64,7 +64,6 @@ struct AsyncImage: View {
 struct AsyncImage_Previews: PreviewProvider {
     static var previews: some View {
             if let area = try? Areas.loadArea("stoney_point.json") {
-         //   AsyncImage(source: "aftershock_tkt8py.png")
                 AsyncImage(source: "say_goodnight.png",  urlBuilder: UrlBuilder(areaName: area.name))
             }
     }

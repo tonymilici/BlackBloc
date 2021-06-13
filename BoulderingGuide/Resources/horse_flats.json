@@ -52,7 +52,13 @@
                             "name": "Rhythym and the Heat",
                             "description": "Climb the suspended block straight up. It is a bit dirty these days but with more trafiic would clean up to a decent problem.",
                             "rating": "V0-",
-                            "stars": 1
+                            "stars": 1,
+                            "image":"rhythym_and_the_heat_aufnrt.jpg",
+                            "location":
+                            {
+                                "latitude": 34.34224,
+                                "longitude": -118.01293
+                            }
                         }
                     ],
                     "location":
@@ -60,10 +66,10 @@
                         "latitude": 34.34224,
                         "longitude": -118.01293
                     },
-                    "image":"rhythym_and_the_heat.png"
+                    "image":"rhythym_and_the_heat_aufnrt.jpg"
                 },
                 {
-                    "name": "Teflon President Boulder",
+                    "name": "Teflon Boulder",
                     "description": "The big boulder with ther arete on the southwest side.",
                     "routes":
                     [
@@ -72,7 +78,7 @@
                             "description": "Climb the right arete and top out at the apex of the boulder.",
                             "rating": "V7",
                             "stars": 4,
-                            "image":"Teflon President.png",
+                            "image":"teflon_president_fisbvg.jpg",
                             "location":
                             {
                                 "latitude": 34.34256,
@@ -94,10 +100,10 @@
                     ],
                     "location":
                     {
-                        "latitude": 34.34258,
+                        "latitude": 34.34256,
                         "longitude": -118.01285
                     },
-                    "image":"Teflon Boulder.png"
+                    "image":"teflon_boulder_rbgaoo.jpg"
                 },
                 {
                     "name": "Teflon Arete Boulder",
@@ -109,19 +115,20 @@
                             "description": "Climb the beautiful arete. A nice foot gets you started. Downclimb slab off the back of the boulder.",
                             "rating": "V5 PG13",
                             "stars": 3,
+                            "image":"teflon_arete_a0noqo.jpg",
                             "location":
                             {
-                                "latitude": 34.342517,
-                                "longitude": -118.013092
+                                "latitude": 34.34249,
+                                "longitude": -118.01311
                             }
                         }
                     ],
                     "location":
                     {
-                        "latitude": 34.34252,
-                        "longitude": -118.01304
+                        "latitude": 34.3425,
+                        "longitude": -118.0131
                     },
-                    "image":"Teflon Arete.png"
+                    "image":"teflon_arete_a0noqo.jpg"
                 }
             ]
         },
@@ -315,6 +322,7 @@
                             "description": "Sit start on crimps and climb over the roof/prow.",
                             "rating": "V2",
                             "stars": 2,
+                            "image": "unknown2_dsv5zi.jpg",
                             "location":
                             {
                                 "latitude": 34.34031,
@@ -322,11 +330,11 @@
                             }
                         },
                     ],
-                    "image": "Unknown2.jpg",
+                    "image": "unknown2_dsv5zi.jpg",
                     "location":
                     {
-                        "latitude": 34.34031,
-                        "longitude": -118.0154
+                        "latitude": 34.34032,
+                        "longitude": -118.01536
                     }
                 },
                 {
@@ -496,13 +504,24 @@
                             "name": "Swiss Cheese",
                             "description": "Climb the overhanging huecoed face on the downhill side of the boulder. The original finish stays left, but it is slightly easier to finish right, although the landing is worse.",
                             "rating": "V2",
-                            "stars": 3
+                            "stars": 3,
+                            "image": "swiss_cheese_tvicce.jpg",
+                            "location":
+                            {
+                                "latitude": 34.34038,
+                                "longitude": -118.01565
+                            }
                         },
                         {
                             "name": "Passat",
                             "description": "Pad stack or hop up to the jug rail at about 8/9 feet, use small feet and some technique to gain the patina up and right. Landing is fairly narrow so a spotter would be helpful.",
                             "rating": "V1",
-                            "stars": 1
+                            "stars": 1,
+                            "location":
+                            {
+                                "latitude": 34.34038,
+                                "longitude": -118.01565
+                            }
                         }
                     ],
                     "location":
@@ -510,7 +529,7 @@
                         "latitude": 34.34038,
                         "longitude": -118.01565
                     },
-                    "image": "swiss_cheese.jpg"
+                    "image": "swiss_cheese_tvicce.jpg"
                 },
                 {
                     "name": "Boulder",
@@ -521,14 +540,24 @@
                             "name": "Heady Topper",
                             "description": "Located on the slabby side of the boulder facing the trail. Mantle onto the knob then acsend the tall slab above.",
                             "rating": "V3 PG13",
-                            "stars": 2
+                            "stars": 2,
+                            "location":
+                            {
+                                "latitude": 34.340426,
+                                "longitude": -118.016119
+                            }
                         },
                         {
                             "name": "Unnamed",
                             "description": "Climb the right side of the clean vertical face on positive crimps and knobs. Beautiful rock.",
                             "rating": "V0",
                             "stars": 3,
-                            "image":"unnamed_2.png"
+                            "image":"unnamed_2_e1eywt.jpg",
+                            "location":
+                            {
+                                "latitude": 34.340426,
+                                "longitude": -118.016119
+                            }
                         }
                     ],
                     "location":
@@ -547,7 +576,7 @@
                             "description": "Start on low rail, heel-hook and go for a hold out right, reach up for the sidepull and try to top out. Short but burly",
                             "rating": "V5",
                             "stars": 3,
-                            "image": "The Falcon.jpg",
+                            "image": "the_falcon_uv49nc.jpg",
                             "location":
                             {
                                 "latitude": 34.3416,
@@ -555,7 +584,7 @@
                             }
                         }
                     ],
-                    "image": "The Falcon.jpg",
+                    "image": "the_falcon_uv49nc.jpg",
                     "location":
                     {
                         "latitude": 34.3416,
@@ -595,10 +624,10 @@
                             "description": "The obvious crack visible from the trail",
                             "rating":"V0",
                             "stars": 3,
-                            "image": "Thin Crack.jpg",
+                            "image": "thin_crack_twvgxm.jpg",
                         }
                     ],
-                    "image": "Thin Crack.jpg"
+                    "image": "thin_crack_twvgxm.jpg"
                 },
                 {
                     "name":"X2 Boulder",
@@ -659,10 +688,10 @@
                             "description": "Climb the improbable-looking tall arete on the right side of the downhill face. One of the best problems in Southern California.",
                             "rating": "V7",
                             "stars": 4,
-                            "image": "Sword of Damocles.jpg"
+                            "image": "sword_of_damocles_dgejgk.jpg"
                         }
                     ],
-                    "image": "Sword of Damocles.jpg"
+                    "image": "sword_of_damocles_dgejgk.jpg"
                 },
                 {
                     "name": "Golf Boulder",
@@ -717,7 +746,7 @@
                             "description": "Start as for The Fang, but climb the huecos out right.",
                             "rating": "V4",
                             "stars": 3,
-                            "image": "Zacks Roof.jpg"
+                            "image": "zacks_roof_guhcim.jpg"
                         }
                     ],
                     "location":
@@ -742,10 +771,10 @@
                             "description": "Climb the slab without using the arete, slightly harder to the left.",
                             "rating": "V1",
                             "stars": 2,
-                            "image": "Victor Boulder.jpg"
+                            "image": "victor_boulder_fbplx9.jpg"
                         }
                     ],
-                    "image": "Victor Boulder.jpg"
+                    "image": "victor_boulder_fbplx9.jpg"
                 },
                 {
                     "name": "Great Curve Boulder",
@@ -757,7 +786,7 @@
                             "description": "Jump start to a pinch on the blunt left arete, and climb the arete to a sketchy top out.",
                             "rating": "V6",
                             "stars": 3,
-                            "image": "The Great Curve.jpg",
+                            "image": "the_great_curve_yizlmb.jpg",
                             "location":
                             {
                                 "latitude": 34.34087,
@@ -765,7 +794,7 @@
                             }
                         }
                      ],
-                    "image": "The Great Curve.jpg",
+                    "image": "the_great_curve_yizlmb.jpg",
                     "location":
                     {
                         "latitude": 34.34087,
@@ -781,67 +810,127 @@
                             "name": "The Transom",
                             "description": "Climb the sharp left-hand arete of the Skin boulder via a painful start and easier climbing above.",
                             "rating": "V1",
-                            "stars": 3
+                            "stars": 3,
+                            "image":"the_transom_uyrtin.jpg",
+                            "location":
+                            {
+                                "latitude": 34.33997,
+                                "longitude": -118.01602
+                            }
                         },
                         {
                             "name": "Mr Skin",
                             "description": "Ascend the blank face between The Transom and Bowsprits. I have never heard of this actually being done, it looks impossible.",
                             "rating": "V8",
-                            "stars": 1
+                            "stars": 1,
+                            "location":
+                            {
+                                "latitude": 34.33996,
+                                "longitude": -118.016
+                            }
                         },
                         {
                             "name": "Bowsprits",
                             "description": "Clinb the right-hand arete up beautiful orange rock with great movement to a juggy finish.",
                             "rating": "V3",
-                            "stars": 4
+                            "stars": 4,
+                            "image":"bowsprits_wkw0hh.jpg",
+                            "location":
+                            {
+                                "latitude": 34.33995,
+                                "longitude": -118.01595
+                            }
                         }
                     ],
                     "location":
                     {
-                        "latitude": 34.33997,
-                        "longitude": -118.01596
-                    }
+                        "latitude": 34.33996,
+                        "longitude": -118.01598
+                    },
+                    "image":"bowsprits_wkw0hh.jpg"
                 },
                 {
                     "name": "Peanut Boulder",
                     "description": "The boulder is straight downhill from the obvious Y-Crack past the Skin Boulder. It is visible from the trail.",
+                    "location":
+                    {
+                        "latitude": 34.33979,
+                        "longitude": -118.01605
+                    },
+                    "image":"peanut_boulder_zo40jf.jpg",
                     "routes":
                     [
                         {
                             "name": "Unnamed",
                             "description": "On the undercut face facing Mr Skin, climb the pockets.",
                             "rating": "V1",
-                            "stars": 2
+                            "stars": 2,
+                            "image":"unnamed_sfr49i.jpg",
+                            "location":
+                            {
+                                "latitude": 34.33981,
+                                "longitude": -118.01603
+                            }
                         },
                         {
                             "name": "Unnamed",
                             "description": "On the left side of the boulder, when facing the boulder from the main trail, start near a small, sharp tree stump. The true sit start is perhaps v4.",
                             "rating": "V1",
-                            "stars": 2
+                            "stars": 2,
+                            "image":"unnamed_kqceyi.jpg",
+                            "location":
+                            {
+                                "latitude": 34.33979,
+                                "longitude": -118.01601
+                            }
                         },
                         {
                             "name": "Nothing But Sunshine",
                             "description": "Start both hands in the diagonal jug, go right hand up to the crimp, then traverse left on crimps and pinches to a big throw to a good crimp out left and up to good patina up top. One of the best at The Flats.",
                             "rating": "V9",
-                            "stars": 4
+                            "stars": 4,
+                            "image":"nothing_but_sunshine_jvetrv.jpg",
+                            "location":
+                            {
+                                "latitude": 34.33976,
+                                "longitude": -118.01608
+                            }
                         },
                         {
                             "name": "The Peanut",
                             "description": "Start in the same diagonal jug as NBS, but instead go left hand up to the crimp, then right hand to a slick side pull and a big crux throw up left to patina.",
                             "rating": "V7",
-                            "stars": 3
+                            "stars": 3,
+                            "image":"the_peanut_mk9y0j.jpg",
+                            "location":
+                            {
+                                "latitude": 34.33975,
+                                "longitude": -118.01607
+                            }
                         },
                         {
                             "name": "Daddy Long Legs",
                             "description": "Right of the Peanut, in the center of the face, start on two good crimps and climb straight up.",
                             "rating": "V4",
-                            "stars": 3
+                            "stars": 3,
+                            "image":"daddy_long_legs_gdxr1a.jpg",
+                            "location":
+                            {
+                                "latitude": 34.33975,
+                                "longitude": -118.01606
+                            }
                         },
                         {
                             "name": "Unnamed",
                             "description": "Climb patina crimps on the right side of the face away from the trail.",
                             "rating": "V4",
-                            "stars": 2
+                            "stars": 2,
+                            "image":"unnamed_kidhkx.jpg",
+                            "location":
+                            {
+                                "latitude": 34.33975,
+                                "longitude": -118.01604
+                            }
                         }
                     ]
                 },
@@ -854,13 +943,20 @@
                             "name": "Fish Arete",
                             "description": "Tall arete just left of Y-crack.",
                             "rating": "V3",
-                            "stars": 2
+                            "stars": 2,
+                            "image":"y_crack_fpn6a5.jpg"
                         },
                         {
                             "name": "Y Crack",
                             "description": "The highball Y crack with a sketchy landing. Usually TRd back in the day.",
                             "rating": "V0 R",
-                            "stars": 3
+                            "stars": 3,
+                            "image":"y_crack_fpn6a5.jpg",
+                            "location":
+                            {
+                                "latitude": 34.340223,
+                                "longitude": -118.016024
+                            }
                         }
                     ],
                     "location":
@@ -868,7 +964,7 @@
                         "latitude": 34.340223,
                         "longitude": -118.016024
                     },
-                    "image":"y_crack.png"
+                    "image":"y_crack_fpn6a5.jpg"
                 },
                 {
                     "name": "Dragon Rock",
@@ -953,7 +1049,12 @@
                             "description": "Climb the facef from a high start.",
                             "rating": "V4",
                             "stars": 3,
-                            "image":"the_refigerator.png"
+                            "image":"the_refigerator_u6lb1s.jpg",
+                            "location":
+                            {
+                                "latitude": 34.340346,
+                                "longitude": -118.016782
+                            }
                         },
                         {
                             "name": "Opposition Movement",
@@ -977,7 +1078,7 @@
                                 "latitude": 34.340212,
                                 "longitude": -118.016996
                             },
-                            "image":"unnamed_1.png"
+                            "image":"unnamed_1_k50rbu.jpg"
                         }
                     ],
                     "location":
@@ -985,7 +1086,7 @@
                         "latitude": 34.340346,
                         "longitude": -118.016782
                     },
-                    "image":"defroster.png"
+                    "image":"defroster_mj7g01.jpg"
                 }
             ]
         }

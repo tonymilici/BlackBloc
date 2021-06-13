@@ -93,7 +93,7 @@
                                 "latitude": 34.26999,
                                 "longitude": -118.60557
                             },
-                            "image":"west_face.png"
+                            "image":"west_face_ms6cuu.jpg"
                         }
                     ],
                     "location":
@@ -101,7 +101,7 @@
                         "latitude": 34.27001,
                         "longitude": -118.60556
                     },
-                    "image":"west_face.png"
+                    "image":"west_face_ms6cuu.jpg"
                 },
                 {
                     "name": "Pump Rock",
@@ -167,7 +167,7 @@
                                 "latitude": 34.26978,
                                 "longitude": -118.60565
                             },
-                            "image":"west_arete.png"
+                            "image":"west_arete_dqvyww.jpg"
                         },
                         {
                             "name":"Nylon Boy",
@@ -237,7 +237,7 @@
                                 "latitude": 34.26974,
                                 "longitude": -118.6056
                             },
-                            "image":"vivarin.png"
+                            "image":"vivarin_l6ckn8.jpg"
                         },
                         {
                             "name":"Southeast Corner",
@@ -260,7 +260,7 @@
                                 "latitude": 34.26973,
                                 "longitude": -118.60557
                             },
-                            "image":"three_pigs.png"
+                            "image":"three_pigs_ukhm5z.jpg"
                         },
                         {
                             "name": "Three Pigs",
@@ -272,7 +272,7 @@
                                 "latitude": 34.26974,
                                 "longitude": -118.60556
                             },
-                            "image":"three_pigs.png"
+                            "image":"three_pigs_ukhm5z.jpg"
                         },
                         {
                             "name": "Undercling",
@@ -372,7 +372,7 @@
                 {
                     "name": "Slant Rock",
                     "description": "This boulder is a few yards to the southeast of Boulder 1 and has a low angle west face that is often ascended with no hands.",
-                    "image":"slant_rock.png",
+                    "image":"slant_rock_vwjsqe.jpg",
                     "routes":
                     [
                         {
@@ -380,7 +380,7 @@
                             "description":"Climb the very easy west arete.",
                             "rating":"VB",
                             "stars":1,
-                            "image":"slant_rock_face.png",
+                            "image":"slant_rock_face_qhif2o.jpg",
                             "location":
                             {
                                 "latitude": 34.26959,
@@ -392,7 +392,7 @@
                             "description":"Climb the center of the face using friction and small crimps.",
                             "rating":"V0-",
                             "stars":2,
-                            "image":"slant_rock_face.png",
+                            "image":"slant_rock_face_qhif2o.jpg",
                             "location":
                             {
                                 "latitude": 34.26959,
@@ -404,7 +404,7 @@
                             "description":"Climb the left side of the face.",
                             "rating":"VB",
                             "stars":2,
-                            "image":"slant_rock_face.png",
+                            "image":"slant_rock_face_qhif2o.jpg",
                             "location":
                             {
                                 "latitude": 34.26959,
@@ -413,10 +413,10 @@
                         },
                         {
                             "name":"Slant Flake",
-                            "description":"Sit start and climb the juggy seam up and left to the mantle topout.",
+                            "description":"Sit start and climb the juggy rail up and left to the mantle topout.",
                             "rating":"V0",
                             "stars":2,
-                            "image":"slant_flake.png",
+                            "image":"slant_flake_lntdyh.jpg",
                             "location":
                             {
                                 "latitude": 34.26958,
@@ -1096,7 +1096,7 @@
                  {
                       "name":"Spiral Boulder",
                       "description":"The Huge boulder uphill from the trail slighly South of Split Rock.",
-                      "image":"Spiral Traverse.png",
+                      "image":"spiral_traverse_usqsnt.jpg",
                       "location":
                       {
                           "latitude": 34.27025,
@@ -1121,7 +1121,7 @@
                               "description":"The classic traverse on the North side of the boulder goes left to right.",
                               "rating":"V1",
                               "stars":3,
-                              "image":"Spiral Traverse.png",
+                              "image":"spiral_traverse_usqsnt.jpg",
                               "location":
                               {
                                   "latitude": 34.270333,
@@ -1133,7 +1133,7 @@
                                "description":"Start on small udges, use an undercling to gain a pocket, then the juggy hueco at the top.",
                                "rating":"V0+",
                                "stars":2,
-                               "image":"Spiral Direct.png",
+                               "image":"spiral_direct_e1bz1b.jpg",
                                "location":
                                {
                                    "latitude": 34.27034,
@@ -1180,7 +1180,7 @@
                   {
                       "name":"Slap Boulder",
                       "description":"The obvious small chalked boulder just North of Spiral Traverse.",
-                      "image":"Slap.png",
+                      "image":"slap_cpgjy9.jpg",
                       "location":
                       {
                         "latitude": 34.27043,
@@ -1193,6 +1193,7 @@
                                "description":"Climb the lowball face.",
                                "rating":"V2",
                                "stars":1,
+                               "image":"slap_cpgjy9.jpg",
                                "location":
                                {
                                  "latitude": 34.27043,
@@ -1415,7 +1416,7 @@
                 {
                      "name":"Boulder Opposite Mommy's Boys",
                      "description":"The boulder on the other side of the corridor.",
-                     "image":"Yabo Dyno.png",
+                     "image":"yabo_dyno_xgl2dz.jpg",
                      "location":
                      {
                         "latitude": 34.27067,
@@ -1428,7 +1429,7 @@
                               "description":"Start low on decent edges and move right to a dyno from a sidepull and a small edge to a rounded hold. Located directly across from Mommy's Boys. Located on the opposite side of the boulder from Mommy's Boys.",
                               "rating":"V8",
                               "stars":1,
-                              "image":"Yabo Dyno.png",
+                              "image":"yabo_dyno_xgl2dz.jpg",
                               "location":
                               {
                                 "latitude": 34.27064,
@@ -1464,7 +1465,7 @@
                 {
                     "name":"Ummagumma Boulder",
                     "description":"A Large boulder that appears when the trail begins to flatten out.",
-                    "image":"Ummagumma.png",
+                    "image":"ummagumma_xsztwm.jpg",
                     "location":
                     {
                         "latitude": 34.27095,
@@ -1480,8 +1481,9 @@
                             "location":
                             {
                                 "latitude": 34.27095,
-                                "longitude":-118.603731,
-                            }
+                                "longitude":-118.60378,
+                            },
+                            "image":"ummagumma_xsztwm.jpg"
                         }
                     ]
                 },

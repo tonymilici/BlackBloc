@@ -1,0 +1,106 @@
+{
+    "name":"Canyon Crest Boulders",
+    "location":
+    {
+        "latitude": 34.209,
+        "longitude": -118.163
+    },
+    "size": 0.5,
+    "clusters":
+    [
+    	{
+            "name": "Road Boulders",
+            "location":
+            {
+                "latitude": 34.2097,
+                "longitude": -118.1623
+            },
+            "radius": 40,
+            "boulders":
+            [
+                {
+                   "name":"Canyon Crest Road Boulder",
+                   "description":"The obvios boulder right next to the road just before the road switchback.",
+                   "routes":
+                   [
+                       {
+                           "name":"Unkkown",
+                           "description":"On the left side of the boulder, start at a seam and clim up cripms. Top out via a mamtle to the left or continue up highe to the right",
+                           "rating":"V0",
+                           "stars":2,
+                           "location":
+                           {
+                               "latitude": 34.2097,
+                               "longitude": -118.1623
+                           }
+                       },
+                       {
+                           "name":"Direct Center",
+                           "description":"Sit start wiith good holdsd and climb up the center of the face, left of the arete",
+                           "rating":"V3",
+                           "stars":3,
+                           "location":
+                           {
+                               "latitude": 34.2097,
+                               "longitude": -118.1623
+                           }
+                       },
+                       {
+                           "name":"CLAY-ton",
+                           "description":"Stand start on side pulla, and clinmb up to gain jugs and a mantle topout. The sit start is V2",
+                           "rating":"V1",
+                           "stars":2,
+                           "location":
+                           {
+                               "latitude": 34.2097,
+                               "longitude": -118.1623
+                           }
+                       },
+                       {
+                           "name":"4 Count",
+                           "description":"Start with hands on the rail and make a big move for the lip",
+                           "rating":"V0+",
+                           "stars":2,
+                           "location":
+                           {
+                               "latitude": 34.2097,
+                               "longitude": -118.1623
+                           }
+                       }
+                   ],
+                   "location":
+                   {
+                       "latitude": 34.2097,
+                       "longitude": -118.1623
+                   }
+                },
+                {
+                   "name":"Roadside Boulder",
+                   "description":"The obvios boulder right next to the road just before the road switchback.",
+                   "image":"credit_card_lover_xmvmix.jpg",
+                   "routes":
+                   [
+                   ],
+                   "location":
+                   {
+                       "latitude": 34.2097,
+                       "longitude": -118.1623
+                   }
+                },
+                {
+                   "name":"Upper Stream Boulder",
+                   "description":"The obvios boulder right next to the road just before the road switchback.",
+                   "image":"credit_card_lover_xmvmix.jpg",
+                   "routes":
+                   [
+                   ],
+                   "location":
+                   {
+                       "latitude": 34.2097,
+                       "longitude": -118.1623
+                   }
+                }
+            ]
+        }
+    ]
+}

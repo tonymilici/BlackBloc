@@ -32,25 +32,31 @@ class ImageProvider: ObservableObject {
     private let urlBuilder: UrlBuilder
     private var cancellable: AnyCancellable?
     
-    init(imageName: String, urlBuilder: UrlBuilder) {
+    private var cache: ImageCache?
+    
+    init(imageName: String, urlBuilder: UrlBuilder, cache: ImageCache? = nil) {
         self.imageName = imageName
         self.urlBuilder = urlBuilder
+        self.cache = cache
     }
     
     func load() {
-        if let uiImage = UIImage(named: imageName) {
-            image = uiImage
-        }
-        else if let url = URL(string: urlBuilder.build(image: imageName)) {
-            cancellable = URLSession.shared.dataTaskPublisher(for: url)
-                .map {
-                    UIImage(data: $0.data)
-                }
-                .replaceError(with: nil)
-                .receive(on: DispatchQueue.main)
-                .sink {
-                    self.image = $0
-                }
+        if let url = URL(string: urlBuilder.build(image: imageName)) {
+            if let uiImage = cache?[url] {
+                image = uiImage
+            }
+            else {
+                cancellable = URLSession.shared.dataTaskPublisher(for: url)
+                    .map {
+                        UIImage(data: $0.data)
+                    }
+                    .replaceError(with: nil)
+                    .handleEvents(receiveOutput: { [weak self] in self?.cache?[url] = $0 })
+                    .receive(on: DispatchQueue.main)
+                    .sink {
+                        self.image = $0
+                    }
+            }
         }
     }
     

@@ -42,6 +42,8 @@
 		BB92DF50265C81E4002897C3 /* RoutesPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB92DF4F265C81E4002897C3 /* RoutesPage.swift */; };
 		BBB2FE2A2667B51700FF60FA /* UrlBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB2FE292667B51700FF60FA /* UrlBuilder.swift */; };
 		BBFAB9F1266D452D009A261E /* mt_rubidoux.json in Resources */ = {isa = PBXBuildFile; fileRef = BBFAB9F0266D452D009A261E /* mt_rubidoux.json */; };
+		BBFABAAA267699B4009A261E /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFABAA9267699B4009A261E /* ImageCache.swift */; };
+		BBFABAAF2676A431009A261E /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFABAAE2676A431009A261E /* Environment.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -103,6 +105,8 @@
 		BB92DF4F265C81E4002897C3 /* RoutesPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoutesPage.swift; sourceTree = "<group>"; };
 		BBB2FE292667B51700FF60FA /* UrlBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrlBuilder.swift; sourceTree = "<group>"; };
 		BBFAB9F0266D452D009A261E /* mt_rubidoux.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = mt_rubidoux.json; sourceTree = "<group>"; };
+		BBFABAA9267699B4009A261E /* ImageCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCache.swift; sourceTree = "<group>"; };
+		BBFABAAE2676A431009A261E /* Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,6 +171,7 @@
 			isa = PBXGroup;
 			children = (
 				BB92DE65265C7ABA002897C3 /* BoulderingGuideApp.swift */,
+				BBFABAAE2676A431009A261E /* Environment.swift */,
 				BB92DE69265C7ABD002897C3 /* Assets.xcassets */,
 				BB92DE6E265C7ABD002897C3 /* Info.plist */,
 				BB92DE6B265C7ABD002897C3 /* Preview Content */,
@@ -213,6 +218,7 @@
 				BB92DE9F265C7BB1002897C3 /* Route.swift */,
 				BB8FDD3926641C1300275F3B /* ImageProvider.swift */,
 				BBB2FE292667B51700FF60FA /* UrlBuilder.swift */,
+				BBFABAA9267699B4009A261E /* ImageCache.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -392,6 +398,7 @@
 				BB92DF2B265C8134002897C3 /* NavigationPage.swift in Sources */,
 				BB92DF14265C80B1002897C3 /* AreaMapPage.swift in Sources */,
 				BB92DF3B265C8172002897C3 /* RoutePage.swift in Sources */,
+				BBFABAAA267699B4009A261E /* ImageCache.swift in Sources */,
 				BBB2FE2A2667B51700FF60FA /* UrlBuilder.swift in Sources */,
 				BB92DF19265C80D1002897C3 /* AreaMapView.swift in Sources */,
 				BB0A3EC92661166E0039F510 /* SplashScreen.swift in Sources */,
@@ -402,6 +409,7 @@
 				BB92DE68265C7ABA002897C3 /* ContentView.swift in Sources */,
 				BB92DF48265C81BE002897C3 /* ListItem.swift in Sources */,
 				BB92DEE2265C805A002897C3 /* AreasPage.swift in Sources */,
+				BBFABAAF2676A431009A261E /* Environment.swift in Sources */,
 				BB92DF33265C8154002897C3 /* NavigationMapView.swift in Sources */,
 				BB92DE66265C7ABA002897C3 /* BoulderingGuideApp.swift in Sources */,
 				BB92DF23265C8105002897C3 /* BoulderPage.swift in Sources */,

@@ -28,7 +28,12 @@ struct AsyncImage: View {
     @StateObject private var provider: ImageProvider
     
     init(source: String, urlBuilder: UrlBuilder) {
-        _provider = StateObject(wrappedValue: ImageProvider(imageName: source, urlBuilder: urlBuilder))
+        let provider = ImageProvider(
+            imageName: source,
+            urlBuilder: urlBuilder,
+            cache: Environment(\.imageCache).wrappedValue)
+        
+        _provider = StateObject(wrappedValue: provider)
     }
     
     var body: some View {

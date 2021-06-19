@@ -48,4 +48,23 @@ public struct Area: Decodable {
         }
         return routes
     }
+    
+    public var images: [String] {
+        var images: [String] = []
+        
+        for cluster in clusters {
+            for boulder in cluster.boulders {
+                if let image = boulder.image {
+                    images.append(image)
+                }
+                for route in boulder.routes {
+                    if let image = route.image {
+                        images.append(image)
+                    }
+                }
+            }
+        }
+        
+        return images;
+    }
 }

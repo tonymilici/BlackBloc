@@ -56,7 +56,7 @@ struct BoulderPage: View {
             }
             
             if let image = boulder.image {
-                AsyncImage(urlBuilder: UrlBuilder(areaName: areaName, imageName: image))
+                AsyncImage(imageSpec: ImageSpec(area: areaName, image: image))
             }
             
             if let location = boulder.location {

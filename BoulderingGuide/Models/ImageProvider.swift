@@ -28,33 +28,34 @@ import Combine
 class ImageProvider: ObservableObject {
     @Published var image: UIImage?
     
-    private let urlBuilder: UrlBuilder
+    private let imageSpec: ImageSpec
     private var cancellable: AnyCancellable?
     
     private var cache: ImageCache?
     
-    init(urlBuilder: UrlBuilder, cache: ImageCache? = nil) {
-        self.urlBuilder = urlBuilder
+    init(imageSpec: ImageSpec, cache: ImageCache? = nil) {
+        self.imageSpec = imageSpec
         self.cache = cache
     }
     
     func load() {
-        if let url = URL(string: urlBuilder.build()) {
-            if let uiImage = cache?[url] {
-                image = uiImage
-            }
-            else {
-                cancellable = URLSession.shared.dataTaskPublisher(for: url)
-                    .map {
-                        UIImage(data: $0.data)
-                    }
-                    .replaceError(with: nil)
-                    .handleEvents(receiveOutput: { [weak self] in self?.cache?[url] = $0 })
-                    .receive(on: DispatchQueue.main)
-                    .sink {
-                        self.image = $0
-                    }
-            }
+        let spec = imageSpec
+        let urlBuilder = UrlBuilder(imageSpec: spec)
+        
+        if let uiImage = cache?[imageSpec] {
+            image = uiImage
+        }
+        else if let url = URL(string: urlBuilder.build()) {
+            cancellable = URLSession.shared.dataTaskPublisher(for: url)
+                .map {
+                    UIImage(data: $0.data)
+                }
+                .replaceError(with: nil)
+                .handleEvents(receiveOutput: { [weak self] in self?.cache?[spec] = $0 })
+                .receive(on: DispatchQueue.main)
+                .sink {
+                    self.image = $0
+                }
         }
     }
     

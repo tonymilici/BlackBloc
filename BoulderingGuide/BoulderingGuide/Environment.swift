@@ -25,7 +25,7 @@
 import SwiftUI
 
 struct ImageCacheKey: EnvironmentKey {
-    static let defaultValue: ImageCache = ImageCache()
+    static let defaultValue: ImageCache = ImageMemoryCache()
 }
 
 struct AreaKey: EnvironmentKey {

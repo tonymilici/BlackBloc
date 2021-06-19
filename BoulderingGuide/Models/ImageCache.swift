@@ -25,15 +25,29 @@
 import Foundation
 import UIKit
 
-struct ImageCache {
-    private let cache = NSCache<NSURL, UIImage>()
+class ImageSpec: NSObject {
+    let area: String
+    let image: String
     
-    subscript(_ key: URL) -> UIImage? {
-        get { cache.object(forKey: key as NSURL) }
+    init(area: String, image: String) {
+        self.area = area
+        self.image = image
+    }
+}
+
+protocol ImageCache {
+    subscript(_ key: ImageSpec) -> UIImage? { get set }
+}
+
+struct ImageMemoryCache: ImageCache {
+    private let cache = NSCache<ImageSpec, UIImage>()
+    
+    subscript(_ key: ImageSpec) -> UIImage? {
+        get { cache.object(forKey: key as ImageSpec) }
         set {
             newValue == nil ?
-                cache.removeObject(forKey: key as NSURL) :
-                cache.setObject(newValue!, forKey: key as NSURL)
+                cache.removeObject(forKey: key) :
+                cache.setObject(newValue!, forKey: key)
         }
     }
 }

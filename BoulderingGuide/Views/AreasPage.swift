@@ -34,6 +34,7 @@ struct AreasPage: View {
             .navigationTitle("Areas")
             .navigationBarTitleDisplayMode(.inline)
         }
+        .navigationViewStyle(StackNavigationViewStyle())
     }
 }
 

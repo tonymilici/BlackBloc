@@ -45,7 +45,7 @@ struct RoutePage: View {
             Spacer()
             
             if let image = route.image {
-                AsyncImage(source: image, urlBuilder: UrlBuilder(areaName: areaName))
+                AsyncImage(urlBuilder: UrlBuilder(areaName: areaName, imageName: image))
             }
             
             if let location = route.location {

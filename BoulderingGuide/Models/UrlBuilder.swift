@@ -26,10 +26,12 @@ import Foundation
 
 struct UrlBuilder {
     let areaName: String
+    let imageName: String
+    
     private let prefix = "https://res.cloudinary.com/blackbloc-software/image/upload/" 
     
-    public func build(image: String) -> String {
-        let str = "\(prefix)\(areaName)/\(image)"
+    public func build() -> String {
+        let str = "\(prefix)\(areaName)/\(imageName)"
         if let result = str.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed) {
             return result;
         }

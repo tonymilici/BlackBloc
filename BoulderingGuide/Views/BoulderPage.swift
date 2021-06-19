@@ -56,11 +56,13 @@ struct BoulderPage: View {
             }
             
             if let image = boulder.image {
-                AsyncImage(source: image, urlBuilder: UrlBuilder(areaName: areaName))
+                AsyncImage(urlBuilder: UrlBuilder(areaName: areaName, imageName: image))
             }
             
             if let location = boulder.location {
-                    NavigationLink(destination: NavigationPage(location: location, title: boulder.name), isActive: $isNavigateActive) {
+                NavigationLink(
+                    destination: NavigationPage(location: location, title: boulder.name),
+                    isActive: $isNavigateActive) {
                     EmptyView()
                 }
             }

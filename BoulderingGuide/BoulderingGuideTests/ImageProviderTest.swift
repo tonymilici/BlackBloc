@@ -27,9 +27,8 @@ import XCTest
 
 class ImageProviderTest: XCTestCase {
     func testLoad() {
-        let provider = ImageProvider(
-            imageName: "aftershock_qxdmru.jpg",
-            urlBuilder: UrlBuilder(areaName: "Stoney Point"))
+        let urlBuilder = UrlBuilder(areaName: "Stoney Point", imageName: "aftershock_qxdmru.jpg")
+        let provider = ImageProvider(urlBuilder: urlBuilder)
         
         provider.load()
         

@@ -27,9 +27,8 @@ import SwiftUI
 struct AsyncImage: View {
     @StateObject private var provider: ImageProvider
     
-    init(source: String, urlBuilder: UrlBuilder) {
+    init(urlBuilder: UrlBuilder) {
         let provider = ImageProvider(
-            imageName: source,
             urlBuilder: urlBuilder,
             cache: Environment(\.imageCache).wrappedValue)
         
@@ -64,7 +63,7 @@ struct AsyncImage: View {
 struct AsyncImage_Previews: PreviewProvider {
     static var previews: some View {
             if let area = try? Areas.loadArea("stoney_point.json") {
-                AsyncImage(source: "say_goodnight.png",  urlBuilder: UrlBuilder(areaName: area.name))
+                AsyncImage(urlBuilder: UrlBuilder(areaName: area.name, imageName: "say_goodnight.png"))
             }
     }
 }

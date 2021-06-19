@@ -28,20 +28,18 @@ import Combine
 class ImageProvider: ObservableObject {
     @Published var image: UIImage?
     
-    private let imageName: String
     private let urlBuilder: UrlBuilder
     private var cancellable: AnyCancellable?
     
     private var cache: ImageCache?
     
-    init(imageName: String, urlBuilder: UrlBuilder, cache: ImageCache? = nil) {
-        self.imageName = imageName
+    init(urlBuilder: UrlBuilder, cache: ImageCache? = nil) {
         self.urlBuilder = urlBuilder
         self.cache = cache
     }
     
     func load() {
-        if let url = URL(string: urlBuilder.build(image: imageName)) {
+        if let url = URL(string: urlBuilder.build()) {
             if let uiImage = cache?[url] {
                 image = uiImage
             }

@@ -44,6 +44,8 @@
 		BBFAB9F1266D452D009A261E /* mt_rubidoux.json in Resources */ = {isa = PBXBuildFile; fileRef = BBFAB9F0266D452D009A261E /* mt_rubidoux.json */; };
 		BBFABAAA267699B4009A261E /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFABAA9267699B4009A261E /* ImageCache.swift */; };
 		BBFABAAF2676A431009A261E /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFABAAE2676A431009A261E /* Environment.swift */; };
+		BBFABAD6267E773C009A261E /* ImageFileTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFABAD5267E773C009A261E /* ImageFileTest.swift */; };
+		BBFABAE2267E7FDE009A261E /* ImageFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFABADA267E7FBC009A261E /* ImageFile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -107,6 +109,8 @@
 		BBFAB9F0266D452D009A261E /* mt_rubidoux.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = mt_rubidoux.json; sourceTree = "<group>"; };
 		BBFABAA9267699B4009A261E /* ImageCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCache.swift; sourceTree = "<group>"; };
 		BBFABAAE2676A431009A261E /* Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
+		BBFABAD5267E773C009A261E /* ImageFileTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageFileTest.swift; sourceTree = "<group>"; };
+		BBFABADA267E7FBC009A261E /* ImageFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageFile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -195,6 +199,7 @@
 				BB92DE93265C7B4D002897C3 /* RouteTest.swift */,
 				BB92DE79265C7ABD002897C3 /* Info.plist */,
 				BB8FDD3E26642BC800275F3B /* ImageProviderTest.swift */,
+				BBFABAD5267E773C009A261E /* ImageFileTest.swift */,
 			);
 			path = BoulderingGuideTests;
 			sourceTree = "<group>";
@@ -219,6 +224,7 @@
 				BB8FDD3926641C1300275F3B /* ImageProvider.swift */,
 				BBB2FE292667B51700FF60FA /* UrlBuilder.swift */,
 				BBFABAA9267699B4009A261E /* ImageCache.swift */,
+				BBFABADA267E7FBC009A261E /* ImageFile.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -397,6 +403,7 @@
 				BB92DEFC265C807A002897C3 /* Cluster.swift in Sources */,
 				BB92DF2B265C8134002897C3 /* NavigationPage.swift in Sources */,
 				BB92DF14265C80B1002897C3 /* AreaMapPage.swift in Sources */,
+				BBFABAE2267E7FDE009A261E /* ImageFile.swift in Sources */,
 				BB92DF3B265C8172002897C3 /* RoutePage.swift in Sources */,
 				BBFABAAA267699B4009A261E /* ImageCache.swift in Sources */,
 				BBB2FE2A2667B51700FF60FA /* UrlBuilder.swift in Sources */,
@@ -423,6 +430,7 @@
 			files = (
 				BB92DE94265C7B4D002897C3 /* RouteTest.swift in Sources */,
 				BB92DEBA265C7C8E002897C3 /* AreaTest.swift in Sources */,
+				BBFABAD6267E773C009A261E /* ImageFileTest.swift in Sources */,
 				BB8FDD3F26642BC800275F3B /* ImageProviderTest.swift in Sources */,
 				BB92DEB9265C7C8E002897C3 /* ClusterTest.swift in Sources */,
 			);

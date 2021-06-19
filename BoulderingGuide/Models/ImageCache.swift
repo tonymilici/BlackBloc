@@ -29,6 +29,10 @@ class ImageSpec: NSObject {
     let area: String
     let image: String
     
+    var spac: String {
+        "\(area)/\(image)"
+    }
+    
     init(area: String, image: String) {
         self.area = area
         self.image = image
@@ -48,6 +52,20 @@ struct ImageMemoryCache: ImageCache {
             newValue == nil ?
                 cache.removeObject(forKey: key) :
                 cache.setObject(newValue!, forKey: key)
+        }
+    }
+}
+
+struct ImageDiskCache: ImageCache {
+    subscript(_ key: ImageSpec) -> UIImage? {
+        get {
+            let path = ImageFile.getFilePath(key)
+            return UIImage(contentsOfFile: path.path)
+        }
+        set {
+            if let image = newValue {
+                ImageFile.save(spec: key, image: image)
+            }
         }
     }
 }

@@ -1,8 +1,8 @@
 //
-//  ImageCache.swift
+//  UserPrefs.swift
 //  BoulderingGuide
 //
-//  Created by Tony Milici on 6/13/21.
+//  Created by Tony Milici on 6/19/21.
 //
 //Permission is hereby granted, free of charge, to any person obtaining a copy
 //of this software and associated documentation files (the "Software"), to deal
@@ -23,45 +23,18 @@
 //SOFTWARE./
 
 import Foundation
-import UIKit
 
-class ImageSpec: NSObject {
-    let area: String
-    let image: String
+class UserPrefs {
+    private let userDefaults = UserDefaults.standard
+    private let cacheImagesKey = "CacheImages"
     
-    init(area: String, image: String) {
-        self.area = area
-        self.image = image
-    }
-}
-
-protocol ImageCache {
-    subscript(_ key: ImageSpec) -> UIImage? { get set }
-}
-
-struct ImageMemoryCache: ImageCache {
-    private let cache = NSCache<ImageSpec, UIImage>()
-    
-    subscript(_ key: ImageSpec) -> UIImage? {
-        get { cache.object(forKey: key as ImageSpec) }
-        set {
-            newValue == nil ?
-                cache.removeObject(forKey: key) :
-                cache.setObject(newValue!, forKey: key)
-        }
-    }
-}
-
-struct ImageDiskCache: ImageCache {
-    subscript(_ key: ImageSpec) -> UIImage? {
+    var cacheImagesOnDisk: Bool
+    {
         get {
-            let path = ImageFile.getFilePath(key)
-            return UIImage(contentsOfFile: path.path)
+            userDefaults.bool(forKey: cacheImagesKey)
         }
         set {
-            if let image = newValue {
-                ImageFile.save(spec: key, image: image)
-            }
+            userDefaults.set(newValue, forKey: cacheImagesKey)
         }
     }
 }

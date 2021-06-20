@@ -21,6 +21,7 @@ import SwiftUI
 
 struct AreasPage: View {
     @EnvironmentObject private var areas: Areas
+    @State private var showingPrefs = false
     
     var body: some View {
         NavigationView {
@@ -33,6 +34,14 @@ struct AreasPage: View {
             }
             .navigationTitle("Areas")
             .navigationBarTitleDisplayMode(.inline)
+            .toolbar {
+                Button(action: { showingPrefs.toggle() }) {
+                    Image(systemName: "gearshape")
+                }
+            }
+            .sheet(isPresented: $showingPrefs) {
+                PrefsPage()
+            }
         }
         .navigationViewStyle(StackNavigationViewStyle())
     }

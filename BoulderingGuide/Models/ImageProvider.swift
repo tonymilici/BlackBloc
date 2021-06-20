@@ -33,9 +33,9 @@ class ImageProvider: ObservableObject {
     
     private var cache: ImageCache?
     
-    init(imageSpec: ImageSpec, cache: ImageCache? = nil) {
+    init(imageSpec: ImageSpec) {
         self.imageSpec = imageSpec
-        self.cache = cache
+        self.cache = CacheProvider.imageCache
     }
     
     func load() {

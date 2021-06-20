@@ -28,10 +28,7 @@ struct AsyncImage: View {
     @StateObject private var provider: ImageProvider
     
     init(imageSpec: ImageSpec) {
-        let provider = ImageProvider(
-            imageSpec: imageSpec,
-            cache: Environment(\.imageCache).wrappedValue)
-        
+        let provider = ImageProvider(imageSpec: imageSpec)
         _provider = StateObject(wrappedValue: provider)
     }
     
@@ -63,7 +60,7 @@ struct AsyncImage: View {
 struct AsyncImage_Previews: PreviewProvider {
     static var previews: some View {
             if let area = try? Areas.loadArea("stoney_point.json") {
-                AsyncImage(imageSpec: ImageSpec(area: area.name, image: "say_goodnight.png"))
+                AsyncImage(imageSpec: ImageSpec(area: area.name, image: "say_goodnight_fopuxo.jpg"))
             }
     }
 }

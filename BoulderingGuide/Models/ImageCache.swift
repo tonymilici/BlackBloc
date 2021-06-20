@@ -65,3 +65,13 @@ struct ImageDiskCache: ImageCache {
         }
     }
 }
+
+struct CacheProvider {
+    private static let memoryCache = ImageMemoryCache()
+    private static let diskCache = ImageDiskCache()
+    
+    static var imageCache: ImageCache {
+        let prefs = UserPrefs()
+        return prefs.cacheImagesOnDisk ? diskCache : memoryCache
+    }
+}

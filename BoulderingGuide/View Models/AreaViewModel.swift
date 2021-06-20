@@ -35,4 +35,8 @@ class AreaViewModel: ObservableObject, Identifiable {
     public var name: String {
         area.name
     }
+    
+    func syncImages() {
+        
+    }
 }

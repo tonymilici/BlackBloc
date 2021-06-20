@@ -28,6 +28,7 @@ import SwiftUI
 struct TabPage: View {
     @EnvironmentObject private var area: AreaViewModel
     @State private var selection: Tab = .navigate
+    @State private var showingAlert = false
     
     private enum Tab {
         case navigate
@@ -50,6 +51,24 @@ struct TabPage: View {
         }
         .navigationTitle(area.name)
         .navigationBarTitleDisplayMode(.inline)
+        .toolbar {
+            Button(action: { showingAlert = true }) {
+                Image(systemName: "icloud.and.arrow.down")
+            }
+        }
+        .alert(isPresented: $showingAlert) {
+            showSyncAlert()
+        }
+    }
+    
+    func showSyncAlert() -> Alert {
+        Alert(
+            title: Text("Download Images"),
+            message: Text("Save images to disk so they will be available if you need to use the app offline."),
+            primaryButton: .default(Text("Sync")) {
+                area.syncImages()
+            },
+            secondaryButton: .cancel())
     }
 }
 

@@ -45,13 +45,7 @@ struct AsyncImage: View {
                     .aspectRatio(contentMode: .fit)
                     .clipped()
             } else {
-                GeometryReader {
-                    Text("Loading...")
-                        .frame(
-                            width: $0.size.width,
-                            height: $0.size.height,
-                            alignment: .center)
-                }
+                Color.gray.opacity(0.5)
             }
         }
     }

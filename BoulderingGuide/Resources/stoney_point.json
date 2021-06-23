@@ -1597,7 +1597,7 @@
                 "latitude": 34.2713,
                 "longitude":-118.60362
             },
-            "radius":10,
+            "radius":8,
             "boulders":
             [
                 {
@@ -1644,6 +1644,157 @@
                                 "longitude":-118.6036
                             }
                         }
+                    ]
+                }
+            ]
+        },
+        {
+            "name":"Sculture's Crack Area",
+            "location":
+            {
+                "latitude": 34.2713,
+                "longitude":-118.6038
+            },
+            "radius":8,
+            "boulders":
+            [
+                {
+                    "name":"Sculptures Wall",
+                    "description":"The boulder opposite Mozart'e wall in the corridor.",
+                    "location":
+                    {
+                        "latitude": 34.2713,
+                        "longitude":-118.60382
+                    },
+                    "routes":
+                    [
+                        {
+                            "name":"Sculptures Traverse",
+                            "description":"Start at the right end with a bouldery move to gain the rail. Traverse all the way left past the crack.",
+                            "rating":"V3",
+                            "stars":3,
+                            "location":
+                            {
+                                "latitude": 34.2713,
+                                "longitude":-118.60382
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name":"Nabisco Canyon",
+            "location":
+            {
+                "latitude": 34.27147,
+                "longitude":-118.60408
+            },
+            "radius":10,
+            "boulders":
+            [
+                {
+                    "name":"Left Wall",
+                    "description":"The Left wall of the canyon has a classic long traverse",
+                    "location":
+                    {
+                        "latitude": 34.27147,
+                        "longitude":-118.60408
+                    },
+                    "routes":
+                    [
+                        {
+                            "name":"Maggie's Traverse",
+                            "description":"Start all the way down at the left edge of the wall and climg across athe all all the way past the second crux slab move, passing a couple of high, but easy sections",
+                            "rating":"V3",
+                            "stars":3,
+                            "location":
+                            {
+                                "latitude": 34.27147,
+                                "longitude":-118.60408
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name":"Hot Tuna Area",
+            "location":
+            {
+                "latitude": 34.27157,
+                "longitude":-118.6044
+            },
+            "radius":10,
+            "boulders":
+            [
+                {
+                    "name":"Hot Tuna Buttress",
+                    "description":"Just off the trail, the buttress with the cave underneath it.",
+                    "location":
+                    {
+                        "latitude": 34.27153,
+                        "longitude":-118.6044
+                    },
+                    "routes":
+                    [
+                        {
+                            "name":"Hot Tuna",
+                            "description":"Traverse the huecos and jugs in the cave left to right, starting on the very jeft edge and finidhin on the jug next to the crack.",
+                            "rating":"V5",
+                            "stars":4,
+                            "location":
+                            {
+                                "latitude": 34.27153,
+                                "longitude":-118.60438
+                            }
+                        },
+                    ]
+                },
+                {
+                    "name":"Mickey Mouse",
+                    "description":"The wall just left of Hot Tuna Buttress",
+                    "location":
+                    {
+                        "latitude": 34.27153,
+                        "longitude":-118.60443
+                    },
+                    "routes":
+                    [
+                        {
+                            "name":"Mickey Mouse",
+                            "description":"Start low in the crask and climb it, topping out slightly left over the bulge on slopers",
+                            "rating":"V5",
+                            "stars":2,
+                            "location":
+                            {
+                                "latitude": 34.27153,
+                                "longitude":-118.60443
+                            }
+                        },
+                    ]
+                },
+                {
+                    "name":"Arete Boulder",
+                    "description":"Asmall boulder about 10 yards west of Hot Tuna.",
+                    "location":
+                    {
+                        "latitude": 34.27155,
+                        "longitude":-118.60446
+                    },
+                    "routes":
+                    [
+                        {
+                            "name":"Arete",
+                            "description":"Sit start and climb the arete.",
+                            "rating":"V0",
+                            "stars":1,
+                            "location":
+                            {
+                                "latitude": 34.27155,
+                                "longitude":-118.60446
+                            }
+                        },
                     ]
                 }
             ]

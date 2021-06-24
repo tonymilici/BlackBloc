@@ -25,12 +25,15 @@ struct AreasPage: View {
     
     var body: some View {
         NavigationView {
-            List {
-                ForEach(areas.areas) { area in
-                    NavigationLink(destination: TabPage().environmentObject(area).environment(\.areaName, area.name)) {
-                        Text(area.name)
+            VStack {
+                List {
+                    ForEach(areas.areas) { area in
+                        NavigationLink(destination: TabPage().environmentObject(area).environment(\.areaName, area.name)) {
+                            Text(area.name)
+                        }
                     }
                 }
+                Image("stoney_point").resizable()
             }
             .navigationTitle("Areas")
             .navigationBarTitleDisplayMode(.inline)

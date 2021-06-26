@@ -8,11 +8,13 @@
 import SwiftUI
 
 struct ProgressDialog: View {
+    var progress: Progress
+    
     var body: some View {
         ZStack {
             Color.black.opacity(0.3)
-            ZStack {
-                VStack {
+            ZStack() {
+                VStack(spacing: 20) {
                     Text("Syncing Images")
                     ProgressView()
                         .progressViewStyle(LinearProgressViewStyle())
@@ -28,6 +30,6 @@ struct ProgressDialog: View {
 
 struct ProgressDialog_Previews: PreviewProvider {
     static var previews: some View {
-        ProgressDialog()
+        ProgressDialog(progress: Progress(totalUnitCount: 500))
     }
 }

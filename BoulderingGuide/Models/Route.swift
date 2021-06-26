@@ -47,7 +47,7 @@ public struct Route: Decodable, Identifiable {
         var starChars = ""
         guard
             let star = stars,
-            star > 1
+            star > 0
         else {
             return ""
         }

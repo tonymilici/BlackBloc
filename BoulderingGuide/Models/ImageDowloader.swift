@@ -26,17 +26,16 @@ import Foundation
 import Combine
 
 class ImageDownloader {
-    var data: Data?
     private var cancellable: AnyCancellable?
     
-    func download(url: URL) {
+    func download(url: URL, receive: @escaping (Data?) -> Void ) {
         cancellable = URLSession.shared.dataTaskPublisher(for: url)
             .map {
                 $0.data
             }
             .replaceError(with: nil)
             .sink {
-                [weak self] in self?.data = $0
+                receive($0)
             }
     }
 }

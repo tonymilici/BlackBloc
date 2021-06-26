@@ -30,16 +30,19 @@ class ImageDownloaderTest: XCTestCase {
         let url = URL(string: "https://res.cloudinary.com/blackbloc-software/image/upload/v1623594438/Stoney%20Point/yabo_dyno_xgl2dz.jpg" )
         
         let imageDownloader = ImageDownloader()
-        imageDownloader.download(url: url!)
+        var data: Data?
+        imageDownloader.download(url: url!) {
+            data = $0
+        }
         
         var timedOut = false
         DispatchQueue.main.asyncAfter(deadline: .now() + 5) {
             timedOut = true
         }
-        while imageDownloader.data == nil && !timedOut {
+        while data == nil && !timedOut {
             RunLoop.current.run(mode: .default, before: .distantFuture)
         }
-        XCTAssertNotNil(imageDownloader.data)
+        XCTAssertNotNil(data)
     }
     
 }

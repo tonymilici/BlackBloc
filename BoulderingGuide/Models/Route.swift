@@ -45,17 +45,18 @@ public struct Route: Decodable, Identifiable {
     
     public var getStars: String {
         var starChars = ""
-        if let star = stars
-        {
-            if star < 1 {
-                return starChars
-            }
-            
-            let starChar = "\u{2605}"
-            for _ in 1...stars! {
-                starChars += starChar
-            }
+        guard
+            let star = stars,
+            star > 1
+        else {
+            return ""
         }
+        
+        let starChar = "\u{2605}"
+        for _ in 1...stars! {
+            starChars += starChar
+        }
+        
         return starChars
     }
 }

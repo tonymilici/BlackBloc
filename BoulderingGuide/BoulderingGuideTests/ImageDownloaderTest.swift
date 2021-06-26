@@ -1,8 +1,8 @@
 //
-//  ImageProviderTest.swift
+//  ImageDownloaderTest.swift
 //  BoulderingGuideTests
 //
-//  Created by Tony Milici on 5/30/21.
+//  Created by Tony Milici on 6/26/21.
 //
 //Permission is hereby granted, free of charge, to any person obtaining a copy
 //of this software and associated documentation files (the "Software"), to deal
@@ -25,22 +25,21 @@
 import XCTest
 @testable import BoulderingGuide
 
-class ImageProviderTest: XCTestCase {
-    func testLoad() {
-        let imageSpec = ImageSpec(area: "Stoney Point", image: "aftershock_qxdmru.jpg")
-        let provider = ImageProvider(imageSpec: imageSpec)
+class ImageDownloaderTest: XCTestCase {
+    func test_download() {
+        let url = URL(string: "https://res.cloudinary.com/blackbloc-software/image/upload/v1623594438/Stoney%20Point/yabo_dyno_xgl2dz.jpg" )
         
-        provider.load()
+        let imageDownloader = ImageDownloader()
+        imageDownloader.download(url: url!)
         
         var timedOut = false
         DispatchQueue.main.asyncAfter(deadline: .now() + 5) {
             timedOut = true
         }
-        
-        while provider.image == nil && !timedOut {
-            RunLoop.main.run(mode: .default, before: .distantFuture)
+        while imageDownloader.data == nil && !timedOut {
+            RunLoop.current.run(mode: .default, before: .distantFuture)
         }
-        
-        XCTAssertNotNil(provider.image)
+        XCTAssertNotNil(imageDownloader.data)
     }
+    
 }

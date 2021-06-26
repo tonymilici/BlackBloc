@@ -1,8 +1,8 @@
 //
-//  ImageProviderTest.swift
-//  BoulderingGuideTests
+//  ImageDowloader.swift
+//  BoulderingGuide
 //
-//  Created by Tony Milici on 5/30/21.
+//  Created by Tony Milici on 6/26/21.
 //
 //Permission is hereby granted, free of charge, to any person obtaining a copy
 //of this software and associated documentation files (the "Software"), to deal
@@ -22,25 +22,21 @@
 //OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 //SOFTWARE./
 
-import XCTest
-@testable import BoulderingGuide
+import Foundation
+import Combine
 
-class ImageProviderTest: XCTestCase {
-    func testLoad() {
-        let imageSpec = ImageSpec(area: "Stoney Point", image: "aftershock_qxdmru.jpg")
-        let provider = ImageProvider(imageSpec: imageSpec)
-        
-        provider.load()
-        
-        var timedOut = false
-        DispatchQueue.main.asyncAfter(deadline: .now() + 5) {
-            timedOut = true
-        }
-        
-        while provider.image == nil && !timedOut {
-            RunLoop.main.run(mode: .default, before: .distantFuture)
-        }
-        
-        XCTAssertNotNil(provider.image)
+class ImageDownloader {
+    var data: Data?
+    private var cancellable: AnyCancellable?
+    
+    func download(url: URL) {
+        cancellable = URLSession.shared.dataTaskPublisher(for: url)
+            .map {
+                $0.data
+            }
+            .replaceError(with: nil)
+            .sink {
+                [weak self] in self?.data = $0
+            }
     }
 }

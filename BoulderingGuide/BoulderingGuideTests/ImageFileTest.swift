@@ -46,7 +46,7 @@ class ImageFileTest: XCTestCase {
         
         XCTAssertFalse(FileManager.default.fileExists(atPath: dir.path))
         
-        ImageFile.save(spec: spec, image: image!)
+        ImageFile.save(spec: spec, imageData: image?.jpegData(compressionQuality: 1))
         
         let file = ImageFile.getFilePath(spec)
         XCTAssertTrue(FileManager.default.fileExists(atPath: file.path))

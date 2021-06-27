@@ -28,9 +28,9 @@ import XCTest
 class ImageDownloaderTest: XCTestCase {
     func test_download() {
         let imageSpec = ImageSpec(area: "Stoney Point", image: "yabo_dyno_xgl2dz.jpg")
-        let imageDownloader = ImageDownloader()
+        let imageDownloader = ImageDownloader(imageSpec: imageSpec)
         var data: Data?
-        imageDownloader.download(imageSpec: imageSpec) {
+        imageDownloader.download {
             data = $0
         }
         

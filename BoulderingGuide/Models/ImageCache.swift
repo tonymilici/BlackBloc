@@ -60,7 +60,7 @@ struct ImageDiskCache: ImageCache {
         }
         set {
             if let image = newValue {
-                ImageFile.save(spec: key, image: image)
+                ImageFile.save(spec: key, imageData: image.jpegData(compressionQuality: 1))
             }
         }
     }

@@ -37,6 +37,21 @@ class AreaViewModel: ObservableObject, Identifiable {
     }
     
     func syncImages() -> Bool {
+        let downloaders = area.images.map {
+            ImageDownloader(imageSpec: ImageSpec(area: area.name, image: $0))
+        }
+        
+        let serialQueue = DispatchQueue(label: "download.serial.queue")
+        
+        for downloader in downloaders {
+            serialQueue.async {
+                downloader.download {
+                    print("Downloading \(downloader.imageSpec.image)")
+                    ImageFile.save(spec: downloader.imageSpec, imageData: $0)
+                    print("Downloaded \(downloader.imageSpec.image)")
+                }
+            }
+        }
         return true
     }
 }

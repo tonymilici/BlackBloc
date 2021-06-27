@@ -26,9 +26,14 @@ import Foundation
 import Combine
 
 class ImageDownloader {
+    let imageSpec: ImageSpec
     private var cancellable: AnyCancellable?
     
-    func download(imageSpec: ImageSpec, receive: @escaping (Data?) -> Void ) {
+    init(imageSpec: ImageSpec) {
+        self.imageSpec = imageSpec
+    }
+    
+    func download(receive: @escaping (Data?) -> Void ) {
         if let url = URL(string: UrlBuilder(imageSpec: imageSpec).build()) {
             cancellable = URLSession.shared.dataTaskPublisher(for: url)
                 .map {

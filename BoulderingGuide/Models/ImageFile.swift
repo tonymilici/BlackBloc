@@ -31,7 +31,7 @@ struct ImageFile {
         FileManager.default
     }
     
-    static func save(spec: ImageSpec, image: UIImage) {
+    static func save(spec: ImageSpec, imageData: Data?) {
         let dirPath = getDirPath(spec)
         let dirPathStr = dirPath.path
         
@@ -48,7 +48,6 @@ struct ImageFile {
         }
     
         let file = getFilePath(spec)
-        let imageData = image.jpegData(compressionQuality: 1)
         
         do {
             try imageData?.write(to: file)

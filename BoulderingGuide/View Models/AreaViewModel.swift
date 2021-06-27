@@ -36,7 +36,7 @@ class AreaViewModel: ObservableObject, Identifiable {
         area.name
     }
     
-    func syncImages() {
-        
+    func syncImages() -> Bool {
+        return true
     }
 }

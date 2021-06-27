@@ -29,6 +29,7 @@ struct TabPage: View {
     @EnvironmentObject private var area: AreaViewModel
     @State private var selection: Tab = .navigate
     @State private var showingAlert = false
+    @State private var showingProgress = false
     
     private enum Tab {
         case navigate
@@ -36,18 +37,22 @@ struct TabPage: View {
     }
     
     var body: some View {
-        TabView(selection: $selection) {
-            AreaMapPage()
-                .tabItem {
-                    Label("Navigate", systemImage: "safari")
-                }
-                .tag(Tab.navigate)
-            
-            RoutesPage()
-                .tabItem {
-                    Label("Routes", systemImage: "list.bullet")
-                }
-                .tag(Tab.routes)
+        ZStack {
+            TabView(selection: $selection) {
+                AreaMapPage()
+                    .tabItem {
+                        Label("Navigate", systemImage: "safari")
+                    }
+                    .tag(Tab.navigate)
+                
+                RoutesPage()
+                    .tabItem {
+                        Label("Routes", systemImage: "list.bullet")
+                    }
+                    .tag(Tab.routes)
+            }
+            ProgressDialog()
+                .opacity(showingProgress ? 1 : 0)
         }
         .navigationTitle(area.name)
         .navigationBarTitleDisplayMode(.inline)
@@ -66,7 +71,7 @@ struct TabPage: View {
             title: Text("Download Images"),
             message: Text("Save images to disk so they will be available if you need to use the app offline."),
             primaryButton: .default(Text("Sync")) {
-                area.syncImages()
+                showingProgress = area.syncImages()
             },
             secondaryButton: .cancel())
     }

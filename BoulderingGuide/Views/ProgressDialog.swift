@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ProgressDialog: View {
-    var progress = Progress()
+    var progress: Progress
     
     var body: some View {
         ZStack {

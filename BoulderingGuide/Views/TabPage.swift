@@ -30,6 +30,7 @@ struct TabPage: View {
     @State private var selection: Tab = .navigate
     @State private var showingAlert = false
     @State private var showingProgress = false
+    @StateObject private var progress = ProgressViewModel()
     
     private enum Tab {
         case navigate
@@ -51,7 +52,7 @@ struct TabPage: View {
                     }
                     .tag(Tab.routes)
             }
-            ProgressDialog()
+            ProgressDialog(progress: progress.progress)
                 .opacity(showingProgress ? 1 : 0)
         }
         .navigationTitle(area.name)
@@ -71,7 +72,15 @@ struct TabPage: View {
             title: Text("Download Images"),
             message: Text("Save images to disk so they will be available if you need to use the app offline."),
             primaryButton: .default(Text("Sync")) {
-                showingProgress = area.syncImages()
+                showingProgress = true
+                progress.progress.totalUnitCount = area.syncImages() {completedCount in
+                    DispatchQueue.main.async {
+                        progress.progress.completedUnitCount = completedCount
+                        showingProgress =
+                            progress.progress.completedUnitCount <
+                            progress.progress.totalUnitCount
+                    }
+                }
             },
             secondaryButton: .cancel())
     }

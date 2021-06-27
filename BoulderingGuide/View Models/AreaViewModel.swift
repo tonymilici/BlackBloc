@@ -36,22 +36,23 @@ class AreaViewModel: ObservableObject, Identifiable {
         area.name
     }
     
-    func syncImages() -> Bool {
+    func syncImages(progressUpdate: @escaping (Int64) -> Void) -> Int64 {
         let downloaders = area.images.map {
             ImageDownloader(imageSpec: ImageSpec(area: area.name, image: $0))
         }
         
         let serialQueue = DispatchQueue(label: "download.serial.queue")
         
+        var completedCount: Int64 = 0
         for downloader in downloaders {
             serialQueue.async {
                 downloader.download {
-                    print("Downloading \(downloader.imageSpec.image)")
                     ImageFile.save(spec: downloader.imageSpec, imageData: $0)
-                    print("Downloaded \(downloader.imageSpec.image)")
+                    completedCount += 1
+                    progressUpdate(completedCount)
                 }
             }
         }
-        return true
+        return Int64(downloaders.count)
     }
 }

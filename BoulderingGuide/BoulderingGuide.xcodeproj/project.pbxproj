@@ -41,6 +41,7 @@
 		BB92DF48265C81BE002897C3 /* ListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB92DF47265C81BE002897C3 /* ListItem.swift */; };
 		BB92DF50265C81E4002897C3 /* RoutesPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB92DF4F265C81E4002897C3 /* RoutesPage.swift */; };
 		BBB2FE2A2667B51700FF60FA /* UrlBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB2FE292667B51700FF60FA /* UrlBuilder.swift */; };
+		BBC818C82688B49D00AB9F59 /* ProgressViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC818C72688B49D00AB9F59 /* ProgressViewModel.swift */; };
 		BBF24654267E8FCE00FFDB9A /* PrefsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF24653267E8FCE00FFDB9A /* PrefsPage.swift */; };
 		BBF24659267ED43900FFDB9A /* UserPrefs.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF24658267ED43900FFDB9A /* UserPrefs.swift */; };
 		BBF246652684AD6600FFDB9A /* ProgressDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF246642684AD6600FFDB9A /* ProgressDialog.swift */; };
@@ -111,6 +112,7 @@
 		BB92DF47265C81BE002897C3 /* ListItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListItem.swift; sourceTree = "<group>"; };
 		BB92DF4F265C81E4002897C3 /* RoutesPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoutesPage.swift; sourceTree = "<group>"; };
 		BBB2FE292667B51700FF60FA /* UrlBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrlBuilder.swift; sourceTree = "<group>"; };
+		BBC818C72688B49D00AB9F59 /* ProgressViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressViewModel.swift; sourceTree = "<group>"; };
 		BBF24653267E8FCE00FFDB9A /* PrefsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrefsPage.swift; sourceTree = "<group>"; };
 		BBF24658267ED43900FFDB9A /* UserPrefs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPrefs.swift; sourceTree = "<group>"; };
 		BBF246642684AD6600FFDB9A /* ProgressDialog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressDialog.swift; sourceTree = "<group>"; };
@@ -153,6 +155,7 @@
 			children = (
 				BB92DEA9265C7BEA002897C3 /* Areas.swift */,
 				BB495525266586A200E20571 /* AreaViewModel.swift */,
+				BBC818C72688B49D00AB9F59 /* ProgressViewModel.swift */,
 			);
 			path = "View Models";
 			sourceTree = "<group>";
@@ -428,6 +431,7 @@
 				BBF2467226878C3200FFDB9A /* ImageDowloader.swift in Sources */,
 				BB92DEF8265C8077002897C3 /* Boulder.swift in Sources */,
 				BB92DEE6265C805D002897C3 /* TabPage.swift in Sources */,
+				BBC818C82688B49D00AB9F59 /* ProgressViewModel.swift in Sources */,
 				BB8FDD3A26641C1300275F3B /* ImageProvider.swift in Sources */,
 				BB92DF50265C81E4002897C3 /* RoutesPage.swift in Sources */,
 				BB92DE68265C7ABA002897C3 /* ContentView.swift in Sources */,

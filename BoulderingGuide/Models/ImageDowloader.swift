@@ -28,14 +28,16 @@ import Combine
 class ImageDownloader {
     private var cancellable: AnyCancellable?
     
-    func download(url: URL, receive: @escaping (Data?) -> Void ) {
-        cancellable = URLSession.shared.dataTaskPublisher(for: url)
-            .map {
-                $0.data
-            }
-            .replaceError(with: nil)
-            .sink {
-                receive($0)
-            }
+    func download(imageSpec: ImageSpec, receive: @escaping (Data?) -> Void ) {
+        if let url = URL(string: UrlBuilder(imageSpec: imageSpec).build()) {
+            cancellable = URLSession.shared.dataTaskPublisher(for: url)
+                .map {
+                    $0.data
+                }
+                .replaceError(with: nil)
+                .sink {
+                    receive($0)
+                }
+        }
     }
 }

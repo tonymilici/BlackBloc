@@ -27,11 +27,10 @@ import XCTest
 
 class ImageDownloaderTest: XCTestCase {
     func test_download() {
-        let url = URL(string: "https://res.cloudinary.com/blackbloc-software/image/upload/v1623594438/Stoney%20Point/yabo_dyno_xgl2dz.jpg" )
-        
+        let imageSpec = ImageSpec(area: "Stoney Point", image: "yabo_dyno_xgl2dz.jpg")
         let imageDownloader = ImageDownloader()
         var data: Data?
-        imageDownloader.download(url: url!) {
+        imageDownloader.download(imageSpec: imageSpec) {
             data = $0
         }
         

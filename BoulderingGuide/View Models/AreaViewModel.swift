@@ -27,6 +27,7 @@ import Foundation
 class AreaViewModel: ObservableObject, Identifiable {
     let id = UUID()
     let area: Area
+    let imageSyncer = ImageSyncer()
     
     init(_ area: Area) {
         self.area = area
@@ -37,22 +38,38 @@ class AreaViewModel: ObservableObject, Identifiable {
     }
     
     func syncImages(progressUpdate: @escaping (Int64) -> Void) -> Int64 {
-        let downloaders = area.images.map {
-            ImageDownloader(imageSpec: ImageSpec(area: area.name, image: $0))
+        let images = area.images.map {
+            ImageSpec(area: area.name, image: $0)
         }
         
-        let serialQueue = DispatchQueue(label: "download.serial.queue")
+        imageSyncer.sync(images: images, progressUpdate: progressUpdate)
         
-        var completedCount: Int64 = 0
-        for downloader in downloaders {
-            serialQueue.async {
-                downloader.download {
-                    ImageFile.save(spec: downloader.imageSpec, imageData: $0)
-                    completedCount += 1
-                    progressUpdate(completedCount)
+        return Int64(images.count)
+    }
+    
+    class ImageSyncer {
+        var downloaders: [ImageDownloader] = []
+        var imageIndex = 0
+        
+        func sync(images: [ImageSpec], progressUpdate: @escaping (Int64) -> Void)  {
+            self.downloaders = images.map {
+                ImageDownloader(imageSpec: $0)
+            }
+            
+            downloadNextImage(progressUpdate: progressUpdate)
+        }
+        
+        func downloadNextImage(progressUpdate: @escaping (Int64) -> Void) {
+            let downloader = downloaders[imageIndex]
+            downloader.download {
+                ImageFile.save(spec: downloader.imageSpec, imageData: $0)
+                self.imageIndex += 1
+                progressUpdate(Int64(self.imageIndex))
+                
+                if (self.imageIndex < self.downloaders.count) {
+                    self.downloadNextImage(progressUpdate: progressUpdate)
                 }
             }
         }
-        return Int64(downloaders.count)
     }
 }

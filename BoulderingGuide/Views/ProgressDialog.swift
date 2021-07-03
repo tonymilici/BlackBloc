@@ -13,17 +13,15 @@ struct ProgressDialog: View {
     var body: some View {
         ZStack {
             Color.black.opacity(0.3)
-            ZStack() {
-                VStack(spacing: 20) {
-                    Text("Syncing Images")
-                    ProgressView(progress)
-                        .progressViewStyle(LinearProgressViewStyle())
-                        .frame(width:160)
-                }
-                .padding(40)
-                .background(RoundedRectangle(cornerRadius: 8)
-                    .foregroundColor(.white))
+            VStack(spacing: 20) {
+                Text("Syncing Images")
+                ProgressView(progress)
+                    .progressViewStyle(LinearProgressViewStyle())
+                    .frame(width:160)
             }
+            .padding(40)
+            .background(RoundedRectangle(cornerRadius: 8)
+                .foregroundColor(.white))
         }
     }
 }

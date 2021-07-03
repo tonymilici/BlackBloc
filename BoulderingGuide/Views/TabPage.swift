@@ -52,8 +52,9 @@ struct TabPage: View {
                     }
                     .tag(Tab.routes)
             }
-            ProgressDialog(progress: progress.progress)
-                .opacity(showingProgress ? 1 : 0)
+            if showingProgress {
+                ProgressDialog(progress: progress.progress)
+            }
         }
         .navigationTitle(area.name)
         .navigationBarTitleDisplayMode(.inline)

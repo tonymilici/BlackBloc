@@ -71,4 +71,8 @@ struct ImageFile {
         let dirPath = getDirPath(spec)
         return dirPath.appendingPathComponent("\(spec.image)")
     }
+    
+    static func exists(_ imageSpec: ImageSpec) -> Bool {
+        return fileManager.fileExists(atPath: getFilePath(imageSpec).path)
+    }
 }

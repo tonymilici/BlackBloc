@@ -50,21 +50,21 @@ public struct Area: Decodable {
     }
     
     public var images: [String] {
-        var images: [String] = []
+        var images: Set<String> = []
         
         for cluster in clusters {
             for boulder in cluster.boulders {
                 if let image = boulder.image {
-                    images.append(image)
+                    images.insert(image)
                 }
                 for route in boulder.routes {
                     if let image = route.image {
-                        images.append(image)
+                        images.insert(image)
                     }
                 }
             }
         }
         
-        return images;
+        return Array(images);
     }
 }

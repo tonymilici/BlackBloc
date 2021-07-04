@@ -47,9 +47,14 @@ class AreaViewModel: ObservableObject, Identifiable {
         return Int64(images.count)
     }
     
+    func cancelSync() {
+        imageSyncer.cancel()
+    }
+    
     class ImageSyncer {
         var downloaders: [ImageDownloader] = []
         var imageIndex = 0
+        private var cancelled = false;
         
         func sync(images: [ImageSpec], progressUpdate: @escaping (Int64) -> Void)  {
             self.downloaders = images.map {
@@ -62,14 +67,20 @@ class AreaViewModel: ObservableObject, Identifiable {
         func downloadNextImage(progressUpdate: @escaping (Int64) -> Void) {
             let downloader = downloaders[imageIndex]
             downloader.download {
+                print("downloading image\(downloader.imageSpec.image)")
                 ImageFile.save(spec: downloader.imageSpec, imageData: $0)
                 self.imageIndex += 1
                 progressUpdate(Int64(self.imageIndex))
                 
-                if (self.imageIndex < self.downloaders.count) {
+                if (self.imageIndex < self.downloaders.count && !self.cancelled) {
                     self.downloadNextImage(progressUpdate: progressUpdate)
                 }
             }
+        }
+        
+        func cancel() {
+            cancelled = true
+            imageIndex = 0
         }
     }
 }

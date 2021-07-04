@@ -53,7 +53,10 @@ struct TabPage: View {
                     .tag(Tab.routes)
             }
             if showingProgress {
-                ProgressDialog(progress: progress.progress)
+                ProgressDialog(progress: progress.progress) {
+                    area.cancelSync()
+                    showingProgress = false
+                }
             }
         }
         .navigationTitle(area.name)
@@ -77,7 +80,7 @@ struct TabPage: View {
                 progress.progress.totalUnitCount = area.syncImages() {completedCount in
                     DispatchQueue.main.async {
                         progress.progress.completedUnitCount = completedCount
-                        showingProgress =
+                        showingProgress = showingProgress &&
                             progress.progress.completedUnitCount <
                             progress.progress.totalUnitCount
                     }

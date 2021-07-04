@@ -9,6 +9,7 @@ import SwiftUI
 
 struct ProgressDialog: View {
     var progress: Progress
+    var cancel: () -> Void
     
     var body: some View {
         ZStack {
@@ -18,6 +19,9 @@ struct ProgressDialog: View {
                 ProgressView(progress)
                     .progressViewStyle(LinearProgressViewStyle())
                     .frame(width:160)
+                Button("Cancel") {
+                    cancel()
+                }
             }
             .padding(40)
             .background(RoundedRectangle(cornerRadius: 8)
@@ -28,6 +32,8 @@ struct ProgressDialog: View {
 
 struct ProgressDialog_Previews: PreviewProvider {
     static var previews: some View {
-        ProgressDialog(progress: Progress(totalUnitCount: 500))
+        ProgressDialog(progress: Progress(totalUnitCount: 500)) {
+            
+        }
     }
 }

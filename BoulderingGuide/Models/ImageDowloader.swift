@@ -35,14 +35,9 @@ class ImageDownloader {
     
     func download(receive: @escaping (Data?) -> Void ) {
         if let url = URL(string: UrlBuilder(imageSpec: imageSpec).build()) {
-            cancellable = URLSession.shared.dataTaskPublisher(for: url)
-                .map {
-                    $0.data
-                }
-                .replaceError(with: nil)
-                .sink {
-                    receive($0)
-                }
+            DispatchQueue.global(qos: .userInitiated).async {
+                receive(try? Data(contentsOf: url))
+            }
         }
     }
 }

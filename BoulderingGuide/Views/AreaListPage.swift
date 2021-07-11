@@ -25,7 +25,7 @@
 
 import SwiftUI
 
-struct RoutesPage: View {
+struct AreaListPage: View {
     @EnvironmentObject private var areaVM: AreaViewModel
     let listType: String
     
@@ -65,7 +65,7 @@ struct RoutesPage: View {
 struct RoutesPage_Previews: PreviewProvider {
     static var previews: some View {
         if let area = try? Areas.loadArea("stoney_point.json") {
-            RoutesPage(listType: "Routes")
+            AreaListPage(listType: "Routes")
                 .environmentObject(AreaViewModel(area))
         }
     }

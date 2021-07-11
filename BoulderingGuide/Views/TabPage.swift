@@ -31,6 +31,9 @@ struct TabPage: View {
     @State private var showingAlert = false
     @State private var showingProgress = false
     @StateObject private var progress = ProgressViewModel()
+    @State private var selectedList = 0
+    
+    let lists = ["Routes", "Boulders", "Clusters"]
     
     private enum Tab {
         case navigate
@@ -52,6 +55,21 @@ struct TabPage: View {
                     }
                     .tag(Tab.routes)
             }
+            .toolbar {
+                ToolbarItemGroup(placement: .navigationBarTrailing) {
+                    if selection == .routes {
+                        Picker(selection: $selectedList, label: Image(systemName: "list.bullet")) {
+                            ForEach(0..<lists.count) {
+                                Text(self.lists[$0])
+                            }
+                        }
+                        .pickerStyle(MenuPickerStyle())
+                    }
+                    Button(action: { showingAlert = true }) {
+                        Image(systemName: "icloud.and.arrow.down")
+                    }
+                }
+            }
             if showingProgress {
                 ProgressDialog(progress: progress.progress) {
                     area.cancelSync()
@@ -61,11 +79,6 @@ struct TabPage: View {
         }
         .navigationTitle(area.name)
         .navigationBarTitleDisplayMode(.inline)
-        .toolbar {
-            Button(action: { showingAlert = true }) {
-                Image(systemName: "icloud.and.arrow.down")
-            }
-        }
         .alert(isPresented: $showingAlert) {
             showSyncAlert()
         }
@@ -76,6 +89,7 @@ struct TabPage: View {
             title: Text("Download Images"),
             message: Text("Save images to disk so they will be available if you need to use the app offline."),
             primaryButton: .default(Text("Sync")) {
+                UserPrefs().cacheImagesOnDisk = true
                 showingProgress = true
                 progress.progress.totalUnitCount = area.syncImages() {completedCount in
                     DispatchQueue.main.async {

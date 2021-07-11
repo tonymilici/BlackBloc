@@ -50,7 +50,10 @@ struct AreaListPage: View {
             case "Boulders":
                 ForEach(areaVM.area.boulders) {boulder in
                     NavigationLink(destination: BoulderPage(boulder: boulder)) {
-                        Text(boulder.name)
+                        ListItemView(
+                            item: ListItem(
+                                label: boulder.name,
+                                detail: boulder.detailText))
                     }
                 }
             default:

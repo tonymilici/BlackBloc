@@ -27,16 +27,34 @@ import SwiftUI
 
 struct RoutesPage: View {
     @EnvironmentObject private var areaVM: AreaViewModel
+    let listType: String
     
     var body: some View {
         List {
-            ForEach(areaVM.area.routes) {route in
-                NavigationLink(destination: RoutePage(route: route)) {
-                    ListItemView(
-                        item: ListItem(
-                            label: route.name,
-                            detail: "\(route.rating)  \(route.getStars)"))
+            switch listType {
+            case "Routes":
+                ForEach(areaVM.area.routes) {route in
+                    NavigationLink(destination: RoutePage(route: route)) {
+                        ListItemView(
+                            item: ListItem(
+                                label: route.name,
+                                detail: "\(route.rating)  \(route.getStars)"))
+                    }
                 }
+            case "Clusters":
+                ForEach(areaVM.area.clusters) {cluster in
+                    NavigationLink(destination: ClusterPage(cluster: cluster)) {
+                        Text(cluster.name)
+                    }
+                }
+            case "Boulders":
+                ForEach(areaVM.area.boulders) {boulder in
+                    NavigationLink(destination: BoulderPage(boulder: boulder)) {
+                        Text(boulder.name)
+                    }
+                }
+            default:
+                Text("Nope")
             }
         }
         .navigationTitle(areaVM.name)
@@ -47,7 +65,7 @@ struct RoutesPage: View {
 struct RoutesPage_Previews: PreviewProvider {
     static var previews: some View {
         if let area = try? Areas.loadArea("stoney_point.json") {
-            RoutesPage()
+            RoutesPage(listType: "Routes")
                 .environmentObject(AreaViewModel(area))
         }
     }

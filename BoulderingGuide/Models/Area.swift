@@ -38,15 +38,22 @@ public struct Area: Decodable {
     
     public var routes: [Route] {
         var routes: [Route] = []
-        
-        for cluster in clusters {
-            for boulder in cluster.boulders {
-                for route in boulder.routes {
-                    routes.append(route)
-                }
+        for boulder in boulders  {
+            for route in boulder.routes {
+                routes.append(route)
             }
         }
         return routes
+    }
+    
+    public var boulders: [Boulder] {
+        var boulders: [Boulder] = []
+        for cluster in clusters {
+            for boulder in cluster.boulders {
+                boulders.append(boulder)
+            }
+        }
+        return boulders
     }
     
     public var images: [String] {

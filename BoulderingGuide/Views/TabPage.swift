@@ -49,7 +49,7 @@ struct TabPage: View {
                     }
                     .tag(Tab.navigate)
                 
-                RoutesPage()
+                RoutesPage(listType: lists[selectedList])
                     .tabItem {
                         Label("Routes", systemImage: "list.bullet")
                     }

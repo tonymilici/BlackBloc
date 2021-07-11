@@ -42,7 +42,7 @@ struct ClusterPage: View {
                             ListItemView(
                                 item: ListItem(
                                     label: boulder.name,
-                                    detail: getDetailText(boulder: boulder)))
+                                    detail: boulder.detailText))
                         }
                     }
                 }
@@ -60,17 +60,6 @@ struct ClusterPage: View {
                     .accessibilityLabel("user Profile")
             }
         }
-    }
-    
-    private func getDetailText(boulder: Boulder) -> String {
-        var detailText = "0 routes"
-        if boulder.routes.count == 1 {
-            detailText = "1 route"
-        }
-        else if boulder.routes.count > 1 {
-            detailText = "\(boulder.routes.count) routes"
-        }
-        return detailText;
     }
 }
 

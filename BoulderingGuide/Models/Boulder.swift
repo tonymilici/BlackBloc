@@ -40,4 +40,15 @@ public struct Boulder: Decodable, Identifiable {
         case image
         case location
     }
+    
+    public var detailText: String {
+        var detailText = "0 routes"
+        if routes.count == 1 {
+            detailText = "1 route"
+        }
+        else if routes.count > 1 {
+            detailText = "\(routes.count) routes"
+        }
+        return detailText;
+    }
 }
